@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1899451112437150}
+  m_IsPrefabParent: 1
+--- !u!1 &1899451112437150
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4736965258608881}
+  - component: {fileID: 114882308378398684}
+  - component: {fileID: 114391478004862132}
+  - component: {fileID: 114613111580856832}
+  m_Layer: 8
+  m_Name: PickUp
+  m_TagString: PickUpDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4736965258608881
+Transform:
+  m_GameObject: {fileID: 1899451112437150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 100, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4019405576276910}
+  - {fileID: 4409502755089386}
+  - {fileID: 4321840530087291}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114882308378398684
+MonoBehaviour:
+  m_GameObject: {fileID: 1899451112437150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2601ed66a6794ee469d2fe7aa689136c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114391478004862132
+MonoBehaviour:
+  m_GameObject: {fileID: 1899451112437150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ded89c95a8dd90a46bb15e93828c5b80, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 2
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 0.2
+  steeperCurves: 1
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished:
+  from: {x: 2, y: 2, z: 2}
+  to: {x: 1, y: 1, z: 1}
+  updateTable: 0
+--- !u!114 &114613111580856832
+MonoBehaviour:
+  m_GameObject: {fileID: 1899451112437150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8d19861eefc8f4ebbaf4fd7d64485b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 1
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 2
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished:
+  from: {x: 0, y: 100, z: 0}
+  to: {x: 0, y: 105, z: 0}
+--- !u!1 &1831062812133632
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4019405576276910}
+  - component: {fileID: 114710531713256801}
+  m_Layer: 8
+  m_Name: PickUpHeader
+  m_TagString: PickUpDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4019405576276910
+Transform:
+  m_GameObject: {fileID: 1831062812133632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 34, z: 0}
+  m_LocalScale: {x: 42, y: 42, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4736965258608881}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114710531713256801
+MonoBehaviour:
+  m_GameObject: {fileID: 1831062812133632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445e9d23ba382b541a256f1c2dff5385, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 0}
+  mTex: {fileID: 0}
+  mColor: {r: 1, g: 0, b: 0.944056, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mFont: {fileID: 114716065321270136, guid: 4630a5cb7145f684fb0a5a0d86400853, type: 2}
+  mText: NITRO
+  mMaxLineWidth: 0
+  mEncoding: 0
+  mMaxLineCount: 1
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!1 &1006732473704404
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4409502755089386}
+  - component: {fileID: 114367401886662294}
+  m_Layer: 8
+  m_Name: PickUpDescription
+  m_TagString: PickUpDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4409502755089386
+Transform:
+  m_GameObject: {fileID: 1006732473704404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 30, y: 30, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4736965258608881}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114367401886662294
+MonoBehaviour:
+  m_GameObject: {fileID: 1006732473704404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445e9d23ba382b541a256f1c2dff5385, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 0}
+  mTex: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mFont: {fileID: 114716065321270136, guid: 4630a5cb7145f684fb0a5a0d86400853, type: 2}
+  mText: MAKE WAY!
+  mMaxLineWidth: 0
+  mEncoding: 0
+  mMaxLineCount: 1
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 1
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!1 &1787428344353858
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4321840530087291}
+  - component: {fileID: 114936957158076778}
+  m_Layer: 8
+  m_Name: PickUpHeaderStroke
+  m_TagString: PickUpDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4321840530087291
+Transform:
+  m_GameObject: {fileID: 1787428344353858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: 30, z: 0}
+  m_LocalScale: {x: 42, y: 42, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4736965258608881}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114936957158076778
+MonoBehaviour:
+  m_GameObject: {fileID: 1787428344353858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445e9d23ba382b541a256f1c2dff5385, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 0}
+  mTex: {fileID: 0}
+  mColor: {r: 0, g: 0, b: 0, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mFont: {fileID: 114716065321270136, guid: 4630a5cb7145f684fb0a5a0d86400853, type: 2}
+  mText: NITRO
+  mMaxLineWidth: 0
+  mEncoding: 0
+  mMaxLineCount: 1
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 1
+  mEffectColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1

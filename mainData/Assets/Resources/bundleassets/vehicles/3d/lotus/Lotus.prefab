@@ -1,0 +1,865 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1586484449404805}
+  m_IsPrefabParent: 1
+--- !u!1 &1586484449404805
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4951517752677018}
+  - component: {fileID: 95555427487412206}
+  m_Layer: 0
+  m_Name: Lotus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4951517752677018
+Transform:
+  m_GameObject: {fileID: 1586484449404805}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4800948934164900}
+  - {fileID: 4510681191611859}
+  - {fileID: 4081277064527776}
+  - {fileID: 4084747717518149}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95555427487412206
+Animator:
+  serializedVersion: 3
+  m_GameObject: {fileID: 1586484449404805}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 287fd287a45672045b7c7f661b0492dc, type: 2}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 0
+  m_AllowConstantClipSamplingOptimization: 0
+--- !u!1 &1679270745447785
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4800948934164900}
+  - component: {fileID: 33672669267295632}
+  - component: {fileID: 23911151512423981}
+  m_Layer: 0
+  m_Name: Lotus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4800948934164900
+Transform:
+  m_GameObject: {fileID: 1679270745447785}
+  m_LocalRotation: {x: -2.185569E-08, y: 4.371139E-08, z: 4.371139E-08, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4013348520912214}
+  - {fileID: 4218450176537804}
+  - {fileID: 4334392740156620}
+  - {fileID: 4107993749030697}
+  - {fileID: 4466297510392257}
+  - {fileID: 4738424659611300}
+  - {fileID: 4793332314611815}
+  - {fileID: 4525354589863090}
+  - {fileID: 4310433647299746}
+  - {fileID: 4541742830060467}
+  - {fileID: 4959017045980569}
+  - {fileID: 4516965461164460}
+  - {fileID: 4296891355185485}
+  - {fileID: 4243640447090715}
+  - {fileID: 4441808467863034}
+  - {fileID: 4080739783070835}
+  - {fileID: 4810805023264361}
+  m_Father: {fileID: 4951517752677018}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.504478E-06, y: -5.008956E-06, z: -5.008956E-06}
+--- !u!33 &33672669267295632
+MeshFilter:
+  m_GameObject: {fileID: 1679270745447785}
+  m_Mesh: {fileID: 4300000, guid: f569cb00f7b7b054dbbbae2660b36fae, type: 2}
+--- !u!23 &23911151512423981
+MeshRenderer:
+  m_GameObject: {fileID: 1679270745447785}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1491260778173608
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4013348520912214}
+  m_Layer: 0
+  m_Name: LotusExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4013348520912214
+Transform:
+  m_GameObject: {fileID: 1491260778173608}
+  m_LocalRotation: {x: -0.7071068, y: 6.346543E-15, z: -6.181725E-08, w: 0.7071068}
+  m_LocalPosition: {x: -0.3999998, y: 0.4938939, z: -2.062799}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 5.008957E-06, z: 5.008957E-06}
+--- !u!1 &1101075796150375
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4218450176537804}
+  m_Layer: 0
+  m_Name: LotusExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4218450176537804
+Transform:
+  m_GameObject: {fileID: 1101075796150375}
+  m_LocalRotation: {x: -0.7071068, y: 6.346543E-15, z: -6.181725E-08, w: 0.7071068}
+  m_LocalPosition: {x: 0.4000002, y: 0.4938938, z: -2.062799}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 5.008957E-06, z: 5.008957E-06}
+--- !u!1 &1707316777538477
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4334392740156620}
+  m_Layer: 0
+  m_Name: LotusFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4334392740156620
+Transform:
+  m_GameObject: {fileID: 1707316777538477}
+  m_LocalRotation: {x: 0.7071068, y: -3.090863E-08, z: -0.7071068, w: -3.090863E-08}
+  m_LocalPosition: {x: 0.02578013, y: 0.7761509, z: 1.7375}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1767908548929785
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4107993749030697}
+  - component: {fileID: 33416402307383243}
+  - component: {fileID: 23648945229202009}
+  m_Layer: 0
+  m_Name: LotusGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4107993749030697
+Transform:
+  m_GameObject: {fileID: 1767908548929785}
+  m_LocalRotation: {x: -0.7071068, y: -1.994961E-07, z: 1.376788E-07, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.125775, y: 1.125775, z: 1.125775}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -90, y: 5.008957E-06, z: -2.732076E-05}
+--- !u!33 &33416402307383243
+MeshFilter:
+  m_GameObject: {fileID: 1767908548929785}
+  m_Mesh: {fileID: 4300000, guid: 95cf813a11d5f104385ceeff1fc4c4f9, type: 2}
+--- !u!23 &23648945229202009
+MeshRenderer:
+  m_GameObject: {fileID: 1767908548929785}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1319848964491224
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4466297510392257}
+  m_Layer: 0
+  m_Name: LotusLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4466297510392257
+Transform:
+  m_GameObject: {fileID: 1319848964491224}
+  m_LocalRotation: {x: 0.5, y: 0.5000001, z: -0.5, w: 0.5000001}
+  m_LocalPosition: {x: -1.012656, y: 0.6750782, z: 0.344111}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 89.99999, y: -90, z: 0}
+--- !u!1 &1321992012134541
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4738424659611300}
+  m_Layer: 0
+  m_Name: LotusLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4738424659611300
+Transform:
+  m_GameObject: {fileID: 1321992012134541}
+  m_LocalRotation: {x: -0.7071068, y: 6.346543E-15, z: -6.181725E-08, w: 0.7071068}
+  m_LocalPosition: {x: -0.4999998, y: 0.8477013, z: -2.023291}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90, y: 5.008957E-06, z: 5.008957E-06}
+--- !u!1 &1755134934371918
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4793332314611815}
+  m_Layer: 0
+  m_Name: LotusLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4793332314611815
+Transform:
+  m_GameObject: {fileID: 1755134934371918}
+  m_LocalRotation: {x: -0.7071068, y: 6.346543E-15, z: -6.181725E-08, w: 0.7071068}
+  m_LocalPosition: {x: -0.6830001, y: 0.7280576, z: 2.025381}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -90, y: 5.008957E-06, z: 5.008957E-06}
+--- !u!1 &1118470459739931
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4525354589863090}
+  m_Layer: 0
+  m_Name: LotusLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4525354589863090
+Transform:
+  m_GameObject: {fileID: 1118470459739931}
+  m_LocalRotation: {x: -0.7071068, y: 6.346543E-15, z: -6.181725E-08, w: 0.7071068}
+  m_LocalPosition: {x: 0.5000002, y: 0.8477013, z: -2.023291}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -90, y: 5.008957E-06, z: 5.008957E-06}
+--- !u!1 &1790529728793924
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4310433647299746}
+  m_Layer: 0
+  m_Name: LotusLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4310433647299746
+Transform:
+  m_GameObject: {fileID: 1790529728793924}
+  m_LocalRotation: {x: -0.7071068, y: 6.346543E-15, z: -6.181725E-08, w: 0.7071068}
+  m_LocalPosition: {x: 0.6830797, y: 0.7228535, z: 2.025382}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90, y: 5.008957E-06, z: 5.008957E-06}
+--- !u!1 &1802546058316324
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4541742830060467}
+  m_Layer: 0
+  m_Name: LotusRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4541742830060467
+Transform:
+  m_GameObject: {fileID: 1802546058316324}
+  m_LocalRotation: {x: 0.5, y: 0.4999999, z: 0.5, w: 0.5000001}
+  m_LocalPosition: {x: 0.02578062, y: 0.7855912, z: -1.983525}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 89.99999, y: -1.707547E-06, z: -90}
+--- !u!1 &1836931955784318
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4959017045980569}
+  m_Layer: 0
+  m_Name: LotusRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4959017045980569
+Transform:
+  m_GameObject: {fileID: 1836931955784318}
+  m_LocalRotation: {x: 0.5000001, y: -0.5, z: -0.5000001, w: -0.5}
+  m_LocalPosition: {x: 0.9997663, y: 0.6750777, z: 0.3441115}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90.00001, y: -90, z: 0}
+--- !u!1 &1178634883604382
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4516965461164460}
+  m_Layer: 0
+  m_Name: LotusSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4516965461164460
+Transform:
+  m_GameObject: {fileID: 1178634883604382}
+  m_LocalRotation: {x: -0.7071068, y: 6.346543E-15, z: -6.181725E-08, w: 0.7071068}
+  m_LocalPosition: {x: 0.004037445, y: 0.8072974, z: -1.081842}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -90, y: 5.008957E-06, z: 5.008957E-06}
+--- !u!1 &1467103949864781
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4296891355185485}
+  m_Layer: 0
+  m_Name: LotusSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4296891355185485
+Transform:
+  m_GameObject: {fileID: 1467103949864781}
+  m_LocalRotation: {x: 0.7071068, y: -3.090863E-08, z: -0.7071068, w: -3.090863E-08}
+  m_LocalPosition: {x: 0.02578045, y: 1.249994, z: -0.1997497}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1570031713458320
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4243640447090715}
+  - component: {fileID: 33264235413604326}
+  - component: {fileID: 23033621299676683}
+  m_Layer: 0
+  m_Name: LotusWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4243640447090715
+Transform:
+  m_GameObject: {fileID: 1570031713458320}
+  m_LocalRotation: {x: -1.99496E-07, y: 0.7071069, z: 0.7071068, w: -1.376788E-07}
+  m_LocalPosition: {x: -0.867476, y: 0.3466885, z: -1.216872}
+  m_LocalScale: {x: 0.9914792, y: 0.9914792, z: 0.9914792}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -5.008957E-06, z: 180}
+--- !u!33 &33264235413604326
+MeshFilter:
+  m_GameObject: {fileID: 1570031713458320}
+  m_Mesh: {fileID: 4300000, guid: cd17f47c61af7b54e8d801e3d0141136, type: 2}
+--- !u!23 &23033621299676683
+MeshRenderer:
+  m_GameObject: {fileID: 1570031713458320}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1575962105491709
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4441808467863034}
+  - component: {fileID: 33937718809343921}
+  - component: {fileID: 23152129200466265}
+  m_Layer: 0
+  m_Name: LotusWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4441808467863034
+Transform:
+  m_GameObject: {fileID: 1575962105491709}
+  m_LocalRotation: {x: -1.99496E-07, y: 0.7071069, z: 0.7071068, w: -1.376788E-07}
+  m_LocalPosition: {x: -0.8674752, y: 0.3466886, z: 1.395863}
+  m_LocalScale: {x: 0.9914792, y: 0.9914792, z: 0.9914792}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -5.008957E-06, z: 180}
+--- !u!33 &33937718809343921
+MeshFilter:
+  m_GameObject: {fileID: 1575962105491709}
+  m_Mesh: {fileID: 4300000, guid: 1fb2d771a9608c84e9ad5b595e162b6e, type: 2}
+--- !u!23 &23152129200466265
+MeshRenderer:
+  m_GameObject: {fileID: 1575962105491709}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1967912184636498
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4080739783070835}
+  - component: {fileID: 33603450426568150}
+  - component: {fileID: 23306842104890450}
+  m_Layer: 0
+  m_Name: LotusWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4080739783070835
+Transform:
+  m_GameObject: {fileID: 1967912184636498}
+  m_LocalRotation: {x: -1.99496E-07, y: 0.7071069, z: 0.7071068, w: -1.376788E-07}
+  m_LocalPosition: {x: 0.8669999, y: 0.3466884, z: -1.216872}
+  m_LocalScale: {x: 0.9914792, y: 0.9914792, z: 0.9914792}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -5.008957E-06, z: 180}
+--- !u!33 &33603450426568150
+MeshFilter:
+  m_GameObject: {fileID: 1967912184636498}
+  m_Mesh: {fileID: 4300000, guid: 325d9b2c71f0e71478d07dfe17d6783a, type: 2}
+--- !u!23 &23306842104890450
+MeshRenderer:
+  m_GameObject: {fileID: 1967912184636498}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1129323730897190
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4810805023264361}
+  - component: {fileID: 33016324674104850}
+  - component: {fileID: 23092888974879548}
+  m_Layer: 0
+  m_Name: LotusWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4810805023264361
+Transform:
+  m_GameObject: {fileID: 1129323730897190}
+  m_LocalRotation: {x: -1.99496E-07, y: 0.7071069, z: 0.7071068, w: -1.376788E-07}
+  m_LocalPosition: {x: 0.8670008, y: 0.3466886, z: 1.395862}
+  m_LocalScale: {x: 0.9914792, y: 0.9914792, z: 0.9914792}
+  m_Children: []
+  m_Father: {fileID: 4800948934164900}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -5.008957E-06, z: 180}
+--- !u!33 &33016324674104850
+MeshFilter:
+  m_GameObject: {fileID: 1129323730897190}
+  m_Mesh: {fileID: 4300000, guid: 7e811e172f702744094b964117621c12, type: 2}
+--- !u!23 &23092888974879548
+MeshRenderer:
+  m_GameObject: {fileID: 1129323730897190}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1339575529295449
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4510681191611859}
+  - component: {fileID: 33253379519865459}
+  - component: {fileID: 23713997297918131}
+  m_Layer: 0
+  m_Name: LotusDash1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4510681191611859
+Transform:
+  m_GameObject: {fileID: 1339575529295449}
+  m_LocalRotation: {x: -3.774895E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.009101391, y: 0, z: 1.118445}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4951517752677018}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -4.325711E-06, y: 0, z: 0}
+--- !u!33 &33253379519865459
+MeshFilter:
+  m_GameObject: {fileID: 1339575529295449}
+  m_Mesh: {fileID: 4300000, guid: 877c9dc436c32734ea0dce4b0635d72e, type: 2}
+--- !u!23 &23713997297918131
+MeshRenderer:
+  m_GameObject: {fileID: 1339575529295449}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1383880126321494
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4081277064527776}
+  - component: {fileID: 33423597999995630}
+  - component: {fileID: 23217974729318535}
+  m_Layer: 0
+  m_Name: LotusDash2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4081277064527776
+Transform:
+  m_GameObject: {fileID: 1383880126321494}
+  m_LocalRotation: {x: -3.774895E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.445871, z: -1.159681}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4951517752677018}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -4.325711E-06, y: 0, z: 0}
+--- !u!33 &33423597999995630
+MeshFilter:
+  m_GameObject: {fileID: 1383880126321494}
+  m_Mesh: {fileID: 4300000, guid: b1a7726c9c17d6443b9951063c9d2887, type: 2}
+--- !u!23 &23217974729318535
+MeshRenderer:
+  m_GameObject: {fileID: 1383880126321494}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1443146107447726
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4084747717518149}
+  - component: {fileID: 33797667915055118}
+  - component: {fileID: 23748469899633476}
+  m_Layer: 0
+  m_Name: LotusProxy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4084747717518149
+Transform:
+  m_GameObject: {fileID: 1443146107447726}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4951517752677018}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33797667915055118
+MeshFilter:
+  m_GameObject: {fileID: 1443146107447726}
+  m_Mesh: {fileID: 4300000, guid: 7e89f6dca61d90c48a4bd99c97dbf18f, type: 2}
+--- !u!23 &23748469899633476
+MeshRenderer:
+  m_GameObject: {fileID: 1443146107447726}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

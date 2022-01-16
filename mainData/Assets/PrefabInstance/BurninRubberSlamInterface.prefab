@@ -1,0 +1,1074 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1945091005713285}
+  m_IsPrefabParent: 1
+--- !u!1 &1945091005713285
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4663920306230981}
+  - component: {fileID: 114420566893034378}
+  m_Layer: 0
+  m_Name: BurninRubberSlamInterface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4663920306230981
+Transform:
+  m_GameObject: {fileID: 1945091005713285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114420566893034378
+MonoBehaviour:
+  m_GameObject: {fileID: 1945091005713285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a90afe1b07b3334b849abe1427fcd10, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: c8e10861734abcb448fd8145137fb67a, type: 2}
+  sprites:
+  - name: MachineGunIcon
+    outer:
+      serializedVersion: 2
+      x: 768
+      y: 147
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 147
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Meister
+    outer:
+      serializedVersion: 2
+      x: 1710
+      y: 1792
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1710
+      y: 1792
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Truck
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 147
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 147
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PhoneBooth
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 915
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 915
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GasTankExplosive
+    outer:
+      serializedVersion: 2
+      x: 1024
+      y: 403
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1024
+      y: 403
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Police
+    outer:
+      serializedVersion: 2
+      x: 768
+      y: 403
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 403
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LaserIcon
+    outer:
+      serializedVersion: 2
+      x: 1280
+      y: 403
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1280
+      y: 403
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FlameThrowerIcon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 915
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 915
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Flag
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 147
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 147
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: JumpIcon
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 659
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 659
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Vulcan
+    outer:
+      serializedVersion: 2
+      x: 1024
+      y: 659
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1024
+      y: 659
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SpeedBoat
+    outer:
+      serializedVersion: 2
+      x: 1198
+      y: 1792
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1198
+      y: 1792
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MagnetIcon
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 1171
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 1171
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RocketLauncherIcon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 147
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 147
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Landmark
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 403
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 403
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SportsCar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 659
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 659
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bus
+    outer:
+      serializedVersion: 2
+      x: 1792
+      y: 1427
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1792
+      y: 1427
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Vehicles
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 403
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 403
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Generator
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 915
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 915
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PrisonBus
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 915
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 915
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Van
+    outer:
+      serializedVersion: 2
+      x: 1024
+      y: 1427
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1024
+      y: 1427
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TruckTankerExplosive
+    outer:
+      serializedVersion: 2
+      x: 1280
+      y: 1427
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1280
+      y: 1427
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MountedGun
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 1427
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 1427
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Zeppelin
+    outer:
+      serializedVersion: 2
+      x: 1792
+      y: 1171
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1792
+      y: 1171
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Taxi
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 659
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 659
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PetiteXs
+    outer:
+      serializedVersion: 2
+      x: 1280
+      y: 659
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1280
+      y: 659
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: StrikerLauncherIcon
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 1427
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 1427
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CrateBig
+    outer:
+      serializedVersion: 2
+      x: 1792
+      y: 915
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1792
+      y: 915
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GrenadeLauncherIcon
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 1427
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 1427
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ArmoredTruck
+    outer:
+      serializedVersion: 2
+      x: 1454
+      y: 1792
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1454
+      y: 1792
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: VendingMachine
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 1171
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 1171
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WheelLoader
+    outer:
+      serializedVersion: 2
+      x: 1792
+      y: 659
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1792
+      y: 659
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TargetBackground
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 659
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 659
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SamSite
+    outer:
+      serializedVersion: 2
+      x: 768
+      y: 1171
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 1171
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Sedan
+    outer:
+      serializedVersion: 2
+      x: 1024
+      y: 147
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1024
+      y: 147
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Fountain
+    outer:
+      serializedVersion: 2
+      x: 1280
+      y: 1171
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1280
+      y: 1171
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DeliveryTruck
+    outer:
+      serializedVersion: 2
+      x: 1280
+      y: 147
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1280
+      y: 147
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MagnetStrengthIcon
+    outer:
+      serializedVersion: 2
+      x: 1024
+      y: 1171
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1024
+      y: 1171
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: OilDrumExplosive
+    outer:
+      serializedVersion: 2
+      x: 1024
+      y: 915
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1024
+      y: 915
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconArrow
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 1728
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 1728
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: KeySpace
+    outer:
+      serializedVersion: 2
+      x: 1006
+      y: 1760
+      width: 80
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1006
+      y: 1760
+      width: 80
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: KeyX
+    outer:
+      serializedVersion: 2
+      x: 974
+      y: 1696
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 974
+      y: 1696
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: KeyZ
+    outer:
+      serializedVersion: 2
+      x: 1054
+      y: 1728
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1054
+      y: 1728
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: InterfaceBarBackground
+    outer:
+      serializedVersion: 2
+      x: 1006
+      y: 1712
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 1022
+      y: 1712
+      width: 16
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: KeyShift
+    outer:
+      serializedVersion: 2
+      x: 1086
+      y: 1763
+      width: 72
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 1086
+      y: 1763
+      width: 72
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: KeyP
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 1696
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 1696
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PreviewBackgroundGrid
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1683
+      width: 942
+      height: 365
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1683
+      width: 942
+      height: 365
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MiniMapLegenda
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 459
+      width: 200
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 459
+      width: 200
+      height: 200
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FlagCloth
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 1792
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 1792
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CommandPost
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1171
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1171
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Hound
+    outer:
+      serializedVersion: 2
+      x: 768
+      y: 1427
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 1427
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HeavyMachineGunIcon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1427
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1427
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ShotGunIcon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 403
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 403
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RailGunIcon
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 1171
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 1171
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MissileLauncherIcon
+    outer:
+      serializedVersion: 2
+      x: 768
+      y: 915
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 915
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FuelAirRPGsIcon
+    outer:
+      serializedVersion: 2
+      x: 768
+      y: 659
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 659
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MainGunIcon
+    outer:
+      serializedVersion: 2
+      x: 1280
+      y: 915
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1280
+      y: 915
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

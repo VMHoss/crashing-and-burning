@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<inventory>
+  <iOSSKU>com.xformgames.burninrubbercrashnburn</iOSSKU>
+  <androidBillingPlatform>GooglePlay</androidBillingPlatform>
+  <GooglePlayPublicKey>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAojIWgpruLskmmxJg14lZf2ZC+3iHMDFP5PBk04KCzrNBfTmy0IgLz4weZ+IGL+Yl3Aps3MoUa8rQrvS6JidEiBSYUxomAmv9LmmzQsMxECN6sVt4V0eAIV/SiXNfHeearWGD+IJH6Pfb9gdpXPtrY8cixODeYdroLFt2Ho8Zp1EroG9bqxEv/kQe9mAQROR6t3+InXuM7pz9gstIQaTybJcW7fCu+iBQk5NRWqKtFq9I/C7Xxd4cTG2wBz6++8PleUe5qdEc8OzakLMWdiTb5M+z0rPmCn//t/wB2a+TBSbpiQQ9Mpy2oAeOst9PVTxG+eRRdoGrsM51WSKVvVCRCQIDAQAB</GooglePlayPublicKey>
+  <useAmazonSandbox>true</useAmazonSandbox>
+  <UseWP8MockingFramework>false</UseWP8MockingFramework>
+  <item id="com.xformgames.burninrubbercrashnburn.bosspack" purchaseType="NonConsumable">
+    <name>Boss Pack</name>
+    <description>Wreak havoc with these monster cars!</description>
+    <platforms>
+      <GooglePlay>
+        <priceInLocalCurrency>0.99</priceInLocalCurrency>
+        <defaultLocale>en_US</defaultLocale>
+      </GooglePlay>
+      <AmazonAppstore />
+      <AppleAppStore>
+        <appleAppStorePriceTier>1</appleAppStorePriceTier>
+      </AppleAppStore>
+      <MacAppStore />
+      <WindowsPhone8 />
+    </platforms>
+  </item>
+  <item id="com.xformgames.burninrubbercrashnburn.militarypack" purchaseType="NonConsumable">
+    <name>Military Pack</name>
+    <description>No one is safe with these sturdy army vehicles!</description>
+    <platforms>
+      <GooglePlay>
+        <priceInLocalCurrency>0.99</priceInLocalCurrency>
+        <defaultLocale>en_US</defaultLocale>
+      </GooglePlay>
+      <AmazonAppstore />
+      <AppleAppStore>
+        <appleAppStorePriceTier>1</appleAppStorePriceTier>
+      </AppleAppStore>
+      <MacAppStore />
+      <WindowsPhone8 />
+    </platforms>
+  </item>
+  <item id="com.xformgames.burninrubbercrashnburn.sportspack" purchaseType="NonConsumable">
+    <name>Sports Pack</name>
+    <description>These cars are fast and armed to the teeth!</description>
+    <platforms>
+      <GooglePlay>
+        <priceInLocalCurrency>0.99</priceInLocalCurrency>
+        <defaultLocale>en_US</defaultLocale>
+      </GooglePlay>
+      <AmazonAppstore />
+      <AppleAppStore>
+        <appleAppStorePriceTier>1</appleAppStorePriceTier>
+      </AppleAppStore>
+      <MacAppStore />
+      <WindowsPhone8 />
+    </platforms>
+  </item>
+</inventory>

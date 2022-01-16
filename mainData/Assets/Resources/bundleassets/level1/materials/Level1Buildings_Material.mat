@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Level1Buildings_Material
+  m_Shader: {fileID: 4800000, guid: a2b20aace0a6ebe439112147c96f4f08, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 0
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9479762877010ed428d61e61012fd29b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightMap:
+        m_Texture: {fileID: 2800000, guid: 2c7ca8f6e88e55b439bdcc97df605abb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Shininess: 0.17613
+    - _SnowHeight: 0.3
+    m_Colors:
+    - _Color: {r: 0.6343284, g: 0.6343284, b: 0.6343284, a: 1}
+    - _SpecColor: {r: 0.3358209, g: 0.2945312, b: 0.2405881, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FillColor: {r: 0.294, g: 0.18, b: 0.137, a: 1}
+    - _Position: {r: 0, g: -999, b: 0, a: 0}

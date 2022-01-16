@@ -1,0 +1,948 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1331384121275985}
+  m_IsPrefabParent: 1
+--- !u!1 &1331384121275985
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4060007436605476}
+  - component: {fileID: 95092507613489623}
+  m_Layer: 0
+  m_Name: Taurus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4060007436605476
+Transform:
+  m_GameObject: {fileID: 1331384121275985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4382558614606404}
+  - {fileID: 4345569576109090}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95092507613489623
+Animator:
+  serializedVersion: 3
+  m_GameObject: {fileID: 1331384121275985}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 83b4646a3b1a68b42bf1eca2f28d7569, type: 2}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 0
+  m_AllowConstantClipSamplingOptimization: 0
+--- !u!1 &1825436903408225
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4382558614606404}
+  - component: {fileID: 33178937933195478}
+  - component: {fileID: 23437852319214167}
+  m_Layer: 0
+  m_Name: Taurus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4382558614606404
+Transform:
+  m_GameObject: {fileID: 1825436903408225}
+  m_LocalRotation: {x: -2.18557E-08, y: -4.371139E-08, z: 4.371139E-08, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4594400695594669}
+  - {fileID: 4181642012738167}
+  - {fileID: 4559828696360390}
+  - {fileID: 4573084422510584}
+  - {fileID: 4519670114590122}
+  - {fileID: 4852373299044937}
+  - {fileID: 4487628610876312}
+  - {fileID: 4691580755868540}
+  - {fileID: 4176880240983943}
+  - {fileID: 4456495568352182}
+  - {fileID: 4042065219606351}
+  - {fileID: 4502724471480447}
+  - {fileID: 4539753351697919}
+  - {fileID: 4567265669032561}
+  - {fileID: 4056336445922552}
+  - {fileID: 4366120489807523}
+  - {fileID: 4421057164661714}
+  - {fileID: 4385860827870767}
+  - {fileID: 4591838562019582}
+  - {fileID: 4841298008071826}
+  - {fileID: 4042401725784004}
+  m_Father: {fileID: 4060007436605476}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.504479E-06, y: 5.008956E-06, z: -5.008956E-06}
+--- !u!33 &33178937933195478
+MeshFilter:
+  m_GameObject: {fileID: 1825436903408225}
+  m_Mesh: {fileID: 4300000, guid: 527516eac89eab44a9657e76d0166418, type: 2}
+--- !u!23 &23437852319214167
+MeshRenderer:
+  m_GameObject: {fileID: 1825436903408225}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1048513389672880
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4594400695594669}
+  m_Layer: 0
+  m_Name: TaurusExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4594400695594669
+Transform:
+  m_GameObject: {fileID: 1048513389672880}
+  m_LocalRotation: {x: 1, y: 8.742288E-08, z: 3.019917E-07, w: 5.960464E-08}
+  m_LocalPosition: {x: -0.2515393, y: 0.4194865, z: -3.176338}
+  m_LocalScale: {x: 0.9499904, y: 0.9499901, z: 0.9499901}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 3.460569E-05, z: -1.001793E-05}
+--- !u!1 &1484461307186663
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4181642012738167}
+  m_Layer: 0
+  m_Name: TaurusExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4181642012738167
+Transform:
+  m_GameObject: {fileID: 1484461307186663}
+  m_LocalRotation: {x: 1, y: 8.742288E-08, z: 3.019917E-07, w: 5.960464E-08}
+  m_LocalPosition: {x: 0.3884607, y: 0.4194868, z: -3.176338}
+  m_LocalScale: {x: 0.9499904, y: 0.9499901, z: 0.9499901}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 180, y: 3.460569E-05, z: -1.001793E-05}
+--- !u!1 &1850203263417878
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4559828696360390}
+  m_Layer: 0
+  m_Name: TaurusFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4559828696360390
+Transform:
+  m_GameObject: {fileID: 1850203263417878}
+  m_LocalRotation: {x: 0.7071068, y: 4.811674E-08, z: -0.7071068, w: 4.811674E-08}
+  m_LocalPosition: {x: 0.04857391, y: 2.304649, z: 1.910142}
+  m_LocalScale: {x: 0.7999998, y: 0.7999998, z: 0.7999998}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
+--- !u!1 &1904509867057913
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4573084422510584}
+  m_Layer: 0
+  m_Name: TaurusLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4573084422510584
+Transform:
+  m_GameObject: {fileID: 1904509867057913}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: -1.360006, y: 2.614925, z: -2.439721}
+  m_LocalScale: {x: 0.7999998, y: 0.7999998, z: 0.7999999}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
+--- !u!1 &1489295159665217
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4519670114590122}
+  m_Layer: 0
+  m_Name: TaurusLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4519670114590122
+Transform:
+  m_GameObject: {fileID: 1489295159665217}
+  m_LocalRotation: {x: -1.342542E-07, y: -0.7071068, z: 0.7071069, w: -1.536513E-07}
+  m_LocalPosition: {x: -1.161669, y: 1.52207, z: -4.112576}
+  m_LocalScale: {x: 0.8, y: 0.7999999, z: 0.7999999}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -89.99999, y: -2.332854E-05, z: 180}
+--- !u!1 &1410669425267397
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4852373299044937}
+  m_Layer: 0
+  m_Name: TaurusLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4852373299044937
+Transform:
+  m_GameObject: {fileID: 1410669425267397}
+  m_LocalRotation: {x: -0.7071068, y: -1.775658E-07, z: -1.455508E-07, w: 0.7071068}
+  m_LocalPosition: {x: -0.917155, y: 1.826742, z: 3.797443}
+  m_LocalScale: {x: 0.8, y: 0.7999998, z: 0.7999998}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90, y: 2.618164E-05, z: -2.594126E-06}
+--- !u!1 &1893857934208374
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4487628610876312}
+  m_Layer: 0
+  m_Name: TaurusLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4487628610876312
+Transform:
+  m_GameObject: {fileID: 1893857934208374}
+  m_LocalRotation: {x: -1.342542E-07, y: -0.7071068, z: 0.7071069, w: -1.536513E-07}
+  m_LocalPosition: {x: 1.282513, y: 1.51153, z: -4.122149}
+  m_LocalScale: {x: 0.8, y: 0.7999999, z: 0.7999999}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -89.99999, y: -2.332854E-05, z: 180}
+--- !u!1 &1936351890951489
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4691580755868540}
+  m_Layer: 0
+  m_Name: TaurusLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4691580755868540
+Transform:
+  m_GameObject: {fileID: 1936351890951489}
+  m_LocalRotation: {x: -0.7071068, y: -1.775658E-07, z: -1.455508E-07, w: 0.7071068}
+  m_LocalPosition: {x: 0.905582, y: 1.827247, z: 3.797443}
+  m_LocalScale: {x: 0.8, y: 0.7999998, z: 0.7999998}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -90, y: 2.618164E-05, z: -2.594126E-06}
+--- !u!1 &1419627730071000
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4176880240983943}
+  m_Layer: 0
+  m_Name: TaurusNitro1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4176880240983943
+Transform:
+  m_GameObject: {fileID: 1419627730071000}
+  m_LocalRotation: {x: 0.5000001, y: 0.5000001, z: -0.4999999, w: -0.4999998}
+  m_LocalPosition: {x: -0.07040694, y: 1.472657, z: -1.91888}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8000001}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90.00003, y: -6.830191E-06, z: -90.00001}
+--- !u!1 &1505664774586381
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4456495568352182}
+  m_Layer: 0
+  m_Name: TaurusRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4456495568352182
+Transform:
+  m_GameObject: {fileID: 1505664774586381}
+  m_LocalRotation: {x: 0.4999999, y: 0.5, z: 0.5000001, w: 0.5000001}
+  m_LocalPosition: {x: 0.04857624, y: 1.063048, z: -4.150621}
+  m_LocalScale: {x: 0.7999999, y: 0.7999998, z: 0.7999999}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 89.99998, y: -8.537738E-06, z: -90.00001}
+--- !u!1 &1501170238495618
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4042065219606351}
+  m_Layer: 0
+  m_Name: TaurusRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042065219606351
+Transform:
+  m_GameObject: {fileID: 1501170238495618}
+  m_LocalRotation: {x: 0.5000001, y: -0.5, z: -0.5000001, w: -0.5}
+  m_LocalPosition: {x: 1.48486, y: 2.625626, z: -2.442864}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90.00002, y: -90, z: 0}
+--- !u!1 &1441890686069299
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4502724471480447}
+  m_Layer: 0
+  m_Name: TaurusSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4502724471480447
+Transform:
+  m_GameObject: {fileID: 1441890686069299}
+  m_LocalRotation: {x: -3.933711E-11, y: -0.7071068, z: -3.933711E-11, w: 0.7071068}
+  m_LocalPosition: {x: 0.5740794, y: 2.639131, z: -0.9574475}
+  m_LocalScale: {x: 0.7999997, y: 0.7999999, z: 0.7999998}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -6.374851E-09, y: 90, z: 0}
+--- !u!1 &1665216597199232
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4539753351697919}
+  m_Layer: 0
+  m_Name: TaurusSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4539753351697919
+Transform:
+  m_GameObject: {fileID: 1665216597199232}
+  m_LocalRotation: {x: 0.7071068, y: 4.811674E-08, z: -0.7071068, w: 4.811674E-08}
+  m_LocalPosition: {x: -0.6723728, y: 2.476324, z: -0.7703347}
+  m_LocalScale: {x: 0.7999998, y: 0.7999998, z: 0.7999998}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
+--- !u!1 &1248618469726788
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4567265669032561}
+  - component: {fileID: 33588272062205946}
+  - component: {fileID: 23493228111929283}
+  m_Layer: 0
+  m_Name: TaurusWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4567265669032561
+Transform:
+  m_GameObject: {fileID: 1248618469726788}
+  m_LocalRotation: {x: 3.09087E-08, y: 0.7071069, z: 0.7071066, w: 3.680834E-07}
+  m_LocalPosition: {x: -1.349762, y: 0.6019497, z: -2.591172}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 90.00003, y: -2.732075E-05, z: -180}
+--- !u!33 &33588272062205946
+MeshFilter:
+  m_GameObject: {fileID: 1248618469726788}
+  m_Mesh: {fileID: 4300000, guid: 1ed874d45cd6e954f996531d0ccf126f, type: 2}
+--- !u!23 &23493228111929283
+MeshRenderer:
+  m_GameObject: {fileID: 1248618469726788}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1110731181062080
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4056336445922552}
+  - component: {fileID: 33445862920258291}
+  - component: {fileID: 23538853315386302}
+  m_Layer: 0
+  m_Name: TaurusWheel_LB1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4056336445922552
+Transform:
+  m_GameObject: {fileID: 1110731181062080}
+  m_LocalRotation: {x: 3.09087E-08, y: 0.7071069, z: 0.7071066, w: 3.680834E-07}
+  m_LocalPosition: {x: -1.349762, y: 0.60195, z: -1.25219}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 90.00003, y: -2.732075E-05, z: -180}
+--- !u!33 &33445862920258291
+MeshFilter:
+  m_GameObject: {fileID: 1110731181062080}
+  m_Mesh: {fileID: 4300000, guid: 872cd4b0579e32c4dbcbc7b9cc88d4da, type: 2}
+--- !u!23 &23538853315386302
+MeshRenderer:
+  m_GameObject: {fileID: 1110731181062080}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1512415892616738
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4366120489807523}
+  - component: {fileID: 33123073333623386}
+  - component: {fileID: 23673726330250914}
+  m_Layer: 0
+  m_Name: TaurusWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4366120489807523
+Transform:
+  m_GameObject: {fileID: 1512415892616738}
+  m_LocalRotation: {x: 3.09087E-08, y: 0.7071069, z: 0.7071066, w: 3.680834E-07}
+  m_LocalPosition: {x: -1.349763, y: 0.6019503, z: 1.852889}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 90.00003, y: -2.732075E-05, z: -180}
+--- !u!33 &33123073333623386
+MeshFilter:
+  m_GameObject: {fileID: 1512415892616738}
+  m_Mesh: {fileID: 4300000, guid: 6274b4fe824a4e6449c6609810cb6ca1, type: 2}
+--- !u!23 &23673726330250914
+MeshRenderer:
+  m_GameObject: {fileID: 1512415892616738}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1994937580394511
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4421057164661714}
+  - component: {fileID: 33349708440820505}
+  - component: {fileID: 23304125083577483}
+  m_Layer: 0
+  m_Name: TaurusWheel_LF1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4421057164661714
+Transform:
+  m_GameObject: {fileID: 1994937580394511}
+  m_LocalRotation: {x: 3.09087E-08, y: 0.7071069, z: 0.7071066, w: 3.680834E-07}
+  m_LocalPosition: {x: -1.349763, y: 0.6019502, z: 0.5088338}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 90.00003, y: -2.732075E-05, z: -180}
+--- !u!33 &33349708440820505
+MeshFilter:
+  m_GameObject: {fileID: 1994937580394511}
+  m_Mesh: {fileID: 4300000, guid: 1e2552bcddc61514fbd33e70bbead759, type: 2}
+--- !u!23 &23304125083577483
+MeshRenderer:
+  m_GameObject: {fileID: 1994937580394511}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1078374450202546
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4385860827870767}
+  - component: {fileID: 33451309040298399}
+  - component: {fileID: 23272355944704856}
+  m_Layer: 0
+  m_Name: TaurusWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4385860827870767
+Transform:
+  m_GameObject: {fileID: 1078374450202546}
+  m_LocalRotation: {x: 3.09087E-08, y: 0.7071069, z: 0.7071066, w: 3.680834E-07}
+  m_LocalPosition: {x: 1.405414, y: 0.6019498, z: -2.59268}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 90.00003, y: -2.732075E-05, z: -180}
+--- !u!33 &33451309040298399
+MeshFilter:
+  m_GameObject: {fileID: 1078374450202546}
+  m_Mesh: {fileID: 4300000, guid: 5f20621bda607104e9aa7936e6e5dc36, type: 2}
+--- !u!23 &23272355944704856
+MeshRenderer:
+  m_GameObject: {fileID: 1078374450202546}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1931313950082298
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4591838562019582}
+  - component: {fileID: 33494942315555495}
+  - component: {fileID: 23600599788399261}
+  m_Layer: 0
+  m_Name: TaurusWheel_RB1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4591838562019582
+Transform:
+  m_GameObject: {fileID: 1931313950082298}
+  m_LocalRotation: {x: 3.09087E-08, y: 0.7071069, z: 0.7071066, w: 3.680834E-07}
+  m_LocalPosition: {x: 1.405413, y: 0.6019502, z: -1.251567}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 90.00003, y: -2.732075E-05, z: -180}
+--- !u!33 &33494942315555495
+MeshFilter:
+  m_GameObject: {fileID: 1931313950082298}
+  m_Mesh: {fileID: 4300000, guid: dc5557788f45e964c8816674e30c570b, type: 2}
+--- !u!23 &23600599788399261
+MeshRenderer:
+  m_GameObject: {fileID: 1931313950082298}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1860343827311602
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4841298008071826}
+  - component: {fileID: 33145226631845125}
+  - component: {fileID: 23311889898009336}
+  m_Layer: 0
+  m_Name: TaurusWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4841298008071826
+Transform:
+  m_GameObject: {fileID: 1860343827311602}
+  m_LocalRotation: {x: 3.09087E-08, y: 0.7071069, z: 0.7071066, w: 3.680834E-07}
+  m_LocalPosition: {x: 1.405412, y: 0.6019506, z: 1.85289}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 90.00003, y: -2.732075E-05, z: -180}
+--- !u!33 &33145226631845125
+MeshFilter:
+  m_GameObject: {fileID: 1860343827311602}
+  m_Mesh: {fileID: 4300000, guid: 04df680328f39b34bb55d372266aef33, type: 2}
+--- !u!23 &23311889898009336
+MeshRenderer:
+  m_GameObject: {fileID: 1860343827311602}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1954433403560683
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4042401725784004}
+  - component: {fileID: 33717961233244417}
+  - component: {fileID: 23587383239055790}
+  m_Layer: 0
+  m_Name: TaurusWheel_RF1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042401725784004
+Transform:
+  m_GameObject: {fileID: 1954433403560683}
+  m_LocalRotation: {x: 3.09087E-08, y: 0.7071069, z: 0.7071066, w: 3.680834E-07}
+  m_LocalPosition: {x: 1.405413, y: 0.6019503, z: 0.5109512}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4382558614606404}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 90.00003, y: -2.732075E-05, z: -180}
+--- !u!33 &33717961233244417
+MeshFilter:
+  m_GameObject: {fileID: 1954433403560683}
+  m_Mesh: {fileID: 4300000, guid: e2af0f098c97eb548af69966484b04cb, type: 2}
+--- !u!23 &23587383239055790
+MeshRenderer:
+  m_GameObject: {fileID: 1954433403560683}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1941954478388193
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4345569576109090}
+  - component: {fileID: 33089366972490316}
+  - component: {fileID: 23589966649916720}
+  m_Layer: 0
+  m_Name: TaurusProxy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4345569576109090
+Transform:
+  m_GameObject: {fileID: 1941954478388193}
+  m_LocalRotation: {x: -2.18557E-08, y: -4.371139E-08, z: 4.371139E-08, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4060007436605476}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -2.504479E-06, y: 5.008956E-06, z: -5.008956E-06}
+--- !u!33 &33089366972490316
+MeshFilter:
+  m_GameObject: {fileID: 1941954478388193}
+  m_Mesh: {fileID: 4300000, guid: 74daae2588c7ca44898149099287cc0f, type: 2}
+--- !u!23 &23589966649916720
+MeshRenderer:
+  m_GameObject: {fileID: 1941954478388193}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

@@ -1,0 +1,705 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1648869376975458}
+  m_IsPrefabParent: 1
+--- !u!1 &1648869376975458
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4854576016851269}
+  - component: {fileID: 33924960905449248}
+  - component: {fileID: 23653325477908754}
+  - component: {fileID: 64943092827856721}
+  m_Layer: 0
+  m_Name: KillRod_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4854576016851269
+Transform:
+  m_GameObject: {fileID: 1648869376975458}
+  m_LocalRotation: {x: -8.146034E-08, y: -4.371139E-08, z: 4.371138E-08, w: 1}
+  m_LocalPosition: {x: -0.001269405, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4528970726208820}
+  - {fileID: 4886336269099089}
+  - {fileID: 4533532893126102}
+  - {fileID: 4940202782720715}
+  - {fileID: 4992703979339089}
+  - {fileID: 4697360238268165}
+  - {fileID: 4476491992267100}
+  - {fileID: 4744877823801944}
+  - {fileID: 4119286761845080}
+  - {fileID: 4445668571724734}
+  - {fileID: 4319059562152116}
+  - {fileID: 4381242397114343}
+  - {fileID: 4421269834805063}
+  - {fileID: 4826619037557415}
+  - {fileID: 4462071256421962}
+  - {fileID: 4950031596562900}
+  - {fileID: 4200785752260613}
+  - {fileID: 4276704849002049}
+  - {fileID: 4550193958125776}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -9.334668E-06, y: 5.008956E-06, z: -5.008956E-06}
+--- !u!33 &33924960905449248
+MeshFilter:
+  m_GameObject: {fileID: 1648869376975458}
+  m_Mesh: {fileID: 4300000, guid: ea886514d0887084ebd0c037f8488f82, type: 2}
+--- !u!23 &23653325477908754
+MeshRenderer:
+  m_GameObject: {fileID: 1648869376975458}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9113fca213e16a408d2807aced3b2b2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64943092827856721
+MeshCollider:
+  m_GameObject: {fileID: 1648869376975458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: e290aec99815ec44e82c6c7da4f7a191, type: 2}
+--- !u!1 &1535244909835367
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4528970726208820}
+  - component: {fileID: 33674495225866903}
+  - component: {fileID: 23972789102061885}
+  m_Layer: 0
+  m_Name: KillRoddGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4528970726208820
+Transform:
+  m_GameObject: {fileID: 1535244909835367}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: 1.719454E-07, y: 1.100207, z: -0.2848037}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 1.535184E-13, z: 180}
+--- !u!33 &33674495225866903
+MeshFilter:
+  m_GameObject: {fileID: 1535244909835367}
+  m_Mesh: {fileID: 4300000, guid: d32941df4cb68ca47b19a4cd2d348409, type: 2}
+--- !u!23 &23972789102061885
+MeshRenderer:
+  m_GameObject: {fileID: 1535244909835367}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9113fca213e16a408d2807aced3b2b2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1317818536294099
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4886336269099089}
+  m_Layer: 0
+  m_Name: KillRodExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4886336269099089
+Transform:
+  m_GameObject: {fileID: 1317818536294099}
+  m_LocalRotation: {x: 0.5416753, y: -0.541675, z: 0.4545196, w: -0.4545197}
+  m_LocalPosition: {x: -1.034263, y: 0.5128065, z: -0.001866303}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -99.99998, y: 1.056795E-05, z: 89.99998}
+--- !u!1 &1055273424177650
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4533532893126102}
+  m_Layer: 0
+  m_Name: KillRodExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4533532893126102
+Transform:
+  m_GameObject: {fileID: 1055273424177650}
+  m_LocalRotation: {x: -0.4545193, y: 0.4545194, z: -0.5416753, w: 0.5416753}
+  m_LocalPosition: {x: 1.027185, y: 0.5148553, z: -0.002985369}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -79.99998, y: -8.65407E-06, z: 90}
+--- !u!1 &1068576485340150
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4940202782720715}
+  m_Layer: 0
+  m_Name: KillRodFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4940202782720715
+Transform:
+  m_GameObject: {fileID: 1068576485340150}
+  m_LocalRotation: {x: 0.7071068, y: -6.219569E-09, z: -0.7071068, w: -6.219569E-09}
+  m_LocalPosition: {x: -8.329516E-07, y: 1.344745, z: 1.933424}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1743355707009117
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4992703979339089}
+  m_Layer: 0
+  m_Name: KillRodLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4992703979339089
+Transform:
+  m_GameObject: {fileID: 1743355707009117}
+  m_LocalRotation: {x: 0.5, y: 0.5000001, z: -0.5, w: 0.5000001}
+  m_LocalPosition: {x: -0.9881073, y: 0.9269975, z: 0.1137298}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 89.99999, y: -90, z: 0}
+--- !u!1 &1102423480215419
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4697360238268165}
+  m_Layer: 0
+  m_Name: KillRodLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4697360238268165
+Transform:
+  m_GameObject: {fileID: 1102423480215419}
+  m_LocalRotation: {x: 0.7071068, y: -6.219559E-09, z: -0.7071068, w: -6.219559E-09}
+  m_LocalPosition: {x: -0.6699274, y: 0.7243322, z: -3.126693}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1877586765523160
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4476491992267100}
+  m_Layer: 0
+  m_Name: KillRodLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4476491992267100
+Transform:
+  m_GameObject: {fileID: 1877586765523160}
+  m_LocalRotation: {x: 0.7071068, y: -6.219559E-09, z: -0.7071068, w: -6.219559E-09}
+  m_LocalPosition: {x: -0.2796079, y: 0.7965849, z: 2.689262}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1020632714846508
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4744877823801944}
+  m_Layer: 0
+  m_Name: KillRodLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4744877823801944
+Transform:
+  m_GameObject: {fileID: 1020632714846508}
+  m_LocalRotation: {x: 0.7071068, y: -6.219559E-09, z: -0.7071068, w: -6.219559E-09}
+  m_LocalPosition: {x: 0.6597267, y: 0.7243322, z: -3.126693}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1636419862439589
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4119286761845080}
+  m_Layer: 0
+  m_Name: KillRodLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4119286761845080
+Transform:
+  m_GameObject: {fileID: 1636419862439589}
+  m_LocalRotation: {x: 0, y: -1.606229E-17, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2804998, y: 0.7965852, z: 2.689263}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 1.840602E-15, z: 0}
+--- !u!1 &1361275421643498
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4445668571724734}
+  m_Layer: 0
+  m_Name: KillRodRearWeapon_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4445668571724734
+Transform:
+  m_GameObject: {fileID: 1361275421643498}
+  m_LocalRotation: {x: -9.001391E-08, y: 0.7071068, z: 0.7071068, w: 5.720191E-09}
+  m_LocalPosition: {x: 1.539127E-06, y: 0.5976346, z: -3.133639}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 90, y: -7.757188E-06, z: 180}
+--- !u!1 &1273824956580818
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4319059562152116}
+  m_Layer: 0
+  m_Name: KillRodRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4319059562152116
+Transform:
+  m_GameObject: {fileID: 1273824956580818}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 1.005683, y: 0.9264824, z: 0.1137308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
+--- !u!1 &1938012000234304
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4381242397114343}
+  m_Layer: 0
+  m_Name: KillRodSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4381242397114343
+Transform:
+  m_GameObject: {fileID: 1938012000234304}
+  m_LocalRotation: {x: 0.7071068, y: -6.219571E-09, z: -0.7071068, w: -6.219571E-09}
+  m_LocalPosition: {x: -5.598413E-07, y: 1.136795, z: 1.483514}
+  m_LocalScale: {x: 0.7499999, y: 0.7499999, z: 0.7499999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1985918848240329
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4421269834805063}
+  m_Layer: 0
+  m_Name: KillRodSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4421269834805063
+Transform:
+  m_GameObject: {fileID: 1985918848240329}
+  m_LocalRotation: {x: 0.5000001, y: -0.5000001, z: -0.4999999, w: 0.4999999}
+  m_LocalPosition: {x: 9.906944E-07, y: 1.194863, z: -2.119857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 90.00003, y: 0, z: 90}
+--- !u!1 &1598331123469037
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4826619037557415}
+  m_Layer: 0
+  m_Name: KillRodSpecialWeapon_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4826619037557415
+Transform:
+  m_GameObject: {fileID: 1598331123469037}
+  m_LocalRotation: {x: 0.7071068, y: -6.219567E-09, z: -0.7071068, w: -6.219567E-09}
+  m_LocalPosition: {x: 0.5547053, y: 1.832306, z: -0.05033373}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1197582092911614
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4462071256421962}
+  m_Layer: 0
+  m_Name: KillRodTopWeapon_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4462071256421962
+Transform:
+  m_GameObject: {fileID: 1197582092911614}
+  m_LocalRotation: {x: 0.7071068, y: -3.512238E-08, z: -0.7071068, w: -3.512238E-08}
+  m_LocalPosition: {x: -0.5409835, y: 1.832306, z: -0.05033407}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1676932022858645
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4950031596562900}
+  - component: {fileID: 33551099179969641}
+  - component: {fileID: 23378143315963800}
+  m_Layer: 0
+  m_Name: KillRodWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4950031596562900
+Transform:
+  m_GameObject: {fileID: 1676932022858645}
+  m_LocalRotation: {x: 1.338124E-09, y: -0.01772401, z: 0.9998429, w: -7.548604E-08}
+  m_LocalPosition: {x: -1.008542, y: 0.5456406, z: -2.097308}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: -2.031129, y: -1.947173E-13, z: 180}
+--- !u!33 &33551099179969641
+MeshFilter:
+  m_GameObject: {fileID: 1676932022858645}
+  m_Mesh: {fileID: 4300000, guid: 148a2a966743c354192f41a53f60776c, type: 2}
+--- !u!23 &23378143315963800
+MeshRenderer:
+  m_GameObject: {fileID: 1676932022858645}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9113fca213e16a408d2807aced3b2b2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1459508647379879
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4200785752260613}
+  - component: {fileID: 33532485363064537}
+  - component: {fileID: 23047021222200210}
+  m_Layer: 0
+  m_Name: KillRodWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4200785752260613
+Transform:
+  m_GameObject: {fileID: 1459508647379879}
+  m_LocalRotation: {x: 1.338214E-09, y: -0.01772525, z: 0.9998429, w: -7.548603E-08}
+  m_LocalPosition: {x: -0.8555873, y: 0.3328158, z: 1.838868}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: -2.031271, y: -5.988135E-13, z: 180}
+--- !u!33 &33532485363064537
+MeshFilter:
+  m_GameObject: {fileID: 1459508647379879}
+  m_Mesh: {fileID: 4300000, guid: 71615513f76d3f24b8e79dee576e38b7, type: 2}
+--- !u!23 &23047021222200210
+MeshRenderer:
+  m_GameObject: {fileID: 1459508647379879}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9113fca213e16a408d2807aced3b2b2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1642401252229642
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4276704849002049}
+  - component: {fileID: 33704939087562145}
+  - component: {fileID: 23852251920165873}
+  m_Layer: 0
+  m_Name: KillRodWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4276704849002049
+Transform:
+  m_GameObject: {fileID: 1642401252229642}
+  m_LocalRotation: {x: 1.338214E-09, y: -0.01772525, z: 0.9998429, w: -7.548603E-08}
+  m_LocalPosition: {x: 1.013343, y: 0.5456403, z: -2.097307}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: -2.031271, y: -5.988135E-13, z: 180}
+--- !u!33 &33704939087562145
+MeshFilter:
+  m_GameObject: {fileID: 1642401252229642}
+  m_Mesh: {fileID: 4300000, guid: 8c201c38a3432c348ade66e3f9f3a780, type: 2}
+--- !u!23 &23852251920165873
+MeshRenderer:
+  m_GameObject: {fileID: 1642401252229642}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9113fca213e16a408d2807aced3b2b2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1073295849011804
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4550193958125776}
+  - component: {fileID: 33825132735150911}
+  - component: {fileID: 23999589921826900}
+  m_Layer: 0
+  m_Name: KillRodWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4550193958125776
+Transform:
+  m_GameObject: {fileID: 1073295849011804}
+  m_LocalRotation: {x: 1.338124E-09, y: -0.01772401, z: 0.9998429, w: -7.548604E-08}
+  m_LocalPosition: {x: 0.8458827, y: 0.3328158, z: 1.838869}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4854576016851269}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: -2.031129, y: -1.947173E-13, z: 180}
+--- !u!33 &33825132735150911
+MeshFilter:
+  m_GameObject: {fileID: 1073295849011804}
+  m_Mesh: {fileID: 4300000, guid: ccce5089bb5bf444d809d780944ad094, type: 2}
+--- !u!23 &23999589921826900
+MeshRenderer:
+  m_GameObject: {fileID: 1073295849011804}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9113fca213e16a408d2807aced3b2b2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

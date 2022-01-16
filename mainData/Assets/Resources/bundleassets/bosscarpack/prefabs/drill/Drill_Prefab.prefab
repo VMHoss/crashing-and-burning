@@ -1,0 +1,981 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1173800084176424}
+  m_IsPrefabParent: 1
+--- !u!1 &1173800084176424
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4400742367848473}
+  - component: {fileID: 33866008207106759}
+  - component: {fileID: 23232920473268252}
+  - component: {fileID: 136496783980424144}
+  m_Layer: 0
+  m_Name: Drill_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4400742367848473
+Transform:
+  m_GameObject: {fileID: 1173800084176424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4559197091327579}
+  - {fileID: 4464270503360149}
+  - {fileID: 4087463970862605}
+  - {fileID: 4279095051777977}
+  - {fileID: 4985288814925347}
+  - {fileID: 4440472762320058}
+  - {fileID: 4874529351006941}
+  - {fileID: 4668438983177349}
+  - {fileID: 4827609267155862}
+  - {fileID: 4633349043470386}
+  - {fileID: 4758718722552766}
+  - {fileID: 4422954583652197}
+  - {fileID: 4041123285630354}
+  - {fileID: 4165383578922718}
+  - {fileID: 4577319944409785}
+  - {fileID: 4475957118891284}
+  - {fileID: 4200420650537914}
+  - {fileID: 4448335542194926}
+  - {fileID: 4705665519522251}
+  - {fileID: 4136265773212257}
+  - {fileID: 4993244145292710}
+  - {fileID: 4002840304421109}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33866008207106759
+MeshFilter:
+  m_GameObject: {fileID: 1173800084176424}
+  m_Mesh: {fileID: 4300000, guid: 911f031229947864d8549bda1abd59b5, type: 2}
+--- !u!23 &23232920473268252
+MeshRenderer:
+  m_GameObject: {fileID: 1173800084176424}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c1e58b6b907c4cf43b454d714ee4e963, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &136496783980424144
+CapsuleCollider:
+  m_GameObject: {fileID: 1173800084176424}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.8
+  m_Height: 8.2
+  m_Direction: 2
+  m_Center: {x: 0, y: 1.99, z: 1.13}
+--- !u!1 &1023945160079670
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4559197091327579}
+  m_Layer: 0
+  m_Name: DrillExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4559197091327579
+Transform:
+  m_GameObject: {fileID: 1023945160079670}
+  m_LocalRotation: {x: -0.7071068, y: 6.181729E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: -0.3101494, y: 0.2812523, z: -2.533232}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008962E-06, z: 5.008958E-06}
+--- !u!1 &1109649139219891
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4464270503360149}
+  m_Layer: 0
+  m_Name: DrillExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4464270503360149
+Transform:
+  m_GameObject: {fileID: 1109649139219891}
+  m_LocalRotation: {x: -0.7071068, y: 6.181729E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: 0.2898506, y: 0.2838386, z: -2.533231}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008962E-06, z: 5.008958E-06}
+--- !u!1 &1506698430085268
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4087463970862605}
+  m_Layer: 0
+  m_Name: DrillFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4087463970862605
+Transform:
+  m_GameObject: {fileID: 1506698430085268}
+  m_LocalRotation: {x: -0.7071068, y: 6.18173E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: -0.002778999, y: 2.780589, z: 1.347364}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008963E-06, z: 5.008959E-06}
+--- !u!1 &1636319534518129
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4279095051777977}
+  m_Layer: 0
+  m_Name: DrillLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4279095051777977
+Transform:
+  m_GameObject: {fileID: 1636319534518129}
+  m_LocalRotation: {x: 0.7071068, y: 3.090862E-08, z: -0.7071068, w: -3.090862E-08}
+  m_LocalPosition: {x: -1.183424, y: 2.609546, z: -1.044655}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -180, y: -89.99999, z: 0}
+--- !u!1 &1703917627398128
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4985288814925347}
+  m_Layer: 0
+  m_Name: DrillLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4985288814925347
+Transform:
+  m_GameObject: {fileID: 1703917627398128}
+  m_LocalRotation: {x: -0.7071068, y: 6.181729E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: -1.375812, y: 2.125121, z: -1.787137}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008962E-06, z: 5.008958E-06}
+--- !u!1 &1421864323329097
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4440472762320058}
+  m_Layer: 0
+  m_Name: DrillLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4440472762320058
+Transform:
+  m_GameObject: {fileID: 1421864323329097}
+  m_LocalRotation: {x: -0.7071068, y: 6.181729E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: -1.417274, y: 2.399434, z: 2.680612}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008962E-06, z: 5.008958E-06}
+--- !u!1 &1286228783831332
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4874529351006941}
+  m_Layer: 0
+  m_Name: DrillLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4874529351006941
+Transform:
+  m_GameObject: {fileID: 1286228783831332}
+  m_LocalRotation: {x: -0.7071068, y: 6.181729E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: 1.368237, y: 2.115207, z: -1.789585}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008962E-06, z: 5.008958E-06}
+--- !u!1 &1214722955872813
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4668438983177349}
+  m_Layer: 0
+  m_Name: DrillLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4668438983177349
+Transform:
+  m_GameObject: {fileID: 1214722955872813}
+  m_LocalRotation: {x: -0.7071068, y: 6.181732E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: 1.419015, y: 2.406436, z: 2.68061}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008964E-06, z: 5.008961E-06}
+--- !u!1 &1036258926055275
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4827609267155862}
+  m_Layer: 0
+  m_Name: DrillRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4827609267155862
+Transform:
+  m_GameObject: {fileID: 1036258926055275}
+  m_LocalRotation: {x: -0.7071068, y: 6.181729E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: -0.004484203, y: 0.6679559, z: -2.95609}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008962E-06, z: 5.008958E-06}
+--- !u!1 &1545587841714654
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4633349043470386}
+  m_Layer: 0
+  m_Name: DrillRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4633349043470386
+Transform:
+  m_GameObject: {fileID: 1545587841714654}
+  m_LocalRotation: {x: -0.7071068, y: -1.376788E-07, z: 0.7071068, w: 1.376788E-07}
+  m_LocalPosition: {x: 1.164943, y: 2.646496, z: -1.061197}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: -180, y: -89.99998, z: 0}
+--- !u!1 &1223347495965656
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4758718722552766}
+  - component: {fileID: 33194783253420101}
+  - component: {fileID: 23940295404740559}
+  m_Layer: 0
+  m_Name: DrillSmalldrillL01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4758718722552766
+Transform:
+  m_GameObject: {fileID: 1223347495965656}
+  m_LocalRotation: {x: 5.338521E-08, y: 0.7071069, z: -0.7071067, w: -2.837897E-07}
+  m_LocalPosition: {x: -1.451474, y: 1.667354, z: 3.162069}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999998}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 1.866932E-05, z: -180}
+--- !u!33 &33194783253420101
+MeshFilter:
+  m_GameObject: {fileID: 1223347495965656}
+  m_Mesh: {fileID: 4300000, guid: 3eda093030106fa49ab2c0785eb21bec, type: 2}
+--- !u!23 &23940295404740559
+MeshRenderer:
+  m_GameObject: {fileID: 1223347495965656}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c1e58b6b907c4cf43b454d714ee4e963, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1849626967279517
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4422954583652197}
+  - component: {fileID: 33247317036974530}
+  - component: {fileID: 23508801578198530}
+  m_Layer: 0
+  m_Name: DrillSmalldrillL02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4422954583652197
+Transform:
+  m_GameObject: {fileID: 1849626967279517}
+  m_LocalRotation: {x: -1.376788E-07, y: -0.7071068, z: 0.7071068, w: 1.376788E-07}
+  m_LocalPosition: {x: -1.476987, y: 2.115828, z: 3.119361}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -90, y: 2.302967E-12, z: -180}
+--- !u!33 &33247317036974530
+MeshFilter:
+  m_GameObject: {fileID: 1849626967279517}
+  m_Mesh: {fileID: 4300000, guid: b32ac24a580f90e43ba1029cb817f289, type: 2}
+--- !u!23 &23508801578198530
+MeshRenderer:
+  m_GameObject: {fileID: 1849626967279517}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c1e58b6b907c4cf43b454d714ee4e963, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1677798891377059
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4041123285630354}
+  - component: {fileID: 33526423518863891}
+  - component: {fileID: 23536043773801797}
+  m_Layer: 0
+  m_Name: DrillSmalldrillR01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4041123285630354
+Transform:
+  m_GameObject: {fileID: 1677798891377059}
+  m_LocalRotation: {x: -1.376788E-07, y: -0.7071068, z: 0.7071068, w: 1.376788E-07}
+  m_LocalPosition: {x: 1.411231, y: 1.667354, z: 3.154144}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -90, y: 2.302967E-12, z: -180}
+--- !u!33 &33526423518863891
+MeshFilter:
+  m_GameObject: {fileID: 1677798891377059}
+  m_Mesh: {fileID: 4300000, guid: d102fad883c2cdf458110866f3335211, type: 2}
+--- !u!23 &23536043773801797
+MeshRenderer:
+  m_GameObject: {fileID: 1677798891377059}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c1e58b6b907c4cf43b454d714ee4e963, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1177468703206407
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4165383578922718}
+  - component: {fileID: 33820316291333042}
+  - component: {fileID: 23544325207644360}
+  m_Layer: 0
+  m_Name: DrillSmalldrillR02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165383578922718
+Transform:
+  m_GameObject: {fileID: 1177468703206407}
+  m_LocalRotation: {x: 5.338521E-08, y: 0.7071069, z: -0.7071067, w: -2.837897E-07}
+  m_LocalPosition: {x: 1.434467, y: 2.115829, z: 3.115743}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999998}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 1.866932E-05, z: -180}
+--- !u!33 &33820316291333042
+MeshFilter:
+  m_GameObject: {fileID: 1177468703206407}
+  m_Mesh: {fileID: 4300000, guid: cf6d5d1a93602374dabee6f828f5aceb, type: 2}
+--- !u!23 &23544325207644360
+MeshRenderer:
+  m_GameObject: {fileID: 1177468703206407}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c1e58b6b907c4cf43b454d714ee4e963, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1758790709172444
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4577319944409785}
+  m_Layer: 0
+  m_Name: DrillSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4577319944409785
+Transform:
+  m_GameObject: {fileID: 1758790709172444}
+  m_LocalRotation: {x: -0.7071068, y: 6.181729E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: -0.0298971, y: 1.469622, z: -1.242312}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008962E-06, z: 5.008958E-06}
+--- !u!1 &1321741143074704
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4475957118891284}
+  m_Layer: 0
+  m_Name: DrillSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4475957118891284
+Transform:
+  m_GameObject: {fileID: 1321741143074704}
+  m_LocalRotation: {x: -0.7071068, y: 6.181729E-08, z: 2.009718E-14, w: 0.7071068}
+  m_LocalPosition: {x: -0.00448394, y: 1.625024, z: -1.183571}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: -90, y: -5.008962E-06, z: 5.008958E-06}
+--- !u!1 &1513290286485435
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4200420650537914}
+  - component: {fileID: 33615388635878196}
+  - component: {fileID: 23457117948783268}
+  m_Layer: 0
+  m_Name: DrillTracks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4200420650537914
+Transform:
+  m_GameObject: {fileID: 1513290286485435}
+  m_LocalRotation: {x: 5.338509E-08, y: 0.7071068, z: 0.7071068, w: 5.338506E-08}
+  m_LocalPosition: {x: -2.62088E-08, y: 3.666189E-15, z: -2.88369E-08}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 90, y: 2.878709E-12, z: -180}
+--- !u!33 &33615388635878196
+MeshFilter:
+  m_GameObject: {fileID: 1513290286485435}
+  m_Mesh: {fileID: 4300000, guid: 7964765e1323f624d90139e1854a63a2, type: 2}
+--- !u!23 &23457117948783268
+MeshRenderer:
+  m_GameObject: {fileID: 1513290286485435}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c13608126bad0984f976df4dd3518536, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1396877360982078
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4448335542194926}
+  - component: {fileID: 33001139979952464}
+  - component: {fileID: 23455967188009391}
+  m_Layer: 0
+  m_Name: DrillWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4448335542194926
+Transform:
+  m_GameObject: {fileID: 1396877360982078}
+  m_LocalRotation: {x: -0.7071069, y: 3.090864E-08, z: -3.090863E-08, w: 0.7071068}
+  m_LocalPosition: {x: -1.504483, y: 0.7251397, z: -1.895098}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 1.343527E-13, z: 5.008958E-06}
+--- !u!33 &33001139979952464
+MeshFilter:
+  m_GameObject: {fileID: 1396877360982078}
+  m_Mesh: {fileID: 4300000, guid: 54a1f7f8ba974334f98daaafd5901a32, type: 2}
+--- !u!23 &23455967188009391
+MeshRenderer:
+  m_GameObject: {fileID: 1396877360982078}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 31af3f6677df18c4eb55d00260ef196a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1548907889189369
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4705665519522251}
+  - component: {fileID: 33321787834533613}
+  - component: {fileID: 23822330857900118}
+  m_Layer: 0
+  m_Name: DrillWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4705665519522251
+Transform:
+  m_GameObject: {fileID: 1548907889189369}
+  m_LocalRotation: {x: -0.7071069, y: 3.090864E-08, z: -3.090863E-08, w: 0.7071068}
+  m_LocalPosition: {x: -1.504483, y: 0.7251388, z: 1.487733}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 1.343527E-13, z: 5.008958E-06}
+--- !u!33 &33321787834533613
+MeshFilter:
+  m_GameObject: {fileID: 1548907889189369}
+  m_Mesh: {fileID: 4300000, guid: 5d0f8e535f8044f4a88a565c0f029ddb, type: 2}
+--- !u!23 &23822330857900118
+MeshRenderer:
+  m_GameObject: {fileID: 1548907889189369}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 31af3f6677df18c4eb55d00260ef196a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1908939842410031
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4136265773212257}
+  - component: {fileID: 33688185330252672}
+  - component: {fileID: 23384259494683049}
+  m_Layer: 0
+  m_Name: DrillWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4136265773212257
+Transform:
+  m_GameObject: {fileID: 1908939842410031}
+  m_LocalRotation: {x: -0.7071069, y: 3.090863E-08, z: -3.090863E-08, w: 0.7071068}
+  m_LocalPosition: {x: 1.495516, y: 0.7251396, z: -1.895099}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: -90.00001, y: -1.535183E-13, z: 5.008957E-06}
+--- !u!33 &33688185330252672
+MeshFilter:
+  m_GameObject: {fileID: 1908939842410031}
+  m_Mesh: {fileID: 4300000, guid: 2896c8e17d335bc4bb8e8b8ec29d9c0f, type: 2}
+--- !u!23 &23384259494683049
+MeshRenderer:
+  m_GameObject: {fileID: 1908939842410031}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 31af3f6677df18c4eb55d00260ef196a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1261926331071651
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4993244145292710}
+  - component: {fileID: 33750037521281755}
+  - component: {fileID: 23782807949169185}
+  m_Layer: 0
+  m_Name: DrillWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4993244145292710
+Transform:
+  m_GameObject: {fileID: 1261926331071651}
+  m_LocalRotation: {x: -0.7071069, y: 3.090863E-08, z: -3.090863E-08, w: 0.7071068}
+  m_LocalPosition: {x: 1.495516, y: 0.7251381, z: 1.487732}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: -90.00001, y: -1.535183E-13, z: 5.008957E-06}
+--- !u!33 &33750037521281755
+MeshFilter:
+  m_GameObject: {fileID: 1261926331071651}
+  m_Mesh: {fileID: 4300000, guid: c154eeffe7a6b414dafcebdb8b3fd0ae, type: 2}
+--- !u!23 &23782807949169185
+MeshRenderer:
+  m_GameObject: {fileID: 1261926331071651}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 31af3f6677df18c4eb55d00260ef196a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1864611793655137
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4002840304421109}
+  m_Layer: 0
+  m_Name: DrillHeadPivotFix
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4002840304421109
+Transform:
+  m_GameObject: {fileID: 1864611793655137}
+  m_LocalRotation: {x: -6.063473E-07, y: 0.7188357, z: 0.6951801, w: -4.647762E-07}
+  m_LocalPosition: {x: 0, y: 1.739468, z: 1.214653}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4512099025036619}
+  m_Father: {fileID: 4400742367848473}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 91.91686, y: -1.001793E-05, z: 179.9999}
+--- !u!1 &1199551483921359
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4512099025036619}
+  - component: {fileID: 33014297793684399}
+  - component: {fileID: 23969605229984002}
+  m_Layer: 0
+  m_Name: DrillHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4512099025036619
+Transform:
+  m_GameObject: {fileID: 1199551483921359}
+  m_LocalRotation: {x: -0.01672699, y: 3.944259E-15, z: 7.010048E-14, w: 0.9998601}
+  m_LocalPosition: {x: 0, y: -1.272157, z: -1.697866}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4002840304421109}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.916861, y: -5.862822E-13, z: -8.024239E-12}
+--- !u!33 &33014297793684399
+MeshFilter:
+  m_GameObject: {fileID: 1199551483921359}
+  m_Mesh: {fileID: 4300000, guid: e98332d9884427a4389c5b4b38795179, type: 2}
+--- !u!23 &23969605229984002
+MeshRenderer:
+  m_GameObject: {fileID: 1199551483921359}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c1e58b6b907c4cf43b454d714ee4e963, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

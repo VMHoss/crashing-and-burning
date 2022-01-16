@@ -1,0 +1,682 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1041568107593971}
+  m_IsPrefabParent: 1
+--- !u!1 &1041568107593971
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4927072875590792}
+  - component: {fileID: 33146549890164021}
+  - component: {fileID: 23060370437903605}
+  - component: {fileID: 64958872297450124}
+  m_Layer: 0
+  m_Name: Fennek_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4927072875590792
+Transform:
+  m_GameObject: {fileID: 1041568107593971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 4480033844618916}
+  - {fileID: 4266421045245741}
+  - {fileID: 4826902983549518}
+  - {fileID: 4560395509235869}
+  - {fileID: 4362794500640511}
+  - {fileID: 4202934757008700}
+  - {fileID: 4559750127288919}
+  - {fileID: 4028186520005513}
+  - {fileID: 4950652844421626}
+  - {fileID: 4924793617356022}
+  - {fileID: 4831567334075147}
+  - {fileID: 4919644032935287}
+  - {fileID: 4750765330291279}
+  - {fileID: 4895208174036267}
+  - {fileID: 4309874062640205}
+  - {fileID: 4433033287938064}
+  - {fileID: 4518792818607682}
+  - {fileID: 4050324281086889}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33146549890164021
+MeshFilter:
+  m_GameObject: {fileID: 1041568107593971}
+  m_Mesh: {fileID: 4300000, guid: 317d07f14e062aa478db4d413dbdb5e1, type: 2}
+--- !u!23 &23060370437903605
+MeshRenderer:
+  m_GameObject: {fileID: 1041568107593971}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fb5fc5703e7cc5a4d9eff498abf566e3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64958872297450124
+MeshCollider:
+  m_GameObject: {fileID: 1041568107593971}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: ac8fef456b69ea3479d3a9776624a2b0, type: 2}
+--- !u!1 &1045564483367022
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4480033844618916}
+  m_Layer: 0
+  m_Name: FennekExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4480033844618916
+Transform:
+  m_GameObject: {fileID: 1045564483367022}
+  m_LocalRotation: {x: -0.5000001, y: -0.4999999, z: 0.4999999, w: 0.5000001}
+  m_LocalPosition: {x: -0.4859445, y: 0.6531645, z: -1.940441}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -89.99998}
+--- !u!1 &1742383105314318
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4266421045245741}
+  m_Layer: 0
+  m_Name: FennekExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4266421045245741
+Transform:
+  m_GameObject: {fileID: 1742383105314318}
+  m_LocalRotation: {x: -0.5000001, y: -0.4999999, z: 0.4999999, w: 0.5000001}
+  m_LocalPosition: {x: 0.4930909, y: 0.6556998, z: -1.94044}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -89.99998}
+--- !u!1 &1019098211972555
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4826902983549518}
+  m_Layer: 0
+  m_Name: FennekFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4826902983549518
+Transform:
+  m_GameObject: {fileID: 1019098211972555}
+  m_LocalRotation: {x: 5.955732E-08, y: 0.7071068, z: 0.7071068, w: 1.741048E-08}
+  m_LocalPosition: {x: 0.007541546, y: 1.384152, z: 2.826545}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 3.415093E-06, z: -180}
+--- !u!1 &1944388835353345
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4560395509235869}
+  - component: {fileID: 33043434175433112}
+  - component: {fileID: 23490018479215179}
+  m_Layer: 0
+  m_Name: FennekGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4560395509235869
+Transform:
+  m_GameObject: {fileID: 1944388835353345}
+  m_LocalRotation: {x: 2.837897E-07, y: 0.7071069, z: 0.7071068, w: 2.837897E-07}
+  m_LocalPosition: {x: 0.007541352, y: 1.263871, z: 0.3724958}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.573707E-12, z: -180}
+--- !u!33 &33043434175433112
+MeshFilter:
+  m_GameObject: {fileID: 1944388835353345}
+  m_Mesh: {fileID: 4300000, guid: 496aa72866d6f274ea5136b116a7c6f5, type: 2}
+--- !u!23 &23490018479215179
+MeshRenderer:
+  m_GameObject: {fileID: 1944388835353345}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fb5fc5703e7cc5a4d9eff498abf566e3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1463405820003428
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4362794500640511}
+  m_Layer: 0
+  m_Name: FennekLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4362794500640511
+Transform:
+  m_GameObject: {fileID: 1463405820003428}
+  m_LocalRotation: {x: -0.5000001, y: -0.5, z: 0.5, w: -0.5000001}
+  m_LocalPosition: {x: -1.26601, y: 1.34471, z: 0.4817755}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: -89.99999, z: 0}
+--- !u!1 &1539939220921687
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4202934757008700}
+  m_Layer: 0
+  m_Name: FennekLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4202934757008700
+Transform:
+  m_GameObject: {fileID: 1539939220921687}
+  m_LocalRotation: {x: -7.395272E-08, y: 0.7071066, z: 0.707107, w: 1.961772E-07}
+  m_LocalPosition: {x: -0.8091799, y: 1.540751, z: -2.319957}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 89.99997, y: -2.188821E-05, z: -180}
+--- !u!1 &1676606618118003
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4559750127288919}
+  m_Layer: 0
+  m_Name: FennekLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4559750127288919
+Transform:
+  m_GameObject: {fileID: 1676606618118003}
+  m_LocalRotation: {x: -7.395272E-08, y: 0.7071066, z: 0.707107, w: 1.961772E-07}
+  m_LocalPosition: {x: -0.7874464, y: 1.308263, z: 3.086236}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 89.99997, y: -2.188821E-05, z: -180}
+--- !u!1 &1913684378933928
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4028186520005513}
+  m_Layer: 0
+  m_Name: FennekLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4028186520005513
+Transform:
+  m_GameObject: {fileID: 1913684378933928}
+  m_LocalRotation: {x: -7.395272E-08, y: 0.7071066, z: 0.707107, w: 1.961772E-07}
+  m_LocalPosition: {x: 0.78602, y: 1.54075, z: -2.319957}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 89.99997, y: -2.188821E-05, z: -180}
+--- !u!1 &1403471639381767
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4950652844421626}
+  m_Layer: 0
+  m_Name: FennekLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4950652844421626
+Transform:
+  m_GameObject: {fileID: 1403471639381767}
+  m_LocalRotation: {x: -7.395272E-08, y: 0.7071066, z: 0.707107, w: 1.961772E-07}
+  m_LocalPosition: {x: 0.7643936, y: 1.308263, z: 3.086236}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 89.99997, y: -2.188821E-05, z: -180}
+--- !u!1 &1389003604290521
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4924793617356022}
+  m_Layer: 0
+  m_Name: FennekRear1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4924793617356022
+Transform:
+  m_GameObject: {fileID: 1389003604290521}
+  m_LocalRotation: {x: 5.955733E-08, y: 0.7071068, z: 0.7071068, w: 1.741049E-08}
+  m_LocalPosition: {x: 0.007541086, y: 1.550646, z: -2.328343}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 3.415094E-06, z: -180}
+--- !u!1 &1306832817371546
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4831567334075147}
+  m_Layer: 0
+  m_Name: FennekRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4831567334075147
+Transform:
+  m_GameObject: {fileID: 1306832817371546}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 1.26599, y: 1.344715, z: 0.48175}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
+--- !u!1 &1992818242764185
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4919644032935287}
+  m_Layer: 0
+  m_Name: FennekSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4919644032935287
+Transform:
+  m_GameObject: {fileID: 1992818242764185}
+  m_LocalRotation: {x: -4.899478E-08, y: -0.7071068, z: -4.899478E-08, w: 0.7071068}
+  m_LocalPosition: {x: 0.007541256, y: 1.659567, z: 1.02887}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -7.939944E-06, y: 90, z: 0}
+--- !u!1 &1750291982999689
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4750765330291279}
+  m_Layer: 0
+  m_Name: FennekSmoke_Dummy 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4750765330291279
+Transform:
+  m_GameObject: {fileID: 1750291982999689}
+  m_LocalRotation: {x: -1.016783E-07, y: -0.7071068, z: -1.016783E-07, w: 0.7071068}
+  m_LocalPosition: {x: -0.01152613, y: 1.602717, z: 2.53814}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -1.647768E-05, y: 90, z: 0}
+--- !u!1 &1356893409741755
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4895208174036267}
+  m_Layer: 0
+  m_Name: FennekSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4895208174036267
+Transform:
+  m_GameObject: {fileID: 1356893409741755}
+  m_LocalRotation: {x: 5.955732E-08, y: 0.7071068, z: 0.7071068, w: 1.741048E-08}
+  m_LocalPosition: {x: 0.005033547, y: 1.904206, z: 0.218218}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 90, y: 3.415093E-06, z: -180}
+--- !u!1 &1410954962390274
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4309874062640205}
+  - component: {fileID: 33745455880369068}
+  - component: {fileID: 23299317663937845}
+  m_Layer: 0
+  m_Name: FennekWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4309874062640205
+Transform:
+  m_GameObject: {fileID: 1410954962390274}
+  m_LocalRotation: {x: 5.338507E-08, y: 0.7071068, z: 0.7071068, w: 5.338508E-08}
+  m_LocalPosition: {x: -1.009358, y: 0.5830458, z: -1.108433}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 90, y: 7.675919E-14, z: -180}
+--- !u!33 &33745455880369068
+MeshFilter:
+  m_GameObject: {fileID: 1410954962390274}
+  m_Mesh: {fileID: 4300000, guid: eb9f1fab714aee84d880a51e8bb87e09, type: 2}
+--- !u!23 &23299317663937845
+MeshRenderer:
+  m_GameObject: {fileID: 1410954962390274}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fb5fc5703e7cc5a4d9eff498abf566e3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1775030130837876
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4433033287938064}
+  - component: {fileID: 33872599704422143}
+  - component: {fileID: 23723154791856683}
+  m_Layer: 0
+  m_Name: FennekWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4433033287938064
+Transform:
+  m_GameObject: {fileID: 1775030130837876}
+  m_LocalRotation: {x: 5.338507E-08, y: 0.7071068, z: 0.7071068, w: 5.338508E-08}
+  m_LocalPosition: {x: -1.009357, y: 0.5830454, z: 2.13007}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 90, y: 7.675919E-14, z: -180}
+--- !u!33 &33872599704422143
+MeshFilter:
+  m_GameObject: {fileID: 1775030130837876}
+  m_Mesh: {fileID: 4300000, guid: 53ee098ffd5a43d46897afd7886438de, type: 2}
+--- !u!23 &23723154791856683
+MeshRenderer:
+  m_GameObject: {fileID: 1775030130837876}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fb5fc5703e7cc5a4d9eff498abf566e3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1334175782279476
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4518792818607682}
+  - component: {fileID: 33373867359561288}
+  - component: {fileID: 23613547651685500}
+  m_Layer: 0
+  m_Name: FennekWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4518792818607682
+Transform:
+  m_GameObject: {fileID: 1334175782279476}
+  m_LocalRotation: {x: 5.338507E-08, y: 0.7071068, z: 0.7071068, w: 5.338508E-08}
+  m_LocalPosition: {x: 1.011294, y: 0.5830456, z: -1.108433}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 90, y: 7.675919E-14, z: -180}
+--- !u!33 &33373867359561288
+MeshFilter:
+  m_GameObject: {fileID: 1334175782279476}
+  m_Mesh: {fileID: 4300000, guid: 8651e0cd14f749f499052563748d697c, type: 2}
+--- !u!23 &23613547651685500
+MeshRenderer:
+  m_GameObject: {fileID: 1334175782279476}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fb5fc5703e7cc5a4d9eff498abf566e3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1991558041487985
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4050324281086889}
+  - component: {fileID: 33927340042750324}
+  - component: {fileID: 23566526577742330}
+  m_Layer: 0
+  m_Name: FennekWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4050324281086889
+Transform:
+  m_GameObject: {fileID: 1991558041487985}
+  m_LocalRotation: {x: 5.338507E-08, y: 0.7071068, z: 0.7071068, w: 5.338508E-08}
+  m_LocalPosition: {x: 1.011295, y: 0.5830452, z: 2.13007}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4927072875590792}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 90, y: 7.675919E-14, z: -180}
+--- !u!33 &33927340042750324
+MeshFilter:
+  m_GameObject: {fileID: 1991558041487985}
+  m_Mesh: {fileID: 4300000, guid: 71dd12457c07c344799234d79fa01203, type: 2}
+--- !u!23 &23566526577742330
+MeshRenderer:
+  m_GameObject: {fileID: 1991558041487985}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fb5fc5703e7cc5a4d9eff498abf566e3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

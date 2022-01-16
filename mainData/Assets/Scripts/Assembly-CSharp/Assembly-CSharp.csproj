@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F23AB825-EE4A-4260-BFD9-EA4D2528B8DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\bin\Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>..\..\bin\Data\Managed\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\bin\Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\bin\Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveAnimation.cs" />
+    <Compile Include="AndroidButton.cs" />
+    <Compile Include="AnimatedAlpha.cs" />
+    <Compile Include="AnimatedColor.cs" />
+    <Compile Include="AnimationOrTween\Direction.cs" />
+    <Compile Include="AnimationOrTween\DisableCondition.cs" />
+    <Compile Include="AnimationOrTween\EnableCondition.cs" />
+    <Compile Include="AnimationOrTween\Trigger.cs" />
+    <Compile Include="AutoDestruct.cs" />
+    <Compile Include="AutoHide.cs" />
+    <Compile Include="BetterList.cs" />
+    <Compile Include="BlockData.cs" />
+    <Compile Include="BMFont.cs" />
+    <Compile Include="BMGlyph.cs" />
+    <Compile Include="BMSymbol.cs" />
+    <Compile Include="BulletScript.cs" />
+    <Compile Include="BundleEntry.cs" />
+    <Compile Include="BundleLoader.cs" />
+    <Compile Include="ByteReader.cs" />
+    <Compile Include="CameraScript.cs" />
+    <Compile Include="CameraShake.cs" />
+    <Compile Include="CarContainer_Script.cs" />
+    <Compile Include="CarData.cs" />
+    <Compile Include="CarPanel.cs" />
+    <Compile Include="CarScript.cs" />
+    <Compile Include="ChangeRenderQueue3001.cs" />
+    <Compile Include="ChangeRenderQueue3002.cs" />
+    <Compile Include="ChangeRenderQueue3003.cs" />
+    <Compile Include="charactercontroller.cs" />
+    <Compile Include="charactercontroller_sidescroller.cs" />
+    <Compile Include="ChartBoostScript.cs" />
+    <Compile Include="ClickJogos.cs" />
+    <Compile Include="CubemapScript.cs" />
+    <Compile Include="C_EasyButtonTemplate.cs" />
+    <Compile Include="C_EasyJoystickTemplate.cs" />
+    <Compile Include="C_EasyTouchTemplate.cs" />
+    <Compile Include="DamageInfo.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="DelayedExplosionScript.cs" />
+    <Compile Include="Destroy.cs" />
+    <Compile Include="DestructibleScript.cs" />
+    <Compile Include="DiabloCometScript.cs" />
+    <Compile Include="DicEntry.cs" />
+    <Compile Include="DontDestroyMe.cs" />
+    <Compile Include="DrawBlockPaths.cs" />
+    <Compile Include="DrillScript.cs" />
+    <Compile Include="EasyButton.cs" />
+    <Compile Include="EasyJoystick.cs" />
+    <Compile Include="EasyTouch.cs" />
+    <Compile Include="EasyTouchInput.cs" />
+    <Compile Include="ExplosionRateScript.cs" />
+    <Compile Include="ExplosionScript.cs" />
+    <Compile Include="FadeAudioScript.cs" />
+    <Compile Include="FallOffPartScript.cs" />
+    <Compile Include="Finger.cs" />
+    <Compile Include="FlameThrowerScript.cs" />
+    <Compile Include="FlashScript.cs" />
+    <Compile Include="FloatingText.cs" />
+    <Compile Include="FloatingTextDriver.cs" />
+    <Compile Include="FlurryAnalyticsListener.cs" />
+    <Compile Include="FlurryScript.cs" />
+    <Compile Include="FollowPositionScript.cs" />
+    <Compile Include="FPSScript.cs" />
+    <Compile Include="FuelAirRPGRocketScript.cs" />
+    <Compile Include="GameData.cs" />
+    <Compile Include="GenericFunctionsScript.cs" />
+    <Compile Include="Gesture.cs" />
+    <Compile Include="GlobalAudio.cs" />
+    <Compile Include="GridEntry.cs" />
+    <Compile Include="GridManager.cs" />
+    <Compile Include="Hide.cs" />
+    <Compile Include="HoldFade.cs" />
+    <Compile Include="HowToPlayPanel.cs" />
+    <Compile Include="IDReference.cs" />
+    <Compile Include="IgnoreTimeScale.cs" />
+    <Compile Include="InputGetter.cs" />
+    <Compile Include="InputManager.cs" />
+    <Compile Include="InterfacePanel.cs" />
+    <Compile Include="InterfaceScript.cs" />
+    <Compile Include="ItemBase.cs" />
+    <Compile Include="ItemBoost.cs" />
+    <Compile Include="ItemCarBomb.cs" />
+    <Compile Include="ItemJump.cs" />
+    <Compile Include="ItemMagnet.cs" />
+    <Compile Include="ItemPulseBurst.cs" />
+    <Compile Include="ItemShield.cs" />
+    <Compile Include="KeyboardInputGetter.cs" />
+    <Compile Include="KeyButton.cs" />
+    <Compile Include="KGFAccessor.cs" />
+    <Compile Include="KGFAlignmentHorizontal.cs" />
+    <Compile Include="KGFAlignmentVertical.cs" />
+    <Compile Include="KGFCoreVersion.cs" />
+    <Compile Include="KGFCustomGUI.cs" />
+    <Compile Include="KGFCustomGUITutorial.cs" />
+    <Compile Include="KGFDataCell.cs" />
+    <Compile Include="KGFDataColumn.cs" />
+    <Compile Include="KGFDataRow.cs" />
+    <Compile Include="KGFDataTable.cs" />
+    <Compile Include="KGFDelegate.cs" />
+    <Compile Include="KGFDocumentation.cs" />
+    <Compile Include="KGFEvent.cs" />
+    <Compile Include="KGFEventBase.cs" />
+    <Compile Include="KGFEventExpose.cs" />
+    <Compile Include="KGFEventSequence.cs" />
+    <Compile Include="KGFFPSDisplay.cs" />
+    <Compile Include="KGFGlobals.cs" />
+    <Compile Include="KGFGUIDataTable.cs" />
+    <Compile Include="KGFGUIDropDown.cs" />
+    <Compile Include="KGFGUIObjectList.cs" />
+    <Compile Include="KGFGUIRenderer.cs" />
+    <Compile Include="KGFGUISelectionList.cs" />
+    <Compile Include="KGFGUIUtility.cs" />
+    <Compile Include="KGFGUIUtilityTutorial.cs" />
+    <Compile Include="KGFIControl.cs" />
+    <Compile Include="KGFICustomGUI.cs" />
+    <Compile Include="KGFICustomInspectorGUI.cs" />
+    <Compile Include="KGFIGui2D.cs" />
+    <Compile Include="KGFIMapIcon.cs" />
+    <Compile Include="KGFITaggable.cs" />
+    <Compile Include="KGFIValidator.cs" />
+    <Compile Include="KGFLogicAnalyzer.cs" />
+    <Compile Include="KGFMapIcon.cs" />
+    <Compile Include="KGFMapSystem.cs" />
+    <Compile Include="KGFMapSystemScriptControlDemo.cs" />
+    <Compile Include="KGFMapSystemStyleDemo.cs" />
+    <Compile Include="KGFMessageList.cs" />
+    <Compile Include="KGFModule.cs" />
+    <Compile Include="KGFObject.cs" />
+    <Compile Include="KGFObjectListItemDisplayAttribute.cs" />
+    <Compile Include="KGFOrientation.cs" />
+    <Compile Include="KGFPhotoCapture.cs" />
+    <Compile Include="KGFScreen.cs" />
+    <Compile Include="KGFString.cs" />
+    <Compile Include="KGFUtility.cs" />
+    <Compile Include="Languages.cs" />
+    <Compile Include="LanguageSelection.cs" />
+    <Compile Include="LaserScript.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="Levels.cs" />
+    <Compile Include="LightMapTinterScript.cs" />
+    <Compile Include="LineProjectileScript.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="LoaderScript.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="Logo.cs" />
+    <Compile Include="LogoPanel.cs" />
+    <Compile Include="LotusScript.cs" />
+    <Compile Include="MachineGunScript.cs" />
+    <Compile Include="markSection.cs" />
+    <Compile Include="MedalsBaseManager.cs" />
+    <Compile Include="MedalsManager.cs" />
+    <Compile Include="MedalsOverviewPanel.cs" />
+    <Compile Include="MedalsScript.cs" />
+    <Compile Include="MenuPanel.cs" />
+    <Compile Include="MenuScript.cs" />
+    <Compile Include="MiniclipManager.cs" />
+    <Compile Include="Minimap.cs" />
+    <Compile Include="MiscMission.cs" />
+    <Compile Include="MissileScript.cs" />
+    <Compile Include="Mission.cs" />
+    <Compile Include="Missions.cs" />
+    <Compile Include="MissionsPanel.cs" />
+    <Compile Include="MonoSingleton.cs" />
+    <Compile Include="MountedGunScript.cs" />
+    <Compile Include="MouseInputGetter.cs" />
+    <Compile Include="MovingJoystick.cs" />
+    <Compile Include="NGUIDebug.cs" />
+    <Compile Include="NGUIMath.cs" />
+    <Compile Include="NGUITools.cs" />
+    <Compile Include="NukeScript.cs" />
+    <Compile Include="ObjectData.cs" />
+    <Compile Include="ObjectScript.cs" />
+    <Compile Include="OpenURL.cs" />
+    <Compile Include="Options.cs" />
+    <Compile Include="OptionsPanel.cs" />
+    <Compile Include="PanzerTruckScript.cs" />
+    <Compile Include="PausePanel.cs" />
+    <Compile Include="PickUpData.cs" />
+    <Compile Include="PickUpManager.cs" />
+    <Compile Include="PlayerBaseData.cs" />
+    <Compile Include="PlayerData.cs" />
+    <Compile Include="PlayerInput.cs" />
+    <Compile Include="PoolManager.cs" />
+    <Compile Include="PoolTest.cs" />
+    <Compile Include="Projectiles.cs" />
+    <Compile Include="ProjectileScript.cs" />
+    <Compile Include="ProjectileWeaponScript.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PutMeshVertsScript.cs" />
+    <Compile Include="RadialBlur.cs" />
+    <Compile Include="RailGunScript.cs" />
+    <Compile Include="RealTimeShadowProjector.cs" />
+    <Compile Include="ResizeText.cs" />
+    <Compile Include="ResizeToSprite.cs" />
+    <Compile Include="ResultsPanel.cs" />
+    <Compile Include="Retransform.cs" />
+    <Compile Include="Reward.cs" />
+    <Compile Include="RocketScript.cs" />
+    <Compile Include="RotatorScript.cs" />
+    <Compile Include="SafeHouseData.cs" />
+    <Compile Include="SafeHousePosition.cs" />
+    <Compile Include="SamSiteScript.cs" />
+    <Compile Include="ScalerScript.cs" />
+    <Compile Include="ScoreEntry.cs" />
+    <Compile Include="ScoreManager.cs" />
+    <Compile Include="ScoreMission.cs" />
+    <Compile Include="Scripts.cs" />
+    <Compile Include="Shaders.cs" />
+    <Compile Include="ShellScript.cs" />
+    <Compile Include="Shop.cs" />
+    <Compile Include="ShopPanel.cs" />
+    <Compile Include="ShotGunScript.cs" />
+    <Compile Include="SiteLock.cs" />
+    <Compile Include="Skidmarks.cs" />
+    <Compile Include="SkyBoxScript.cs" />
+    <Compile Include="SlowMotionController.cs" />
+    <Compile Include="SpringPanel.cs" />
+    <Compile Include="SpringPosition.cs" />
+    <Compile Include="StartPanel.cs" />
+    <Compile Include="StartUpCode.cs" />
+    <Compile Include="StretchAbsolute.cs" />
+    <Compile Include="StrikerRocketScript.cs" />
+    <Compile Include="SuperPowerBase.cs" />
+    <Compile Include="SuperPowerDiablo.cs" />
+    <Compile Include="SuperPowerGolden.cs" />
+    <Compile Include="SuperPowerQuadDamage.cs" />
+    <Compile Include="SuperPowerStuntMan.cs" />
+    <Compile Include="SuperPowerToxic.cs" />
+    <Compile Include="TankScript.cs" />
+    <Compile Include="TextLoader.cs" />
+    <Compile Include="TextureScrollScript.cs" />
+    <Compile Include="TrackManager.cs" />
+    <Compile Include="TrackProgress.cs" />
+    <Compile Include="TrackScript.cs" />
+    <Compile Include="TrafficDetectionBoxScript.cs" />
+    <Compile Include="TrafficFireScript.cs" />
+    <Compile Include="TrafficLight.cs" />
+    <Compile Include="TrafficManager.cs" />
+    <Compile Include="TrafficScript.cs" />
+    <Compile Include="TrailScript.cs" />
+    <Compile Include="TrailSection.cs" />
+    <Compile Include="TweenAlpha.cs" />
+    <Compile Include="TweenColor.cs" />
+    <Compile Include="TweenFOV.cs" />
+    <Compile Include="TweenOrthoSize.cs" />
+    <Compile Include="TweenPosition.cs" />
+    <Compile Include="TweenRotation.cs" />
+    <Compile Include="TweenScale.cs" />
+    <Compile Include="TweenTransform.cs" />
+    <Compile Include="TweenVolume.cs" />
+    <Compile Include="UIAnchor.cs" />
+    <Compile Include="UIAtlas.cs" />
+    <Compile Include="UIButton.cs" />
+    <Compile Include="UIButtonActivate.cs" />
+    <Compile Include="UIButtonColor.cs" />
+    <Compile Include="UIButtonKeyBinding.cs" />
+    <Compile Include="UIButtonKeys.cs" />
+    <Compile Include="UIButtonMessage.cs" />
+    <Compile Include="UIButtonOffset.cs" />
+    <Compile Include="UIButtonPlayAnimation.cs" />
+    <Compile Include="UIButtonRotation.cs" />
+    <Compile Include="UIButtonScale.cs" />
+    <Compile Include="UIButtonSound.cs" />
+    <Compile Include="UIButtonTween.cs" />
+    <Compile Include="UICamera.cs" />
+    <Compile Include="UICenterOnChild.cs" />
+    <Compile Include="UICheckbox.cs" />
+    <Compile Include="UICheckboxControlledComponent.cs" />
+    <Compile Include="UICheckboxControlledObject.cs" />
+    <Compile Include="UIDragCamera.cs" />
+    <Compile Include="UIDraggableCamera.cs" />
+    <Compile Include="UIDraggablePanel.cs" />
+    <Compile Include="UIDragObject.cs" />
+    <Compile Include="UIDragPanelContents.cs" />
+    <Compile Include="UIDrawCall.cs" />
+    <Compile Include="UIEventListener.cs" />
+    <Compile Include="UIFilledSprite.cs" />
+    <Compile Include="UIFont.cs" />
+    <Compile Include="UIForwardEvents.cs" />
+    <Compile Include="UIGeometry.cs" />
+    <Compile Include="UIGrid.cs" />
+    <Compile Include="UIImageButton.cs" />
+    <Compile Include="UIInput.cs" />
+    <Compile Include="UIInputSaved.cs" />
+    <Compile Include="UIInputValidator.cs" />
+    <Compile Include="UILabel.cs" />
+    <Compile Include="UILocalize.cs" />
+    <Compile Include="UINode.cs" />
+    <Compile Include="UIOrthoCamera.cs" />
+    <Compile Include="UIPanel.cs" />
+    <Compile Include="UIPopupList.cs" />
+    <Compile Include="UIRoot.cs" />
+    <Compile Include="UISavedOption.cs" />
+    <Compile Include="UIScrollBar.cs" />
+    <Compile Include="UISlicedSprite.cs" />
+    <Compile Include="UISlider.cs" />
+    <Compile Include="UISliderColors.cs" />
+    <Compile Include="UISoundVolume.cs" />
+    <Compile Include="UISprite.cs" />
+    <Compile Include="UISpriteAnimation.cs" />
+    <Compile Include="UIStretch.cs" />
+    <Compile Include="UITable.cs" />
+    <Compile Include="UITextList.cs" />
+    <Compile Include="UITexture.cs" />
+    <Compile Include="UITiledSprite.cs" />
+    <Compile Include="UITooltip.cs" />
+    <Compile Include="UITweener.cs" />
+    <Compile Include="UIViewport.cs" />
+    <Compile Include="UIWidget.cs" />
+    <Compile Include="UnibillDemo.cs" />
+    <Compile Include="UnibillScript.cs" />
+    <Compile Include="Unibill\Demo\ComboBox.cs" />
+    <Compile Include="UnlockItemInfo.cs" />
+    <Compile Include="UpdateManager.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="VirtualScreen.cs" />
+    <Compile Include="WaypointData.cs" />
+    <Compile Include="WaypointPath.cs" />
+    <Compile Include="WeaponScript.cs" />
+    <Compile Include="WreckMission.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

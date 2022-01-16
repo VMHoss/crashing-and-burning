@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1308302176448175}
+  m_IsPrefabParent: 1
+--- !u!1 &1308302176448175
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4007487523522631}
+  - component: {fileID: 33870841553567922}
+  - component: {fileID: 23935145580917977}
+  - component: {fileID: 64973315206459353}
+  m_Layer: 0
+  m_Name: FireTruck_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4007487523522631
+Transform:
+  m_GameObject: {fileID: 1308302176448175}
+  m_LocalRotation: {x: -2.185571E-08, y: 1.629207E-07, z: -7.549789E-08, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4470065085037271}
+  - {fileID: 4991528312345072}
+  - {fileID: 4645128504752947}
+  - {fileID: 4447474256996798}
+  - {fileID: 4440125183112541}
+  - {fileID: 4345072329560542}
+  - {fileID: 4649774671931796}
+  - {fileID: 4253068164263579}
+  - {fileID: 4863731602765893}
+  - {fileID: 4711539386829943}
+  - {fileID: 4471808218554686}
+  - {fileID: 4380380652411082}
+  - {fileID: 4722223853005285}
+  - {fileID: 4149637308613779}
+  - {fileID: 4165368466974710}
+  - {fileID: 4259070995345354}
+  - {fileID: 4473898927038261}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.504481E-06, y: -1.866934E-05, z: 8.651422E-06}
+--- !u!33 &33870841553567922
+MeshFilter:
+  m_GameObject: {fileID: 1308302176448175}
+  m_Mesh: {fileID: 4300000, guid: d7e5060f446e9b6419160c2958b66780, type: 2}
+--- !u!23 &23935145580917977
+MeshRenderer:
+  m_GameObject: {fileID: 1308302176448175}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 944f5bcfe972dfd44aa5fab4ba5f2886, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64973315206459353
+MeshCollider:
+  m_GameObject: {fileID: 1308302176448175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 92c3ca530fc0246478573540199ab114, type: 2}
+--- !u!1 &1530258667671232
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4470065085037271}
+  m_Layer: 0
+  m_Name: FireTruckExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4470065085037271
+Transform:
+  m_GameObject: {fileID: 1530258667671232}
+  m_LocalRotation: {x: -0.7071068, y: -3.98992E-07, z: -5.226266E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.3736802, y: 0.5025916, z: -3.951534}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 7.467734E-05, z: 1.001793E-05}
+--- !u!1 &1619079395925459
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4991528312345072}
+  m_Layer: 0
+  m_Name: FireTruckExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4991528312345072
+Transform:
+  m_GameObject: {fileID: 1619079395925459}
+  m_LocalRotation: {x: -0.7071068, y: -3.98992E-07, z: -5.226266E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0.42632, y: 0.5025916, z: -3.951531}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 7.467734E-05, z: 1.001793E-05}
+--- !u!1 &1470087896455021
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4645128504752947}
+  m_Layer: 0
+  m_Name: FireTruckFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4645128504752947
+Transform:
+  m_GameObject: {fileID: 1470087896455021}
+  m_LocalRotation: {x: 0.7071068, y: -6.582426E-08, z: -0.7071068, w: -6.582426E-08}
+  m_LocalPosition: {x: -0.02807375, y: 3.046071, z: 1.831908}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1914382293720863
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4447474256996798}
+  - component: {fileID: 33360149606148356}
+  - component: {fileID: 23416817042162963}
+  m_Layer: 0
+  m_Name: FireTruckGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4447474256996798
+Transform:
+  m_GameObject: {fileID: 1914382293720863}
+  m_LocalRotation: {x: 0, y: 3.300118E-15, z: 0, w: 1}
+  m_LocalPosition: {x: -2.218886E-09, y: -2.976623E-10, z: 0.006809711}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -3.781657E-13, z: 0}
+--- !u!33 &33360149606148356
+MeshFilter:
+  m_GameObject: {fileID: 1914382293720863}
+  m_Mesh: {fileID: 4300000, guid: ccbc30be48c9a8141a9d34c1405dddb4, type: 2}
+--- !u!23 &23416817042162963
+MeshRenderer:
+  m_GameObject: {fileID: 1914382293720863}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 944f5bcfe972dfd44aa5fab4ba5f2886, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1252020101985308
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4440125183112541}
+  m_Layer: 0
+  m_Name: FireTruckLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4440125183112541
+Transform:
+  m_GameObject: {fileID: 1252020101985308}
+  m_LocalRotation: {x: 0.7071068, y: -6.251879E-08, z: -0.7071068, w: -6.251879E-08}
+  m_LocalPosition: {x: -0.5120032, y: 2.66534, z: 2.808892}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1149122782391932
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4345072329560542}
+  m_Layer: 0
+  m_Name: FireTruckLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4345072329560542
+Transform:
+  m_GameObject: {fileID: 1149122782391932}
+  m_LocalRotation: {x: -0.7071068, y: -3.98992E-07, z: -5.226266E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.7755208, y: 0.6820469, z: -4.476662}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 7.467734E-05, z: 1.001793E-05}
+--- !u!1 &1464308207155827
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4649774671931796}
+  m_Layer: 0
+  m_Name: FireTruckLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4649774671931796
+Transform:
+  m_GameObject: {fileID: 1464308207155827}
+  m_LocalRotation: {x: -0.7071068, y: -3.98992E-07, z: -5.226266E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.62399, y: 0.9853816, z: 4.542198}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 7.467734E-05, z: 1.001793E-05}
+--- !u!1 &1295397203639709
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4253068164263579}
+  m_Layer: 0
+  m_Name: FireTruckLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4253068164263579
+Transform:
+  m_GameObject: {fileID: 1295397203639709}
+  m_LocalRotation: {x: -0.7071068, y: -3.98992E-07, z: -5.226266E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0.8016734, y: 0.6820464, z: -4.476658}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 7.467734E-05, z: 1.001793E-05}
+--- !u!1 &1999431938714708
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4863731602765893}
+  m_Layer: 0
+  m_Name: FireTruckLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4863731602765893
+Transform:
+  m_GameObject: {fileID: 1999431938714708}
+  m_LocalRotation: {x: -0.7071068, y: -3.98992E-07, z: -5.226266E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0.6456705, y: 0.9801776, z: 4.542198}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 7.467734E-05, z: 1.001793E-05}
+--- !u!1 &1340525786592361
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4711539386829943}
+  m_Layer: 0
+  m_Name: FireTruckRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4711539386829943
+Transform:
+  m_GameObject: {fileID: 1340525786592361}
+  m_LocalRotation: {x: 0.4999997, y: 0.4999996, z: 0.5000003, w: 0.5000004}
+  m_LocalPosition: {x: 0.01339168, y: 0.828338, z: -4.323662}
+  m_LocalScale: {x: 0.9999998, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 89.99992, y: 1.707553E-06, z: -89.99999}
+--- !u!1 &1213704703544827
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4471808218554686}
+  m_Layer: 0
+  m_Name: FireTruckRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4471808218554686
+Transform:
+  m_GameObject: {fileID: 1213704703544827}
+  m_LocalRotation: {x: 0.7071068, y: 4.811672E-08, z: -0.7071068, w: 4.811672E-08}
+  m_LocalPosition: {x: 0.5503625, y: 2.696404, z: 2.784749}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
+--- !u!1 &1677970806673242
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4380380652411082}
+  m_Layer: 0
+  m_Name: FireTruckSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4380380652411082
+Transform:
+  m_GameObject: {fileID: 1677970806673242}
+  m_LocalRotation: {x: -0.7071068, y: -3.98992E-07, z: -5.226266E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.008822656, y: 1.266647, z: 4.364691}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 7.467734E-05, z: 1.001793E-05}
+--- !u!1 &1980183711740561
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4722223853005285}
+  m_Layer: 0
+  m_Name: FireTruckSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4722223853005285
+Transform:
+  m_GameObject: {fileID: 1980183711740561}
+  m_LocalRotation: {x: 0.7071068, y: -6.582426E-08, z: -0.7071068, w: -6.582426E-08}
+  m_LocalPosition: {x: 0.006330722, y: 2.508098, z: 0.005806549}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1781829889742204
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4149637308613779}
+  - component: {fileID: 33442618068564230}
+  - component: {fileID: 23541735995351500}
+  m_Layer: 0
+  m_Name: FireTruckWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4149637308613779
+Transform:
+  m_GameObject: {fileID: 1781829889742204}
+  m_LocalRotation: {x: 3.090863E-08, y: 0.7071068, z: 0.7071068, w: 3.090862E-08}
+  m_LocalPosition: {x: -0.8800767, y: 0.5709307, z: -2.256481}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 90, y: 5.757419E-13, z: -180}
+--- !u!33 &33442618068564230
+MeshFilter:
+  m_GameObject: {fileID: 1781829889742204}
+  m_Mesh: {fileID: 4300000, guid: 877d390aab0a3f74b9c576db1e506be7, type: 2}
+--- !u!23 &23541735995351500
+MeshRenderer:
+  m_GameObject: {fileID: 1781829889742204}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 944f5bcfe972dfd44aa5fab4ba5f2886, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1420597924970597
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4165368466974710}
+  - component: {fileID: 33813962114044480}
+  - component: {fileID: 23331099246522788}
+  m_Layer: 0
+  m_Name: FireTruckWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165368466974710
+Transform:
+  m_GameObject: {fileID: 1420597924970597}
+  m_LocalRotation: {x: 3.090863E-08, y: 0.7071068, z: 0.7071068, w: 3.090862E-08}
+  m_LocalPosition: {x: -0.8800826, y: 0.5709301, z: 2.672469}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 90, y: 5.757419E-13, z: -180}
+--- !u!33 &33813962114044480
+MeshFilter:
+  m_GameObject: {fileID: 1420597924970597}
+  m_Mesh: {fileID: 4300000, guid: b0b651184ec0fba498f6da88d7e621ed, type: 2}
+--- !u!23 &23331099246522788
+MeshRenderer:
+  m_GameObject: {fileID: 1420597924970597}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 944f5bcfe972dfd44aa5fab4ba5f2886, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1545632260038657
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4259070995345354}
+  - component: {fileID: 33056062821227330}
+  - component: {fileID: 23775412385942549}
+  m_Layer: 0
+  m_Name: FireTruckWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4259070995345354
+Transform:
+  m_GameObject: {fileID: 1545632260038657}
+  m_LocalRotation: {x: 3.090863E-08, y: 0.7071068, z: 0.7071068, w: 3.090862E-08}
+  m_LocalPosition: {x: 0.8750428, y: 0.5709305, z: -2.256244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 90, y: 5.757419E-13, z: -180}
+--- !u!33 &33056062821227330
+MeshFilter:
+  m_GameObject: {fileID: 1545632260038657}
+  m_Mesh: {fileID: 4300000, guid: 84ce07c01ab5353468835c38e8d69b51, type: 2}
+--- !u!23 &23775412385942549
+MeshRenderer:
+  m_GameObject: {fileID: 1545632260038657}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 944f5bcfe972dfd44aa5fab4ba5f2886, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1307233543382370
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4473898927038261}
+  - component: {fileID: 33333091782411850}
+  - component: {fileID: 23528756210473449}
+  m_Layer: 0
+  m_Name: FireTruckWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4473898927038261
+Transform:
+  m_GameObject: {fileID: 1307233543382370}
+  m_LocalRotation: {x: 3.090863E-08, y: 0.7071068, z: 0.7071068, w: 3.090862E-08}
+  m_LocalPosition: {x: 0.8750361, y: 0.5709301, z: 2.672706}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4007487523522631}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 90, y: 5.757419E-13, z: -180}
+--- !u!33 &33333091782411850
+MeshFilter:
+  m_GameObject: {fileID: 1307233543382370}
+  m_Mesh: {fileID: 4300000, guid: 62b109a3e42df3f41ab3f9b565563d24, type: 2}
+--- !u!23 &23528756210473449
+MeshRenderer:
+  m_GameObject: {fileID: 1307233543382370}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 944f5bcfe972dfd44aa5fab4ba5f2886, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

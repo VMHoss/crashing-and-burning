@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22EBC6BF-AA44-4584-824E-18D241446C98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Assembly-CSharp-firstpass</RootNamespace>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FlurryAnalyticsLib">
+      <HintPath>..\..\bin\Data\Managed\FlurryAnalyticsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\bin\Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\bin\Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="unibill">
+      <HintPath>..\..\bin\Data\Managed\unibill.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmazonAppStoreCallbackMonoBehaviour.cs" />
+    <Compile Include="AppleAppStoreCallbackMonoBehaviour.cs" />
+    <Compile Include="CallArgs.cs" />
+    <Compile Include="CBEventListener.cs" />
+    <Compile Include="CBUIManager.cs" />
+    <Compile Include="Chartboost\CBBinding.cs" />
+    <Compile Include="Chartboost\CBJSON.cs" />
+    <Compile Include="Chartboost\CBManager.cs" />
+    <Compile Include="CJAPI.cs" />
+    <Compile Include="CJComm.cs" />
+    <Compile Include="CJDefinitions.cs" />
+    <Compile Include="CJServices.cs" />
+    <Compile Include="CJServicesEvents.cs" />
+    <Compile Include="CJStats.cs" />
+    <Compile Include="CJStatsEvents.cs" />
+    <Compile Include="CJUsers.cs" />
+    <Compile Include="CJUsersEvents.cs" />
+    <Compile Include="com\miniclip\AbstractService.cs" />
+    <Compile Include="com\miniclip\AbstractUpdateable.cs" />
+    <Compile Include="com\miniclip\AbstractUpdateableService.cs" />
+    <Compile Include="com\miniclip\AwardData.cs" />
+    <Compile Include="com\miniclip\AwardDataEventArgs.cs" />
+    <Compile Include="com\miniclip\AwardsAPI.cs" />
+    <Compile Include="com\miniclip\AwardsFactory.cs" />
+    <Compile Include="com\miniclip\awards\Available.cs" />
+    <Compile Include="com\miniclip\awards\AwardNotification.cs" />
+    <Compile Include="com\miniclip\awards\AwardNotificationState.cs" />
+    <Compile Include="com\miniclip\awards\AwardSlot.cs" />
+    <Compile Include="com\miniclip\awards\AwardStateId.cs" />
+    <Compile Include="com\miniclip\awards\AwardsViewController.cs" />
+    <Compile Include="com\miniclip\awards\Displaying.cs" />
+    <Compile Include="com\miniclip\awards\LoadingIcon.cs" />
+    <Compile Include="com\miniclip\awards\MiniclipAwards.cs" />
+    <Compile Include="com\miniclip\awards\MovingIn.cs" />
+    <Compile Include="com\miniclip\awards\MovingOut.cs" />
+    <Compile Include="com\miniclip\awards\SilentAwards.cs" />
+    <Compile Include="com\miniclip\awards\WaitingForSlot.cs" />
+    <Compile Include="com\miniclip\CallingRequestedFunction.cs" />
+    <Compile Include="com\miniclip\ClearingBmpData.cs" />
+    <Compile Include="com\miniclip\currencies\BalancesEventArgs.cs" />
+    <Compile Include="com\miniclip\currencies\BundlesEventArgs.cs" />
+    <Compile Include="com\miniclip\currencies\CurrenciesEventArgs.cs" />
+    <Compile Include="com\miniclip\currencies\CurrenciesFactory.cs" />
+    <Compile Include="com\miniclip\currencies\CurrenciesReadyEventArgs.cs" />
+    <Compile Include="com\miniclip\currencies\CurrencyBalance.cs" />
+    <Compile Include="com\miniclip\currencies\CurrencyBundle.cs" />
+    <Compile Include="com\miniclip\currencies\CurrencyCurrency.cs" />
+    <Compile Include="com\miniclip\currencies\CurrencyItem.cs" />
+    <Compile Include="com\miniclip\currencies\CurrencyPrice.cs" />
+    <Compile Include="com\miniclip\currencies\CurrencyUserQuantity.cs" />
+    <Compile Include="com\miniclip\currencies\ItemsEventArgs.cs" />
+    <Compile Include="com\miniclip\currencies\MiniclipCurrencies.cs" />
+    <Compile Include="com\miniclip\currencies\UserQuantityEventArgs.cs" />
+    <Compile Include="com\miniclip\EmbedVariables.cs" />
+    <Compile Include="com\miniclip\EmbedVariablesEventArgs.cs" />
+    <Compile Include="com\miniclip\FlashSwitcher.cs" />
+    <Compile Include="com\miniclip\FlashSwitcherState.cs" />
+    <Compile Include="com\miniclip\IAwardsAPI.cs" />
+    <Compile Include="com\miniclip\ICurrenciesAPI.cs" />
+    <Compile Include="com\miniclip\IState.cs" />
+    <Compile Include="com\miniclip\IStateable.cs" />
+    <Compile Include="com\miniclip\JSCaller.cs" />
+    <Compile Include="com\miniclip\MessageEventArgs.cs" />
+    <Compile Include="com\miniclip\NoticeID.cs" />
+    <Compile Include="com\miniclip\Ready.cs" />
+    <Compile Include="com\miniclip\RenderingScreenGrab.cs" />
+    <Compile Include="com\miniclip\State.cs" />
+    <Compile Include="com\miniclip\StateId.cs" />
+    <Compile Include="com\miniclip\StateMachine.cs" />
+    <Compile Include="com\miniclip\TakingScreenGrab.cs" />
+    <Compile Include="com\miniclip\TransmittingBmpData.cs" />
+    <Compile Include="com\miniclip\UndefinedEventArgs.cs" />
+    <Compile Include="com\miniclip\UpdateEventArgs.cs" />
+    <Compile Include="com\miniclip\UpdatePoolId.cs" />
+    <Compile Include="com\miniclip\UserDetails.cs" />
+    <Compile Include="com\miniclip\UserDetailsEventArgs.cs" />
+    <Compile Include="com\miniclip\WaitState.cs" />
+    <Compile Include="FlurryAnalytics.cs" />
+    <Compile Include="GooglePlayCallbackMonoBehaviour.cs" />
+    <Compile Include="InventoryDatabase.cs" />
+    <Compile Include="MiniclipAPI.cs" />
+    <Compile Include="MiniJSON\Json.cs" />
+    <Compile Include="Mono\Xml\DefaultHandler.cs" />
+    <Compile Include="Mono\Xml\SmallXmlParser.cs" />
+    <Compile Include="Mono\Xml\SmallXmlParserException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchasableItem.cs" />
+    <Compile Include="PurchaseType.cs" />
+    <Compile Include="Tests\FakeBillingService.cs" />
+    <Compile Include="TransactionDatabase.cs" />
+    <Compile Include="Unibiller.cs" />
+    <Compile Include="UnibillError.cs" />
+    <Compile Include="UnibillState.cs" />
+    <Compile Include="Unibill\Biller.cs" />
+    <Compile Include="Unibill\Impl\AmazonAppStoreBillingService.cs" />
+    <Compile Include="Unibill\Impl\AppleAppStoreBillingService.cs" />
+    <Compile Include="Unibill\Impl\BillerState.cs" />
+    <Compile Include="Unibill\Impl\BillingPlatform.cs" />
+    <Compile Include="Unibill\Impl\FakeGooglePlayPlugin.cs" />
+    <Compile Include="Unibill\Impl\FakeRawAmazonAppStoreBillingInterface.cs" />
+    <Compile Include="Unibill\Impl\FakeStorekitPlugin.cs" />
+    <Compile Include="Unibill\Impl\GooglePlayBillingService.cs" />
+    <Compile Include="Unibill\Impl\HelpCentre.cs" />
+    <Compile Include="Unibill\Impl\IBillingService.cs" />
+    <Compile Include="Unibill\Impl\IBillingServiceCallback.cs" />
+    <Compile Include="Unibill\Impl\IRawAmazonAppStoreBillingInterface.cs" />
+    <Compile Include="Unibill\Impl\IRawGooglePlayInterface.cs" />
+    <Compile Include="Unibill\Impl\IStoreKitPlugin.cs" />
+    <Compile Include="Unibill\Impl\MiniJSON.cs" />
+    <Compile Include="Unibill\Impl\MiniJsonExtensions.cs" />
+    <Compile Include="Unibill\Impl\OSXStoreKitPluginImpl.cs" />
+    <Compile Include="Unibill\Impl\ProductIdRemapper.cs" />
+    <Compile Include="Unibill\Impl\RawAmazonAppStoreBillingInterface.cs" />
+    <Compile Include="Unibill\Impl\RawGooglePlayInterface.cs" />
+    <Compile Include="Unibill\Impl\StoreKitPluginImpl.cs" />
+    <Compile Include="Unibill\Impl\UnibillConfiguration.cs" />
+    <Compile Include="Unibill\Impl\UnibillXmlParser.cs" />
+    <Compile Include="Unibill\Impl\WP8BillingService.cs" />
+    <Compile Include="Uniject\ILogger.cs" />
+    <Compile Include="Uniject\Impl\UnityLogger.cs" />
+    <Compile Include="Uniject\Impl\UnityPlayerPrefsStorage.cs" />
+    <Compile Include="Uniject\Impl\UnityResourceLoader.cs" />
+    <Compile Include="Uniject\IResourceLoader.cs" />
+    <Compile Include="Uniject\IStorage.cs" />
+    <Compile Include="Uniject\IUtil.cs" />
+    <Compile Include="UnityUtil.cs" />
+    <Compile Include="WP8Eventhook.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

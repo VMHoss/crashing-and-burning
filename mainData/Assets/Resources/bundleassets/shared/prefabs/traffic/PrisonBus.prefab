@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1495628492839284}
+  m_IsPrefabParent: 1
+--- !u!1 &1495628492839284
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4035448491116385}
+  - component: {fileID: 205078611875076021}
+  - component: {fileID: 65108090758341068}
+  m_Layer: 0
+  m_Name: PrisonBus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4035448491116385
+Transform:
+  m_GameObject: {fileID: 1495628492839284}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4482647797240347}
+  - {fileID: 4059156627776195}
+  - {fileID: 4093629880711475}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!205 &205078611875076021
+LODGroup:
+  m_GameObject: {fileID: 1495628492839284}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.2019787, z: 1.321467}
+  m_Size: 10
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.1472968
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23797320000132100}
+    - renderer: {fileID: 23534657895150228}
+  - screenRelativeHeight: 0.01
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23489464745222649}
+  m_Enabled: 1
+--- !u!65 &65108090758341068
+BoxCollider:
+  m_GameObject: {fileID: 1495628492839284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.525269, y: 8.270653, z: 1.98}
+  m_Center: {x: 3.576279E-07, y: 0.3745404, z: 1.67}
+--- !u!1 &1768210221940811
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4482647797240347}
+  - component: {fileID: 33193311578367029}
+  - component: {fileID: 23534657895150228}
+  m_Layer: 0
+  m_Name: Traffic_PrisonBusShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4482647797240347
+Transform:
+  m_GameObject: {fileID: 1768210221940811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.247647E-09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4035448491116385}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33193311578367029
+MeshFilter:
+  m_GameObject: {fileID: 1768210221940811}
+  m_Mesh: {fileID: 4300000, guid: 76f1afd0d81233a4ead46c3ac9cf9799, type: 2}
+--- !u!23 &23534657895150228
+MeshRenderer:
+  m_GameObject: {fileID: 1768210221940811}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: db9888645607dab4c96349fe2c5c1406, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1787363893121791
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4059156627776195}
+  - component: {fileID: 33357818572780903}
+  - component: {fileID: 23797320000132100}
+  m_Layer: 0
+  m_Name: Traffic_PrisonBus_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4059156627776195
+Transform:
+  m_GameObject: {fileID: 1787363893121791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4035448491116385}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33357818572780903
+MeshFilter:
+  m_GameObject: {fileID: 1787363893121791}
+  m_Mesh: {fileID: 4300000, guid: e0ab9d81bf87fff45a19e781f79b04ac, type: 2}
+--- !u!23 &23797320000132100
+MeshRenderer:
+  m_GameObject: {fileID: 1787363893121791}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4ba03b93d65dd734582e6724a72017c8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1681070294238871
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4093629880711475}
+  - component: {fileID: 33468177391345842}
+  - component: {fileID: 23489464745222649}
+  m_Layer: 0
+  m_Name: Traffic_PrisonBus_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4093629880711475
+Transform:
+  m_GameObject: {fileID: 1681070294238871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4035448491116385}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33468177391345842
+MeshFilter:
+  m_GameObject: {fileID: 1681070294238871}
+  m_Mesh: {fileID: 4300000, guid: b998d9e8ce5b02a4eb0ce68781aee3c5, type: 2}
+--- !u!23 &23489464745222649
+MeshRenderer:
+  m_GameObject: {fileID: 1681070294238871}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4ba03b93d65dd734582e6724a72017c8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

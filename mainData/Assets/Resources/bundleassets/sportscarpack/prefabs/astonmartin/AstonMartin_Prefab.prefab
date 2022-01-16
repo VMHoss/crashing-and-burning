@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1473962845020568}
+  m_IsPrefabParent: 1
+--- !u!1 &1473962845020568
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4993379042480706}
+  - component: {fileID: 33372893220528447}
+  - component: {fileID: 23031334275670353}
+  - component: {fileID: 64985415038917226}
+  m_Layer: 0
+  m_Name: AstonMartin_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4993379042480706
+Transform:
+  m_GameObject: {fileID: 1473962845020568}
+  m_LocalRotation: {x: -8.940697E-08, y: 6.394649E-15, z: -1.509958E-07, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4204992536915130}
+  - {fileID: 4375376561396114}
+  - {fileID: 4627866599644499}
+  - {fileID: 4326075307370875}
+  - {fileID: 4671338665967903}
+  - {fileID: 4959633915057961}
+  - {fileID: 4543210446158706}
+  - {fileID: 4580803292766850}
+  - {fileID: 4779087668798968}
+  - {fileID: 4564872985993300}
+  - {fileID: 4598423671406537}
+  - {fileID: 4588665628076438}
+  - {fileID: 4739519444876910}
+  - {fileID: 4553079637456658}
+  - {fileID: 4125457392217727}
+  - {fileID: 4502666504060992}
+  - {fileID: 4800056024149602}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.024529E-05, y: 8.14222E-13, z: 1.730284E-05}
+--- !u!33 &33372893220528447
+MeshFilter:
+  m_GameObject: {fileID: 1473962845020568}
+  m_Mesh: {fileID: 4300000, guid: af8b35677b750534096a40123bd18fc6, type: 2}
+--- !u!23 &23031334275670353
+MeshRenderer:
+  m_GameObject: {fileID: 1473962845020568}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 12ee7e65b10baaa4e962191bdc4b3a21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64985415038917226
+MeshCollider:
+  m_GameObject: {fileID: 1473962845020568}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 86856f6642fcf11408d7f7317b4327fe, type: 2}
+--- !u!1 &1607567563958822
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4204992536915130}
+  m_Layer: 0
+  m_Name: AstonMartinExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4204992536915130
+Transform:
+  m_GameObject: {fileID: 1607567563958822}
+  m_LocalRotation: {x: -0.4999998, y: -0.5000003, z: 0.4999999, w: 0.5}
+  m_LocalPosition: {x: -0.5096543, y: 0.1925573, z: -1.765752}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00002, y: 3.415094E-05, z: -90.00002}
+--- !u!1 &1664083397541653
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4375376561396114}
+  m_Layer: 0
+  m_Name: AstonMartinExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4375376561396114
+Transform:
+  m_GameObject: {fileID: 1664083397541653}
+  m_LocalRotation: {x: -0.4999998, y: -0.5000003, z: 0.4999999, w: 0.5}
+  m_LocalPosition: {x: 0.5208772, y: 0.1924682, z: -1.765753}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90.00002, y: 3.415094E-05, z: -90.00002}
+--- !u!1 &1948572902973061
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4627866599644499}
+  m_Layer: 0
+  m_Name: AstonMartinFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4627866599644499
+Transform:
+  m_GameObject: {fileID: 1948572902973061}
+  m_LocalRotation: {x: 0.7071068, y: 8.569672E-08, z: -0.7071068, w: 8.569672E-08}
+  m_LocalPosition: {x: 0.005894787, y: 1.00682, z: 1.811139}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
+--- !u!1 &1277561915307147
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4326075307370875}
+  - component: {fileID: 33648459300766843}
+  - component: {fileID: 23001705843963124}
+  m_Layer: 0
+  m_Name: AstonMartinGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4326075307370875
+Transform:
+  m_GameObject: {fileID: 1277561915307147}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: -0.004210378, y: 0.5499997, z: 0.2596618}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33648459300766843
+MeshFilter:
+  m_GameObject: {fileID: 1277561915307147}
+  m_Mesh: {fileID: 4300000, guid: ec1a934f3dba2664cb4907f2458e6750, type: 2}
+--- !u!23 &23001705843963124
+MeshRenderer:
+  m_GameObject: {fileID: 1277561915307147}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 12ee7e65b10baaa4e962191bdc4b3a21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1336864524736224
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4671338665967903}
+  m_Layer: 0
+  m_Name: AstonMartinLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4671338665967903
+Transform:
+  m_GameObject: {fileID: 1336864524736224}
+  m_LocalRotation: {x: 0.4999999, y: 0.5000001, z: -0.4999999, w: 0.5000001}
+  m_LocalPosition: {x: -1.032542, y: 0.5195813, z: 0.3085741}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999998}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 89.99998, y: -90, z: 0}
+--- !u!1 &1252697055398879
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4959633915057961}
+  m_Layer: 0
+  m_Name: AstonMartinLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4959633915057961
+Transform:
+  m_GameObject: {fileID: 1252697055398879}
+  m_LocalRotation: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+  m_LocalPosition: {x: -0.6588176, y: 0.7070617, z: -1.816912}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 89.99997, y: -1.323678E-05, z: 180}
+--- !u!1 &1681250398744577
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4543210446158706}
+  m_Layer: 0
+  m_Name: AstonMartinLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4543210446158706
+Transform:
+  m_GameObject: {fileID: 1681250398744577}
+  m_LocalRotation: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+  m_LocalPosition: {x: -0.6407056, y: 0.6131731, z: 2.419134}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 89.99997, y: -1.323678E-05, z: 180}
+--- !u!1 &1392169922854498
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4580803292766850}
+  m_Layer: 0
+  m_Name: AstonMartinLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4580803292766850
+Transform:
+  m_GameObject: {fileID: 1392169922854498}
+  m_LocalRotation: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+  m_LocalPosition: {x: 0.6705158, y: 0.7070622, z: -1.816912}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 89.99997, y: -1.323678E-05, z: 180}
+--- !u!1 &1010212170418813
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4779087668798968}
+  m_Layer: 0
+  m_Name: AstonMartinLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4779087668798968
+Transform:
+  m_GameObject: {fileID: 1010212170418813}
+  m_LocalRotation: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+  m_LocalPosition: {x: 0.6524944, y: 0.6131737, z: 2.419134}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 89.99997, y: -1.323678E-05, z: 180}
+--- !u!1 &1043355924404764
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4564872985993300}
+  m_Layer: 0
+  m_Name: AstonMartinRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4564872985993300
+Transform:
+  m_GameObject: {fileID: 1043355924404764}
+  m_LocalRotation: {x: 0.5000001, y: 0.4999999, z: 0.5000002, w: 0.4999999}
+  m_LocalPosition: {x: 0.005895325, y: 0.672372, z: -1.828043}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 89.99999, y: 3.415094E-05, z: -90.00001}
+--- !u!1 &1563473592705712
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4598423671406537}
+  m_Layer: 0
+  m_Name: AstonMartinRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4598423671406537
+Transform:
+  m_GameObject: {fileID: 1563473592705712}
+  m_LocalRotation: {x: 0.5000001, y: -0.4999999, z: -0.5000001, w: -0.4999999}
+  m_LocalPosition: {x: 0.9798812, y: 0.5195814, z: 0.3085746}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90.00002, y: -90, z: 0}
+--- !u!1 &1721667975491047
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4588665628076438}
+  m_Layer: 0
+  m_Name: AstonMartinSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4588665628076438
+Transform:
+  m_GameObject: {fileID: 1721667975491047}
+  m_LocalRotation: {x: 1.098799E-07, y: -0.7071068, z: 1.098799E-07, w: 0.7071068}
+  m_LocalPosition: {x: 0.005894533, y: 0.8585524, z: 1.794475}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 1.780681E-05, y: 90, z: 0}
+--- !u!1 &1908807945159598
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4739519444876910}
+  m_Layer: 0
+  m_Name: AstonMartinSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4739519444876910
+Transform:
+  m_GameObject: {fileID: 1908807945159598}
+  m_LocalRotation: {x: 0.7071068, y: 8.569672E-08, z: -0.7071068, w: 8.569672E-08}
+  m_LocalPosition: {x: 0.00589504, y: 1.316636, z: 0.1726217}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
+--- !u!1 &1165387392297819
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4553079637456658}
+  - component: {fileID: 33726023210413947}
+  - component: {fileID: 23089208084776689}
+  m_Layer: 0
+  m_Name: AstonMartinWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4553079637456658
+Transform:
+  m_GameObject: {fileID: 1165387392297819}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: -0.8326684, y: 0.3462904, z: -0.9067672}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33726023210413947
+MeshFilter:
+  m_GameObject: {fileID: 1165387392297819}
+  m_Mesh: {fileID: 4300000, guid: ea6e932d12d80e24b91714441cba83ab, type: 2}
+--- !u!23 &23089208084776689
+MeshRenderer:
+  m_GameObject: {fileID: 1165387392297819}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 12ee7e65b10baaa4e962191bdc4b3a21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1739242876611661
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4125457392217727}
+  - component: {fileID: 33925832003857406}
+  - component: {fileID: 23095392921390559}
+  m_Layer: 0
+  m_Name: AstonMartinWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4125457392217727
+Transform:
+  m_GameObject: {fileID: 1739242876611661}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: -0.8326689, y: 0.3462892, z: 1.646268}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33925832003857406
+MeshFilter:
+  m_GameObject: {fileID: 1739242876611661}
+  m_Mesh: {fileID: 4300000, guid: 510bbc257e392cf43b3227059fcc76a2, type: 2}
+--- !u!23 &23095392921390559
+MeshRenderer:
+  m_GameObject: {fileID: 1739242876611661}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 12ee7e65b10baaa4e962191bdc4b3a21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1750884284177494
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4502666504060992}
+  - component: {fileID: 33466969379037259}
+  - component: {fileID: 23153952880415746}
+  m_Layer: 0
+  m_Name: AstonMartinWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4502666504060992
+Transform:
+  m_GameObject: {fileID: 1750884284177494}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: 0.8172223, y: 0.3453496, z: -0.9067709}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33466969379037259
+MeshFilter:
+  m_GameObject: {fileID: 1750884284177494}
+  m_Mesh: {fileID: 4300000, guid: 7519d9d1dbef8bb43badbd6410148292, type: 2}
+--- !u!23 &23153952880415746
+MeshRenderer:
+  m_GameObject: {fileID: 1750884284177494}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 12ee7e65b10baaa4e962191bdc4b3a21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1883743318080621
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4800056024149602}
+  - component: {fileID: 33162477274416068}
+  - component: {fileID: 23291457296975729}
+  m_Layer: 0
+  m_Name: AstonMartinWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4800056024149602
+Transform:
+  m_GameObject: {fileID: 1883743318080621}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: 0.8172218, y: 0.3453484, z: 1.646265}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4993379042480706}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33162477274416068
+MeshFilter:
+  m_GameObject: {fileID: 1883743318080621}
+  m_Mesh: {fileID: 4300000, guid: a1188e3bd7b169f44b39d998e50c6746, type: 2}
+--- !u!23 &23291457296975729
+MeshRenderer:
+  m_GameObject: {fileID: 1883743318080621}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 12ee7e65b10baaa4e962191bdc4b3a21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

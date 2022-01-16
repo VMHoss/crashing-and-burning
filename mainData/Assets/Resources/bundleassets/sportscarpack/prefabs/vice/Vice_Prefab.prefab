@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1620735649784267}
+  m_IsPrefabParent: 1
+--- !u!1 &1620735649784267
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4947172735284304}
+  - component: {fileID: 33571051148288746}
+  - component: {fileID: 23344867232452469}
+  - component: {fileID: 64102095109667421}
+  m_Layer: 0
+  m_Name: Vice_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4947172735284304
+Transform:
+  m_GameObject: {fileID: 1620735649784267}
+  m_LocalRotation: {x: -2.185569E-08, y: 4.371139E-08, z: 4.371139E-08, w: 1}
+  m_LocalPosition: {x: -0.5347528, y: 1.259562, z: -1.584486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4733301207174719}
+  - {fileID: 4581068064949491}
+  - {fileID: 4068643653142522}
+  - {fileID: 4773047180205748}
+  - {fileID: 4712511669132491}
+  - {fileID: 4050924632468152}
+  - {fileID: 4555313391595755}
+  - {fileID: 4693385950149823}
+  - {fileID: 4364932988827846}
+  - {fileID: 4776362025632180}
+  - {fileID: 4255155231213923}
+  - {fileID: 4612223528054944}
+  - {fileID: 4802021778512520}
+  - {fileID: 4981217899101825}
+  - {fileID: 4261409061560944}
+  - {fileID: 4783855643933169}
+  - {fileID: 4983359290885319}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.504478E-06, y: -5.008956E-06, z: -5.008956E-06}
+--- !u!33 &33571051148288746
+MeshFilter:
+  m_GameObject: {fileID: 1620735649784267}
+  m_Mesh: {fileID: 4300000, guid: e76d0ae900f38974b8a7c7a599d4c033, type: 2}
+--- !u!23 &23344867232452469
+MeshRenderer:
+  m_GameObject: {fileID: 1620735649784267}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f513b4f35b46b2f4f88c01d6af129df2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64102095109667421
+MeshCollider:
+  m_GameObject: {fileID: 1620735649784267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: d5b994e148ee25f40bc19c0b71291119, type: 2}
+--- !u!1 &1515052711876993
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4733301207174719}
+  m_Layer: 0
+  m_Name: ViceExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4733301207174719
+Transform:
+  m_GameObject: {fileID: 1515052711876993}
+  m_LocalRotation: {x: -0.7071068, y: -1.01158E-07, z: -2.697454E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.4679662, y: 0.3213988, z: -1.538943}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 3.005373E-05, z: 1.366039E-05}
+--- !u!1 &1030506423681929
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4581068064949491}
+  m_Layer: 0
+  m_Name: ViceExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4581068064949491
+Transform:
+  m_GameObject: {fileID: 1030506423681929}
+  m_LocalRotation: {x: -0.7071068, y: -1.01158E-07, z: -2.697454E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0.5772079, y: 0.3213984, z: -1.587356}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 3.005373E-05, z: 1.366039E-05}
+--- !u!1 &1108137435541149
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4068643653142522}
+  m_Layer: 0
+  m_Name: ViceFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4068643653142522
+Transform:
+  m_GameObject: {fileID: 1108137435541149}
+  m_LocalRotation: {x: 0.7071068, y: -8.318743E-08, z: -0.7071068, w: -8.318743E-08}
+  m_LocalPosition: {x: 0.01856569, y: 0.7761507, z: 2.378697}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1020968538444296
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4773047180205748}
+  - component: {fileID: 33687250839231816}
+  - component: {fileID: 23998088484480583}
+  m_Layer: 0
+  m_Name: ViceGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4773047180205748
+Transform:
+  m_GameObject: {fileID: 1020968538444296}
+  m_LocalRotation: {x: 1.376788E-07, y: 0.7071068, z: 0.7071068, w: 1.376788E-07}
+  m_LocalPosition: {x: -0.007219311, y: 0.7229066, z: 0.6345478}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 1.151484E-12, z: -180}
+--- !u!33 &33687250839231816
+MeshFilter:
+  m_GameObject: {fileID: 1020968538444296}
+  m_Mesh: {fileID: 4300000, guid: 236c1727b0c83e940bf820fd3f55ec95, type: 2}
+--- !u!23 &23998088484480583
+MeshRenderer:
+  m_GameObject: {fileID: 1020968538444296}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f513b4f35b46b2f4f88c01d6af129df2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1587169027408054
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4712511669132491}
+  m_Layer: 0
+  m_Name: ViceLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4712511669132491
+Transform:
+  m_GameObject: {fileID: 1587169027408054}
+  m_LocalRotation: {x: 0.5000001, y: 0.5, z: -0.5000001, w: 0.5}
+  m_LocalPosition: {x: -1.01987, y: 0.6750783, z: 0.985307}
+  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -90, z: 0}
+--- !u!1 &1628234276660163
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4050924632468152}
+  m_Layer: 0
+  m_Name: ViceLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4050924632468152
+Transform:
+  m_GameObject: {fileID: 1628234276660163}
+  m_LocalRotation: {x: -0.7071068, y: -1.01158E-07, z: -2.697454E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.5702531, y: 0.8477014, z: -1.549835}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 3.005373E-05, z: 1.366039E-05}
+--- !u!1 &1827652707397635
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4555313391595755}
+  m_Layer: 0
+  m_Name: ViceLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4555313391595755
+Transform:
+  m_GameObject: {fileID: 1827652707397635}
+  m_LocalRotation: {x: -0.7071068, y: -1.01158E-07, z: -2.697454E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.6902147, y: 0.7280575, z: 2.666577}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 3.005373E-05, z: 1.366039E-05}
+--- !u!1 &1711349443915835
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4693385950149823}
+  m_Layer: 0
+  m_Name: ViceLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4693385950149823
+Transform:
+  m_GameObject: {fileID: 1711349443915835}
+  m_LocalRotation: {x: -0.7071068, y: -1.01158E-07, z: -2.697454E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0.4927875, y: 0.8477013, z: -1.550384}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 3.005373E-05, z: 1.366039E-05}
+--- !u!1 &1000235902413663
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4364932988827846}
+  m_Layer: 0
+  m_Name: ViceLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4364932988827846
+Transform:
+  m_GameObject: {fileID: 1000235902413663}
+  m_LocalRotation: {x: -0.7071068, y: -1.01158E-07, z: -2.697454E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0.6758652, y: 0.7228533, z: 2.666579}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 3.005373E-05, z: 1.366039E-05}
+--- !u!1 &1649560369353109
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4776362025632180}
+  m_Layer: 0
+  m_Name: ViceRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4776362025632180
+Transform:
+  m_GameObject: {fileID: 1649560369353109}
+  m_LocalRotation: {x: 0.4999999, y: 0.4999998, z: 0.5000001, w: 0.5000002}
+  m_LocalPosition: {x: 0.01856781, y: 0.7855912, z: -1.342329}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 89.99997, y: -3.41509E-06, z: -89.99998}
+--- !u!1 &1585988814949280
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4255155231213923}
+  m_Layer: 0
+  m_Name: ViceRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4255155231213923
+Transform:
+  m_GameObject: {fileID: 1585988814949280}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0.9925526, y: 0.6750773, z: 0.9853082}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
+--- !u!1 &1776622512627926
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4612223528054944}
+  m_Layer: 0
+  m_Name: ViceSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4612223528054944
+Transform:
+  m_GameObject: {fileID: 1776622512627926}
+  m_LocalRotation: {x: -0.7071068, y: -1.01158E-07, z: -2.697454E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.003175751, y: 0.8072973, z: -0.4406453}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 3.005373E-05, z: 1.366039E-05}
+--- !u!1 &1403314880035941
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4802021778512520}
+  m_Layer: 0
+  m_Name: ViceSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4802021778512520
+Transform:
+  m_GameObject: {fileID: 1403314880035941}
+  m_LocalRotation: {x: 0.7071068, y: -8.318743E-08, z: -0.7071068, w: -8.318743E-08}
+  m_LocalPosition: {x: 0.01856694, y: 1.249994, z: 0.4414468}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1973253333378282
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4981217899101825}
+  - component: {fileID: 33223013239922212}
+  - component: {fileID: 23263766017179558}
+  m_Layer: 0
+  m_Name: ViceWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4981217899101825
+Transform:
+  m_GameObject: {fileID: 1973253333378282}
+  m_LocalRotation: {x: -7.02494E-08, y: 0.7071068, z: 0.7071069, w: 2.388368E-07}
+  m_LocalPosition: {x: -0.8140368, y: 0.3780991, z: -0.7733526}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 89.99999, y: -2.504478E-05, z: -180}
+--- !u!33 &33223013239922212
+MeshFilter:
+  m_GameObject: {fileID: 1973253333378282}
+  m_Mesh: {fileID: 4300000, guid: 00746184be31af646a73fba7952c6b85, type: 2}
+--- !u!23 &23263766017179558
+MeshRenderer:
+  m_GameObject: {fileID: 1973253333378282}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f513b4f35b46b2f4f88c01d6af129df2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1692965409067113
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4261409061560944}
+  - component: {fileID: 33837881072472614}
+  - component: {fileID: 23549182828849692}
+  m_Layer: 0
+  m_Name: ViceWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4261409061560944
+Transform:
+  m_GameObject: {fileID: 1692965409067113}
+  m_LocalRotation: {x: -7.02494E-08, y: 0.7071068, z: 0.7071069, w: 2.388368E-07}
+  m_LocalPosition: {x: -0.8140382, y: 0.3786388, z: 1.849254}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 89.99999, y: -2.504478E-05, z: -180}
+--- !u!33 &33837881072472614
+MeshFilter:
+  m_GameObject: {fileID: 1692965409067113}
+  m_Mesh: {fileID: 4300000, guid: fd358222ae4466a44bfdeffecd1538d0, type: 2}
+--- !u!23 &23549182828849692
+MeshRenderer:
+  m_GameObject: {fileID: 1692965409067113}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f513b4f35b46b2f4f88c01d6af129df2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1195418368439225
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4783855643933169}
+  - component: {fileID: 33865904053843733}
+  - component: {fileID: 23826814510374714}
+  m_Layer: 0
+  m_Name: ViceWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4783855643933169
+Transform:
+  m_GameObject: {fileID: 1195418368439225}
+  m_LocalRotation: {x: -7.02494E-08, y: 0.7071068, z: 0.7071069, w: 2.388368E-07}
+  m_LocalPosition: {x: 0.7995997, y: 0.3780987, z: -0.773352}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 89.99999, y: -2.504478E-05, z: -180}
+--- !u!33 &33865904053843733
+MeshFilter:
+  m_GameObject: {fileID: 1195418368439225}
+  m_Mesh: {fileID: 4300000, guid: 390961f60cedde54b85e35ffde898ae3, type: 2}
+--- !u!23 &23826814510374714
+MeshRenderer:
+  m_GameObject: {fileID: 1195418368439225}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f513b4f35b46b2f4f88c01d6af129df2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1601304252200581
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4983359290885319}
+  - component: {fileID: 33198874495659004}
+  - component: {fileID: 23858736204324612}
+  m_Layer: 0
+  m_Name: ViceWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4983359290885319
+Transform:
+  m_GameObject: {fileID: 1601304252200581}
+  m_LocalRotation: {x: -7.02494E-08, y: 0.7071068, z: 0.7071069, w: 2.388368E-07}
+  m_LocalPosition: {x: 0.7995983, y: 0.3780984, z: 1.849255}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4947172735284304}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 89.99999, y: -2.504478E-05, z: -180}
+--- !u!33 &33198874495659004
+MeshFilter:
+  m_GameObject: {fileID: 1601304252200581}
+  m_Mesh: {fileID: 4300000, guid: ba963ce1a32bbd9448852e9208a4914b, type: 2}
+--- !u!23 &23858736204324612
+MeshRenderer:
+  m_GameObject: {fileID: 1601304252200581}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f513b4f35b46b2f4f88c01d6af129df2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

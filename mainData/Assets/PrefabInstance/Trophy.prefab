@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1562152398547263}
+  m_IsPrefabParent: 1
+--- !u!1 &1562152398547263
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4882836493549447}
+  - component: {fileID: 114909921402334349}
+  - component: {fileID: 114474489658884223}
+  m_Layer: 8
+  m_Name: Trophy
+  m_TagString: TrophyDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4882836493549447
+Transform:
+  m_GameObject: {fileID: 1562152398547263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -410, y: 160, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4144786590088667}
+  - {fileID: 4385064782438287}
+  - {fileID: 4124682081958125}
+  - {fileID: 4441240966362872}
+  - {fileID: 4281648063911473}
+  - {fileID: 4081206625244029}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114909921402334349
+MonoBehaviour:
+  m_GameObject: {fileID: 1562152398547263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8d19861eefc8f4ebbaf4fd7d64485b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 2
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 0.2
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished:
+  from: {x: -420, y: 160, z: 0}
+  to: {x: 20, y: 160, z: 0}
+--- !u!114 &114474489658884223
+MonoBehaviour:
+  m_GameObject: {fileID: 1562152398547263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2601ed66a6794ee469d2fe7aa689136c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1995568525478789
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4144786590088667}
+  - component: {fileID: 114149758927427372}
+  m_Layer: 8
+  m_Name: TrophyIconBackground
+  m_TagString: TrophyDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4144786590088667
+Transform:
+  m_GameObject: {fileID: 1995568525478789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 374, y: -26, z: 0}
+  m_LocalScale: {x: 48, y: 48, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4882836493549447}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114149758927427372
+MonoBehaviour:
+  m_GameObject: {fileID: 1995568525478789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240d23d78cf2b454180e852e28ed21f1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 4ae51ecb890e8d64d978b3da7dc9418c, type: 2}
+  mTex: {fileID: 2800000, guid: d59e0e4115846124094e7314694fd29d, type: 3}
+  mColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  mPivot: 4
+  mDepth: 2
+  mAtlas: {fileID: 114037341849121892, guid: 914f9354ce76f85418e0f2bf25987633, type: 2}
+  mSpriteName: IconTrophy
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!1 &1834088463782566
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4385064782438287}
+  - component: {fileID: 114586408914019203}
+  m_Layer: 8
+  m_Name: TrophyBackground
+  m_TagString: TrophyDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4385064782438287
+Transform:
+  m_GameObject: {fileID: 1834088463782566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 400, y: 54, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4882836493549447}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114586408914019203
+MonoBehaviour:
+  m_GameObject: {fileID: 1834088463782566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5115476cdb29874884ce3138af7b48d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 4ae51ecb890e8d64d978b3da7dc9418c, type: 2}
+  mTex: {fileID: 2800000, guid: d59e0e4115846124094e7314694fd29d, type: 3}
+  mColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  mPivot: 0
+  mDepth: 0
+  mAtlas: {fileID: 114037341849121892, guid: 914f9354ce76f85418e0f2bf25987633, type: 2}
+  mSpriteName: White
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!1 &1874634725973385
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4124682081958125}
+  - component: {fileID: 114335735877659066}
+  - component: {fileID: 114986560044788431}
+  m_Layer: 8
+  m_Name: TrophyIcon
+  m_TagString: TrophyDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4124682081958125
+Transform:
+  m_GameObject: {fileID: 1874634725973385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 374.0002, y: -25.99984, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4882836493549447}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114335735877659066
+MonoBehaviour:
+  m_GameObject: {fileID: 1874634725973385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240d23d78cf2b454180e852e28ed21f1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 4ae51ecb890e8d64d978b3da7dc9418c, type: 2}
+  mTex: {fileID: 2800000, guid: d59e0e4115846124094e7314694fd29d, type: 3}
+  mColor: {r: 1, g: 0.7655172, b: 0, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114037341849121892, guid: 914f9354ce76f85418e0f2bf25987633, type: 2}
+  mSpriteName: IconTrophy
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &114986560044788431
+MonoBehaviour:
+  m_GameObject: {fileID: 1874634725973385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ded89c95a8dd90a46bb15e93828c5b80, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 2
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0.2
+  duration: 0.2
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished:
+  from: {x: 96, y: 96, z: 1}
+  to: {x: 48, y: 48, z: 1}
+  updateTable: 0
+--- !u!1 &1916964649287741
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4441240966362872}
+  - component: {fileID: 114620272477183815}
+  m_Layer: 8
+  m_Name: TrophyProgress
+  m_TagString: TrophyDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4441240966362872
+Transform:
+  m_GameObject: {fileID: 1916964649287741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -42, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4882836493549447}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114620272477183815
+MonoBehaviour:
+  m_GameObject: {fileID: 1916964649287741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445e9d23ba382b541a256f1c2dff5385, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 0}
+  mTex: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 3
+  mDepth: 1
+  mFont: {fileID: 114716065321270136, guid: 4630a5cb7145f684fb0a5a0d86400853, type: 2}
+  mText: PROGRESS 0/1000000
+  mMaxLineWidth: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 1
+  mEffectColor: {r: 0, g: 0, b: 0, a: 0.3921569}
+  mSymbols: 1
+  mEffectDistance: {x: 2, y: 2}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!1 &1733416056439777
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4281648063911473}
+  - component: {fileID: 114915995091263093}
+  m_Layer: 8
+  m_Name: TrophyHeader
+  m_TagString: TrophyDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4281648063911473
+Transform:
+  m_GameObject: {fileID: 1733416056439777}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -14, z: -1}
+  m_LocalScale: {x: 21, y: 21, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4882836493549447}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114915995091263093
+MonoBehaviour:
+  m_GameObject: {fileID: 1733416056439777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445e9d23ba382b541a256f1c2dff5385, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 0}
+  mTex: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 3
+  mDepth: 1
+  mFont: {fileID: 114716065321270136, guid: 4630a5cb7145f684fb0a5a0d86400853, type: 2}
+  mText: MEDAL NAME HERE
+  mMaxLineWidth: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 1
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 4, y: 4}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!1 &1681549594717043
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4081206625244029}
+  - component: {fileID: 114231640829269637}
+  m_Layer: 8
+  m_Name: TrophyDescription
+  m_TagString: TrophyDynamic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4081206625244029
+Transform:
+  m_GameObject: {fileID: 1681549594717043}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -30, z: -1}
+  m_LocalScale: {x: 12, y: 12, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4882836493549447}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114231640829269637
+MonoBehaviour:
+  m_GameObject: {fileID: 1681549594717043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445e9d23ba382b541a256f1c2dff5385, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 0}
+  mTex: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 3
+  mDepth: 1
+  mFont: {fileID: 114716065321270136, guid: 4630a5cb7145f684fb0a5a0d86400853, type: 2}
+  mText: COLLECT ALL GOLDEN WRENCHES
+  mMaxLineWidth: 400
+  mEncoding: 1
+  mMaxLineCount: 2
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 1
+  mEffectColor: {r: 0, g: 0, b: 0, a: 0.3921569}
+  mSymbols: 1
+  mEffectDistance: {x: 2, y: 2}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1

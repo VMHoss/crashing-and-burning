@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1955201845457532}
+  m_IsPrefabParent: 1
+--- !u!1 &1955201845457532
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4965273142096240}
+  - component: {fileID: 33047455506877219}
+  - component: {fileID: 23713427050175593}
+  - component: {fileID: 64586406024791182}
+  m_Layer: 0
+  m_Name: SchoolBus_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4965273142096240
+Transform:
+  m_GameObject: {fileID: 1955201845457532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4100434064400309}
+  - {fileID: 4123547460912334}
+  - {fileID: 4135795771782305}
+  - {fileID: 4337787068037410}
+  - {fileID: 4585640129044511}
+  - {fileID: 4627382770513526}
+  - {fileID: 4494611532956326}
+  - {fileID: 4916340252603761}
+  - {fileID: 4719370147156028}
+  - {fileID: 4424432037185486}
+  - {fileID: 4324966207248326}
+  - {fileID: 4825486876538017}
+  - {fileID: 4576209684456977}
+  - {fileID: 4844905490156914}
+  - {fileID: 4372507538775880}
+  - {fileID: 4138258332624754}
+  - {fileID: 4205244719483562}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33047455506877219
+MeshFilter:
+  m_GameObject: {fileID: 1955201845457532}
+  m_Mesh: {fileID: 4300000, guid: 2b451d31899bab44c91371d94bb0d3eb, type: 2}
+--- !u!23 &23713427050175593
+MeshRenderer:
+  m_GameObject: {fileID: 1955201845457532}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 385f085d8f349da418c15f9449df73ad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64586406024791182
+MeshCollider:
+  m_GameObject: {fileID: 1955201845457532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 0a067350893a41247b8c59152f560976, type: 2}
+--- !u!1 &1620928786414834
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4100434064400309}
+  m_Layer: 0
+  m_Name: SchoolBusExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4100434064400309
+Transform:
+  m_GameObject: {fileID: 1620928786414834}
+  m_LocalRotation: {x: -0.5, y: -0.5000001, z: 0.4999999, w: 0.5000001}
+  m_LocalPosition: {x: 0.4841098, y: 0.6009936, z: -4.178581}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 1.536793E-05, z: -90}
+--- !u!1 &1114440285555895
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4123547460912334}
+  m_Layer: 0
+  m_Name: SchoolBusExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4123547460912334
+Transform:
+  m_GameObject: {fileID: 1114440285555895}
+  m_LocalRotation: {x: -0.5, y: -0.5000001, z: 0.4999999, w: 0.5000001}
+  m_LocalPosition: {x: -0.4010294, y: 0.6009936, z: -4.178581}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 1.536793E-05, z: -90}
+--- !u!1 &1537841471383263
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4135795771782305}
+  m_Layer: 0
+  m_Name: SchoolBusFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4135795771782305
+Transform:
+  m_GameObject: {fileID: 1537841471383263}
+  m_LocalRotation: {x: 0.7071068, y: -2.980235E-08, z: -0.7071068, w: -2.980235E-08}
+  m_LocalPosition: {x: -0.00285387, y: 2.153743, z: 3.630794}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1974184455957664
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4337787068037410}
+  - component: {fileID: 33869111521307833}
+  - component: {fileID: 23629378476559097}
+  m_Layer: 0
+  m_Name: SchoolBusGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4337787068037410
+Transform:
+  m_GameObject: {fileID: 1974184455957664}
+  m_LocalRotation: {x: 4.371138E-08, y: -7.54979E-08, z: -2.525961E-16, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 5.008955E-06, y: 8.651422E-06, z: 4.07111E-13}
+--- !u!33 &33869111521307833
+MeshFilter:
+  m_GameObject: {fileID: 1974184455957664}
+  m_Mesh: {fileID: 4300000, guid: 491e9e497a1ab6443a1d47bb51d08e11, type: 2}
+--- !u!23 &23629378476559097
+MeshRenderer:
+  m_GameObject: {fileID: 1974184455957664}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 385f085d8f349da418c15f9449df73ad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1603347005388935
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4585640129044511}
+  m_Layer: 0
+  m_Name: SchoolBusLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4585640129044511
+Transform:
+  m_GameObject: {fileID: 1603347005388935}
+  m_LocalRotation: {x: 0.5000001, y: 0.5, z: -0.5000001, w: 0.5}
+  m_LocalPosition: {x: -1.1174, y: 1.64167, z: 3.55927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -90, z: 0}
+--- !u!1 &1667497696555425
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4627382770513526}
+  m_Layer: 0
+  m_Name: SchoolBusLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4627382770513526
+Transform:
+  m_GameObject: {fileID: 1667497696555425}
+  m_LocalRotation: {x: -4.415035E-08, y: 0.7071067, z: 0.7071069, w: 5.960465E-08}
+  m_LocalPosition: {x: -0.9570231, y: 1.770969, z: -4.480728}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 89.99998, y: -8.407108E-06, z: -180}
+--- !u!1 &1598120612550711
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4494611532956326}
+  m_Layer: 0
+  m_Name: SchoolBusLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4494611532956326
+Transform:
+  m_GameObject: {fileID: 1598120612550711}
+  m_LocalRotation: {x: -0.7071068, y: 5.559767E-08, z: -5.25825E-08, w: 0.7071068}
+  m_LocalPosition: {x: -1.052705, y: 1.627043, z: 4.268941}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -90, y: -2.443146E-07, z: 8.765673E-06}
+--- !u!1 &1175005913630425
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4916340252603761}
+  m_Layer: 0
+  m_Name: SchoolBusLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4916340252603761
+Transform:
+  m_GameObject: {fileID: 1175005913630425}
+  m_LocalRotation: {x: -4.415035E-08, y: 0.7071067, z: 0.7071069, w: 5.960465E-08}
+  m_LocalPosition: {x: 0.9851369, y: 1.778168, z: -4.483992}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 89.99998, y: -8.407108E-06, z: -180}
+--- !u!1 &1884756380951963
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4719370147156028}
+  m_Layer: 0
+  m_Name: SchoolBusLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4719370147156028
+Transform:
+  m_GameObject: {fileID: 1884756380951963}
+  m_LocalRotation: {x: -0.7071068, y: 5.559767E-08, z: -5.25825E-08, w: 0.7071068}
+  m_LocalPosition: {x: 1.047146, y: 1.611004, z: 4.209861}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90, y: -2.443146E-07, z: 8.765673E-06}
+--- !u!1 &1566227031215847
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4424432037185486}
+  m_Layer: 0
+  m_Name: SchoolBusRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4424432037185486
+Transform:
+  m_GameObject: {fileID: 1566227031215847}
+  m_LocalRotation: {x: 0.5, y: 0.4999999, z: 0.5000001, w: 0.5}
+  m_LocalPosition: {x: 0.01406205, y: 1.275618, z: -5.161732}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 89.99998, y: 1.536793E-05, z: -90}
+--- !u!1 &1916359602522043
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4324966207248326}
+  m_Layer: 0
+  m_Name: SchoolBusRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4324966207248326
+Transform:
+  m_GameObject: {fileID: 1916359602522043}
+  m_LocalRotation: {x: -0.5, y: 0.5000001, z: 0.5, w: 0.5000001}
+  m_LocalPosition: {x: 1.099882, y: 1.635538, z: 3.546448}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -89.99999, y: -90, z: 0}
+--- !u!1 &1577136915908609
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4825486876538017}
+  m_Layer: 0
+  m_Name: SchoolBusSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4825486876538017
+Transform:
+  m_GameObject: {fileID: 1577136915908609}
+  m_LocalRotation: {x: -4.064219E-09, y: -0.7071068, z: -4.064219E-09, w: 0.7071068}
+  m_LocalPosition: {x: -0.00285387, y: 1.92496, z: 4.021532}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -6.586348E-07, y: 90, z: 0}
+--- !u!1 &1375614513710945
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4576209684456977}
+  m_Layer: 0
+  m_Name: SchoolBusSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4576209684456977
+Transform:
+  m_GameObject: {fileID: 1375614513710945}
+  m_LocalRotation: {x: 0.7071068, y: 1.490119E-08, z: 0.7071068, w: -1.490119E-08}
+  m_LocalPosition: {x: 0.01538777, y: 3.218466, z: -3.622797}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -180, y: 90, z: 0}
+--- !u!1 &1239825097785525
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4844905490156914}
+  - component: {fileID: 33339739970633860}
+  - component: {fileID: 23889331848474344}
+  m_Layer: 0
+  m_Name: SchoolBusWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4844905490156914
+Transform:
+  m_GameObject: {fileID: 1239825097785525}
+  m_LocalRotation: {x: 4.144534E-08, y: 0.7071068, z: 0.7071068, w: 2.037191E-08}
+  m_LocalPosition: {x: -1.046323, y: 0.5510821, z: -2.350767}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 90, y: 1.707547E-06, z: -180}
+--- !u!33 &33339739970633860
+MeshFilter:
+  m_GameObject: {fileID: 1239825097785525}
+  m_Mesh: {fileID: 4300000, guid: 0949d02170799014fb3bd78f58342ffa, type: 2}
+--- !u!23 &23889331848474344
+MeshRenderer:
+  m_GameObject: {fileID: 1239825097785525}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 385f085d8f349da418c15f9449df73ad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1764711967340478
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4372507538775880}
+  - component: {fileID: 33725629978343259}
+  - component: {fileID: 23774076914978953}
+  m_Layer: 0
+  m_Name: SchoolBusWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4372507538775880
+Transform:
+  m_GameObject: {fileID: 1764711967340478}
+  m_LocalRotation: {x: 4.144534E-08, y: 0.7071068, z: 0.7071068, w: 2.037191E-08}
+  m_LocalPosition: {x: -1.046324, y: 0.5510809, z: 3.544495}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 90, y: 1.707547E-06, z: -180}
+--- !u!33 &33725629978343259
+MeshFilter:
+  m_GameObject: {fileID: 1764711967340478}
+  m_Mesh: {fileID: 4300000, guid: 505b65a5db98d7a449cd32624603ba24, type: 2}
+--- !u!23 &23774076914978953
+MeshRenderer:
+  m_GameObject: {fileID: 1764711967340478}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 385f085d8f349da418c15f9449df73ad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1326455684743238
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4138258332624754}
+  - component: {fileID: 33774252595428632}
+  - component: {fileID: 23421322669731769}
+  m_Layer: 0
+  m_Name: SchoolBusWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4138258332624754
+Transform:
+  m_GameObject: {fileID: 1326455684743238}
+  m_LocalRotation: {x: 4.144534E-08, y: 0.7071068, z: 0.7071068, w: 2.037191E-08}
+  m_LocalPosition: {x: 1.07494, y: 0.5510821, z: -2.350766}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 90, y: 1.707547E-06, z: -180}
+--- !u!33 &33774252595428632
+MeshFilter:
+  m_GameObject: {fileID: 1326455684743238}
+  m_Mesh: {fileID: 4300000, guid: ffd18c4745192a248812e4f23c1fe2e3, type: 2}
+--- !u!23 &23421322669731769
+MeshRenderer:
+  m_GameObject: {fileID: 1326455684743238}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 385f085d8f349da418c15f9449df73ad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1451153292751460
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4205244719483562}
+  - component: {fileID: 33855976211453421}
+  - component: {fileID: 23801795715665054}
+  m_Layer: 0
+  m_Name: SchoolBusWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4205244719483562
+Transform:
+  m_GameObject: {fileID: 1451153292751460}
+  m_LocalRotation: {x: 4.144534E-08, y: 0.7071068, z: 0.7071068, w: 2.037191E-08}
+  m_LocalPosition: {x: 1.074939, y: 0.5510809, z: 3.544496}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4965273142096240}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 90, y: 1.707547E-06, z: -180}
+--- !u!33 &33855976211453421
+MeshFilter:
+  m_GameObject: {fileID: 1451153292751460}
+  m_Mesh: {fileID: 4300000, guid: 43fb6131a98c47044ae2ded52da54dc0, type: 2}
+--- !u!23 &23801795715665054
+MeshRenderer:
+  m_GameObject: {fileID: 1451153292751460}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 385f085d8f349da418c15f9449df73ad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

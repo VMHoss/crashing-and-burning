@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1115924117019715}
+  m_IsPrefabParent: 1
+--- !u!1 &1115924117019715
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4557129924108471}
+  - component: {fileID: 114774840185854673}
+  - component: {fileID: 114078952362678341}
+  - component: {fileID: 114389902135627368}
+  - component: {fileID: 114459445429225516}
+  m_Layer: 8
+  m_Name: OverlayNitro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4557129924108471
+Transform:
+  m_GameObject: {fileID: 1115924117019715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 50}
+  m_LocalScale: {x: 800, y: 450, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114774840185854673
+MonoBehaviour:
+  m_GameObject: {fileID: 1115924117019715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240d23d78cf2b454180e852e28ed21f1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 0}
+  mTex: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+  mPivot: 4
+  mDepth: -2
+  mAtlas: {fileID: 0}
+  mSpriteName: InterfaceNitro
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &114078952362678341
+MonoBehaviour:
+  m_GameObject: {fileID: 1115924117019715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756ff81f79dd724439bbb28ad7ad559d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  uiCamera: {fileID: 0}
+  widgetContainer: {fileID: 0}
+  panelContainer: {fileID: 0}
+  style: 3
+  relativeSize: {x: 1.2, y: 1.2}
+  initialSize: {x: 1, y: 1}
+--- !u!114 &114389902135627368
+MonoBehaviour:
+  m_GameObject: {fileID: 1115924117019715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 053fd847bf98cdb4485effcd03b1c652, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 2
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 5
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 1115924117019715}
+  callWhenFinished: DestroyMe
+  from: {r: 1, g: 1, b: 1, a: 0.5019608}
+  to: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &114459445429225516
+MonoBehaviour:
+  m_GameObject: {fileID: 1115924117019715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8bf839bae7904e4a84378813e5975fa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

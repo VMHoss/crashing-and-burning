@@ -1,0 +1,1285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1614827483755127}
+  m_IsPrefabParent: 1
+--- !u!1 &1614827483755127
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4020414597450283}
+  - component: {fileID: 95104341250226702}
+  m_Layer: 0
+  m_Name: PanzerTruck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4020414597450283
+Transform:
+  m_GameObject: {fileID: 1614827483755127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4409072325538187}
+  - {fileID: 4826301835947815}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95104341250226702
+Animator:
+  serializedVersion: 3
+  m_GameObject: {fileID: 1614827483755127}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 829264c897db3fa4a8f8d5aa775258d8, type: 2}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 0
+  m_AllowConstantClipSamplingOptimization: 0
+--- !u!1 &1583436182568361
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4409072325538187}
+  - component: {fileID: 33193251987542771}
+  - component: {fileID: 23941757962088810}
+  m_Layer: 0
+  m_Name: PanzerTruck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4409072325538187
+Transform:
+  m_GameObject: {fileID: 1583436182568361}
+  m_LocalRotation: {x: -1.688831E-07, y: 7.549792E-08, z: -7.549789E-08, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6584585, y: 0.6584585, z: 0.6584585}
+  m_Children:
+  - {fileID: 4711967610567327}
+  - {fileID: 4721273578281179}
+  - {fileID: 4949511619671926}
+  - {fileID: 4929815240382043}
+  - {fileID: 4687049894002897}
+  - {fileID: 4008996353396410}
+  - {fileID: 4234095123578051}
+  - {fileID: 4513712274361512}
+  - {fileID: 4742036546959518}
+  - {fileID: 4458896881496823}
+  - {fileID: 4548110348885565}
+  - {fileID: 4210368739548532}
+  - {fileID: 4822287796205989}
+  - {fileID: 4331155337921061}
+  - {fileID: 4435484674485852}
+  - {fileID: 4912882658912060}
+  - {fileID: 4285456017286239}
+  - {fileID: 4994042807636713}
+  - {fileID: 4943636171505213}
+  - {fileID: 4981418469753205}
+  - {fileID: 4291352461234049}
+  - {fileID: 4536122876897899}
+  - {fileID: 4196814347324375}
+  - {fileID: 4026201469434744}
+  - {fileID: 4725249392712834}
+  - {fileID: 4018258047205151}
+  m_Father: {fileID: 4020414597450283}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.935258E-05, y: -8.651422E-06, z: 8.651423E-06}
+--- !u!33 &33193251987542771
+MeshFilter:
+  m_GameObject: {fileID: 1583436182568361}
+  m_Mesh: {fileID: 4300000, guid: 94b961592d8dba84b897eb3de23807c4, type: 2}
+--- !u!23 &23941757962088810
+MeshRenderer:
+  m_GameObject: {fileID: 1583436182568361}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1870441535390426
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4711967610567327}
+  - component: {fileID: 33501967578278242}
+  - component: {fileID: 23799578768841769}
+  m_Layer: 0
+  m_Name: PanzerTruckCog01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4711967610567327
+Transform:
+  m_GameObject: {fileID: 1870441535390426}
+  m_LocalRotation: {x: -5.338509E-08, y: 0.7071068, z: 0.7071068, w: -5.338509E-08}
+  m_LocalPosition: {x: -0.1163114, y: 0.8624766, z: -1.359575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33501967578278242
+MeshFilter:
+  m_GameObject: {fileID: 1870441535390426}
+  m_Mesh: {fileID: 4300000, guid: d6957c673a9e57f4b883a3136809e726, type: 2}
+--- !u!23 &23799578768841769
+MeshRenderer:
+  m_GameObject: {fileID: 1870441535390426}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1943167785763320
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4721273578281179}
+  - component: {fileID: 33804158476843465}
+  - component: {fileID: 23348853303824655}
+  m_Layer: 0
+  m_Name: PanzerTruckCog02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4721273578281179
+Transform:
+  m_GameObject: {fileID: 1943167785763320}
+  m_LocalRotation: {x: -5.384891E-08, y: 0.7132504, z: 0.7009093, w: -5.291719E-08}
+  m_LocalPosition: {x: -0.1163108, y: 0.8623115, z: -2.744498}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90.99999, y: -1.368312E-13, z: 180}
+--- !u!33 &33804158476843465
+MeshFilter:
+  m_GameObject: {fileID: 1943167785763320}
+  m_Mesh: {fileID: 4300000, guid: 9ab0558f5fe74434894f4a4de3b0390f, type: 2}
+--- !u!23 &23348853303824655
+MeshRenderer:
+  m_GameObject: {fileID: 1943167785763320}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1176140691982288
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4949511619671926}
+  - component: {fileID: 33055376119771299}
+  - component: {fileID: 23186201435946101}
+  m_Layer: 0
+  m_Name: PanzerTruckCog03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4949511619671926
+Transform:
+  m_GameObject: {fileID: 1176140691982288}
+  m_LocalRotation: {x: -5.338509E-08, y: 0.7071068, z: 0.7071068, w: -5.338509E-08}
+  m_LocalPosition: {x: -0.1157544, y: 0.8624778, z: -4.116885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33055376119771299
+MeshFilter:
+  m_GameObject: {fileID: 1176140691982288}
+  m_Mesh: {fileID: 4300000, guid: bb0ca00fbeb97fa42af480de4b5b91dc, type: 2}
+--- !u!23 &23186201435946101
+MeshRenderer:
+  m_GameObject: {fileID: 1176140691982288}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1338037577590123
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4929815240382043}
+  - component: {fileID: 33534238483997573}
+  - component: {fileID: 23019233756002821}
+  m_Layer: 0
+  m_Name: PanzerTruckCog04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4929815240382043
+Transform:
+  m_GameObject: {fileID: 1338037577590123}
+  m_LocalRotation: {x: -5.338509E-08, y: 0.7071068, z: 0.7071068, w: -5.338509E-08}
+  m_LocalPosition: {x: -0.1163095, y: 0.8624786, z: -5.488054}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33534238483997573
+MeshFilter:
+  m_GameObject: {fileID: 1338037577590123}
+  m_Mesh: {fileID: 4300000, guid: 0bb86d1697c18554898aebb66f76f602, type: 2}
+--- !u!23 &23019233756002821
+MeshRenderer:
+  m_GameObject: {fileID: 1338037577590123}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1915083657081443
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4687049894002897}
+  m_Layer: 0
+  m_Name: PanzerTruckExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4687049894002897
+Transform:
+  m_GameObject: {fileID: 1915083657081443}
+  m_LocalRotation: {x: -0.3535532, y: -0.6123727, z: 0.3535531, w: 0.6123724}
+  m_LocalPosition: {x: -1.307542, y: 6.30558, z: -0.4101844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90.00003, y: 30.00004, z: -90.00002}
+--- !u!1 &1987523985869696
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4008996353396410}
+  m_Layer: 0
+  m_Name: PanzerTruckExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008996353396410
+Transform:
+  m_GameObject: {fileID: 1987523985869696}
+  m_LocalRotation: {x: -0.3535533, y: -0.6123726, z: 0.3535532, w: 0.6123724}
+  m_LocalPosition: {x: 1.118869, y: 6.307662, z: -0.409888}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90.00002, y: 30.00003, z: -90.00002}
+--- !u!1 &1082151547347218
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4234095123578051}
+  m_Layer: 0
+  m_Name: PanzerTruckFrontWeapon_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4234095123578051
+Transform:
+  m_GameObject: {fileID: 1082151547347218}
+  m_LocalRotation: {x: 0.7071068, y: -6.219637E-09, z: -0.7071068, w: -6.219637E-09}
+  m_LocalPosition: {x: -0.1201083, y: 4.437472, z: 0.4316449}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1681675439159889
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4513712274361512}
+  - component: {fileID: 33584913210643892}
+  - component: {fileID: 23728473034382262}
+  m_Layer: 0
+  m_Name: PanzerTruckGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4513712274361512
+Transform:
+  m_GameObject: {fileID: 1681675439159889}
+  m_LocalRotation: {x: 1.192488E-08, y: -7.549793E-08, z: 9.003039E-16, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 1.366491E-06, y: 8.651426E-06, z: 2.975903E-21}
+--- !u!33 &33584913210643892
+MeshFilter:
+  m_GameObject: {fileID: 1681675439159889}
+  m_Mesh: {fileID: 4300000, guid: 1b7c38f87b1ac8441978ff72e1e2f29c, type: 2}
+--- !u!23 &23728473034382262
+MeshRenderer:
+  m_GameObject: {fileID: 1681675439159889}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1385935488915998
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4742036546959518}
+  - component: {fileID: 33093394953392903}
+  - component: {fileID: 23694733247826839}
+  m_Layer: 0
+  m_Name: PanzerTruckLeftBackGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4742036546959518
+Transform:
+  m_GameObject: {fileID: 1385935488915998}
+  m_LocalRotation: {x: -0.6243386, y: 0.3319662, z: 0.3319667, w: 0.624338}
+  m_LocalPosition: {x: -1.670793, y: 3.602392, z: -6.53157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90.00005, y: -55.99998, z: -1.664662E-05}
+--- !u!33 &33093394953392903
+MeshFilter:
+  m_GameObject: {fileID: 1385935488915998}
+  m_Mesh: {fileID: 4300000, guid: d30606514d86f8245b6f32e1ea5d5f1e, type: 2}
+--- !u!23 &23694733247826839
+MeshRenderer:
+  m_GameObject: {fileID: 1385935488915998}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1600955019927303
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4458896881496823}
+  - component: {fileID: 33535636681171138}
+  - component: {fileID: 23010742629896308}
+  m_Layer: 0
+  m_Name: PanzerTruckLeftGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4458896881496823
+Transform:
+  m_GameObject: {fileID: 1600955019927303}
+  m_LocalRotation: {x: 0.5000001, y: -0.5, z: -0.5000001, w: -0.5}
+  m_LocalPosition: {x: -1.893124, y: 3.470847, z: -3.883163}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: -90.00002, y: -90, z: 0}
+--- !u!33 &33535636681171138
+MeshFilter:
+  m_GameObject: {fileID: 1600955019927303}
+  m_Mesh: {fileID: 4300000, guid: f0a637a72766e6a40b5c4f6a31243f9d, type: 2}
+--- !u!23 &23010742629896308
+MeshRenderer:
+  m_GameObject: {fileID: 1600955019927303}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1768160085178119
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4548110348885565}
+  m_Layer: 0
+  m_Name: PanzerTruckLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4548110348885565
+Transform:
+  m_GameObject: {fileID: 1768160085178119}
+  m_LocalRotation: {x: 0.7071068, y: -6.219627E-09, z: -0.7071068, w: -6.219627E-09}
+  m_LocalPosition: {x: -1.361762, y: 2.386022, z: 3.142952}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1926036291055403
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4210368739548532}
+  m_Layer: 0
+  m_Name: PanzerTruckLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4210368739548532
+Transform:
+  m_GameObject: {fileID: 1926036291055403}
+  m_LocalRotation: {x: 0.7071068, y: -6.219627E-09, z: -0.7071068, w: -6.219627E-09}
+  m_LocalPosition: {x: -2.124421, y: 1.515808, z: -6.962765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1517008811422092
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4822287796205989}
+  m_Layer: 0
+  m_Name: PanzerTruckLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4822287796205989
+Transform:
+  m_GameObject: {fileID: 1517008811422092}
+  m_LocalRotation: {x: 0.7071068, y: -6.219627E-09, z: -0.7071068, w: -6.219627E-09}
+  m_LocalPosition: {x: -1.208381, y: 2.055271, z: 4.141831}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1173229692472272
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4331155337921061}
+  m_Layer: 0
+  m_Name: PanzerTruckLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4331155337921061
+Transform:
+  m_GameObject: {fileID: 1173229692472272}
+  m_LocalRotation: {x: 0.7071068, y: -6.219627E-09, z: -0.7071068, w: -6.219627E-09}
+  m_LocalPosition: {x: 1.945689, y: 1.515809, z: -6.962763}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1180297068494075
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4435484674485852}
+  m_Layer: 0
+  m_Name: PanzerTruckLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4435484674485852
+Transform:
+  m_GameObject: {fileID: 1180297068494075}
+  m_LocalRotation: {x: 0.7071068, y: -6.219627E-09, z: -0.7071068, w: -6.219627E-09}
+  m_LocalPosition: {x: 0.9875923, y: 2.055271, z: 4.141831}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1037977471434966
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4912882658912060}
+  m_Layer: 0
+  m_Name: PanzerTruckRearWeapon_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4912882658912060
+Transform:
+  m_GameObject: {fileID: 1037977471434966}
+  m_LocalRotation: {x: 0.7071068, y: -6.219627E-09, z: -0.7071068, w: -6.219627E-09}
+  m_LocalPosition: {x: -0.1013523, y: 1.02978, z: -6.744159}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1063117183215946
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4285456017286239}
+  - component: {fileID: 33153192959442368}
+  - component: {fileID: 23060159148558705}
+  m_Layer: 0
+  m_Name: PanzerTruckRightBackGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4285456017286239
+Transform:
+  m_GameObject: {fileID: 1063117183215946}
+  m_LocalRotation: {x: -0.6243385, y: -0.3319667, z: -0.3319668, w: 0.6243379}
+  m_LocalPosition: {x: 1.4421, y: 3.602393, z: -6.541741}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: -90.00007, y: 56.00003, z: -2.935063E-05}
+--- !u!33 &33153192959442368
+MeshFilter:
+  m_GameObject: {fileID: 1063117183215946}
+  m_Mesh: {fileID: 4300000, guid: f5fa646afe27ec748bfef6e718e33838, type: 2}
+--- !u!23 &23060159148558705
+MeshRenderer:
+  m_GameObject: {fileID: 1063117183215946}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1747032536278801
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4994042807636713}
+  - component: {fileID: 33285184033146138}
+  - component: {fileID: 23834143951192524}
+  m_Layer: 0
+  m_Name: PanzerTruckRightGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4994042807636713
+Transform:
+  m_GameObject: {fileID: 1747032536278801}
+  m_LocalRotation: {x: -0.5, y: -0.5000001, z: -0.5, w: 0.5000001}
+  m_LocalPosition: {x: 1.688648, y: 3.470847, z: -3.883161}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 90, z: 0}
+--- !u!33 &33285184033146138
+MeshFilter:
+  m_GameObject: {fileID: 1747032536278801}
+  m_Mesh: {fileID: 4300000, guid: 6e8a2d076a14fc54c834653d86c11b07, type: 2}
+--- !u!23 &23834143951192524
+MeshRenderer:
+  m_GameObject: {fileID: 1747032536278801}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1151180951454988
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4943636171505213}
+  m_Layer: 0
+  m_Name: PanzerTruckRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4943636171505213
+Transform:
+  m_GameObject: {fileID: 1151180951454988}
+  m_LocalRotation: {x: 0.7071068, y: -6.219627E-09, z: -0.7071068, w: -6.219627E-09}
+  m_LocalPosition: {x: 1.147459, y: 2.386021, z: 3.130671}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1446824073179447
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4981418469753205}
+  m_Layer: 0
+  m_Name: PanzerTruckSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4981418469753205
+Transform:
+  m_GameObject: {fileID: 1446824073179447}
+  m_LocalRotation: {x: 3.014578E-14, y: -0.7071068, z: 3.014578E-14, w: 0.7071068}
+  m_LocalPosition: {x: -0.1201096, y: 3.042776, z: 3.176873}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 4.885332E-12, y: 90, z: 0}
+--- !u!1 &1435721722303789
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4291352461234049}
+  m_Layer: 0
+  m_Name: PanzerTruckSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4291352461234049
+Transform:
+  m_GameObject: {fileID: 1435721722303789}
+  m_LocalRotation: {x: 0.7071068, y: 1.067702E-07, z: -0.7071068, w: 1.067702E-07}
+  m_LocalPosition: {x: -0.1201064, y: 5.31715, z: -3.889846}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
+--- !u!1 &1738130263956076
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4536122876897899}
+  - component: {fileID: 33913626976731749}
+  - component: {fileID: 23983736870915902}
+  m_Layer: 0
+  m_Name: PanzerTruckTracks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4536122876897899
+Transform:
+  m_GameObject: {fileID: 1738130263956076}
+  m_LocalRotation: {x: -5.338509E-08, y: 0.7071068, z: 0.7071068, w: -5.338509E-08}
+  m_LocalPosition: {x: -0.02894371, y: 0.8310902, z: -3.429786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33913626976731749
+MeshFilter:
+  m_GameObject: {fileID: 1738130263956076}
+  m_Mesh: {fileID: 4300000, guid: b2ceaa3a31a614c4ea8e176961c4b297, type: 2}
+--- !u!23 &23983736870915902
+MeshRenderer:
+  m_GameObject: {fileID: 1738130263956076}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1259319345188033
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4196814347324375}
+  - component: {fileID: 33697213448664444}
+  - component: {fileID: 23812241832621279}
+  m_Layer: 0
+  m_Name: PanzerTruckWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4196814347324375
+Transform:
+  m_GameObject: {fileID: 1259319345188033}
+  m_LocalRotation: {x: -5.338506E-08, y: 0.7071065, z: 0.7071072, w: -5.338511E-08}
+  m_LocalPosition: {x: -1.999999, y: 0.8852589, z: -3.395287}
+  m_LocalScale: {x: 1.700967, y: 1.556844, z: 1.556844}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 89.99995, y: -3.45369E-13, z: 180}
+--- !u!33 &33697213448664444
+MeshFilter:
+  m_GameObject: {fileID: 1259319345188033}
+  m_Mesh: {fileID: 4300000, guid: d888737d0796a124db39c524dc369083, type: 2}
+--- !u!23 &23812241832621279
+MeshRenderer:
+  m_GameObject: {fileID: 1259319345188033}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1158145318060761
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4026201469434744}
+  - component: {fileID: 33065704253396823}
+  - component: {fileID: 23957951179416157}
+  m_Layer: 0
+  m_Name: PanzerTruckWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4026201469434744
+Transform:
+  m_GameObject: {fileID: 1158145318060761}
+  m_LocalRotation: {x: -5.338506E-08, y: 0.7071065, z: 0.7071072, w: -5.338511E-08}
+  m_LocalPosition: {x: -1.236444, y: 0.8852488, z: 3.08779}
+  m_LocalScale: {x: 1.700967, y: 1.556844, z: 1.556844}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 89.99995, y: -3.45369E-13, z: 180}
+--- !u!33 &33065704253396823
+MeshFilter:
+  m_GameObject: {fileID: 1158145318060761}
+  m_Mesh: {fileID: 4300000, guid: 3f1fb225e2e574f45a687671a4e90218, type: 2}
+--- !u!23 &23957951179416157
+MeshRenderer:
+  m_GameObject: {fileID: 1158145318060761}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1355608788220073
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4725249392712834}
+  - component: {fileID: 33190555371921499}
+  - component: {fileID: 23592289483846231}
+  m_Layer: 0
+  m_Name: PanzerTruckWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4725249392712834
+Transform:
+  m_GameObject: {fileID: 1355608788220073}
+  m_LocalRotation: {x: -5.338506E-08, y: 0.7071065, z: 0.7071072, w: -5.338511E-08}
+  m_LocalPosition: {x: 2.000001, y: 0.8852594, z: -3.395286}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 89.99995, y: -3.453693E-13, z: 180}
+--- !u!33 &33190555371921499
+MeshFilter:
+  m_GameObject: {fileID: 1355608788220073}
+  m_Mesh: {fileID: 4300000, guid: fef18d4d0447dd64b85cc1f0c928a061, type: 2}
+--- !u!23 &23592289483846231
+MeshRenderer:
+  m_GameObject: {fileID: 1355608788220073}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1835667977558121
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4018258047205151}
+  - component: {fileID: 33270629479103637}
+  - component: {fileID: 23370932042657493}
+  m_Layer: 0
+  m_Name: PanzerTruckWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4018258047205151
+Transform:
+  m_GameObject: {fileID: 1835667977558121}
+  m_LocalRotation: {x: -5.338506E-08, y: 0.7071065, z: 0.7071072, w: -5.338511E-08}
+  m_LocalPosition: {x: 1.026785, y: 0.8852487, z: 3.087791}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4409072325538187}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 89.99995, y: -3.453693E-13, z: 180}
+--- !u!33 &33270629479103637
+MeshFilter:
+  m_GameObject: {fileID: 1835667977558121}
+  m_Mesh: {fileID: 4300000, guid: 54632033846525f4c900818c39b4ea76, type: 2}
+--- !u!23 &23370932042657493
+MeshRenderer:
+  m_GameObject: {fileID: 1835667977558121}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1728797206101447
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4826301835947815}
+  - component: {fileID: 33839498507145222}
+  - component: {fileID: 23451030335009618}
+  m_Layer: 0
+  m_Name: PanzerTruckProxy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4826301835947815
+Transform:
+  m_GameObject: {fileID: 1728797206101447}
+  m_LocalRotation: {x: -2.18557E-08, y: 7.54979E-08, z: -7.54979E-08, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
+  m_Children: []
+  m_Father: {fileID: 4020414597450283}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -2.504479E-06, y: -8.651422E-06, z: 8.651423E-06}
+--- !u!33 &33839498507145222
+MeshFilter:
+  m_GameObject: {fileID: 1728797206101447}
+  m_Mesh: {fileID: 4300000, guid: 60531f150c7673c439201d917c58b7d5, type: 2}
+--- !u!23 &23451030335009618
+MeshRenderer:
+  m_GameObject: {fileID: 1728797206101447}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

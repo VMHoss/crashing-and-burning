@@ -1,0 +1,3300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1940629190240657}
+  m_IsPrefabParent: 1
+--- !u!1 &1940629190240657
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4093884475790794}
+  - component: {fileID: 111538642415625107}
+  - component: {fileID: 205566990287503087}
+  m_Layer: 0
+  m_Name: Traffic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4093884475790794
+Transform:
+  m_GameObject: {fileID: 1940629190240657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009806325303496}
+  - {fileID: 4714724752585234}
+  - {fileID: 4087506920333802}
+  - {fileID: 4969275178966802}
+  - {fileID: 4364810947569781}
+  - {fileID: 4508618225210776}
+  - {fileID: 4778175285461673}
+  - {fileID: 4982200627729425}
+  - {fileID: 4418316273750511}
+  - {fileID: 4133644046186258}
+  - {fileID: 4882940871385751}
+  - {fileID: 4560556521959125}
+  - {fileID: 4578684658057680}
+  - {fileID: 4280251604182712}
+  - {fileID: 4576143365484235}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111538642415625107
+Animation:
+  m_GameObject: {fileID: 1940629190240657}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!205 &205566990287503087
+LODGroup:
+  m_GameObject: {fileID: 1940629190240657}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 3.232769, z: -1.614899}
+  m_Size: 26.69047
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23807718373155650}
+    - renderer: {fileID: 23485404921037770}
+    - renderer: {fileID: 23067852459420003}
+    - renderer: {fileID: 23617544944062823}
+    - renderer: {fileID: 23250339583133609}
+    - renderer: {fileID: 23199410499476291}
+    - renderer: {fileID: 23615360722685629}
+    - renderer: {fileID: 23781255021424848}
+    - renderer: {fileID: 23742934234595449}
+    - renderer: {fileID: 23903730169123171}
+    - renderer: {fileID: 23404626831998568}
+    - renderer: {fileID: 23469367075519512}
+    - renderer: {fileID: 23745137013449235}
+    - renderer: {fileID: 23488552727715036}
+    - renderer: {fileID: 23475449273287143}
+  - screenRelativeHeight: 0.01
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23046535367399948}
+    - renderer: {fileID: 23086324884207974}
+    - renderer: {fileID: 23745083938991404}
+    - renderer: {fileID: 23079052969816957}
+    - renderer: {fileID: 23155954681376003}
+    - renderer: {fileID: 23209428520750318}
+    - renderer: {fileID: 23903566932726964}
+    - renderer: {fileID: 23657809483022155}
+    - renderer: {fileID: 23713730030809412}
+    - renderer: {fileID: 23127882994629789}
+    - renderer: {fileID: 23966827201827498}
+    - renderer: {fileID: 23227784021310919}
+    - renderer: {fileID: 23854610473087586}
+    - renderer: {fileID: 23758664135562837}
+    - renderer: {fileID: 23511943525531879}
+  m_Enabled: 1
+--- !u!1 &1661705706398076
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4009806325303496}
+  m_Layer: 0
+  m_Name: Traffic_ArmoredTruck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009806325303496
+Transform:
+  m_GameObject: {fileID: 1661705706398076}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4762461282619199}
+  - {fileID: 4561836241720246}
+  - {fileID: 4229280645264122}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1988858517730903
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4762461282619199}
+  - component: {fileID: 33266623474147753}
+  - component: {fileID: 23807718373155650}
+  m_Layer: 0
+  m_Name: Traffic_ArmoredTruck_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4762461282619199
+Transform:
+  m_GameObject: {fileID: 1988858517730903}
+  m_LocalRotation: {x: 0.7071068, y: -2.304047E-07, z: -2.304046E-07, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009806325303496}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 3.454451E-12, z: 3.733867E-05}
+--- !u!33 &33266623474147753
+MeshFilter:
+  m_GameObject: {fileID: 1988858517730903}
+  m_Mesh: {fileID: 4300000, guid: a4cec80c9961aab4a8433b142a88a239, type: 2}
+--- !u!23 &23807718373155650
+MeshRenderer:
+  m_GameObject: {fileID: 1988858517730903}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1338929376870946
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4561836241720246}
+  - component: {fileID: 33871553966489437}
+  - component: {fileID: 23046535367399948}
+  m_Layer: 0
+  m_Name: Traffic_ArmoredTruck_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4561836241720246
+Transform:
+  m_GameObject: {fileID: 1338929376870946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01585388, y: 0.1984859, z: 0.5841687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009806325303496}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33871553966489437
+MeshFilter:
+  m_GameObject: {fileID: 1338929376870946}
+  m_Mesh: {fileID: 4300000, guid: ea7450807c28309439cb8a256077f42d, type: 2}
+--- !u!23 &23046535367399948
+MeshRenderer:
+  m_GameObject: {fileID: 1338929376870946}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1444199982540613
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4229280645264122}
+  - component: {fileID: 33984224541474089}
+  - component: {fileID: 23136094231166659}
+  m_Layer: 0
+  m_Name: Traffic_ArmoredTruckShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4229280645264122
+Transform:
+  m_GameObject: {fileID: 1444199982540613}
+  m_LocalRotation: {x: -7.383541E-14, y: 1.23059E-13, z: 7.742215E-08, w: 1}
+  m_LocalPosition: {x: -2.256929E-23, y: -8.97545E-17, z: -1.323489E-23}
+  m_LocalScale: {x: 1.1548, y: 1.1548, z: 1.1548}
+  m_Children: []
+  m_Father: {fileID: 4009806325303496}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -8.460913E-12, y: -1.410152E-11, z: -8.871925E-06}
+--- !u!33 &33984224541474089
+MeshFilter:
+  m_GameObject: {fileID: 1444199982540613}
+  m_Mesh: {fileID: 4300000, guid: 29a9a512cdff19f47af898e7eec78fd2, type: 2}
+--- !u!23 &23136094231166659
+MeshRenderer:
+  m_GameObject: {fileID: 1444199982540613}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1445604388993268
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4714724752585234}
+  m_Layer: 0
+  m_Name: Traffic_AutoTruck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4714724752585234
+Transform:
+  m_GameObject: {fileID: 1445604388993268}
+  m_LocalRotation: {x: -0.7071068, y: -5.102801E-15, z: -5.102801E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4132825156185046}
+  - {fileID: 4177129816515456}
+  - {fileID: 4645845686978232}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 8.269443E-13, z: 0}
+--- !u!1 &1823210510111431
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4132825156185046}
+  - component: {fileID: 33762465916559985}
+  - component: {fileID: 23485404921037770}
+  m_Layer: 0
+  m_Name: Traffic_AutoTruck_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4132825156185046
+Transform:
+  m_GameObject: {fileID: 1823210510111431}
+  m_LocalRotation: {x: 0.7071069, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4714724752585234}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
+--- !u!33 &33762465916559985
+MeshFilter:
+  m_GameObject: {fileID: 1823210510111431}
+  m_Mesh: {fileID: 4300000, guid: 14986dea4616a4d4fbea96e1250aff05, type: 2}
+--- !u!23 &23485404921037770
+MeshRenderer:
+  m_GameObject: {fileID: 1823210510111431}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1409576647476327
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4177129816515456}
+  - component: {fileID: 33096729473420276}
+  - component: {fileID: 23086324884207974}
+  m_Layer: 0
+  m_Name: Traffic_AutoTruck_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4177129816515456
+Transform:
+  m_GameObject: {fileID: 1409576647476327}
+  m_LocalRotation: {x: 0, y: 0, z: -5.551115E-16, w: 1}
+  m_LocalPosition: {x: 0.09991354, y: 1.63279, z: 0.6159467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4714724752585234}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.36111E-14}
+--- !u!33 &33096729473420276
+MeshFilter:
+  m_GameObject: {fileID: 1409576647476327}
+  m_Mesh: {fileID: 4300000, guid: 0c0cb659ba1d50e4686addb2cfe68858, type: 2}
+--- !u!23 &23086324884207974
+MeshRenderer:
+  m_GameObject: {fileID: 1409576647476327}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1971476796047907
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4645845686978232}
+  - component: {fileID: 33415055903256342}
+  - component: {fileID: 23869657696930937}
+  m_Layer: 0
+  m_Name: Traffic_AutoTruckShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4645845686978232
+Transform:
+  m_GameObject: {fileID: 1971476796047907}
+  m_LocalRotation: {x: 0.7071069, y: -3.925232E-16, z: -3.925231E-16, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4714724752585234}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.072403E-21, z: 6.36111E-14}
+--- !u!33 &33415055903256342
+MeshFilter:
+  m_GameObject: {fileID: 1971476796047907}
+  m_Mesh: {fileID: 4300000, guid: a9678aa4d586c4d4e999efc52d3995a8, type: 2}
+--- !u!23 &23869657696930937
+MeshRenderer:
+  m_GameObject: {fileID: 1971476796047907}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1300500145643779
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4087506920333802}
+  m_Layer: 0
+  m_Name: Traffic_Bus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4087506920333802
+Transform:
+  m_GameObject: {fileID: 1300500145643779}
+  m_LocalRotation: {x: -0.7071068, y: -4.019437E-14, z: -4.019437E-14, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4636864368011116}
+  - {fileID: 4954579967377556}
+  - {fileID: 4468336765083650}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -90, y: 6.513776E-12, z: 0}
+--- !u!1 &1524304937603359
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4636864368011116}
+  - component: {fileID: 33693286053565328}
+  - component: {fileID: 23067852459420003}
+  m_Layer: 0
+  m_Name: Traffic_Bus_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4636864368011116
+Transform:
+  m_GameObject: {fileID: 1524304937603359}
+  m_LocalRotation: {x: 0.7071068, y: 2.304047E-07, z: 2.304047E-07, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4087506920333802}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: -1.151484E-12, z: -3.733867E-05}
+--- !u!33 &33693286053565328
+MeshFilter:
+  m_GameObject: {fileID: 1524304937603359}
+  m_Mesh: {fileID: 4300000, guid: 4c51642391ce4154891878cda8dc27fc, type: 2}
+--- !u!23 &23067852459420003
+MeshRenderer:
+  m_GameObject: {fileID: 1524304937603359}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1246414566995581
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4954579967377556}
+  - component: {fileID: 33495632742587771}
+  - component: {fileID: 23745083938991404}
+  m_Layer: 0
+  m_Name: Traffic_Bus_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4954579967377556
+Transform:
+  m_GameObject: {fileID: 1246414566995581}
+  m_LocalRotation: {x: 5.960464E-08, y: -1.424299E-14, z: 8.489482E-22, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4087506920333802}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 6.830189E-06, y: 1.632126E-12, z: 0}
+--- !u!33 &33495632742587771
+MeshFilter:
+  m_GameObject: {fileID: 1246414566995581}
+  m_Mesh: {fileID: 4300000, guid: 8482972874064ea418e029f386f648fa, type: 2}
+--- !u!23 &23745083938991404
+MeshRenderer:
+  m_GameObject: {fileID: 1246414566995581}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1656218021140325
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4468336765083650}
+  - component: {fileID: 33103046658079648}
+  - component: {fileID: 23068378017190557}
+  m_Layer: 0
+  m_Name: Traffic_BusShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4468336765083650
+Transform:
+  m_GameObject: {fileID: 1656218021140325}
+  m_LocalRotation: {x: 0.7071069, y: 4.636154E-07, z: 4.636154E-07, w: 0.7071067}
+  m_LocalPosition: {x: -2.605121E-23, y: 7.772294E-17, z: 1.323489E-23}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4087506920333802}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 9.49974E-12, z: -7.513208E-05}
+--- !u!33 &33103046658079648
+MeshFilter:
+  m_GameObject: {fileID: 1656218021140325}
+  m_Mesh: {fileID: 4300000, guid: fb20fc2faa600644196060dc84ce5a22, type: 2}
+--- !u!23 &23068378017190557
+MeshRenderer:
+  m_GameObject: {fileID: 1656218021140325}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1402143413220601
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4969275178966802}
+  m_Layer: 0
+  m_Name: Traffic_Camper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4969275178966802
+Transform:
+  m_GameObject: {fileID: 1402143413220601}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4048449081173444}
+  - {fileID: 4965486468032072}
+  - {fileID: 4097476612996735}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1613527651012341
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4048449081173444}
+  - component: {fileID: 33773894889737772}
+  - component: {fileID: 23617544944062823}
+  m_Layer: 0
+  m_Name: Traffic_Camper_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4048449081173444
+Transform:
+  m_GameObject: {fileID: 1613527651012341}
+  m_LocalRotation: {x: 0.7071068, y: -5.299064E-15, z: -5.299063E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4969275178966802}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 6.863378E-20, z: 8.5875E-13}
+--- !u!33 &33773894889737772
+MeshFilter:
+  m_GameObject: {fileID: 1613527651012341}
+  m_Mesh: {fileID: 4300000, guid: 44a81afff1253de4aaa18b2415c00b8a, type: 2}
+--- !u!23 &23617544944062823
+MeshRenderer:
+  m_GameObject: {fileID: 1613527651012341}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1276656808717106
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4965486468032072}
+  - component: {fileID: 33868916815631616}
+  - component: {fileID: 23079052969816957}
+  m_Layer: 0
+  m_Name: Traffic_Camper_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4965486468032072
+Transform:
+  m_GameObject: {fileID: 1276656808717106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0322997, y: -0.1453488, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4969275178966802}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33868916815631616
+MeshFilter:
+  m_GameObject: {fileID: 1276656808717106}
+  m_Mesh: {fileID: 4300000, guid: e43ecb4a49a6fa24c820740632d80eac, type: 2}
+--- !u!23 &23079052969816957
+MeshRenderer:
+  m_GameObject: {fileID: 1276656808717106}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1456239441562763
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4097476612996735}
+  - component: {fileID: 33722557970377829}
+  - component: {fileID: 23973520112383397}
+  m_Layer: 0
+  m_Name: Traffic_CamperShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4097476612996735
+Transform:
+  m_GameObject: {fileID: 1456239441562763}
+  m_LocalRotation: {x: 0, y: 0, z: -7.453298E-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4969275178966802}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.54085E-13}
+--- !u!33 &33722557970377829
+MeshFilter:
+  m_GameObject: {fileID: 1456239441562763}
+  m_Mesh: {fileID: 4300000, guid: 75c699d4b894ec7418d2820d8255c5a1, type: 2}
+--- !u!23 &23973520112383397
+MeshRenderer:
+  m_GameObject: {fileID: 1456239441562763}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1237578803472587
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4364810947569781}
+  m_Layer: 0
+  m_Name: Traffic_Eldorado
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4364810947569781
+Transform:
+  m_GameObject: {fileID: 1237578803472587}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4855614088390151}
+  - {fileID: 4435292209393615}
+  - {fileID: 4562275331267049}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1890616667162275
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4855614088390151}
+  - component: {fileID: 33742048969799443}
+  - component: {fileID: 23250339583133609}
+  m_Layer: 0
+  m_Name: Traffic_Eldorado_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4855614088390151
+Transform:
+  m_GameObject: {fileID: 1890616667162275}
+  m_LocalRotation: {x: 0.7071068, y: -5.299064E-15, z: -5.299063E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4364810947569781}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 6.863378E-20, z: 8.5875E-13}
+--- !u!33 &33742048969799443
+MeshFilter:
+  m_GameObject: {fileID: 1890616667162275}
+  m_Mesh: {fileID: 4300000, guid: ce7f4595140921646bbc28e358d496a4, type: 2}
+--- !u!23 &23250339583133609
+MeshRenderer:
+  m_GameObject: {fileID: 1890616667162275}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1595603217001394
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4435292209393615}
+  - component: {fileID: 33618007997766352}
+  - component: {fileID: 23155954681376003}
+  m_Layer: 0
+  m_Name: Traffic_Eldorado_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4435292209393615
+Transform:
+  m_GameObject: {fileID: 1595603217001394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0009839237, y: 0.5637164, z: 0}
+  m_LocalScale: {x: 0.9489612, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4364810947569781}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33618007997766352
+MeshFilter:
+  m_GameObject: {fileID: 1595603217001394}
+  m_Mesh: {fileID: 4300000, guid: 61c297ba2a49c204d972614a8c232fd3, type: 2}
+--- !u!23 &23155954681376003
+MeshRenderer:
+  m_GameObject: {fileID: 1595603217001394}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1237709118421896
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4562275331267049}
+  - component: {fileID: 33571135525343839}
+  - component: {fileID: 23977037216962548}
+  m_Layer: 0
+  m_Name: Traffic_EldoradoShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4562275331267049
+Transform:
+  m_GameObject: {fileID: 1237709118421896}
+  m_LocalRotation: {x: 0, y: 0, z: -7.453298E-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4364810947569781}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.54085E-13}
+--- !u!33 &33571135525343839
+MeshFilter:
+  m_GameObject: {fileID: 1237709118421896}
+  m_Mesh: {fileID: 4300000, guid: 1de584b7ee9608b438f1b883ca29f3ca, type: 2}
+--- !u!23 &23977037216962548
+MeshRenderer:
+  m_GameObject: {fileID: 1237709118421896}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1477475927875253
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4508618225210776}
+  m_Layer: 0
+  m_Name: Traffic_Hound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4508618225210776
+Transform:
+  m_GameObject: {fileID: 1477475927875253}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4600190544528273}
+  - {fileID: 4381103156913052}
+  - {fileID: 4875580838765872}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1855931781186918
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4600190544528273}
+  - component: {fileID: 33472590502017249}
+  - component: {fileID: 23199410499476291}
+  m_Layer: 0
+  m_Name: Traffic_Hound_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4600190544528273
+Transform:
+  m_GameObject: {fileID: 1855931781186918}
+  m_LocalRotation: {x: 0.7071068, y: -5.299064E-15, z: -5.299063E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4508618225210776}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 6.863378E-20, z: 8.5875E-13}
+--- !u!33 &33472590502017249
+MeshFilter:
+  m_GameObject: {fileID: 1855931781186918}
+  m_Mesh: {fileID: 4300000, guid: d62bd25c1f7dd164f8f8d793624572a9, type: 2}
+--- !u!23 &23199410499476291
+MeshRenderer:
+  m_GameObject: {fileID: 1855931781186918}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1197577687100938
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4381103156913052}
+  - component: {fileID: 33307854545587677}
+  - component: {fileID: 23209428520750318}
+  m_Layer: 0
+  m_Name: Traffic_Hound_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4381103156913052
+Transform:
+  m_GameObject: {fileID: 1197577687100938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0322898, y: 0.2987663, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4508618225210776}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33307854545587677
+MeshFilter:
+  m_GameObject: {fileID: 1197577687100938}
+  m_Mesh: {fileID: 4300000, guid: 689ea3a1a8492b7469cfbdb6238931eb, type: 2}
+--- !u!23 &23209428520750318
+MeshRenderer:
+  m_GameObject: {fileID: 1197577687100938}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1792826061269743
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4875580838765872}
+  - component: {fileID: 33607411463091572}
+  - component: {fileID: 23986596690989638}
+  m_Layer: 0
+  m_Name: Traffic_HoundShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4875580838765872
+Transform:
+  m_GameObject: {fileID: 1792826061269743}
+  m_LocalRotation: {x: 0, y: 0, z: -7.453298E-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4508618225210776}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.54085E-13}
+--- !u!33 &33607411463091572
+MeshFilter:
+  m_GameObject: {fileID: 1792826061269743}
+  m_Mesh: {fileID: 4300000, guid: 9af489d97fc025949818425bb4fa091e, type: 2}
+--- !u!23 &23986596690989638
+MeshRenderer:
+  m_GameObject: {fileID: 1792826061269743}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1215405219504594
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4778175285461673}
+  m_Layer: 0
+  m_Name: Traffic_Meister
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4778175285461673
+Transform:
+  m_GameObject: {fileID: 1215405219504594}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4528992523145119}
+  - {fileID: 4661833781609493}
+  - {fileID: 4536984283130842}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1018666737474787
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4528992523145119}
+  - component: {fileID: 33353487697734917}
+  - component: {fileID: 23615360722685629}
+  m_Layer: 0
+  m_Name: Traffic_Meister_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4528992523145119
+Transform:
+  m_GameObject: {fileID: 1018666737474787}
+  m_LocalRotation: {x: 0.7071068, y: -8.006016E-10, z: 8.006017E-10, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4778175285461673}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 1.29743E-07, z: -4.497983E-15}
+--- !u!33 &33353487697734917
+MeshFilter:
+  m_GameObject: {fileID: 1018666737474787}
+  m_Mesh: {fileID: 4300000, guid: 623c0c5262ebf294cb6ff3692eb3471f, type: 2}
+--- !u!23 &23615360722685629
+MeshRenderer:
+  m_GameObject: {fileID: 1018666737474787}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1869986247781579
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4661833781609493}
+  - component: {fileID: 33472737696314315}
+  - component: {fileID: 23903566932726964}
+  m_Layer: 0
+  m_Name: Traffic_Meister_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4661833781609493
+Transform:
+  m_GameObject: {fileID: 1869986247781579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.009611785, y: 0.07522285, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4778175285461673}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33472737696314315
+MeshFilter:
+  m_GameObject: {fileID: 1869986247781579}
+  m_Mesh: {fileID: 4300000, guid: bd2bbd5c36d248e47a846b8d2c4022c8, type: 2}
+--- !u!23 &23903566932726964
+MeshRenderer:
+  m_GameObject: {fileID: 1869986247781579}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1125627018656502
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4536984283130842}
+  - component: {fileID: 33138020027925931}
+  - component: {fileID: 23359206735857935}
+  m_Layer: 0
+  m_Name: Traffic_MeisterShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4536984283130842
+Transform:
+  m_GameObject: {fileID: 1125627018656502}
+  m_LocalRotation: {x: -1.018999E-08, y: -1.678429E-09, z: 2.112548E-10, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.09675, y: 1.09675, z: 1.09675}
+  m_Children: []
+  m_Father: {fileID: 4778175285461673}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -1.167686E-06, y: 1.923338E-07, z: -2.420802E-08}
+--- !u!33 &33138020027925931
+MeshFilter:
+  m_GameObject: {fileID: 1125627018656502}
+  m_Mesh: {fileID: 4300000, guid: f693d2fa9d6eaa34eaa1d797f75f312c, type: 2}
+--- !u!23 &23359206735857935
+MeshRenderer:
+  m_GameObject: {fileID: 1125627018656502}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1817162720444240
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4982200627729425}
+  m_Layer: 0
+  m_Name: Traffic_OilTanker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4982200627729425
+Transform:
+  m_GameObject: {fileID: 1817162720444240}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4574061210917957}
+  - {fileID: 4482229632273497}
+  - {fileID: 4406565489993260}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1078054636387141
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4574061210917957}
+  - component: {fileID: 33305622699251985}
+  - component: {fileID: 23781255021424848}
+  m_Layer: 0
+  m_Name: Traffic_OilTanker_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4574061210917957
+Transform:
+  m_GameObject: {fileID: 1078054636387141}
+  m_LocalRotation: {x: 0.7071068, y: -5.299064E-15, z: -5.299063E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4982200627729425}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 6.863378E-20, z: 8.5875E-13}
+--- !u!33 &33305622699251985
+MeshFilter:
+  m_GameObject: {fileID: 1078054636387141}
+  m_Mesh: {fileID: 4300000, guid: c9c2780abfa3e2e4b8e57a298827aa70, type: 2}
+--- !u!23 &23781255021424848
+MeshRenderer:
+  m_GameObject: {fileID: 1078054636387141}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1215774032275864
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4482229632273497}
+  - component: {fileID: 33178876434497061}
+  - component: {fileID: 23657809483022155}
+  m_Layer: 0
+  m_Name: Traffic_OilTanker_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4482229632273497
+Transform:
+  m_GameObject: {fileID: 1215774032275864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.104578, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4982200627729425}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33178876434497061
+MeshFilter:
+  m_GameObject: {fileID: 1215774032275864}
+  m_Mesh: {fileID: 4300000, guid: 63e6344260d94fe478aaaf0b70d16a4b, type: 2}
+--- !u!23 &23657809483022155
+MeshRenderer:
+  m_GameObject: {fileID: 1215774032275864}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1228598580990222
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4406565489993260}
+  - component: {fileID: 33668105691729404}
+  - component: {fileID: 23111490650442739}
+  m_Layer: 0
+  m_Name: Traffic_OilTankerShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4406565489993260
+Transform:
+  m_GameObject: {fileID: 1228598580990222}
+  m_LocalRotation: {x: 0, y: 0, z: -7.453298E-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4982200627729425}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.54085E-13}
+--- !u!33 &33668105691729404
+MeshFilter:
+  m_GameObject: {fileID: 1228598580990222}
+  m_Mesh: {fileID: 4300000, guid: 1b04be7830add65458953deb1648e75c, type: 2}
+--- !u!23 &23111490650442739
+MeshRenderer:
+  m_GameObject: {fileID: 1228598580990222}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1396596691390010
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4418316273750511}
+  m_Layer: 0
+  m_Name: Traffic_Panini
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4418316273750511
+Transform:
+  m_GameObject: {fileID: 1396596691390010}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4307651891733851}
+  - {fileID: 4965842671668970}
+  - {fileID: 4578087106120744}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1952817752826366
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4307651891733851}
+  - component: {fileID: 33019627425535769}
+  - component: {fileID: 23742934234595449}
+  m_Layer: 0
+  m_Name: Traffic_Panini_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4307651891733851
+Transform:
+  m_GameObject: {fileID: 1952817752826366}
+  m_LocalRotation: {x: 0.7071068, y: -5.299064E-15, z: -5.299063E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4311281254775351}
+  - {fileID: 4851850094198659}
+  - {fileID: 4961235604044671}
+  - {fileID: 4201814393059876}
+  - {fileID: 4656425208693482}
+  - {fileID: 4925276454224822}
+  - {fileID: 4667658848216795}
+  m_Father: {fileID: 4418316273750511}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 6.863378E-20, z: 8.5875E-13}
+--- !u!33 &33019627425535769
+MeshFilter:
+  m_GameObject: {fileID: 1952817752826366}
+  m_Mesh: {fileID: 4300000, guid: 55cb1f752f1652c47bff5486a69808ab, type: 2}
+--- !u!23 &23742934234595449
+MeshRenderer:
+  m_GameObject: {fileID: 1952817752826366}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1933998178376112
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4311281254775351}
+  m_Layer: 0
+  m_Name: Traffic_e View 01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4311281254775351
+Transform:
+  m_GameObject: {fileID: 1933998178376112}
+  m_LocalRotation: {x: 5.960466E-08, y: -4.995992E-16, z: 4.223218E-16, w: 1}
+  m_LocalPosition: {x: 120.1161, y: -6.893532, z: -5.197525E-05}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4307651891733851}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 6.830191E-06, y: 5.724985E-14, z: -4.839451E-14}
+--- !u!1 &1153294556904970
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4851850094198659}
+  m_Layer: 0
+  m_Name: Traffic_e View 01 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4851850094198659
+Transform:
+  m_GameObject: {fileID: 1153294556904970}
+  m_LocalRotation: {x: 5.960466E-08, y: -4.995992E-16, z: 4.223218E-16, w: 1}
+  m_LocalPosition: {x: 123.2751, y: -11.66131, z: 144.7508}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4307651891733851}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 6.830191E-06, y: 5.724985E-14, z: -4.839451E-14}
+--- !u!1 &1367733864917034
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4961235604044671}
+  m_Layer: 0
+  m_Name: Traffic_e View 01 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4961235604044671
+Transform:
+  m_GameObject: {fileID: 1367733864917034}
+  m_LocalRotation: {x: 5.960466E-08, y: -4.995992E-16, z: 4.223218E-16, w: 1}
+  m_LocalPosition: {x: 1533.655, y: -1563.987, z: -0.0002441406}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4307651891733851}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 6.830191E-06, y: 5.724985E-14, z: -4.839451E-14}
+--- !u!1 &1004604259967594
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4201814393059876}
+  m_Layer: 0
+  m_Name: Traffic_e View 01 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4201814393059876
+Transform:
+  m_GameObject: {fileID: 1004604259967594}
+  m_LocalRotation: {x: 5.960466E-08, y: -4.995992E-16, z: 4.223218E-16, w: 1}
+  m_LocalPosition: {x: 1533.639, y: -1564.09, z: -0.0002441406}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4307651891733851}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 6.830191E-06, y: 5.724985E-14, z: -4.839451E-14}
+--- !u!1 &1061104933041014
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4656425208693482}
+  m_Layer: 0
+  m_Name: Traffic_e View 01 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4656425208693482
+Transform:
+  m_GameObject: {fileID: 1061104933041014}
+  m_LocalRotation: {x: 5.960466E-08, y: -4.995992E-16, z: 4.223218E-16, w: 1}
+  m_LocalPosition: {x: 123.3608, y: -24.77191, z: 94.04333}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4307651891733851}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 6.830191E-06, y: 5.724985E-14, z: -4.839451E-14}
+--- !u!1 &1064287903719533
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4925276454224822}
+  m_Layer: 0
+  m_Name: Traffic_e View 01 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4925276454224822
+Transform:
+  m_GameObject: {fileID: 1064287903719533}
+  m_LocalRotation: {x: 5.960467E-08, y: 2.442177E-12, z: 9.063283E-08, w: 1}
+  m_LocalPosition: {x: 1533.539, y: 1551.526, z: -0.0002441406}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4307651891733851}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 6.830192E-06, y: -2.792338E-10, z: -1.038576E-05}
+--- !u!1 &1923345057214281
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4667658848216795}
+  m_Layer: 0
+  m_Name: Traffic_e View 01 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4667658848216795
+Transform:
+  m_GameObject: {fileID: 1923345057214281}
+  m_LocalRotation: {x: 5.960466E-08, y: -4.995992E-16, z: 4.223218E-16, w: 1}
+  m_LocalPosition: {x: 1533.65, y: -1563.993, z: -0.4134521}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4307651891733851}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 6.830191E-06, y: 5.724985E-14, z: -4.839451E-14}
+--- !u!1 &1652415559408520
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4965842671668970}
+  - component: {fileID: 33313860209178754}
+  - component: {fileID: 23713730030809412}
+  m_Layer: 0
+  m_Name: Traffic_Panini_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4965842671668970
+Transform:
+  m_GameObject: {fileID: 1652415559408520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.009869993, y: 0.009877682, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4418316273750511}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33313860209178754
+MeshFilter:
+  m_GameObject: {fileID: 1652415559408520}
+  m_Mesh: {fileID: 4300000, guid: d790b0dbfd507b34fb62ebba6dae9438, type: 2}
+--- !u!23 &23713730030809412
+MeshRenderer:
+  m_GameObject: {fileID: 1652415559408520}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1130823401097374
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4578087106120744}
+  - component: {fileID: 33069418784144132}
+  - component: {fileID: 23250522574395685}
+  m_Layer: 0
+  m_Name: Traffic_PaniniShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4578087106120744
+Transform:
+  m_GameObject: {fileID: 1130823401097374}
+  m_LocalRotation: {x: 0, y: 0, z: -7.494007E-15, w: 1}
+  m_LocalPosition: {x: 1.87439E-26, y: 1.818989E-12, z: -2.861023E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4418316273750511}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.5875E-13}
+--- !u!33 &33069418784144132
+MeshFilter:
+  m_GameObject: {fileID: 1130823401097374}
+  m_Mesh: {fileID: 4300000, guid: 32e7e2fa2203c294da2c49ac3017a6ad, type: 2}
+--- !u!23 &23250522574395685
+MeshRenderer:
+  m_GameObject: {fileID: 1130823401097374}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1770643096640571
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4133644046186258}
+  m_Layer: 0
+  m_Name: Traffic_Petite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4133644046186258
+Transform:
+  m_GameObject: {fileID: 1770643096640571}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4664835555368361}
+  - {fileID: 4945091659346818}
+  - {fileID: 4851813882462159}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1535819484394856
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4664835555368361}
+  - component: {fileID: 33123520267364302}
+  - component: {fileID: 23903730169123171}
+  m_Layer: 0
+  m_Name: Traffic_Petite_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4664835555368361
+Transform:
+  m_GameObject: {fileID: 1535819484394856}
+  m_LocalRotation: {x: 0.7071067, y: 1.685874E-07, z: 2.304047E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4133644046186258}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.99998, y: 5.008956E-06, z: -3.232971E-05}
+--- !u!33 &33123520267364302
+MeshFilter:
+  m_GameObject: {fileID: 1535819484394856}
+  m_Mesh: {fileID: 4300000, guid: 954e00c0414322d419aff4b32a8b2149, type: 2}
+--- !u!23 &23903730169123171
+MeshRenderer:
+  m_GameObject: {fileID: 1535819484394856}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1559367235320426
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4945091659346818}
+  - component: {fileID: 33270042655002086}
+  - component: {fileID: 23127882994629789}
+  m_Layer: 0
+  m_Name: Traffic_Petite_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4945091659346818
+Transform:
+  m_GameObject: {fileID: 1559367235320426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.01211339, y: -0.02203214, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4133644046186258}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33270042655002086
+MeshFilter:
+  m_GameObject: {fileID: 1559367235320426}
+  m_Mesh: {fileID: 4300000, guid: 0f2f45fe90284f44fa60cbfedd6fa41a, type: 2}
+--- !u!23 &23127882994629789
+MeshRenderer:
+  m_GameObject: {fileID: 1559367235320426}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1122824304826246
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4851813882462159}
+  - component: {fileID: 33208274438534613}
+  - component: {fileID: 23714366743803394}
+  m_Layer: 0
+  m_Name: Traffic_PetiteShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4851813882462159
+Transform:
+  m_GameObject: {fileID: 1122824304826246}
+  m_LocalRotation: {x: 1.490116E-08, y: -1.466833E-08, z: 2.185752E-16, w: 1}
+  m_LocalPosition: {x: -1.889504E-09, y: 0.1268005, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4133644046186258}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 1.707547E-06, y: 1.680867E-06, z: 0}
+--- !u!33 &33208274438534613
+MeshFilter:
+  m_GameObject: {fileID: 1122824304826246}
+  m_Mesh: {fileID: 4300000, guid: c605e497e42f071418f6f6ac2c853687, type: 2}
+--- !u!23 &23714366743803394
+MeshRenderer:
+  m_GameObject: {fileID: 1122824304826246}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1605782174311775
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4882940871385751}
+  m_Layer: 0
+  m_Name: Traffic_Police
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4882940871385751
+Transform:
+  m_GameObject: {fileID: 1605782174311775}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4715405865013089}
+  - {fileID: 4812541711026978}
+  - {fileID: 4932625554686973}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1229263957910439
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4715405865013089}
+  - component: {fileID: 33760212740836526}
+  - component: {fileID: 23404626831998568}
+  m_Layer: 0
+  m_Name: Traffic_Police_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4715405865013089
+Transform:
+  m_GameObject: {fileID: 1229263957910439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.03559136, y: 0.06997073, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4882940871385751}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33760212740836526
+MeshFilter:
+  m_GameObject: {fileID: 1229263957910439}
+  m_Mesh: {fileID: 4300000, guid: 32b51c91700e4bd4b9c1caddb72c03a4, type: 2}
+--- !u!23 &23404626831998568
+MeshRenderer:
+  m_GameObject: {fileID: 1229263957910439}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1804200149497555
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4812541711026978}
+  - component: {fileID: 33728006549900112}
+  - component: {fileID: 23966827201827498}
+  m_Layer: 0
+  m_Name: Traffic_Police_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4812541711026978
+Transform:
+  m_GameObject: {fileID: 1804200149497555}
+  m_LocalRotation: {x: 0.7071069, y: 6.181725E-08, z: 6.181725E-08, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4882940871385751}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 8.444469E-13, z: -1.001791E-05}
+--- !u!33 &33728006549900112
+MeshFilter:
+  m_GameObject: {fileID: 1804200149497555}
+  m_Mesh: {fileID: 4300000, guid: 8fbfbf7466e732441a4227d5232ef774, type: 2}
+--- !u!23 &23966827201827498
+MeshRenderer:
+  m_GameObject: {fileID: 1804200149497555}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1030658038655159
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4932625554686973}
+  - component: {fileID: 33729776685123613}
+  - component: {fileID: 23787442450030304}
+  m_Layer: 0
+  m_Name: Traffic_PoliceShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4932625554686973
+Transform:
+  m_GameObject: {fileID: 1030658038655159}
+  m_LocalRotation: {x: 0.7071069, y: -5.024296E-15, z: 5.024297E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 4882940871385751}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 8.14222E-13, z: 0}
+--- !u!33 &33729776685123613
+MeshFilter:
+  m_GameObject: {fileID: 1030658038655159}
+  m_Mesh: {fileID: 4300000, guid: 6a299b3f22fea584b86267b09ad1aa5f, type: 2}
+--- !u!23 &23787442450030304
+MeshRenderer:
+  m_GameObject: {fileID: 1030658038655159}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1346215370529049
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4560556521959125}
+  m_Layer: 0
+  m_Name: Traffic_PoliceTruck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4560556521959125
+Transform:
+  m_GameObject: {fileID: 1346215370529049}
+  m_LocalRotation: {x: -0.7071068, y: -6.181725E-08, z: -6.181725E-08, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4127639088236917}
+  - {fileID: 4487097572919978}
+  - {fileID: 4271230204130095}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -90, y: 1.001791E-05, z: 0}
+--- !u!1 &1909318010268371
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4127639088236917}
+  - component: {fileID: 33933681417752049}
+  - component: {fileID: 23469367075519512}
+  m_Layer: 0
+  m_Name: Traffic_PoliceTruck_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4127639088236917
+Transform:
+  m_GameObject: {fileID: 1909318010268371}
+  m_LocalRotation: {x: 0.7071068, y: -3.989921E-07, z: -3.98992E-07, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -3.944305E-31}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4560556521959125}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 9.21187E-12, z: 6.465943E-05}
+--- !u!33 &33933681417752049
+MeshFilter:
+  m_GameObject: {fileID: 1909318010268371}
+  m_Mesh: {fileID: 4300000, guid: 9f24c3d98a3e65d42856cf3f3c737c74, type: 2}
+--- !u!23 &23469367075519512
+MeshRenderer:
+  m_GameObject: {fileID: 1909318010268371}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1238740125518882
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4487097572919978}
+  - component: {fileID: 33991167389714452}
+  - component: {fileID: 23227784021310919}
+  m_Layer: 0
+  m_Name: Traffic_PoliceTruck_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4487097572919978
+Transform:
+  m_GameObject: {fileID: 1238740125518882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.01345128, y: 0.0421257, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4560556521959125}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33991167389714452
+MeshFilter:
+  m_GameObject: {fileID: 1238740125518882}
+  m_Mesh: {fileID: 4300000, guid: 6fefc1e333b187941a97374145673898, type: 2}
+--- !u!23 &23227784021310919
+MeshRenderer:
+  m_GameObject: {fileID: 1238740125518882}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1915172121265694
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4271230204130095}
+  - component: {fileID: 33336004074185416}
+  - component: {fileID: 23655135757424658}
+  m_Layer: 0
+  m_Name: Traffic_PoliceTruckShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4271230204130095
+Transform:
+  m_GameObject: {fileID: 1915172121265694}
+  m_LocalRotation: {x: 1.551233E-15, y: 1.240987E-14, z: 2.235931E-08, w: 1}
+  m_LocalPosition: {x: -1.306892E-23, y: -8.900253E-17, z: -1.323489E-23}
+  m_LocalScale: {x: 1.145125, y: 1.145125, z: 1.145125}
+  m_Children: []
+  m_Father: {fileID: 4560556521959125}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 1.777583E-13, y: -1.422067E-12, z: -2.562189E-06}
+--- !u!33 &33336004074185416
+MeshFilter:
+  m_GameObject: {fileID: 1915172121265694}
+  m_Mesh: {fileID: 4300000, guid: ab97759c0803ccb4c96195cbc0544adc, type: 2}
+--- !u!23 &23655135757424658
+MeshRenderer:
+  m_GameObject: {fileID: 1915172121265694}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1859254633700655
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4578684658057680}
+  m_Layer: 0
+  m_Name: Traffic_Taxi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4578684658057680
+Transform:
+  m_GameObject: {fileID: 1859254633700655}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4423052491367439}
+  - {fileID: 4884464408293123}
+  - {fileID: 4505716285493599}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1989420889824846
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4423052491367439}
+  - component: {fileID: 33771382195678995}
+  - component: {fileID: 23745137013449235}
+  m_Layer: 0
+  m_Name: Traffic_Taxi_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4423052491367439
+Transform:
+  m_GameObject: {fileID: 1989420889824846}
+  m_LocalRotation: {x: 0.7071068, y: 2.304047E-07, z: 2.304047E-07, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4578684658057680}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: -1.151484E-12, z: -3.733867E-05}
+--- !u!33 &33771382195678995
+MeshFilter:
+  m_GameObject: {fileID: 1989420889824846}
+  m_Mesh: {fileID: 4300000, guid: ae0dac4af1919ca48bd941661c743e19, type: 2}
+--- !u!23 &23745137013449235
+MeshRenderer:
+  m_GameObject: {fileID: 1989420889824846}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1928455384264383
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4884464408293123}
+  - component: {fileID: 33390515539706631}
+  - component: {fileID: 23854610473087586}
+  m_Layer: 0
+  m_Name: Traffic_Taxi_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4884464408293123
+Transform:
+  m_GameObject: {fileID: 1928455384264383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.002435207, y: -0.05996764, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4578684658057680}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33390515539706631
+MeshFilter:
+  m_GameObject: {fileID: 1928455384264383}
+  m_Mesh: {fileID: 4300000, guid: 05190271f7323a840b92828b3f4b3a5c, type: 2}
+--- !u!23 &23854610473087586
+MeshRenderer:
+  m_GameObject: {fileID: 1928455384264383}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1196043034529483
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4505716285493599}
+  - component: {fileID: 33493862114987719}
+  - component: {fileID: 23264622017321111}
+  m_Layer: 0
+  m_Name: Traffic_TaxiShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4505716285493599
+Transform:
+  m_GameObject: {fileID: 1196043034529483}
+  m_LocalRotation: {x: -1.065814E-14, y: -1.065814E-14, z: -1.788139E-07, w: 1}
+  m_LocalPosition: {x: -2.605121E-23, y: 7.772294E-17, z: 6.617445E-24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4578684658057680}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -1.221333E-12, y: 1.221333E-12, z: 2.049056E-05}
+--- !u!33 &33493862114987719
+MeshFilter:
+  m_GameObject: {fileID: 1196043034529483}
+  m_Mesh: {fileID: 4300000, guid: 975eb49fe211c294ab5f8c425acfee5a, type: 2}
+--- !u!23 &23264622017321111
+MeshRenderer:
+  m_GameObject: {fileID: 1196043034529483}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1513116935352872
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4280251604182712}
+  m_Layer: 0
+  m_Name: Traffic_Transporter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4280251604182712
+Transform:
+  m_GameObject: {fileID: 1513116935352872}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4014055138801117}
+  - {fileID: 4670726373792874}
+  - {fileID: 4027812183124900}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1964248045431989
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4014055138801117}
+  - component: {fileID: 33213911147224550}
+  - component: {fileID: 23488552727715036}
+  m_Layer: 0
+  m_Name: Traffic_Transporter_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4014055138801117
+Transform:
+  m_GameObject: {fileID: 1964248045431989}
+  m_LocalRotation: {x: 0.708937, y: -0.005591637, z: -0.003945099, w: 0.7052386}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4280251604182712}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.30058, y: 0.1313922, z: 0.7731008}
+--- !u!33 &33213911147224550
+MeshFilter:
+  m_GameObject: {fileID: 1964248045431989}
+  m_Mesh: {fileID: 4300000, guid: a297332de4d019d49a6c883c2794164d, type: 2}
+--- !u!23 &23488552727715036
+MeshRenderer:
+  m_GameObject: {fileID: 1964248045431989}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1657573496394669
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4670726373792874}
+  - component: {fileID: 33834512334715510}
+  - component: {fileID: 23758664135562837}
+  m_Layer: 0
+  m_Name: Traffic_Transporter_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4670726373792874
+Transform:
+  m_GameObject: {fileID: 1657573496394669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.02385652, y: 0.264729, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4280251604182712}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33834512334715510
+MeshFilter:
+  m_GameObject: {fileID: 1657573496394669}
+  m_Mesh: {fileID: 4300000, guid: ef174dc10ed21c8468bdd49dd0e2f0b6, type: 2}
+--- !u!23 &23758664135562837
+MeshRenderer:
+  m_GameObject: {fileID: 1657573496394669}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1647738639258459
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4027812183124900}
+  - component: {fileID: 33562638546678609}
+  - component: {fileID: 23793396456353268}
+  m_Layer: 0
+  m_Name: Traffic_TransporterShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4027812183124900
+Transform:
+  m_GameObject: {fileID: 1647738639258459}
+  m_LocalRotation: {x: 0.002614986, y: -0.001164268, z: -0.0067435, w: 0.9999732}
+  m_LocalPosition: {x: -7.411847E-12, y: -6.956672E-12, z: -8.673617E-19}
+  m_LocalScale: {x: 0.3472909, y: 0.3472909, z: 0.3472908}
+  m_Children: []
+  m_Father: {fileID: 4280251604182712}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.3005492, y: 0.1313911, z: 0.7731018}
+--- !u!33 &33562638546678609
+MeshFilter:
+  m_GameObject: {fileID: 1647738639258459}
+  m_Mesh: {fileID: 4300000, guid: b58479714c45dc34684a4a302f167dce, type: 2}
+--- !u!23 &23793396456353268
+MeshRenderer:
+  m_GameObject: {fileID: 1647738639258459}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1304313330410224
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4576143365484235}
+  m_Layer: 0
+  m_Name: Traffic_Van
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4576143365484235
+Transform:
+  m_GameObject: {fileID: 1304313330410224}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4767739163796673}
+  - {fileID: 4486537486993161}
+  - {fileID: 4017700004070220}
+  m_Father: {fileID: 4093884475790794}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1519206559218440
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4767739163796673}
+  - component: {fileID: 33773292641035740}
+  - component: {fileID: 23475449273287143}
+  m_Layer: 0
+  m_Name: Traffic_Van_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4767739163796673
+Transform:
+  m_GameObject: {fileID: 1519206559218440}
+  m_LocalRotation: {x: 0.7071068, y: -5.299064E-15, z: -5.299063E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4576143365484235}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 6.863378E-20, z: 8.5875E-13}
+--- !u!33 &33773292641035740
+MeshFilter:
+  m_GameObject: {fileID: 1519206559218440}
+  m_Mesh: {fileID: 4300000, guid: 3acab69f3845b2848afc031534e3e227, type: 2}
+--- !u!23 &23475449273287143
+MeshRenderer:
+  m_GameObject: {fileID: 1519206559218440}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1110223829831427
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4486537486993161}
+  - component: {fileID: 33807674894094888}
+  - component: {fileID: 23511943525531879}
+  m_Layer: 0
+  m_Name: Traffic_Van_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4486537486993161
+Transform:
+  m_GameObject: {fileID: 1110223829831427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4576143365484235}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33807674894094888
+MeshFilter:
+  m_GameObject: {fileID: 1110223829831427}
+  m_Mesh: {fileID: 4300000, guid: 9683c995321f9604d8819d794681d9a0, type: 2}
+--- !u!23 &23511943525531879
+MeshRenderer:
+  m_GameObject: {fileID: 1110223829831427}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1322045705869354
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4017700004070220}
+  - component: {fileID: 33957408537117064}
+  - component: {fileID: 23422372623190327}
+  m_Layer: 0
+  m_Name: Traffic_VanShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4017700004070220
+Transform:
+  m_GameObject: {fileID: 1322045705869354}
+  m_LocalRotation: {x: 0, y: 0, z: -7.453298E-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4576143365484235}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.54085E-13}
+--- !u!33 &33957408537117064
+MeshFilter:
+  m_GameObject: {fileID: 1322045705869354}
+  m_Mesh: {fileID: 4300000, guid: b4437675bb095f544835667f910c18fe, type: 2}
+--- !u!23 &23422372623190327
+MeshRenderer:
+  m_GameObject: {fileID: 1322045705869354}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

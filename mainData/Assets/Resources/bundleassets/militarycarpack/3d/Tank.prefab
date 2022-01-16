@@ -1,0 +1,1442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1241531021508058}
+  m_IsPrefabParent: 1
+--- !u!1 &1241531021508058
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4593928103480263}
+  - component: {fileID: 95230745388671206}
+  m_Layer: 0
+  m_Name: Tank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4593928103480263
+Transform:
+  m_GameObject: {fileID: 1241531021508058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4266858794923416}
+  - {fileID: 4226181429753695}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95230745388671206
+Animator:
+  serializedVersion: 3
+  m_GameObject: {fileID: 1241531021508058}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 7d2a46b13d5490347b13a3b00e70e428, type: 2}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 0
+  m_AllowConstantClipSamplingOptimization: 0
+--- !u!1 &1365759809859807
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4266858794923416}
+  - component: {fileID: 33389452731160239}
+  - component: {fileID: 23925294319826323}
+  m_Layer: 0
+  m_Name: Tank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4266858794923416
+Transform:
+  m_GameObject: {fileID: 1365759809859807}
+  m_LocalRotation: {x: -8.146034E-08, y: -4.371139E-08, z: 4.371138E-08, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 4954034737170854}
+  - {fileID: 4291687399436147}
+  - {fileID: 4932497789671690}
+  - {fileID: 4971938021778823}
+  - {fileID: 4088605120731943}
+  - {fileID: 4744671984936702}
+  - {fileID: 4181466646499633}
+  - {fileID: 4670419713664576}
+  - {fileID: 4014186191839322}
+  - {fileID: 4709494769769364}
+  - {fileID: 4794670209758324}
+  - {fileID: 4130615303449914}
+  - {fileID: 4388761190492440}
+  - {fileID: 4261196514063093}
+  - {fileID: 4019552346850652}
+  - {fileID: 4811886904094557}
+  - {fileID: 4815139968611113}
+  - {fileID: 4856675339165144}
+  - {fileID: 4278794036135956}
+  - {fileID: 4788722048265729}
+  - {fileID: 4126599644195347}
+  - {fileID: 4667102716044222}
+  - {fileID: 4619775532144620}
+  - {fileID: 4730901353931819}
+  - {fileID: 4297515569932071}
+  - {fileID: 4133582230700953}
+  m_Father: {fileID: 4593928103480263}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -9.334668E-06, y: 5.008956E-06, z: -5.008956E-06}
+--- !u!33 &33389452731160239
+MeshFilter:
+  m_GameObject: {fileID: 1365759809859807}
+  m_Mesh: {fileID: 4300000, guid: 844dadedf3728484bb499a8c96ac080a, type: 2}
+--- !u!23 &23925294319826323
+MeshRenderer:
+  m_GameObject: {fileID: 1365759809859807}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1291463901090075
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4954034737170854}
+  - component: {fileID: 33950447711211857}
+  - component: {fileID: 23079881556672334}
+  m_Layer: 0
+  m_Name: TankCog01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4954034737170854
+Transform:
+  m_GameObject: {fileID: 1291463901090075}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 0.0231883, y: 0.4321564, z: 2.33497}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!33 &33950447711211857
+MeshFilter:
+  m_GameObject: {fileID: 1291463901090075}
+  m_Mesh: {fileID: 4300000, guid: dfb63085744ae864cbc090dba4dd3f31, type: 2}
+--- !u!23 &23079881556672334
+MeshRenderer:
+  m_GameObject: {fileID: 1291463901090075}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1441890777076224
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4291687399436147}
+  - component: {fileID: 33402977874758314}
+  - component: {fileID: 23068862135811281}
+  m_Layer: 0
+  m_Name: TankCog02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4291687399436147
+Transform:
+  m_GameObject: {fileID: 1441890777076224}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 0.02318841, y: 0.4321565, z: 1.342479}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!33 &33402977874758314
+MeshFilter:
+  m_GameObject: {fileID: 1441890777076224}
+  m_Mesh: {fileID: 4300000, guid: 7e6d5e54081665346b6e56bf71551b2b, type: 2}
+--- !u!23 &23068862135811281
+MeshRenderer:
+  m_GameObject: {fileID: 1441890777076224}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1095559293065440
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4932497789671690}
+  - component: {fileID: 33454212673100874}
+  - component: {fileID: 23686018439466048}
+  m_Layer: 0
+  m_Name: TankCog03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4932497789671690
+Transform:
+  m_GameObject: {fileID: 1095559293065440}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 0.02318841, y: 0.4321566, z: 0.5410217}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!33 &33454212673100874
+MeshFilter:
+  m_GameObject: {fileID: 1095559293065440}
+  m_Mesh: {fileID: 4300000, guid: 8e4134b18d330274d8a0ebdee97536bf, type: 2}
+--- !u!23 &23686018439466048
+MeshRenderer:
+  m_GameObject: {fileID: 1095559293065440}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1756163257085178
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4971938021778823}
+  - component: {fileID: 33507351955974215}
+  - component: {fileID: 23210537737780918}
+  m_Layer: 0
+  m_Name: TankCog04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4971938021778823
+Transform:
+  m_GameObject: {fileID: 1756163257085178}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 0.02318841, y: 0.4321567, z: -0.3100393}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!33 &33507351955974215
+MeshFilter:
+  m_GameObject: {fileID: 1756163257085178}
+  m_Mesh: {fileID: 4300000, guid: 19548afcaf55a8948bfa8955187d6978, type: 2}
+--- !u!23 &23210537737780918
+MeshRenderer:
+  m_GameObject: {fileID: 1756163257085178}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1065351901185116
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4088605120731943}
+  - component: {fileID: 33265754901839531}
+  - component: {fileID: 23339534785084847}
+  m_Layer: 0
+  m_Name: TankCog05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4088605120731943
+Transform:
+  m_GameObject: {fileID: 1065351901185116}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 0.02318841, y: 0.4321567, z: -1.115373}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!33 &33265754901839531
+MeshFilter:
+  m_GameObject: {fileID: 1065351901185116}
+  m_Mesh: {fileID: 4300000, guid: d1786b255d20f9e41b9bf38247075a5b, type: 2}
+--- !u!23 &23339534785084847
+MeshRenderer:
+  m_GameObject: {fileID: 1065351901185116}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1765417281341047
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4744671984936702}
+  - component: {fileID: 33602570302789400}
+  - component: {fileID: 23379196238887187}
+  m_Layer: 0
+  m_Name: TankCog06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4744671984936702
+Transform:
+  m_GameObject: {fileID: 1765417281341047}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 0.0231883, y: 0.4321567, z: -1.956628}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!33 &33602570302789400
+MeshFilter:
+  m_GameObject: {fileID: 1765417281341047}
+  m_Mesh: {fileID: 4300000, guid: 799df2df7c7747947ab58773930ba0bd, type: 2}
+--- !u!23 &23379196238887187
+MeshRenderer:
+  m_GameObject: {fileID: 1765417281341047}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1467494680495960
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4181466646499633}
+  - component: {fileID: 33610654393373980}
+  - component: {fileID: 23539961193715702}
+  m_Layer: 0
+  m_Name: TankCog07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4181466646499633
+Transform:
+  m_GameObject: {fileID: 1467494680495960}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 0.02318841, y: 0.4321567, z: -2.849731}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!33 &33610654393373980
+MeshFilter:
+  m_GameObject: {fileID: 1467494680495960}
+  m_Mesh: {fileID: 4300000, guid: 5ebf1c3fbd21d814f96ce7f68c055c81, type: 2}
+--- !u!23 &23539961193715702
+MeshRenderer:
+  m_GameObject: {fileID: 1467494680495960}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1656566656085821
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4670419713664576}
+  - component: {fileID: 33222317451427944}
+  - component: {fileID: 23130478998087746}
+  m_Layer: 0
+  m_Name: TankCog08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4670419713664576
+Transform:
+  m_GameObject: {fileID: 1656566656085821}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 0.00379323, y: 0.9448749, z: -3.750538}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!33 &33222317451427944
+MeshFilter:
+  m_GameObject: {fileID: 1656566656085821}
+  m_Mesh: {fileID: 4300000, guid: e124d61cdc82be8418a1c464781a016e, type: 2}
+--- !u!23 &23130478998087746
+MeshRenderer:
+  m_GameObject: {fileID: 1656566656085821}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1318314658084707
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4014186191839322}
+  m_Layer: 0
+  m_Name: TankLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4014186191839322
+Transform:
+  m_GameObject: {fileID: 1318314658084707}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: -1.780342, y: 1.664384, z: -4.421784}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!1 &1680521895062835
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4709494769769364}
+  m_Layer: 0
+  m_Name: TankLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4709494769769364
+Transform:
+  m_GameObject: {fileID: 1680521895062835}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: -1.03584, y: 1.358002, z: 4.394129}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!1 &1283411228598776
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4794670209758324}
+  m_Layer: 0
+  m_Name: TankLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4794670209758324
+Transform:
+  m_GameObject: {fileID: 1283411228598776}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 1.797641, y: 1.664385, z: -4.421782}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!1 &1162601145842620
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4130615303449914}
+  m_Layer: 0
+  m_Name: TankLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4130615303449914
+Transform:
+  m_GameObject: {fileID: 1162601145842620}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 1.020186, y: 1.358003, z: 4.39413}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!1 &1103958859093312
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4388761190492440}
+  m_Layer: 0
+  m_Name: TankNitro1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4388761190492440
+Transform:
+  m_GameObject: {fileID: 1103958859093312}
+  m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5000001, w: 0.5}
+  m_LocalPosition: {x: -0.007713891, y: 0.3228952, z: -3.228109}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.95}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -90, y: -5.122642E-06, z: -90.00001}
+--- !u!1 &1710485963903837
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4261196514063093}
+  m_Layer: 0
+  m_Name: TankRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4261196514063093
+Transform:
+  m_GameObject: {fileID: 1710485963903837}
+  m_LocalRotation: {x: 0.4999999, y: 0.5000001, z: 0.5000002, w: 0.4999999}
+  m_LocalPosition: {x: -0.007714035, y: 1.255528, z: -4.548513}
+  m_LocalScale: {x: 0.9499997, y: 0.9499998, z: 0.9499998}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 89.99999, y: 6.830187E-06, z: -90.00003}
+--- !u!1 &1611996519641922
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4019552346850652}
+  m_Layer: 0
+  m_Name: TankSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4019552346850652
+Transform:
+  m_GameObject: {fileID: 1611996519641922}
+  m_LocalRotation: {x: 5.338512E-08, y: -0.7071068, z: 5.338512E-08, w: 0.7071068}
+  m_LocalPosition: {x: -0.007714316, y: 2.216015, z: -1.455684}
+  m_LocalScale: {x: 0.9499999, y: 0.9499999, z: 0.95}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 8.651428E-06, y: 90, z: 0}
+--- !u!1 &1446938766219449
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4811886904094557}
+  m_Layer: 0
+  m_Name: TankSmoke_Dummy 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4811886904094557
+Transform:
+  m_GameObject: {fileID: 1446938766219449}
+  m_LocalRotation: {x: 0.4999999, y: 0.5000001, z: 0.5000002, w: 0.4999999}
+  m_LocalPosition: {x: -0.007714025, y: 1.195922, z: -4.427425}
+  m_LocalScale: {x: 0.9499997, y: 0.9499998, z: 0.9499998}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 89.99999, y: 6.830187E-06, z: -90.00003}
+--- !u!1 &1534721293427925
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4815139968611113}
+  m_Layer: 0
+  m_Name: TankSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4815139968611113
+Transform:
+  m_GameObject: {fileID: 1534721293427925}
+  m_LocalRotation: {x: 0.5, y: -0.4999999, z: -0.5, w: 0.5000001}
+  m_LocalPosition: {x: -0.1358389, y: 2.065254, z: 6.556597}
+  m_LocalScale: {x: 0.9499996, y: 0.9499996, z: 0.9499997}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 89.99999, y: 1.707546E-06, z: 89.99999}
+--- !u!1 &1911775278399763
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4856675339165144}
+  m_Layer: 0
+  m_Name: TankTopWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4856675339165144
+Transform:
+  m_GameObject: {fileID: 1911775278399763}
+  m_LocalRotation: {x: 0.7071068, y: 7.861774E-08, z: -0.7071068, w: 7.861774E-08}
+  m_LocalPosition: {x: 1.620408, y: 1.635415, z: 2.877101}
+  m_LocalScale: {x: 0.9499999, y: 0.9499999, z: 0.95}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
+--- !u!1 &1922442806000093
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4278794036135956}
+  m_Layer: 0
+  m_Name: TankTopWeapon2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4278794036135956
+Transform:
+  m_GameObject: {fileID: 1922442806000093}
+  m_LocalRotation: {x: 0.7071068, y: 8.681599E-09, z: -0.7071068, w: 8.681599E-09}
+  m_LocalPosition: {x: -1.64733, y: 1.635415, z: 2.877101}
+  m_LocalScale: {x: 0.9499998, y: 0.9499998, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
+--- !u!1 &1805778470448320
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4788722048265729}
+  - component: {fileID: 33146563280712583}
+  - component: {fileID: 23843903065886253}
+  m_Layer: 0
+  m_Name: TankTrackLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4788722048265729
+Transform:
+  m_GameObject: {fileID: 1805778470448320}
+  m_LocalRotation: {x: 1.264406E-07, y: -0.7071068, z: 1.264406E-07, w: 0.7071068}
+  m_LocalPosition: {x: -1.605009, y: 0.8476252, z: -0.1690752}
+  m_LocalScale: {x: 0.9499999, y: 0.9499999, z: 0.95}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 2.049057E-05, y: 90, z: 0}
+--- !u!33 &33146563280712583
+MeshFilter:
+  m_GameObject: {fileID: 1805778470448320}
+  m_Mesh: {fileID: 4300000, guid: b7023b88b787f3140bc80d88fd349918, type: 2}
+--- !u!23 &23843903065886253
+MeshRenderer:
+  m_GameObject: {fileID: 1805778470448320}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1469854587125085
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4126599644195347}
+  - component: {fileID: 33464007145420954}
+  - component: {fileID: 23722403658416723}
+  m_Layer: 0
+  m_Name: TankTrackRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4126599644195347
+Transform:
+  m_GameObject: {fileID: 1469854587125085}
+  m_LocalRotation: {x: 1.264406E-07, y: -0.7071068, z: 1.264406E-07, w: 0.7071068}
+  m_LocalPosition: {x: 1.612842, y: 0.8476256, z: -0.1690752}
+  m_LocalScale: {x: 0.9499999, y: 0.9499999, z: 0.95}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 2.049057E-05, y: 90, z: 0}
+--- !u!33 &33464007145420954
+MeshFilter:
+  m_GameObject: {fileID: 1469854587125085}
+  m_Mesh: {fileID: 4300000, guid: 37aa9651ec7f2944c9e1e2303ab2d90f, type: 2}
+--- !u!23 &23722403658416723
+MeshRenderer:
+  m_GameObject: {fileID: 1469854587125085}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1410538889460275
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4667102716044222}
+  - component: {fileID: 33703827125062832}
+  - component: {fileID: 23230004704669820}
+  m_Layer: 0
+  m_Name: TankTurret
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4667102716044222
+Transform:
+  m_GameObject: {fileID: 1410538889460275}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071069, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: -0.01333001, y: 1.462751, z: 0.03961528}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children:
+  - {fileID: 4221183278254907}
+  - {fileID: 4938378268331537}
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 90.00001, y: -1.343526E-13, z: 180}
+--- !u!33 &33703827125062832
+MeshFilter:
+  m_GameObject: {fileID: 1410538889460275}
+  m_Mesh: {fileID: 4300000, guid: d2768f214dbca0543935f393881f11e6, type: 2}
+--- !u!23 &23230004704669820
+MeshRenderer:
+  m_GameObject: {fileID: 1410538889460275}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1170091138516868
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4221183278254907}
+  - component: {fileID: 33365809393601516}
+  - component: {fileID: 23363348334373070}
+  m_Layer: 0
+  m_Name: TankTurretBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4221183278254907
+Transform:
+  m_GameObject: {fileID: 1170091138516868}
+  m_LocalRotation: {x: 0, y: 0, z: 2.365323E-16, w: 1}
+  m_LocalPosition: {x: -0.01202816, y: 1.958771, z: 0.6659656}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4667102716044222}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.71046E-14}
+--- !u!33 &33365809393601516
+MeshFilter:
+  m_GameObject: {fileID: 1170091138516868}
+  m_Mesh: {fileID: 4300000, guid: 52bcde806152ea74bbaa688795d28201, type: 2}
+--- !u!23 &23363348334373070
+MeshRenderer:
+  m_GameObject: {fileID: 1170091138516868}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1551735810631401
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4938378268331537}
+  - component: {fileID: 33429731027394597}
+  - component: {fileID: 23184918108075291}
+  m_Layer: 0
+  m_Name: TankTurretGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4938378268331537
+Transform:
+  m_GameObject: {fileID: 1551735810631401}
+  m_LocalRotation: {x: 0, y: 0, z: 2.365323E-16, w: 1}
+  m_LocalPosition: {x: 0.1292516, y: 2.440292, z: 0.6824729}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4667102716044222}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.71046E-14}
+--- !u!33 &33429731027394597
+MeshFilter:
+  m_GameObject: {fileID: 1551735810631401}
+  m_Mesh: {fileID: 4300000, guid: 37c5c41b9fd031047a334929df71a092, type: 2}
+--- !u!23 &23184918108075291
+MeshRenderer:
+  m_GameObject: {fileID: 1551735810631401}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1503387021159900
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4619775532144620}
+  - component: {fileID: 33866717783848723}
+  - component: {fileID: 23639027098695845}
+  m_Layer: 0
+  m_Name: TankWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4619775532144620
+Transform:
+  m_GameObject: {fileID: 1503387021159900}
+  m_LocalRotation: {x: -5.338507E-08, y: 0.7071068, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: -1.397564, y: 0.709382, z: -2.178946}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33866717783848723
+MeshFilter:
+  m_GameObject: {fileID: 1503387021159900}
+  m_Mesh: {fileID: 4300000, guid: d717db248e93d844b8ca3d6b55e966e6, type: 2}
+--- !u!23 &23639027098695845
+MeshRenderer:
+  m_GameObject: {fileID: 1503387021159900}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1205414827985297
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4730901353931819}
+  - component: {fileID: 33278367930717526}
+  - component: {fileID: 23157077209373963}
+  m_Layer: 0
+  m_Name: TankWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730901353931819
+Transform:
+  m_GameObject: {fileID: 1205414827985297}
+  m_LocalRotation: {x: -5.338507E-08, y: 0.7071068, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: -1.397564, y: 0.7093818, z: 1.916632}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33278367930717526
+MeshFilter:
+  m_GameObject: {fileID: 1205414827985297}
+  m_Mesh: {fileID: 4300000, guid: 1533e24d68eb396439ec8db39b7d1276, type: 2}
+--- !u!23 &23157077209373963
+MeshRenderer:
+  m_GameObject: {fileID: 1205414827985297}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1357797846979059
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4297515569932071}
+  - component: {fileID: 33334462988661300}
+  - component: {fileID: 23403173794228984}
+  m_Layer: 0
+  m_Name: TankWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4297515569932071
+Transform:
+  m_GameObject: {fileID: 1357797846979059}
+  m_LocalRotation: {x: -5.338507E-08, y: 0.7071068, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 1.381782, y: 0.7093825, z: -2.178946}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33334462988661300
+MeshFilter:
+  m_GameObject: {fileID: 1357797846979059}
+  m_Mesh: {fileID: 4300000, guid: ab4c66243d6f9204bac37d0acae2ff3c, type: 2}
+--- !u!23 &23403173794228984
+MeshRenderer:
+  m_GameObject: {fileID: 1357797846979059}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1361808667764973
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4133582230700953}
+  - component: {fileID: 33796854974259820}
+  - component: {fileID: 23659704559386876}
+  m_Layer: 0
+  m_Name: TankWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4133582230700953
+Transform:
+  m_GameObject: {fileID: 1361808667764973}
+  m_LocalRotation: {x: -5.338507E-08, y: 0.7071068, z: 0.7071068, w: -5.338507E-08}
+  m_LocalPosition: {x: 1.381782, y: 0.7067292, z: 1.916631}
+  m_LocalScale: {x: 0.95, y: 0.9499999, z: 0.9499999}
+  m_Children: []
+  m_Father: {fileID: 4266858794923416}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &33796854974259820
+MeshFilter:
+  m_GameObject: {fileID: 1361808667764973}
+  m_Mesh: {fileID: 4300000, guid: 4f9cbadcf72db6347a5518ca59deaafb, type: 2}
+--- !u!23 &23659704559386876
+MeshRenderer:
+  m_GameObject: {fileID: 1361808667764973}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1755863148726283
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4226181429753695}
+  - component: {fileID: 33646139928238922}
+  - component: {fileID: 23680753566658658}
+  m_Layer: 0
+  m_Name: TankProxy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4226181429753695
+Transform:
+  m_GameObject: {fileID: 1755863148726283}
+  m_LocalRotation: {x: -8.146034E-08, y: -4.371139E-08, z: 4.371138E-08, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4593928103480263}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -9.334668E-06, y: 5.008956E-06, z: -5.008956E-06}
+--- !u!33 &33646139928238922
+MeshFilter:
+  m_GameObject: {fileID: 1755863148726283}
+  m_Mesh: {fileID: 4300000, guid: 83c0fb70329904a42b2b0889b54b17e5, type: 2}
+--- !u!23 &23680753566658658
+MeshRenderer:
+  m_GameObject: {fileID: 1755863148726283}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

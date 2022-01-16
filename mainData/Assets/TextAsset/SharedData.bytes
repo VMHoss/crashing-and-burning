@@ -1,0 +1,817 @@
+// Please keep everything neatly lined out using tabs for readability, note you can use multiple tabs between variable name and value
+// IMPORTANT: 3 and 3.0 are NOT the same, if a value was previously 3.4 and you want to change it to 3, change it to 3.0 instead! Vice versa also holds,
+//            if value is currently 3 you cannot change it to 3.4 but only to whole numbers without a floating point part  (for now at least)
+
+// TODO make sure that a string like "blabla/bla.txt" can be parsed without errors
+
+Camera_Begin
+	Default	[#FoV: 50.0, #Offset: [0.0,3.0,5.0]]
+Camera_End
+
+Player_Begin
+	// (SS) Multiple Player1 entries here, we might add the globals.Platform string behind each to set the platform specific key inputs, could be added to engine (and template project)
+	// PC (webplayer)
+	Player1PC			[#Input: [InputKeyboard, InputKeyboardAlt, InputKeyboardAlt2, InputMouse]]
+	// Touch devices iOS/Android
+	Player1Android		[#Input: [InputKeyboard, InputKeyboardAlt, InputKeyboardAlt2]]
+	Player1iOS			[#Input: [InputKeyboard, InputKeyboardAlt, InputKeyboardAlt2]]
+Player_End
+
+Input_Begin
+	// Note property Type is not used in actions, by default Type can be either Keyboard or Touch
+	InputKeyboard		[#Type: Keyboard, #Forward:   Up, #Backward: Down, #Left: Left, #Right: Right, #Drift: Space, #Reset: R, #Fire: Z, #UseItem: X]
+	InputKeyboardAlt	[#Type: Keyboard, #Forward:    W, #Backward:    S, #Left:    A, #Right:     D, #Drift: Left Shift,       #Fire: Y]  // Added the Y as fire button for German keyboards layout (requested by KaiserGames)
+	InputKeyboardAlt2	[#Type: Keyboard,                                                              #Drift: Right Shift]
+	InputMouse			[#Type:    Mouse                                                                                       , #Fire: 0, #UseItem: 1]
+	//InputTouch		[#Type:    Touch, #Jump: SwipeUp, #Action: SwipeDown, #DebugLongTap: LongTap]
+Input_End
+
+// TODO: AssetDependencies should be replaced by AssetBundles with their dependencies in there
+// AssetDependencies_Begin
+	// Level1			[]
+	// Level2			[]
+	// Level3			[]
+	// Level4			[Candy\Gumship]  // gumship is already required here because it is spawned at the end of the level
+	// Level5			[Candy\Gumship, Enemies\MotherShip]  // the mother ship is not spawned by a trigger (for now?) and so is added as a level 5 dependency
+	// Level6			[]
+	// GunnerBear		[Enemies\HuggyBear]  // for the gunner bear the huggy bear is required as the huggy bear operates on the gun
+	// EnemyGumShip	[Enemies\Leprechaun]  // enemy gumship is controlled by a (blue) leprechaun
+	// MotherShip		[]  // IMPORTANT: When adding dependencies here I might have to iterate on asset dependencies, see function SetDownloads in LoaderScript
+// AssetDependencies_End
+
+BloomSetting_Begin
+	// Bloom is only activated on high quality
+	Intensity	2.0
+	Iterations	2
+	Threshhold	0.5
+BloomSetting_End
+
+LevelSettings_Begin
+	// TrackSetting, we have 3 of these settings per track: Dawn, Day and Dusk, in settings if 'Rand' is used a random setting will be chosen (for that track)
+	// AmbientLight (AL) consist of 3 float values in a list: (RGB)
+	// Fog Color (FC) idem
+	// Fog Start Distance (FSD), Fog End Distance (FED) single float value
+	// Fog Density (FD) single float value
+	Level1			[#AL: [1.000, 1.000, 1.000], #FC: [0.306, 0.455, 0.514], #FSD:   0.0, #FED:  550.0, #FD: 0.0025]
+LevelSettings_End
+
+Car_Begin
+	// Player cars
+	Lotus			[#AssetBundle:        Vehicles, #Model:       Lotus, #Skin: 1, #Setting:       Lotus]
+	A7				[#AssetBundle:        Vehicles, #Model:          A7, #Skin: 1, #Setting:          A7]
+	Chevrolet		[#AssetBundle:        Vehicles, #Model:   Chevrolet, #Skin: 1, #Setting:   Chevrolet]
+	FireTruck		[#AssetBundle:        Vehicles, #Model:   FireTruck, #Skin: 1, #Setting:   FireTruck]
+	Juggernaut		[#AssetBundle:        Vehicles, #Model:  Juggernaut, #Skin: 1, #Setting:  Juggernaut]
+	PanzerTruck		[#AssetBundle:        Vehicles, #Model: PanzerTruck, #Skin: 1, #Setting: PanzerTruck]
+	
+	//BossCarPack
+	Drill			[#AssetBundle:     BossCarPack, #Model:       Drill, #Skin: 1, #Setting:       Drill]
+	KillRod			[#AssetBundle:     BossCarPack, #Model:     KillRod, #Skin: 1, #Setting:     KillRod]
+	SchoolBus		[#AssetBundle:     BossCarPack, #Model:   SchoolBus, #Skin: 1, #Setting:   SchoolBus]
+	
+	//MilitaryBossPack
+	Fennek			[#AssetBundle: MilitaryCarPack, #Model:      Fennek, #Skin: 1, #Setting:      Fennek]
+	Tank			[#AssetBundle: MilitaryCarPack, #Model:        Tank, #Skin: 1, #Setting:        Tank]
+	Taurus			[#AssetBundle: MilitaryCarPack, #Model:      Taurus, #Skin: 1, #Setting:      Taurus]
+	
+	//SportsCarPack
+	AstonMartin		[#AssetBundle:   SportsCarPack, #Model: AstonMartin, #Skin: 1, #Setting: AstonMartin]
+	FordGT			[#AssetBundle:   SportsCarPack, #Model:      FordGT, #Skin: 1, #Setting:      FordGT]
+	Vice			[#AssetBundle:   SportsCarPack, #Model:        Vice, #Skin: 1, #Setting:        Vice]
+Car_End
+
+CarSetting_Begin
+	// Note that the handling property of a car doesn't actually change car behavior, it's merely meant towards the player to show how well the car behaves which is defined by properties such as AccelerationGain, DecelerationGain, Grip, Damping, TurnGain
+	Lotus			[#Cost:    5000, #Handling: 30.0, #Armor:  5.0, #Attack:  0.5, #EngineAudio:      Hunter, #ProjectorSize: 2.50, #DriftEnabled:  true, #CamPosY:  3.00, #CamPosZ:  7.5, #CamAimY: 2.0, #NitroCamPosY:  4.0, #NitroCamPosZ:  9.0, #MaxSpeed:  55.0, #MaxNitroSpeed: 70.0, #AccelerationGain: 1.0, #DecelerationGain: 1.0, #Drag: 0.5, #Grip:  3.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  5000.0, #AngularDrag: 1.0, #TurnGain: 15.0, #MaxWheelTurn: 25.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	A7				[#Cost:    5000, #Handling: 30.0, #Armor: 10.0, #Attack:  1.0, #EngineAudio:    Predator, #ProjectorSize: 2.50, #DriftEnabled:  true, #CamPosY:  3.00, #CamPosZ:  7.5, #CamAimY: 1.5, #NitroCamPosY:  4.0, #NitroCamPosZ:  9.0, #MaxSpeed:  65.0, #MaxNitroSpeed: 80.0, #AccelerationGain: 1.8, #DecelerationGain: 1.2, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  5000.0, #AngularDrag: 1.0, #TurnGain: 15.0, #MaxWheelTurn: 25.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	Chevrolet		[#Cost:   50000, #Handling: 30.0, #Armor: 15.0, #Attack:  1.0, #EngineAudio:        Wolf, #ProjectorSize: 2.50, #DriftEnabled:  true, #CamPosY:  3.00, #CamPosZ:  7.5, #CamAimY: 1.5, #NitroCamPosY:  4.0, #NitroCamPosZ:  9.0, #MaxSpeed:  55.0, #MaxNitroSpeed: 70.0, #AccelerationGain: 1.3, #DecelerationGain: 1.0, #Drag: 0.5, #Grip:  3.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  6000.0, #AngularDrag: 1.0, #TurnGain: 15.0, #MaxWheelTurn: 25.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	FireTruck		[#Cost:  100000, #Handling: 30.0, #Armor: 20.0, #Attack:  2.0, #EngineAudio: FireStarter, #ProjectorSize: 2.50, #DriftEnabled: false, #CamPosY:  4.80, #CamPosZ: 11.0, #CamAimY: 1.8, #NitroCamPosY:  6.0, #NitroCamPosZ: 12.0, #MaxSpeed:  45.0, #MaxNitroSpeed: 60.0, #AccelerationGain: 1.0, #DecelerationGain: 0.8, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  4.0, #HoverOffset: 0.08, #Mass:  9000.0, #AngularDrag: 1.0, #TurnGain: 12.0, #MaxWheelTurn: 15.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	Juggernaut		[#Cost:  500000, #Handling: 30.0, #Armor: 20.0, #Attack:  2.5, #EngineAudio:  Juggernaut, #ProjectorSize: 2.50, #DriftEnabled: false, #CamPosY:  3.00, #CamPosZ:  7.5, #CamAimY: 1.5, #NitroCamPosY:  4.0, #NitroCamPosZ:  9.0, #MaxSpeed:  55.0, #MaxNitroSpeed: 70.0, #AccelerationGain: 1.3, #DecelerationGain: 0.7, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  9000.0, #AngularDrag: 1.0, #TurnGain: 13.0, #MaxWheelTurn: 15.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	PanzerTruck		[#Cost: 1000000, #Handling: 30.0, #Armor: 25.0, #Attack:  4.0, #EngineAudio:      Panzer, #ProjectorSize: 2.50, #DriftEnabled: false, #CamPosY:  8.00, #CamPosZ: 16.5, #CamAimY: 4.5, #NitroCamPosY:  6.0, #NitroCamPosZ: 12.0, #MaxSpeed:  30.0, #MaxNitroSpeed: 40.0, #AccelerationGain: 1.0, #DecelerationGain: 0.5, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass: 15000.0, #AngularDrag: 1.0, #TurnGain: 12.0, #MaxWheelTurn: 15.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	
+	//BossCarPack
+	Drill			[#Cost:       0, #Handling: 30.0, #Armor: 35.0, #Attack:  2.0, #EngineAudio:  Juggernaut, #ProjectorSize: 2.50, #DriftEnabled: false, #CamPosY:  4.80, #CamPosZ: 11.0, #CamAimY: 1.8, #NitroCamPosY:  6.0, #NitroCamPosZ: 12.0, #MaxSpeed:  45.0, #MaxNitroSpeed: 60.0, #AccelerationGain: 1.0, #DecelerationGain: 0.8, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  4.0, #HoverOffset: 0.15, #Mass:  9000.0, #AngularDrag: 1.0, #TurnGain: 12.0, #MaxWheelTurn: 15.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	KillRod			[#Cost:       0, #Handling: 30.0, #Armor: 35.0, #Attack:  2.5, #EngineAudio:        Wolf, #ProjectorSize: 2.50, #DriftEnabled: false, #CamPosY:  3.00, #CamPosZ:  7.5, #CamAimY: 1.5, #NitroCamPosY:  4.0, #NitroCamPosZ:  9.0, #MaxSpeed:  55.0, #MaxNitroSpeed: 70.0, #AccelerationGain: 1.3, #DecelerationGain: 0.7, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  9000.0, #AngularDrag: 1.0, #TurnGain: 13.0, #MaxWheelTurn: 15.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	SchoolBus		[#Cost:       0, #Handling: 30.0, #Armor: 35.0, #Attack:  2.0, #EngineAudio: FireStarter, #ProjectorSize: 2.50, #DriftEnabled: false, #CamPosY:  4.80, #CamPosZ: 11.0, #CamAimY: 1.8, #NitroCamPosY:  6.0, #NitroCamPosZ: 12.0, #MaxSpeed:  45.0, #MaxNitroSpeed: 60.0, #AccelerationGain: 1.0, #DecelerationGain: 0.8, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  4.0, #HoverOffset: 0.08, #Mass:  9000.0, #AngularDrag: 1.0, #TurnGain: 12.0, #MaxWheelTurn: 15.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	
+	//MilitaryBossPack
+	Fennek			[#Cost:       0, #Handling: 30.0, #Armor: 40.0, #Attack:  2.5, #EngineAudio:  Juggernaut, #ProjectorSize: 2.50, #DriftEnabled: false, #CamPosY:  3.50, #CamPosZ:  7.5, #CamAimY: 2.2, #NitroCamPosY:  4.0, #NitroCamPosZ:  9.0, #MaxSpeed:  55.0, #MaxNitroSpeed: 70.0, #AccelerationGain: 1.3, #DecelerationGain: 0.7, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  9000.0, #AngularDrag: 1.0, #TurnGain: 13.0, #MaxWheelTurn: 15.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	Tank			[#Cost:       0, #Handling: 30.0, #Armor: 50.0, #Attack:  4.0, #EngineAudio:      Panzer, #ProjectorSize: 2.50, #DriftEnabled: false, #CamPosY:  7.00, #CamPosZ: 16.5, #CamAimY: 4.5, #NitroCamPosY:  8.0, #NitroCamPosZ: 12.0, #MaxSpeed:  30.0, #MaxNitroSpeed: 40.0, #AccelerationGain: 1.0, #DecelerationGain: 0.5, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass: 15000.0, #AngularDrag: 1.0, #TurnGain: 12.0, #MaxWheelTurn: 15.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	Taurus			[#Cost:       0, #Handling: 30.0, #Armor: 40.0, #Attack:  2.5, #EngineAudio:  Juggernaut, #ProjectorSize: 2.50, #DriftEnabled: false, #CamPosY:  5.50, #CamPosZ: 14.5, #CamAimY: 3.5, #NitroCamPosY:  6.0, #NitroCamPosZ: 12.0, #MaxSpeed:  55.0, #MaxNitroSpeed: 70.0, #AccelerationGain: 1.3, #DecelerationGain: 0.7, #Drag: 0.5, #Grip:  5.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  9000.0, #AngularDrag: 1.0, #TurnGain: 12.0, #MaxWheelTurn: 15.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	
+	//SportsCarPack
+	AstonMartin		[#Cost:       0, #Handling: 30.0, #Armor: 10.0, #Attack:  0.5, #EngineAudio:      Hunter, #ProjectorSize: 2.50, #DriftEnabled:  true, #CamPosY:  3.00, #CamPosZ:  7.5, #CamAimY: 2.0, #NitroCamPosY:  4.0, #NitroCamPosZ:  9.0, #MaxSpeed:  55.0, #MaxNitroSpeed: 70.0, #AccelerationGain: 1.2, #DecelerationGain: 1.2, #Drag: 0.5, #Grip:  4.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  5000.0, #AngularDrag: 1.0, #TurnGain: 16.0, #MaxWheelTurn: 25.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	FordGT			[#Cost:       0, #Handling: 30.0, #Armor: 10.0, #Attack:  0.5, #EngineAudio:      Hunter, #ProjectorSize: 2.50, #DriftEnabled:  true, #CamPosY:  3.00, #CamPosZ:  7.5, #CamAimY: 2.0, #NitroCamPosY:  4.0, #NitroCamPosZ:  9.0, #MaxSpeed:  60.0, #MaxNitroSpeed: 75.0, #AccelerationGain: 1.3, #DecelerationGain: 1.3, #Drag: 0.5, #Grip:  4.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  5000.0, #AngularDrag: 1.0, #TurnGain: 16.0, #MaxWheelTurn: 25.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+	Vice			[#Cost:       0, #Handling: 30.0, #Armor: 10.0, #Attack:  0.5, #EngineAudio:      Hunter, #ProjectorSize: 2.50, #DriftEnabled:  true, #CamPosY:  3.00, #CamPosZ:  7.5, #CamAimY: 2.0, #NitroCamPosY:  4.0, #NitroCamPosZ:  9.0, #MaxSpeed:  60.0, #MaxNitroSpeed: 75.0, #AccelerationGain: 1.8, #DecelerationGain: 1.3, #Drag: 0.5, #Grip:  4.00, #DriftGrip: 0.5, #Strength: 100.0, #Damping:  8.0, #HoverOffset: 0.08, #Mass:  5000.0, #AngularDrag: 1.0, #TurnGain: 16.0, #MaxWheelTurn: 25.0, #WheelWidth: 0.275, #MaximumWheelOffset: 0.2, #ExplosionRange: 10.0, #ReqVelocityMod:   0.0, #SpeedReducMod:   0.0]
+CarSetting_End
+
+CarWeapons_Begin
+	// although not necessary, please enter all weapon slots (dummies) for the car here, most will be set to None, but it gives an easy overview for each car
+	A7				[#A7FrontWeapon1: None, #A7LeftWeapon1: Laser, #A7RearWeapon1: None, #A7RightWeapon1: Laser, #A7SpecialWeapon1: None]
+	Chevrolet		[#ChevroletFrontWeapon1: None, #ChevroletLeftWeapon1: GrenadeLauncher, #ChevroletRearWeapon1: None, #ChevroletRightWeapon1: GrenadeLauncher, #ChevroletSpecialWeapon1: None]
+	FireTruck		[#FireTruckFrontWeapon1: None, #FireTruckLeftWeapon1: StrikerLauncher, #FireTruckRearWeapon1: None, #FireTruckRightWeapon1: StrikerLauncher, #FireTruckSpecialWeapon1: None]
+	Juggernaut		[#JuggernautFrontWeapon1: None, #JuggernautLeftWeapon1: FlameThrower, #JuggernautRearWeapon1: None, #JuggernautRightWeapon1: FlameThrower, #JuggernautSpecialWeapon1: None]
+	Lotus			[#LotusFrontWeapon1: None, #LotusLeftWeapon1: RocketLauncher, #LotusRearWeapon1: None, #LotusRightWeapon1:RocketLauncher, #LotusSpecialWeapon1: None]
+	PanzerTruck		[#PanzerTruckFrontWeapon1: None, #PanzerTruckLeftWeapon1: MachineGun, #PanzerTruckRearWeapon1: None, #PanzerTruckRightWeapon1: MachineGun, #PanzerTruckSpecialWeapon1: None]
+	
+	//BossCarPack
+	Drill			[#DrillFrontWeapon1: None, #DrillLeftWeapon1: StrikerLauncher, #DrillRearWeapon1: None, #DrillRightWeapon1: StrikerLauncher, #DrillSpecialWeapon1: None]
+	KillRod			[#KillRodFrontWeapon1: None, #KillRodLeftWeapon1: ShotGun, #KillRodRearWeapon: None, #KillRodRightWeapon1: ShotGun, #KillRodSpecialWeapon1: None, #KillRodSpecialWeapon: None, #KillRodTopWeapon: None]
+	SchoolBus		[#SchoolBusFrontWeapon1: None, #SchoolBusLeftWeapon1: FlameThrower, #SchoolBusRearWeapon1: None, #SchoolBusRightWeapon1: FlameThrower, #SchoolBusSpecialWeapon1: None]
+	
+	//MilitaryBossPack
+	Fennek			[#FennekFrontWeapon1: None, #FennekLeftWeapon1: HeavyMachineGun, #FennekRightWeapon1: HeavyMachineGun, #FennekpecialWeapon1: None]
+	Tank			[#TankSpecialWeapon1: TankMainGun]
+	Taurus			[#TaurusFrontWeapon1: None, #TaurusLeftWeapon1: MissileLauncher, #TaurusRearWeapon1: None, #TaurusRightWeapon1: MissileLauncher, #TaurusSpecialWeapon1: None]
+	
+	//SportsCarPack
+	AstonMartin		[#AstonMartinSpecialWeapon1: None, #AstonMartinRightWeapon1: FuelAirRPGs, #AstonMartinRearWeapon1: None, #AstonMartinLeftWeapon1: FuelAirRPGs, #AstonMartinFrontWeapon1: None]
+	FordGT			[#FordGTSpecialWeapon1: None, #FordGTRightWeapon1: RailGun, #FordGTRearWeapon1: None, #FordGTLeftWeapon1: RailGun, #FordGTFrontWeapon1: None]
+	Vice			[#ViceSpecialWeapon1: None, #ViceRightWeapon1: HeavyMachineGun, #ViceRearWeapon1: None, #ViceLeftWeapon1: HeavyMachineGun, #ViceFrontWeapon1: None]
+CarWeapons_End
+
+// CarDebris currently not used
+CarDebris_Begin
+	A7				[#FallOffSpeed: 10.0, #Debris: [A7Debris01]]
+	Chevrolet		[#FallOffSpeed: 10.0, #Debris: [ChevroletDebris01]]
+	FireTruck		[#FallOffSpeed: 10.0, #Debris: [FireTruckDebris01]]
+	Juggernaut		[#FallOffSpeed: 10.0, #Debris: [JuggernautDebris01]]
+	Lotus			[#FallOffSpeed: 10.0, #Debris: [LotusDebris01, LotusDebris02, LotusDebris03, LotusDebris04, LotusDebris05, LotusDebris06, LotusDebris07, LotusDebris08, LotusDebris09]]
+	PanzerTruck		[#FallOffSpeed: 10.0, #Debris: [PanzerTruckDebris01]]
+	Drill			[#FallOffSpeed: 10.0, #Debris: [DrillDebris01]]
+	KillRod			[#FallOffSpeed: 10.0, #Debris: [KillRodDebris01]]
+	SchoolBus		[#FallOffSpeed: 10.0, #Debris: [SchoolBusDebris01]]
+	Fennek			[#FallOffSpeed: 10.0, #Debris: [FennekDebris01]]
+	Tank			[#FallOffSpeed: 10.0, #Debris: [TankDebris01]]
+	Taurus			[#FallOffSpeed: 10.0, #Debris: [TaurusDebris01]]
+	AstonMartin		[#FallOffSpeed: 10.0, #Debris: [AstonMartinDebris01]]
+	FordGT			[#FallOffSpeed: 10.0, #Debris: [FordGTDebris01]]
+	Vice			[#FallOffSpeed: 10.0, #Debris: [ViceDebris01]]
+CarDebris_End
+
+// CarDamageDebris currently not used
+CarDamageDebris_Begin
+	A7				[#DamageDebris1: [A7Debris01], #DamageDebris2: [], #DamageDebris3: []]
+	Chevrolet		[#DamageDebris1: [ChevroletDebris01], #DamageDebris2: [], #DamageDebris3: []]
+	FireTruck		[#DamageDebris1: [FireTruckDebris01], #DamageDebris2: [], #DamageDebris3: []]
+	Juggernaut		[#DamageDebris1: [JuggernautDebris01], #DamageDebris2: [], #DamageDebris3: []]
+	Lotus			[#DamageDebris1: [LotusDebris01, LotusDebris02], #DamageDebris2: [LotusDebris03, LotusDebris04], #DamageDebris3: [LotusDebris07, LotusDebris09]]
+	PanzerTruck		[#DamageDebris1: [PanzerTruckDebris01], #DamageDebris2: [], #DamageDebris3: []]
+	Drill			[#DamageDebris1: [], #DamageDebris2: [], #DamageDebris3: []]
+	KillRod			[#DamageDebris1: [], #DamageDebris2: [], #DamageDebris3: []]
+	SchoolBus		[#DamageDebris1: [], #DamageDebris2: [], #DamageDebris3: []]
+	Fennek			[#DamageDebris1: [], #DamageDebris2: [], #DamageDebris3: []]
+	Tank			[#DamageDebris1: [], #DamageDebris2: [], #DamageDebris3: []]
+	Taurus			[#DamageDebris1: [], #DamageDebris2: [], #DamageDebris3: []]
+	AstonMartin		[#DamageDebris1: [], #DamageDebris2: [], #DamageDebris3: []]
+	FordGT			[#DamageDebris1: [], #DamageDebris2: [], #DamageDebris3: []]
+	Vice			[#DamageDebris1: [], #DamageDebris2: [], #DamageDebris3: []]
+CarDamageDebris_End
+
+Weapons_Begin
+	// Weapon prefab should be located in Shared/Prefabs/Weapons
+	FlameThrower	[#Prefab:    FlameThrower, #CoolDownTime: 0.10, #Projectile:            Flame, #FireSound: Weapons/FlameThrowerStart, #OverrideFireSound:  true, #MuzzleFlash: MuzzleFlash_PS]
+	GrenadeLauncher	[#Prefab: GrenadeLauncher, #CoolDownTime: 0.50, #Projectile:            Shell, #FireSound:   Weapons/GrenadeLauncher, #OverrideFireSound: false, #MuzzleFlash: MuzzleFlash_PS]
+	Laser			[#Prefab:           Laser, #CoolDownTime: 0.20, #Projectile:        LaserBeam, #FireSound:         Weapons/LaserShot, #OverrideFireSound: false, #MuzzleFlash: MuzzleFlash_PS, #MaxCharge: 2.0]
+	MachineGun		[#Prefab:      MachineGun, #CoolDownTime: 0.10, #Projectile: MachineGunBullet, #FireSound:           Weapons/MiniGun, #OverrideFireSound: false, #MuzzleFlash: MuzzleFlash_PS]
+	RocketLauncher	[#Prefab:  RocketLauncher, #CoolDownTime: 0.33, #Projectile:           Rocket, #FireSound:   Weapons/RocketPodLaunch, #OverrideFireSound: false, #MuzzleFlash: MuzzleFlash_PS]
+	StrikerLauncher	[#Prefab: StrikerLauncher, #CoolDownTime: 0.15, #Projectile:    StrikerRocket, #FireSound:   Weapons/StrikerLauncher, #OverrideFireSound:  true, #MuzzleFlash: MuzzleFlash_PS]
+	// Expansion weapons (from car packs)
+	ShotGun			[#Prefab:         ShotGun, #CoolDownTime: 0.50, #Projectile:    ShotGunBullet, #FireSound:           Weapons/ShotGun, #OverrideFireSound: false, #MuzzleFlash: MuzzleFlash_PS, #BulletsPerShot: 5]
+	RailGun			[#Prefab:         RailGun, #CoolDownTime: 0.50, #Projectile:      RailGunBeam, #FireSound:       Weapons/RailGunShot, #OverrideFireSound: false, #MuzzleFlash: MuzzleFlash_PS, #MaxCharge: 0.5]
+	MissileLauncher	[#Prefab: MissileLauncher, #CoolDownTime: 0.50, #Projectile:          Missile, #FireSound:   Weapons/MissileLauncher, #OverrideFireSound:  true, #MuzzleFlash: MuzzleFlash_PS]
+	HeavyMachineGun	[#Prefab: HeavyMachineGun, #CoolDownTime: 0.20, #Projectile:    HeavyMGBullet, #FireSound:   Weapons/HeavyMachineGun, #OverrideFireSound:  true, #MuzzleFlash: MuzzleFlash_PS]
+	FuelAirRPGs		[#Prefab:     FuelAirRPGs, #CoolDownTime: 1.00, #Projectile: FuelAirRPGRocket, #FireSound:       Weapons/FuelAirRPGs, #OverrideFireSound:  true, #MuzzleFlash: MuzzleFlash_PS]
+	TankMainGun		[#Prefab:     TankMainGun, #CoolDownTime: 0.33, #Projectile:        TankShell, #FireSound:          Weapons/TankFire, #OverrideFireSound: false, #MuzzleFlash: MuzzleFlash_PS]
+Weapons_End
+
+Projectiles_Begin
+	// Projectile prefab should be located in Shared/Prefabs/Projectiles
+	// ImpactEffect should be located in Shared/Prefabs/Effects
+	// ImpactSound can be a range of sounds indicated by the dash '-', this is a test that I'm trying here and is not yet applicable in other sounds
+	// ImpactExplosion should be an explosion name from Explosions_Begin
+
+	Flame				[#Prefab: FlameThrowerFire_PS, #Range: 100.0, #Speed: 100.0, #Damage:  10.0, #ImpactEffect:               BulletImpact_PS, #ImpactSound:            None, #ImpactExplosion:             None]
+	LaserBeam			[#Prefab:           LaserBeam, #Range: 100.0, #Speed: 100.0, #Damage:  10.0, #ImpactEffect:               BulletImpact_PS, #ImpactSound:            None, #ImpactExplosion:             None]
+	MachineGunBullet	[#Prefab:              Bullet, #Range: 100.0, #Speed: 150.0, #Damage:  60.0, #ImpactEffect:               BulletImpact_PS, #ImpactSound: ImpactGround1-4, #ImpactExplosion:             None]
+	Rocket				[#Prefab:              Rocket, #Range: 250.0, #Speed: 100.0, #Damage:  99.9, #ImpactEffect:                          None, #ImpactSound:            None, #ImpactExplosion:           Rocket]  // Maybe damage is 0 for rocket launcher cause it also does damage with area damage
+	Shell				[#Prefab:               Shell, #Range: 500.0, #Speed:  50.0, #Damage:  99.9, #ImpactEffect:                          None, #ImpactSound:            None, #ImpactExplosion:           Rocket, #ExplodeTimer: 2.0]
+	StrikerRocket		[#Prefab:              Rocket, #Range: 250.0, #Speed: 100.0, #Damage:  99.9, #ImpactEffect:                          None, #ImpactSound:            None, #ImpactExplosion:    StrikerRocket]  // idem
+
+	// Expansion weapons (from car packs)
+	ShotGunBullet		[#Prefab:              Bullet, #Range:  50.0, #Speed: 150.0, #Damage:  99.9, #ImpactEffect:               BulletImpact_PS, #ImpactSound: ImpactGround1-4, #ImpactExplosion:             None]
+	RailGunBeam			[#Prefab:    RailGunBeamFixed, #Range: 200.0, #Speed: 100.0, #Damage: 999.9, #ImpactEffect:               BulletImpact_PS, #ImpactSound:            None, #ImpactExplosion:             None]  // RailGunBeam did not have the correct pivot, added parent object to fix this
+	Missile				[#Prefab:              Rocket, #Range: 250.0, #Speed: 100.0, #Damage: 250.0, #ImpactEffect:                          None, #ImpactSound:            None, #ImpactExplosion:           Rocket]  // Maybe damage is 0 for rocket launcher cause it also does damage with area damage
+	HeavyMGBullet		[#Prefab:              Bullet, #Range: 150.0, #Speed: 150.0, #Damage: 120.0, #ImpactEffect:               BulletImpact_PS, #ImpactSound: ImpactGround1-4, #ImpactExplosion:             None]
+	FuelAirRPGRocket	[#Prefab:              Rocket, #Range: 250.0, #Speed: 150.0, #Damage:   0.0, #ImpactEffect: Particles/FuelRPGExplosion_PS, #ImpactSound:            None, #ImpactExplosion:             None, #DelayedExplosion: FuelAirRPGRocket, #DelayTime: 0.5]
+	TankShell			[#Prefab:              Rocket, #Range: 250.0, #Speed: 150.0, #Damage: 500.0, #ImpactEffect:               BulletImpact_PS, #ImpactSound:            None, #ImpactExplosion:   ShellExplosion]
+
+	// enemy projectiles
+	MountedGunBullet	[#Prefab:              Bullet, #Range: 150.0, #Speed: 150.0, #Damage:   0.04, #ImpactEffect:              BulletImpact_PS, #ImpactSound: ImpactGround1-4, #ImpactExplosion:            None]
+	SamSiteRocket		[#Prefab:              Rocket, #Range: 250.0, #Speed: 100.0, #Damage:   1.00, #ImpactEffect:                         None, #ImpactSound:            None, #ImpactExplosion:   SamSiteRocket]  // Maybe damage is 0 for rocket launcher cause it also does damage with area damage
+Projectiles_End
+
+Explosions_Begin
+	// Explosion prefab should be located in Shared/Prefabs/Effects, I (Stijn) would prefer if it was in Shared/Prefabs/Explosions
+	Default				[#Prefab:        Particles/Explosion_PS, #AreaDamage:          Default, #Sound:                  Explosion, #CameraShake:          Default]
+	FlameBurst			[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:       FlameBurst, #Sound:                  Explosion, #CameraShake:          Default]
+	Detonator			[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:        Detonator, #Sound:                  Explosion, #CameraShake:        Detonator]
+	NuclearDetonator	[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage: NuclearDetonator, #Sound:                  Explosion, #CameraShake: NuclearDetonator]
+	JumpPound			[#Prefab:                  JumpPound_PS, #AreaDamage:        JumpPound, #Sound:          Effects/JumpPound, #CameraShake:          Default]
+	Rocket				[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:           Rocket, #Sound: Weapons/RocketPodExplosion, #CameraShake:          Default]
+	SamSiteRocket		[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:             None, #Sound: Weapons/RocketPodExplosion, #CameraShake:          Default]
+	StrikerRocket		[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:    StrikerRocket, #Sound: Weapons/RocketPodExplosion, #CameraShake:          Default]
+	FuelAirRPGRocket	[#Prefab:    Particles/FuelExplosion_PS, #AreaDamage: FuelAirRPGRocket, #Sound: Weapons/RocketPodExplosion, #CameraShake:          Default]
+	ShellExplosion		[#Prefab:         TankShellExplosion_PS, #AreaDamage:   ShellExplosion, #Sound:     Weapons/TankFireImpact, #CameraShake:          Default]
+	Traffic				[#Prefab:        Particles/Explosion_PS, #AreaDamage:             None, #Sound:                  Explosion, #CameraShake:          Traffic]
+	// 6 pulse bursts, when not upgraded PulseBurst0 is used, at upgrade 1 PulseBurst1 is used, etc.
+	PulseBurst0			[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:      PulseBurst0, #Sound:                  Explosion, #CameraShake:          Default]
+	PulseBurst1			[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:      PulseBurst1, #Sound:                  Explosion, #CameraShake:          Default]
+	PulseBurst2			[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:      PulseBurst2, #Sound:                  Explosion, #CameraShake:          Default]
+	PulseBurst3			[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:      PulseBurst3, #Sound:                  Explosion, #CameraShake:          Default]
+	PulseBurst4			[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:      PulseBurst4, #Sound:                  Explosion, #CameraShake:          Default]
+	PulseBurst5			[#Prefab:  Particles/ExplosionRocket_PS, #AreaDamage:      PulseBurst5, #Sound:                  Explosion, #CameraShake:          Default]
+	// 6 car bombs, same story as pulse bursts
+	CarBomb0			[#Prefab:        Particles/Explosion_PS, #AreaDamage:         CarBomb0, #Sound:                  Explosion, #CameraShake:          Default]
+	CarBomb1			[#Prefab:        Particles/Explosion_PS, #AreaDamage:         CarBomb1, #Sound:                  Explosion, #CameraShake:          Default]
+	CarBomb2			[#Prefab:        Particles/Explosion_PS, #AreaDamage:         CarBomb2, #Sound:                  Explosion, #CameraShake:          Default]
+	CarBomb3			[#Prefab:        Particles/Explosion_PS, #AreaDamage:         CarBomb3, #Sound:                  Explosion, #CameraShake:          Default]
+	CarBomb4			[#Prefab:        Particles/Explosion_PS, #AreaDamage:         CarBomb4, #Sound:                  Explosion, #CameraShake:          Default]
+	CarBomb5			[#Prefab:        Particles/Explosion_PS, #AreaDamage:         CarBomb5, #Sound:                  Explosion, #CameraShake:          Default]
+	// Diablo Explosion used when you have the Diablo super power
+	DiabloExplosion		[#Prefab: Particles/ExplosionRocket_PS, #AreaDamage:           Rocket, #Sound:      Effects/FireIgnite1-4, #CameraShake:          Default]
+Explosions_End
+
+AreaDamage_Begin
+	// Note: MinDistance does nothing for now
+	// Prefab is optional
+	// Instant is optional by default it is not instant, when area damage should be instant (not progressive) set to true
+	Default				[#Damage: 10.0, #MinDistance:  5.0, #MaxDistance: 10.0]
+	FlameBurst			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 30.0, #Prefab: Shockwave]
+	Detonator			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 99.0, #Instant: true]
+	NuclearDetonator	[#Damage:999.0, #MinDistance:  5.0, #MaxDistance:150.0]  //, #Instant: true]  Instant proves to be too much
+	JumpPound			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 30.0]
+	Rocket				[#Damage: 16.0, #MinDistance:  5.0, #MaxDistance: 15.0]
+	StrikerRocket		[#Damage: 25.0, #MinDistance:  5.0, #MaxDistance: 20.0]
+	FuelAirRPGRocket	[#Damage:999.0, #MinDistance:  5.0, #MaxDistance: 40.0]
+	ShellExplosion		[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 25.0]
+	// 6 pulse bursts, when not upgraded PulseBurst0 is used, at upgrade 1 PulseBurst1 is used, etc.
+	PulseBurst0			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 30.0, #Prefab: Shockwave]
+	PulseBurst1			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 35.0, #Prefab: Shockwave]
+	PulseBurst2			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 40.0, #Prefab: Shockwave]
+	PulseBurst3			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 45.0, #Prefab: Shockwave]
+	PulseBurst4			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 50.0, #Prefab: Shockwave]
+	PulseBurst5			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 55.0, #Prefab: Shockwave]
+	// 6 car bombs, same story as pulse bursts
+	CarBomb0			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 40.0, #Prefab: Shockwave]
+	CarBomb1			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 45.0, #Prefab: Shockwave]
+	CarBomb2			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 50.0, #Prefab: Shockwave]
+	CarBomb3			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 55.0, #Prefab: Shockwave]
+	CarBomb4			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 60.0, #Prefab: Shockwave]
+	CarBomb5			[#Damage: 99.0, #MinDistance:  5.0, #MaxDistance: 65.0, #Prefab: Shockwave]
+AreaDamage_End
+
+CameraShake_Begin
+	Default				[#Duration: 1.0, #Intensity: 1.0, #Range:  15.0]
+	Traffic				[#Duration: 1.3, #Intensity: 1.5, #Range:  30.0]
+	Detonator			[#Duration: 1.5, #Intensity: 3.0, #Range:  50.0]
+	NuclearDetonator	[#Duration: 3.0, #Intensity: 6.0, #Range: 100.0]
+CameraShake_End
+
+Traffic_Begin
+// Bus and Truck for now disabled: they're too large cause too much trouble (collisions)
+	ArmoredTruck	[#Cash: 500, #Mass: 15000, #FloatDist: 0.25, #Health: 800]
+	Bus				[#Cash: 500, #Mass: 15000, #FloatDist: 0.25, #Health: 800]
+	DeliveryTruck	[#Cash: 400, #Mass:  9000, #FloatDist: 0.25, #Health: 400]
+	Hound			[#Cash: 400, #Mass:  9000, #FloatDist: 0.25, #Health: 400]
+	Meister			[#Cash: 300, #Mass:  7500, #FloatDist: 0.25, #Health: 200]
+	Police			[#Cash: 250, #Mass:  7500, #FloatDist: 0.25, #Health: 400]
+	PetiteXs		[#Cash: 500, #Mass:  3000, #FloatDist: 0.25, #Health:  80]
+	PrisonBus		[#Cash: 250, #Mass: 15000, #FloatDist: 0.25, #Health: 800]
+	Sedan			[#Cash: 400, #Mass:  7500, #FloatDist: 0.25, #Health: 160]
+	SportsCar		[#Cash: 700, #Mass:  4500, #FloatDist: 0.25, #Health: 400]
+	Taxi			[#Cash: 200, #Mass:  7500, #FloatDist: 0.25, #Health:  80]  // was 160
+	Truck			[#Cash: 800, #Mass: 15000, #FloatDist: 0.25, #Health: 800]
+	Van				[#Cash: 400, #Mass:  9000, #FloatDist: 0.25, #Health: 400]
+	Vulcan			[#Cash: 400, #Mass:  7500, #FloatDist: 0.25, #Health: 200]
+	WheelLoader		[#Cash: 400, #Mass: 15000, #FloatDist: 0.25, #Health: 800]
+Traffic_End
+
+Track_Begin
+	Track1	[#Setting: Dawn, #TimeToBeat: 30]
+Track_End
+
+// The 'ReqVelocity' (Required Velocity) property says that an object must bump into this destructible with at least x velocity before the destructible is also actually destroyed and moves around
+// NOTE: 'ReqVelocity' is modified by the ReqVelocityMod in the CarSetting: so a vehicle like a boeing can pushover objects without practically no velocity at all
+// The 'SpeedReduc' (Speed Reduction) property says how much the car should be reduced in speed after the destructible has been hit with at least the required velocity
+// Note the 'SpeedReduc' property might be removed cause for a tank the speed reduc should probably be next to nothing, I guess it should be mass dependent
+// I removed Object_ cause it's a bit redundant (saves some space too)
+// There are different ways destructibles can be destroyed which can be indicates with the following properties:
+// - Static -> when true the object will remain in place, when destroyed you can use PartSys to spawn a particle system to indicate it's broken and do a texture switch (TODO)
+//          -> when false the object can move around when bumped into, NOTE: the bump speed must be higher than or equal to ReqVelocity
+// - DestroyInstant -> when true the object is removed instantly and you'll have to mask this using a particle system
+//                  -> when false you don't have to specify it (but you can if you want to)
+// - NoCollision -> when true the object falls through the street
+//               -> when false you don't have to specify it (but you can if you want to)
+// - RemoveAfter -> When specified: time in seconds after which the object should be removed, if you don't want the object removed don't specify it or set to -1.0
+// - SwitchMaterial -> When true, material is switched to ObjectsDestroyed_Material, if you don't want this don't specify it or set to false
+Destructible_Begin
+	BuildingGlassA				[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:              BuildingGlass_PS, #PartSysOffset: [0.0,0.0,0.0], #Sound:           Effects/Glass, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #DestroyInstant: true, #Transparent: true]
+	BuildingGlassB				[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:              BuildingGlass_PS, #PartSysOffset: [0.0,0.0,0.0], #Sound:           Effects/Glass, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #DestroyInstant: true, #Transparent: true]
+	BuildingGlassC				[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:              BuildingGlass_PS, #PartSysOffset: [0.0,0.0,0.0], #Sound:           Effects/Glass, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #DestroyInstant: true, #Transparent: true]
+	BuildingGlassD				[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:              BuildingGlass_PS, #PartSysOffset: [0.0,0.0,0.0], #Sound:           Effects/Glass, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #DestroyInstant: true, #Transparent: true]
+	BuildingGlassE				[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:              BuildingGlass_PS, #PartSysOffset: [0.0,0.0,0.0], #Sound:           Effects/Glass, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #DestroyInstant: true, #Transparent: true]
+	BuildingGlassF				[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:              BuildingGlass_PS, #PartSysOffset: [0.0,0.0,0.0], #Sound:           Effects/Glass, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #DestroyInstant: true, #Transparent: true]
+
+	AdSign						[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05]
+	AmmoCrateExplosive			[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:                  Explosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:               Explosion, #ReqVelocity: 9.0, #SpeedReduc: 0.15, #DestroyInstant: true]
+	AntiTank					[#Health:  500.0, #Static:  true, #Cash:  50, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:                HitMetal, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	Barrel						[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:      DestructibleExplosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 9.0, #SpeedReduc: 0.15]
+	CarTyre						[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:                HitMetal, #ReqVelocity: 2.0, #SpeedReduc: 0.05]
+	CommandPost					[#Health: 1000.0, #Static:  true, #Cash: 100, #PartSys:               ExplosionBig_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound: Effects/ExplosionMedium, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	CrateBig					[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:           DestructibleWood_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:                 HitWood, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #DestroyInstant: true]
+	CrateBigExplosive			[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:                  Explosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:               Explosion, #ReqVelocity: 9.0, #SpeedReduc: 0.15, #DestroyInstant: true]
+	CrateSmall					[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:           DestructibleWood_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:                 HitWood, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #DestroyInstant: true]
+	CrateSmallExplosive			[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:                  Explosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:               Explosion, #ReqVelocity: 9.0, #SpeedReduc: 0.15, #DestroyInstant: true]
+	DoubleTrafficLantern		[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                      Shock_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #NoCollision: true, #RemoveAfter: 2.0]]
+	Dumpster					[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:      DestructibleExplosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 9.0, #SpeedReduc: 0.15]
+	ElectricityPole				[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                      Shock_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #NoCollision: true]
+	Flag						[#Health:    1.0, #Static:  true, #Cash:  50, #PartSys:      DestructibleExplosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05]
+	FlagCloth					[#Health:    1.0, #Static: false, #Cash:  50, #PartSys:      DestructibleExplosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05]
+	Fountain					[#Health: 2000.0, #Static:  true, #Cash: 100, #PartSys:               ExplosionBig_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:  Effects/ExplosionLarge, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	GarbageBag					[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05]
+	GasTankExplosive			[#Health: 1000.0, #Static:  true, #Cash:  50, #PartSys:               ExplosionBig_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:               Explosion, #ReqVelocity: 9.0, #SpeedReduc: 0.15, #SwitchMaterial: true]
+	Generator					[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                      Shock_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:               Explosion, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	Landmark					[#Health:    1.0, #Static:  true, #Cash:  50, #PartSys:               ExplosionBig_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:               Explosion, #ReqVelocity: 9.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	LogBig						[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05]             
+	LogSmall					[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05]             
+	MailBox						[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:      DestructibleExplosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:                HitMetal, #ReqVelocity: 9.0, #SpeedReduc: 0.05]
+	MountedGun					[#Health: 1000.0, #Static:  true, #Cash: 100, #PartSys:               ExplosionBig_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound: Effects/ExplosionMedium, #ReqVelocity: 9.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	OilDrumExplosive			[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:                  Explosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:               Explosion, #ReqVelocity: 9.0, #SpeedReduc: 0.15, #DestroyInstant: true]
+	OilDrumNormal				[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:      DestructibleExplosion_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 9.0, #SpeedReduc: 0.15]
+	Pallet						[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:           DestructibleWood_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:                 HitWood, #ReqVelocity: 2.0, #SpeedReduc: 0.15, #DestroyInstant: true]
+	ParkingMeter				[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                      Shock_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 9.0, #SpeedReduc: 0.10]
+	PhoneBooth					[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                      Shock_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:           Effects/Glass, #ReqVelocity: 9.0, #SpeedReduc: 0.15]
+	//PowerCablesHorizontal		?
+	//PowerCablesVerical		?
+	Pylon						[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:                HitMetal, #ReqVelocity: 2.0, #SpeedReduc: 0.00]
+	StopSign					[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:           DestructibleWood_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:                 HitWood, #ReqVelocity: 2.0, #SpeedReduc: 0.15, #DestroyInstant: true]
+	StorageCrate				[#Health:    1.0, #Static:  true, #Cash:  25, #PartSys:           DestructibleWood_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:                 HitWood, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #DestroyInstant: true]
+	SamSite						[#Health: 1000.0, #Static:  true, #Cash: 100, #PartSys:               ExplosionBig_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:                HitMetal, #ReqVelocity: 9.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	SandBagsA					[#Health:  100.0, #Static:  true, #Cash:  25, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	SandBagsB					[#Health:  100.0, #Static:  true, #Cash:  25, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	SandBagsC					[#Health:  100.0, #Static:  true, #Cash:  25, #PartSys:                          None, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	SpeedBoat					[#Health:  200.0, #Static:  true, #Cash:  25, #PartSys:               ExplosionBig_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:                HitMetal, #ReqVelocity: 9.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	//TruckExplosive			?
+	TrafficLantern				[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                      Shock_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05]
+	TrafficLight				[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                      Shock_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:              HitDefault, #ReqVelocity: 2.0, #SpeedReduc: 0.05]
+	TruckTankerExplosive		[#Health:  500.0, #Static: false, #Cash:  50, #PartSys:               ExplosionBig_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:                HitMetal, #ReqVelocity: 9.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+	VendingMachine				[#Health:    1.0, #Static: false, #Cash:  25, #PartSys:                      Shock_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:           Effects/Glass, #ReqVelocity: 9.0, #SpeedReduc: 0.15]
+	Zeppelin					[#Health:  500.0, #Static:  true, #Cash: 100, #PartSys:               ExplosionBig_PS, #PartSysOffset: [0.0,1.0,0.0], #Sound:  Effects/ExplosionLarge, #ReqVelocity: 9.0, #SpeedReduc: 0.05, #SwitchMaterial: true]
+Destructible_End
+
+PickUps_Begin
+	// IMPORTANT: When changing Cash prices they also have to be updated in localization (would be handier to make a separate text field for cash in interface)
+	Cash				[#MapIcon: false, #Cash:    10]
+	CashBig				[#MapIcon: false, #Cash:    50]
+	CashStash			[#MapIcon: false, #Cash: 10000]  // Note: cash stashes can only be picked up once (saved) and are hard to find which is why they should give a high reward
+	Nitro				[#MapIcon:  true, #Duration:  5.0]  // nitro duration in seconds
+	Repair				[#MapIcon:  true]
+	FlameBurst			[#MapIcon:  true]
+	Detonator			[#MapIcon:  true]
+	NuclearDetonator	[#MapIcon:  true]
+	HiddenPackage		[#MapIcon: false]
+	Trophy				[#MapIcon: false]
+	StyleDiablo			[#MapIcon:  true, #HeightOffset: 1.25, #Scale: 2.5]
+	StyleDemon			[#MapIcon:  true, #HeightOffset: 1.25, #Scale: 2.5]  // Demon/Diablo, Joep(?) made it Demon, should be Diablo
+	StyleGold			[#MapIcon:  true, #HeightOffset: 1.25, #Scale: 2.5]  // Gold/Golden, Joep(?) made it Gold, should be Golden
+	StyleGolden			[#MapIcon:  true, #HeightOffset: 1.25, #Scale: 2.5]
+	StyleQuadDamage		[#MapIcon:  true, #HeightOffset: 1.25, #Scale: 2.5]
+	StyleStuntMan		[#MapIcon:  true, #HeightOffset: 1.25, #Scale: 2.5]
+	StyleToxic			[#MapIcon:  true, #HeightOffset: 1.25, #Scale: 2.5]
+PickUps_End
+
+Misc_Begin
+	MusicVolume				0.65  // some day this should probably move to globals (with SFXVolume)
+	MusicPauseVolume		0.2
+	CrashTimeSlowMotion		0.175  // 0.175 slows time down by a factor of (1/0.175) = 5.7
+	AirTimeSlowMotion		0.25   // 0.25 slows time down by a factor of (1/0.25) = 4
+	CrashTimeDuration		6.0    // in seconds
+	PlayOutDuration			2.0    // this many second the game will continue after the car has come to a halt
+	MagnetStrength			20.0   // actually a radius
+	ReqBonusSpeedTime		1.0    // need to drive at least x speed (set in code) for this amount of seconds to get the bonus
+	BonusSpeed				500
+	ReqBonusJumpheight		50.0   // need to jump at least this high to get the bonus
+	BonusJumpheight			500
+	ReqBonusJumpdistance	50.0   // need to jump at least this many meters to get the bonus
+	BonusJumpdistance		500
+	ParticleSysDestroyTime	5.0    // After this time a non-looping particle system is destroyed
+	CarFoV					45.0   // normal FoV of the car camera
+	CashBag50000			50000
+
+	// not sure what to do with these, putting them here for now
+	QuadDamage			[#Duration: 10.0, #StartBlink: 2.0, #BlinkInterval: 0.15, #Color: [0.50, 0.00, 0.50]]
+	Shield				[#Duration: 10.0, #StartBlink: 2.0, #BlinkInterval: 0.15, #Color: [0.76, 0.50, 0.00]]
+Misc_End
+
+// Medals or trophies or achievements or whatever you want to call them
+// Only a few medals are used for ClickJogos, because ClickJogos can only handle 6 achievements (recognized by the ClickJogos property)
+Medals_Begin
+	Medal1		[#Data:       1, #ClickJogos: true]  // Data: MISSION MASTER, Complete your first mission
+	Medal2		[#Data:    1000, #ClickJogos: true]  // Data:  THE DESTROYER, Destroy this many vehicles
+	Medal3		[#Data:      62, #ClickJogos: true]  // Data:     SHOPAHOLIC, Own all shop items: 6 vehicles + 5 super powers + 6 gadgets + (9 upgrades * 5 levels of upgrade) = 62
+	Medal4		[#Data: 1000000, #ClickJogos: true]  // Data:      MONEY MAN, Own one million dollars
+	Medal5		[#Data:      30                   ]  // Data:        GRINDER, Reach Level 30
+	Medal6		[#Data:       6, #ClickJogos: true]  // Data:    CAR FANATIC, Own six cars // Changed to 6 in localization
+	Medal7		[#Data:       5                   ]  // Data:     ATOMIC KID, Use all nuclear detonators
+	Medal8		[#Data:      25, #ClickJogos: true]  // Data:   DELIVERY GUY, Collect all hidden packages
+	Medal9		[#Data:      10                   ]  // Data:     QUICK BUCK, Collect all cash stashes
+	Medal10		[#Data:       1                   ]  // Data:  TROPHY HUNTER, Find the super special trophy
+Medals_End
+
+SuperPowers_Begin
+	PickUpDuration	30.0   // in seconds: how long the super power pick up lasts (this is independent from your main super power that you can equip in the shop)
+	StuntMan		[#Cost:   15000, #Sound:   Effects/StuntManSuperPower]
+	Golden			[#Cost:   50000, #Sound:       Effects/GoldSuperPower, #CarRimColor: [1.0, 1.0, 0.1]]  // TODO: sound should be GoldenSuperPower (rename)
+	QuadDamage		[#Cost:  100000, #Sound: Effects/QuadDamageSuperPower, #CarRimColor: [0.4, 0.0, 0.6]]
+	Toxic			[#Cost:  500000, #Sound:      Effects/ToxicSuperPower, #AreaColor: [0.302, 0.522, 0.047],  #CarRimColor: [0.302, 0.522, 0.047]]
+	Diablo			[#Cost: 1000000, #Sound:     Effects/DiabloSuperPower, #AreaColor: [0.294, 0.180, 0.137]]
+//	Rainbow			[#Cost: 1000]
+//	Frosty			[#Cost: 1000]
+SuperPowers_End
+
+Gadgets_Begin  // Also known as Items
+	// CoolDown and ActionSound properties are generic and should exist for all Items
+	Boost		[#Cost: 100000, #CoolDown: 1.0, #ActionSound:                  Effects/Dash, #PushTime: 0.5, #AdditionalSpeed: 30.0]
+	CarBomb		[#Cost: 100000, #CoolDown: 1.0, #ActionSound:                          None, #Explosion: CarBomb0]  // CoolDown doesn't really make sense here ey ;)
+	Jump		[#Cost: 100000, #CoolDown: 3.0, #ActionSound:             Effects/JumpStart, #JumpVelocity: 25.0]
+	Magnet		[#Cost: 100000, #CoolDown: 3.0, #ActionSound:                Effects/Magnet, #AttractTime: 2.0, #PullInRange: 15.0, #PullSpeed: 0.4]
+	PulseBurst	[#Cost: 100000, #CoolDown: 1.0, #ActionSound: PickUpSounds/PickUpFlameBurst, #Explosion: PulseBurst0]
+	Shield		[#Cost: 100000, #CoolDown: 7.0, #ActionSound:                Effects/Shield, #ShieldTime: 5.0, #ScaleInOutTime: 0.5]
+Gadgets_End
+
+Upgrades_Begin
+	AfterTouchLength		[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  1.0, #Upgrade2:  2.0, #Upgrade3:  3.0, #Upgrade4:  4.0, #Upgrade5:  5.0] //J: Doesn't work?
+	AirTimeControl			[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  2.5, #Upgrade2:  5.0, #Upgrade3: 10.0, #Upgrade4: 25.0, #Upgrade5: 50.0] //J: Seems to work
+	ArmorStrength			[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  5.0, #Upgrade2: 10.0, #Upgrade3: 15.0, #Upgrade4: 25.0, #Upgrade5: 50.0] //J: Works
+	BoostStrength			[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  3.0, #Upgrade2:  7.0, #Upgrade3: 10.0, #Upgrade4: 15.0, #Upgrade5: 20.0] //J: Works
+	// Upgrade for CarBombStrength indicates which CarBomb explosion is used in Explosions: "CarBomb" + UpgradeX
+	CarBombStrength			[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  1  , #Upgrade2:  2  , #Upgrade3:  3  , #Upgrade4:  4  , #Upgrade5:  5  ] //J: Works
+	Handling				[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  2.5, #Upgrade2:  5.0, #Upgrade3: 10.0, #Upgrade4: 15.0, #Upgrade5: 20.0] //J: Works
+	MagnetStrength			[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  5.0, #Upgrade2: 10.0, #Upgrade3: 15.0, #Upgrade4: 25.0, #Upgrade5: 50.0] //J: Works
+	// Upgrade for PulseBurstStrength indicates which PulseBurst explosion is used in Explosions: "PulseBurst" + UpgradeX
+	PulseBurstStrength		[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  1, #Upgrade2:      2, #Upgrade3:    3, #Upgrade4:    4, #Upgrade5: 5] // J: Works, however less feedbackish
+	Speed					[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  2.5, #Upgrade2:  4.0, #Upgrade3: 6.0, #Upgrade4:  8.0, #Upgrade5: 10.0] // J: Works
+	
+//	NitroStrength			[#Cost1: 5000, #Cost2: 10000, #Cost3: 25000, #Cost4: 50000, #Cost5: 100000, #Upgrade1:  1.0, #Upgrade2:  2.0, #Upgrade3:  3.0, #Upgrade4:  4.0, #Upgrade5:  5.0]
+Upgrades_End
+
+// This is a list of how much xp is required to get the level, so at level 1 you need to get the XP specified in level 2 to get to level 2
+// Reward is formatted like this: <type>_<category>_<item>
+// type can be: Unlock or Give
+// category can be: SuperPower, Vehicle or Cash
+// item is an item from category. For the Cash category it should be an item from Misc, for example: CashBag50000 (not sure if we'll use this)
+// when type == give then category should be Coins (and vice versa)
+// Unlocks vehicles and pimps for now. Total 78 XP required to complete all levels (3*26).
+// Warning: The unlock levels of the vehicles and pimp are also hardcoded in ShopPanel
+Levels_Begin
+	Level1	[#XP:   0, #Rewards: []]  // by default player is level 1
+	Level2	[#XP:   2, #Rewards: [Unlock_SuperPower_StuntMan]]
+	Level3	[#XP:   3, #Rewards: [Unlock_Vehicle_Chevrolet]]
+	Level4	[#XP:   5, #Rewards: [Unlock_SuperPower_Golden]]
+	Level5	[#XP:   6, #Rewards: [Unlock_Vehicle_FireTruck]]
+	Level6	[#XP:   7, #Rewards: [Unlock_SuperPower_QuadDamage]]
+	Level7	[#XP:   8, #Rewards: [Unlock_Vehicle_Juggernaut]]
+	Level8	[#XP:   9, #Rewards: [Unlock_SuperPower_Toxic]]
+	Level9	[#XP:  10, #Rewards: [Unlock_Vehicle_PanzerTruck]]
+	Level10	[#XP:  10, #Rewards: [Unlock_SuperPower_Diablo]]
+	Level11	[#XP:  10, #Rewards: []]  // Dummy level, won't ever be obtained
+Levels_End
+
+/////////////////////////////////////////////////////////////////////////
+// START MISSIONS
+// In the next lines missions are defined.
+// Missions come in three categories: Score, Wreck and Collect/Misc
+// During the game one mission in each category will be active
+// Each mission has a level range in which it can be given, so you can increase the difficulty of missions when the player gets to a higher level
+// Attention: the sum of the XP in all missions should equal the sum of XP in Level1 to Level10 (but not Level 11)
+
+// SS 06/11/2013 - Added MobileAmount: allows you to specify a different amount for mobile devices (should be easier, i.e. lower number)
+// IMPORTANT: When changing WreckObject, Amount or MobileAmount you'll also have to change localization!
+MainMissions_Begin
+	//1
+	Mission1	[#Type:   Wreck, #WreckObject: [Taxi]                   , #Amount:   5, #MobileAmount:   3, #XP: 2, #Rewards: []]
+	Mission2	[#Type:   Wreck, #WreckObject: [PhoneBooth]             , #Amount:   5, #MobileAmount:   3, #XP: 2, #Rewards: []]
+	//2
+	Mission3	[#Type:   Wreck, #WreckObject: [Police]                 , #Amount:  10, #MobileAmount:   5, #XP: 2, #Rewards: []]
+	Mission4	[#Type:   Wreck, #WreckObject: [VendingMachine]         , #Amount:  10, #MobileAmount:   5, #XP: 2, #Rewards: []]
+	//3
+	Mission5	[#Type:   Wreck, #WreckObject: [SportsCar]              , #Amount:  10, #MobileAmount:   7, #XP: 2, #Rewards: []]
+	Mission6	[#Type:   Wreck, #WreckObject: [Generator]              , #Amount:  10, #MobileAmount:   7, #XP: 2, #Rewards: []]
+	//4
+	Mission7	[#Type:   Wreck, #WreckObject: [Van]                    , #Amount:  15, #MobileAmount:  10, #XP: 3, #Rewards: []]
+	Mission8	[#Type:   Wreck, #WreckObject: [CrateBig, CrateBigExplosive, CrateSmall, CrateSmallExplosive, StorageCrate, AmmoCrateExplosive], #Amount:  25, #MobileAmount:  15, #XP: 3, #Rewards: []]
+	//5
+	Mission9	[#Type:   Wreck, #WreckObject: [DeliveryTruck]          , #Amount:  20, #MobileAmount:  15, #XP: 3, #Rewards: []]
+	Mission10	[#Type:   Wreck, #WreckObject: [OilDrumExplosive]       , #Amount:  35, #MobileAmount:  20, #XP: 3, #Rewards: []]
+	//6
+	Mission11	[#Type:   Wreck, #WreckObject: [Vehicles]               , #Amount: 100, #MobileAmount:  50, #XP: 3, #Rewards: []]
+	Mission12	[#Type:   Wreck, #WreckObject: [GasTankExplosive]       , #Amount:   8, #MobileAmount:   6, #XP: 3, #Rewards: []]
+	//7
+	Mission13	[#Type:   Wreck, #WreckObject: [WheelLoader]            , #Amount:  10, #MobileAmount:  10, #XP: 3, #Rewards: []]
+	Mission14	[#Type:   Wreck, #WreckObject: [FlagCloth]              , #Amount:  10, #MobileAmount:  10, #XP: 3, #Rewards: []]
+	//8
+	Mission15	[#Type:   Wreck, #WreckObject: [PetiteXs]               , #Amount:  15, #MobileAmount:  10, #XP: 3, #Rewards: []]
+	Mission16	[#Type:   Wreck, #WreckObject: [TruckTankerExplosive]   , #Amount:   5, #MobileAmount:   5, #XP: 3, #Rewards: []]
+	//9
+	Mission17	[#Type:   Wreck, #WreckObject: [ArmoredTruck]           , #Amount:   5, #MobileAmount:   5, #XP: 3, #Rewards: []]
+	Mission18	[#Type:   Wreck, #WreckObject: [CommandPost]            , #Amount:   1, #MobileAmount:   1, #XP: 3, #Rewards: []]
+	//10
+	Mission19	[#Type:   Wreck, #WreckObject: [Truck]                  , #Amount:  10, #MobileAmount:  10, #XP: 3, #Rewards: []]
+	Mission20	[#Type:   Wreck, #WreckObject: [Landmark]               , #Amount:   5, #MobileAmount:   5, #XP: 3, #Rewards: []]
+	//11
+	Mission21	[#Type:   Wreck, #WreckObject: [Vehicles]               , #Amount: 200, #MobileAmount: 100, #XP: 3, #Rewards: []]
+	Mission22	[#Type:   Wreck, #WreckObject: [MountedGun]             , #Amount:  10, #MobileAmount:   5, #XP: 3, #Rewards: []]
+	//12
+	Mission23	[#Type:   Wreck, #WreckObject: [Hound]                  , #Amount:  15, #MobileAmount:  10, #XP: 3, #Rewards: []]
+	Mission24	[#Type:   Wreck, #WreckObject: [SamSite]                , #Amount:   2, #MobileAmount:   2, #XP: 3, #Rewards: []]
+	//13
+	Mission25	[#Type:   Wreck, #WreckObject: [Bus]                    , #Amount:  10, #MobileAmount:  10, #XP: 3, #Rewards: []]
+	Mission26	[#Type:   Wreck, #WreckObject: [Fountain]               , #Amount:   1, #MobileAmount:   1, #XP: 3, #Rewards: []]
+	//14
+	Mission27	[#Type:   Wreck, #WreckObject: [PrisonBus]              , #Amount:  15, #MobileAmount:  10, #XP: 3, #Rewards: []]
+	Mission28	[#Type:   Wreck, #WreckObject: [SpeedBoat]              , #Amount:   3, #MobileAmount:   3, #XP: 3, #Rewards: []]
+	//15
+	Mission29	[#Type:   Wreck, #WreckObject: [Zeppelin]               , #Amount:   1, #MobileAmount:   1, #XP: 3, #Rewards: []]
+	Mission30	[#Type:   Wreck, #WreckObject: [Vehicles]               , #Amount: 300, #MobileAmount: 200, #XP: 3, #Rewards: []]
+MainMissions_End
+
+// END MISSIONS
+/////////////////////////////////////////////////////////////////////////
+
+Pooling_Begin
+	PoolDefaultSize		2  // initially objects by default are pooled by this amount
+	// unfortunately we have to mention each object separately with its path
+	// you can overwrite the PoolDefault by defining PoolSize (so if not defined the standard PoolDefaultSize is used)
+
+	// Shared_Object_StarPiece				[#Path: Shared/Prefabs/CrapObjects, #Prefab: Objects_Prefab, #PoolSize: 5]
+	// Shared_Object_SpikeA				[#Path: Shared/Prefabs/CrapObjects, #Prefab: Objects_Prefab, #PoolSize: 5]
+
+	// OBJECTS
+	
+	Object_BuildingGlassA						[#Path: Shared/Prefabs/Objects, #PoolSize: 1]
+	Object_BuildingGlassB						[#Path: Shared/Prefabs/Objects, #PoolSize: 1]
+	Object_BuildingGlassC						[#Path: Shared/Prefabs/Objects, #PoolSize: 1]
+	Object_BuildingGlassD						[#Path: Shared/Prefabs/Objects, #PoolSize: 1]
+	Object_BuildingGlassE						[#Path: Shared/Prefabs/Objects, #PoolSize: 1]
+	Object_BuildingGlassF						[#Path: Shared/Prefabs/Objects, #PoolSize: 1]
+	
+	Object_AdSign						[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_AmmoCrateExplosive			[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_AntiTank						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_Barrel						[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_Bridge						[#Path: Shared/Prefabs/Objects]
+	Object_CarTyre						[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_CitySafeHouseDoor			[#Path: Shared/Prefabs/Objects]
+	Object_CityToDesertDoor				[#Path: Shared/Prefabs/Objects]
+	Object_CityToJungleDoor				[#Path: Shared/Prefabs/Objects]
+	Object_CityToSnowDoor				[#Path: Shared/Prefabs/Objects]
+	Object_CommandPost					[#Path: Shared/Prefabs/Objects, #PoolSize:  1]
+	Object_ContainerRed					[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_ContainerYellow				[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_ContainerYellow2				[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_ContainerYellowRamp			[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_CrateBig						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_CrateBigExplosive			[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_CrateSmall					[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_CrateSmallExplosive			[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_DesertSafeHouseDoor			[#Path: Shared/Prefabs/Objects]
+	Object_DirectionArrows				[#Path: Shared/Prefabs/Objects]
+	Object_DoubleTrafficLantern			[#Path: Shared/Prefabs/Objects,	#PoolSize: 20]
+	Object_Dumpster						[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_ElectricityPole				[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_Fence						[#Path: Shared/Prefabs/Objects, #PoolSize: 20]
+	Object_Flag							[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_FlagCloth					[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_Fountain						[#Path: Shared/Prefabs/Objects, #PoolSize:  1]
+	Object_GarbageBag					[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_GasTankExplosive				[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_Generator					[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_HayStack						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_HighwaySigns					[#Path: Shared/Prefabs/Objects]
+	Object_IndustrialSafeHouseDoor		[#Path: Shared/Prefabs/Objects]
+	Object_JungleSafeHouseDoor			[#Path: Shared/Prefabs/Objects]
+	Object_Landmark						[#Path: Shared/Prefabs/Objects, #PoolSize:  3]
+	Object_LogBig						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_LogSmall						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_MailBox						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_MountedGun					[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_OilDrumExplosive				[#Path: Shared/Prefabs/Objects, #PoolSize: 20]
+	Object_OilDrumNormal				[#Path: Shared/Prefabs/Objects, #PoolSize: 15]
+	Object_Pallet						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_ParkingMeter					[#Path: Shared/Prefabs/Objects, #PoolSize: 20]
+	Object_PhoneBooth					[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_PowerCablesHorizontal		[#Path: Shared/Prefabs/Objects, #PoolSize:  3]
+	Object_PowerCablesVerical			[#Path: Shared/Prefabs/Objects]
+	Object_Pylon						[#Path: Shared/Prefabs/Objects, #PoolSize: 10]
+	Object_RampBig						[#Path: Shared/Prefabs/Objects]
+	Object_RampMetalBig					[#Path: Shared/Prefabs/Objects]
+	Object_RampMetalSmall				[#Path: Shared/Prefabs/Objects, #PoolSize:  3]
+	Object_RampWoodBig					[#Path: Shared/Prefabs/Objects]
+	Object_RampWoodSmall				[#Path: Shared/Prefabs/Objects]
+	Object_RoadBlockArrows				[#Path: Shared/Prefabs/Objects]
+	Object_RoadBlockArrowsBig			[#Path: Shared/Prefabs/Objects]
+	Object_RoadBlockConcrete			[#Path: Shared/Prefabs/Objects]
+	Object_Rock1						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_Rock2						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_Rock3						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_Rock4						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_SamSite						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_Sand							[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_SandBag						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_SandBagsA					[#Path: Shared/Prefabs/Objects, #PoolSize: 25]
+	Object_SandBagsB					[#Path: Shared/Prefabs/Objects, #PoolSize: 25]
+	Object_SandBagsC					[#Path: Shared/Prefabs/Objects, #PoolSize: 25]
+	Object_SeaAdvertisement1			[#Path: Shared/Prefabs/Objects]
+	Object_SeaAdvertisement2			[#Path: Shared/Prefabs/Objects]
+	Object_SeaAdvertisement3			[#Path: Shared/Prefabs/Objects]
+	Object_SeaBouyGreen					[#Path: Shared/Prefabs/Objects]
+	Object_SeaBouyRed					[#Path: Shared/Prefabs/Objects]
+	Object_SeaContainerRed1				[#Path: Shared/Prefabs/Objects]
+	Object_SeaContainerRed2				[#Path: Shared/Prefabs/Objects]
+	Object_SeaFlag						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_SeaMineExplosive				[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_SeaOilDrum					[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_SeaOilDrumExplosive			[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_SeaRamp1						[#Path: Shared/Prefabs/Objects]
+	Object_SeaRamp2						[#Path: Shared/Prefabs/Objects]
+	Object_SheetBig						[#Path: Shared/Prefabs/Objects]
+	Object_SheetSmall					[#Path: Shared/Prefabs/Objects]
+	Object_SignBurninRubber4			[#Path: Shared/Prefabs/Objects]
+	Object_SignDailyChallenge			[#Path: Shared/Prefabs/Objects]
+	Object_SignDirectionCity			[#Path: Shared/Prefabs/Objects]
+	Object_SignDirectionDesert			[#Path: Shared/Prefabs/Objects]
+	Object_SignDirectionIndustrial		[#Path: Shared/Prefabs/Objects]
+	Object_SignDirectionJungle			[#Path: Shared/Prefabs/Objects]
+	Object_SignDirectionSnow			[#Path: Shared/Prefabs/Objects]
+	Object_SignSafeHouse				[#Path: Shared/Prefabs/Objects]
+	Object_SignSprayShop				[#Path: Shared/Prefabs/Objects]
+	Object_SignTicketMaster				[#Path: Shared/Prefabs/Objects]
+	Object_SignTuneShop					[#Path: Shared/Prefabs/Objects]
+	Object_SignWeaponShop				[#Path: Shared/Prefabs/Objects]
+	Object_SignWelcomeCity				[#Path: Shared/Prefabs/Objects, #PoolSize:  1]
+	Object_Skybooster					[#Path: Shared/Prefabs/Objects]
+	Object_SignWelcomeDesert			[#Path: Shared/Prefabs/Objects, #PoolSize:  1]
+	Object_SignWelcomeIndustrial		[#Path: Shared/Prefabs/Objects, #PoolSize:  1]
+	Object_SignWelcomeJungle			[#Path: Shared/Prefabs/Objects, #PoolSize:  1]
+	Object_SignWelcomeSnow				[#Path: Shared/Prefabs/Objects, #PoolSize:  1]
+	Object_SnowSafeHouseDoor			[#Path: Shared/Prefabs/Objects]
+	Object_SpeedBoat					[#Path: Shared/Prefabs/Objects, #PoolSize:  1]
+	Object_StopSign						[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_StorageCrate					[#Path: Shared/Prefabs/Objects, #PoolSize:  5]
+	Object_TrafficLantern				[#Path: Shared/Prefabs/Objects, #PoolSize: 40]
+	Object_TrafficLight					[#Path: Shared/Prefabs/Objects, #PoolSize: 15]
+	Object_TruckTankerExplosive			[#Path: Shared/Prefabs/Objects]
+	Object_VendingMachine				[#Path: Shared/Prefabs/Objects, #PoolSize:  7]
+	Object_Zeppelin						[#Path: Shared/Prefabs/Objects, #PoolSize:  1]
+
+	// TRAFFIC
+	ArmoredTruck						[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	Bus									[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	DeliveryTruck						[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	Hound								[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	Meister								[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	Police								[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	PetiteXs							[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	PrisonBus							[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	Sedan								[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	SportsCar							[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	Taxi								[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	Truck								[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	Van									[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	Vulcan								[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+	WheelLoader							[#Path: Shared/Prefabs/Traffic, #PoolSize:  5]
+
+	// PICKUPS
+	PickUp_Cash							[#Path: Shared/Prefabs/PickUps, #PoolSize: 100]  // quite a lot of cash pickups can be active when 9 blocks are active
+	PickUp_CashStash					[#Path: Shared/Prefabs/PickUps, #PoolSize:   3]
+	PickUp_CashBig						[#Path: Shared/Prefabs/PickUps, #PoolSize: 100]
+	PickUp_Nitro						[#Path: Shared/Prefabs/PickUps, #PoolSize:  10]
+	PickUp_Repair						[#Path: Shared/Prefabs/PickUps, #PoolSize:  10]
+	PickUp_Detonator					[#Path: Shared/Prefabs/PickUps, #PoolSize:   5]
+	PickUp_NuclearDetonator				[#Path: Shared/Prefabs/PickUps, #PoolSize:   3]
+	PickUp_FlameBurst					[#Path: Shared/Prefabs/PickUps, #PoolSize:  10]
+	PickUp_HiddenPackage				[#Path: Shared/Prefabs/PickUps, #PoolSize:   5]
+	PickUp_Trophy						[#Path: Shared/Prefabs/PickUps, #PoolSize:   1]
+
+	PickUp_StyleStuntMan				[#Path: Shared/Prefabs/PickUps, #PoolSize:   1]
+	PickUp_StyleGold					[#Path: Shared/Prefabs/PickUps, #PoolSize:   1]
+	PickUp_StyleToxic					[#Path: Shared/Prefabs/PickUps, #PoolSize:   1]
+	PickUp_StyleDemon					[#Path: Shared/Prefabs/PickUps, #PoolSize:   1]
+	PickUp_StyleQuadDamage				[#Path: Shared/Prefabs/PickUps, #PoolSize:   1]
+
+	// EFFECTS
+	SafeHouse_PS						[#Path: Shared/Prefabs/Effects]
+Pooling_End
+
+// Materials specified here have their shaders switched between the specified low and high shader
+// Unforunately this changes the project materials, should be looked into later
+// Use underscores for spaces
+ShaderMaterials_Begin
+	// Level1 bundle
+	Level1Buildings_Material	[#Path:         Level1/Materials, #Low: XformShaders/UnlitLightmapFog, #High: XFShaders/BumpedSpecFX]  //XFShaders/LightmapFX
+	Level1Street_Material		[#Path:         Level1/Materials, #Low: XformShaders/UnlitLightmapFog, #High: XFShaders/BumpedSpecFX]  //XFShaders/LightmapFX
+	Level1Sea_Material			[#Path:         Level1/Materials, #Low:        Unlit/Texture, #High:        Bumped_Specular]
+	Level1Waves_Material		[#Path:         Level1/Materials, #Low:        Unlit/Texture, #High:        Bumped_Specular]
+	// Shared bundle
+	Traffic_Material			[#Path: Shared/Materials/Traffic, #Low:        Unlit/Texture, #High:                Diffuse]
+	TrafficDamage1_Material		[#Path: Shared/Materials/Traffic, #Low:        Unlit/Texture, #High:                Diffuse]
+	TrafficDamage2_Material		[#Path: Shared/Materials/Traffic, #Low:        Unlit/Texture, #High:                Diffuse]
+	TrafficDamage3_Material		[#Path: Shared/Materials/Traffic, #Low:        Unlit/Texture, #High:                Diffuse]
+	TrafficDestroyed_Material	[#Path: Shared/Materials/Traffic, #Low:        Unlit/Texture, #High:                Diffuse]
+	Objects_Material			[#Path: Shared/Materials/Objects, #Low:        Unlit/Texture, #High:                Diffuse]
+	ObjectsDestroyed_Material	[#Path: Shared/Materials/Objects, #Low:        Unlit/Texture, #High:                Diffuse]
+ShaderMaterials_End
+
+TrafficLightConnections_Begin
+	OutA3	[B1, B2, C2]
+	OutA4	[D1, D2, C1]
+	OutB3	[C2, C1, D2]
+	OutB4	[A1, A2, D1]
+	OutC3	[D1, D2, A2]
+	OutC4	[B1, B2, A1]
+	OutD3	[A1, A2, B2]
+	OutD4	[C1, C2, B1]
+TrafficLightConnections_End
+
+GridSystem_Begin
+	BlockSize			250  // fixed at 250
+	BlockActivateDist	  1  // within this blockdistance (diagonal is also distance 1), the block is activated
+	BlockShowDist		  2  // within this blockdistance (diagonal is also distance 1), the block is activated
+GridSystem_End
+
+NuclearDetonatorCameras_Begin
+	NuclearDetonator_001	[#Position: [ -937.588,  20.800,   -1591.072], #Rotation: [ 337.299,  117.400,  0.000], #FoV: 55.0, #CameraShake: NuclearDetonator]
+	NuclearDetonator_002	[#Position: [-1309.027,  21.951,   -1727.062], #Rotation: [ 347.999,  135.814,  0.278], #FoV: 55.0, #CameraShake: NuclearDetonator]
+	NuclearDetonator_003	[#Position: [ -922.900,  37.400,    -924.100], #Rotation: [ 352.599,  323.100,  0.000], #FoV: 55.0, #CameraShake: NuclearDetonator]
+	NuclearDetonator_004	[#Position: [ -875.200,  21.000,   -1891.200], #Rotation: [ 343.600,   23.799,  0.000], #FoV: 55.0, #CameraShake: NuclearDetonator]
+	NuclearDetonator_005	[#Position: [-1904.000,  14.000,   -2197.900], #Rotation: [ 354.300,   60.029,  0.000], #FoV: 55.0, #CameraShake: NuclearDetonator]
+NuclearDetonatorCameras_End
+
+RampageSettings_Begin
+	ComboTimeWindow		2.0  // this is the time in which another kill has to be made since last kill to count as a kill combo
+	// The cash awarded for a certain combo (which is awarded when the ComboTimeWindow is over) is
+	// calculated as follows: BaseScore + (ScorePerKill * NumKills)
+	// It is possible to add extra KillCombo items here (be sure to start it with 'KillCombo'), just use the same format, it should be working immediately in-game (on restarting the game)
+	RampageDouble		[#Name:  RampageDouble, #MinKills:  2, #BaseScore:  300, #ScorePerKill: 100]  // seeing as the next one is TripleKill this bonus works out to always be 2400 (2000+200*2)
+	RampageTriple		[#Name:  RampageTriple, #MinKills:  3, #BaseScore:  700, #ScorePerKill: 100]  // seeing as the next one is MultiKill this bonus works out to always be 3900 (3000+300*3)
+	RampageMulti		[#Name:   RampageMulti, #MinKills:  4, #BaseScore: 1000, #ScorePerKill: 100]
+	RampageUltra		[#Name:   RampageUltra, #MinKills:  7, #BaseScore: 2000, #ScorePerKill: 100]
+	RampageGodLike		[#Name: RampageGodLike, #MinKills: 10, #BaseScore: 3000, #ScorePerKill: 100]
+RampageSettings_End
+
+TrafficSystemSettings_Begin
+	// Property SpawnRadius makes sure that when placing a traffic car there are no other traffic cars within the specified SpawnRadius, a higher number means low density, a low number means high density. Beware: a too low number and traffic might spawn in each other.
+	// Property FoVSpawnMod adds to the current FoV of the camera: in this angle range cars will (mostly?) be spawned, angle range = FoVSpawnMod + Camera.FoV * (ScrWidth / ScrHeight), FoVSpawnMod can be negative
+	// Property RearRemoveDist indicates after what distance a car is removed when it is behind the player
+	// Property RearRemoveMissionObjDist same as ReadRemoveDist but applies to mission traffic objects (you don't want to remove these too soon or they'll disappear from the radar!)
+	PlatformPC			[#MaxTraffic: 40, #SpawnRadius: 10.0, #SpawnRange: [100, 450], #RearRemoveDist: 80, #RearRemoveMissionObjDist: 200]  //, #FoVSpawnMod: 10.0], FoVSpawnMod requires angle calculation involving expensive inv sin op, rather not do that right now
+	PlatformAndroid		[#MaxTraffic: 15, #SpawnRadius: 15.0, #SpawnRange: [100, 250], #RearRemoveDist: 40, #RearRemoveMissionObjDist: 100]  //, #FoVSpawnMod: 10.0]
+	PlatformiOS			[#MaxTraffic: 15, #SpawnRadius: 15.0, #SpawnRange: [100, 250], #RearRemoveDist: 40, #RearRemoveMissionObjDist: 100]  //, #FoVSpawnMod: 10.0]
+TrafficSystemSettings_End
+
+SiteLock_Begin
+	// NOTE: use "\\" and not "//" cause it's recognized as a comment
+	// NOTE: for every branding there should be two entries! One with the branding name <Branding> the other with <Branding>Redirect
+	// ShowLockScreen indicates whether there to show a lock screen, if so then set this to true, otherwise it will immediately redirect
+	// Writing entries in the list of allowed domains: just write the endings, the domain is extracted (for example in http://abc.123.com/somemap/index.html the domain is abc.123.com)
+	// the domain is then checked if it ends with one of entries in the list. If none end with it then sitelock is activated.
+	// only use lower case characters
+	AlwaysAllow					[xform.nl, xformgames.com, gamesbrigade.com, gokartgonitro.com]  // NOTE: local files (file:\\) are always allowed
+	Xform						[]
+	XformRedirect				[#ShowLockScreen: true, #UrlPage: http:\\www.xformgames.com]
+	Shockwave3D					[shockwave3d.com]
+	Shockwave3DRedirect			[#ShowLockScreen: false, #UrlPage: http:\\www.shockwave3d.com]
+	ClickJogos					[img.clickjogos.uol.com.br, img2.clickjogos.uol.com.br, img3.clickjogos.uol.com.br, img4.clickjogos.uol.com.br, img5.clickjogos.uol.com.br, img6.clickjogos.uol.com.br, img.clickjogos.com.br, img2.clickjogos.com.br, img3.clickjogos.com.br, img4.clickjogos.com.br, img5.clickjogos.com.br, img6.clickjogos.com.br clickjogos.uol.com.br]
+	ClickJogosRedirect			[#ShowLockScreen: false, #UrlPage: http:\\clickjogos.uol.com.br]
+	A10							[www8.agame.com, swf.xiaoyouxi.cn, files.game.com.cn, gamedev.dev.spilgames.com, developer.spilgames.com]
+	A10Redirect					[#ShowLockScreen: true, #UrlPage: http:\\www.a10.com]
+	KaiserGamesEnglish			[cdn.kaisergames.de, www.kibagames.com]
+	KaiserGamesEnglishRedirect	[#ShowLockScreen: false, #UrlPage: http:\\www.kibagames.com]
+	KaiserGamesGerman			[cdn.kaisergames.de, www.spielaffe.de]
+	KaiserGamesGermanRedirect	[#ShowLockScreen: false, #UrlPage: http:\\www.spielaffe.de]
+	KaiserGamesTurkish			[cdn.kaisergames.de, www.kraloyun.com]
+	KaiserGamesTurkishRedirect	[#ShowLockScreen: false, #UrlPage: http:\\www.kraloyun.com]
+	MiniJuegos					[miniplay.com, minijuegos.com, minijuegos.es, minijuegosgratis.com, minigiochi.com, minijogos.com.br, minijuegos.mx, minijuegos.com.mx]
+	MiniJuegosRedirect			[#ShowLockScreen: false, #UrlPage: http:\\www.minijuegos.com]
+SiteLock_End
+
+// For all brandings defined here a splashscreen will be shown, there aren't really properties (yet?) for these brandings
+SplashScreen_Begin
+	//A10 not sure if A10 has a splash screen
+	ClickJogos			true
+	KaiserGamesEnglish	true
+	KaiserGamesGerman	true
+	KaiserGamesTurkish	true
+	MiniJuegos			true
+SplashScreen_End

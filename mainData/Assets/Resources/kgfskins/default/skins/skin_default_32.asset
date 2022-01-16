@@ -1,0 +1,4988 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1755756289, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: skin_default_32
+  m_EditorClassIdentifier:
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_box:
+    m_Name: box
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_button:
+    m_Name: button
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 82370395036fc61438137ff43653914c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 073b364693e257f42b7d1ddab0fe5541, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 4a57a59ee54517047ace1075bdd4345d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 4a57a59ee54517047ace1075bdd4345d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 4a57a59ee54517047ace1075bdd4345d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 4a57a59ee54517047ace1075bdd4345d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 4a57a59ee54517047ace1075bdd4345d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 4a57a59ee54517047ace1075bdd4345d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 6
+      m_Bottom: 6
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  m_toggle:
+    m_Name: toggle
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: dc1dcc65a232f714c98d3293a66b6854, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 0f2f32026627fe641b1b67fdc5b890d2, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: dc1dcc65a232f714c98d3293a66b6854, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: dc1dcc65a232f714c98d3293a66b6854, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 2f912adef8b568a4b9d57cb56dae73f8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: bd4087056efd74f49b2f185c96efc8b0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: bd4087056efd74f49b2f185c96efc8b0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: bd4087056efd74f49b2f185c96efc8b0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 32
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 36
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_label:
+    m_Name: label
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_textField:
+    m_Name: textfield
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: f477e5e88c25c7b48907f6ff5e894e88, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 5db7b45e114df3c4c907514309347050, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 5db7b45e114df3c4c907514309347050, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: d612555620e4b4e4281b80e5ee0cfd92, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 6
+      m_Bottom: 6
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 3
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  m_textArea:
+    m_Name: textarea
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: f477e5e88c25c7b48907f6ff5e894e88, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 5db7b45e114df3c4c907514309347050, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 5db7b45e114df3c4c907514309347050, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: d612555620e4b4e4281b80e5ee0cfd92, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 1
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 3
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 1
+  m_window:
+    m_Name: window
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 3fb157bc81fcc694981f7af468f27631, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 45
+      m_Right: 45
+      m_Top: 64
+      m_Bottom: 64
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 4
+      m_Right: 4
+      m_Top: 50
+      m_Bottom: 50
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_Alignment: 1
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: -40}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_horizontalSlider:
+    m_Name: horizontalslider
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 1c761e6c47a46a84e83a1d01c5a5ea7d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 1c761e6c47a46a84e83a1d01c5a5ea7d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 1c761e6c47a46a84e83a1d01c5a5ea7d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 1c761e6c47a46a84e83a1d01c5a5ea7d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 1c761e6c47a46a84e83a1d01c5a5ea7d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 1c761e6c47a46a84e83a1d01c5a5ea7d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 1c761e6c47a46a84e83a1d01c5a5ea7d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 1c761e6c47a46a84e83a1d01c5a5ea7d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 12
+      m_Bottom: 12
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 2
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  m_horizontalSliderThumb:
+    m_Name: horizontalsliderthumb
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 4f9be292b08b1744ca46d13a94116fc8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 0175b9e4c84b5fe46885ccb4821cc9bb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 425c555d87f777d498bc5fff5d81ed31, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: -1
+      m_Right: -1
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 2
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_verticalSlider:
+    m_Name: verticalslider
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: e137fd0010394d44288a771bc68f36fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: e137fd0010394d44288a771bc68f36fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: e137fd0010394d44288a771bc68f36fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: e137fd0010394d44288a771bc68f36fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: e137fd0010394d44288a771bc68f36fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: e137fd0010394d44288a771bc68f36fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: e137fd0010394d44288a771bc68f36fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: e137fd0010394d44288a771bc68f36fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 12
+      m_Bottom: 12
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 1
+  m_verticalSliderThumb:
+    m_Name: verticalsliderthumb
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 58822f7fa8aad4a45a95e3b658538856, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 6e698a6a27e9bee46ba7ae79ca7adb49, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 46e8c2f2ae1febc448c432c4f1ddde39, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_horizontalScrollbar:
+    m_Name: horizontalscrollbar
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: c2422be86586f794e908bfa2002dff90, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: dc683dacf4c7a1b488dcc2eb6700bd31, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: dc683dacf4c7a1b488dcc2eb6700bd31, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: dc683dacf4c7a1b488dcc2eb6700bd31, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: dc683dacf4c7a1b488dcc2eb6700bd31, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: dc683dacf4c7a1b488dcc2eb6700bd31, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: dc683dacf4c7a1b488dcc2eb6700bd31, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: dc683dacf4c7a1b488dcc2eb6700bd31, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 2
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  m_horizontalScrollbarThumb:
+    m_Name: horizontalscrollbarthumb
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 02bd070c9adada240b97c2afc165df08, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 03e10a0fad010a84d8c60d3b30ea7438, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 03e10a0fad010a84d8c60d3b30ea7438, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 03e10a0fad010a84d8c60d3b30ea7438, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 03e10a0fad010a84d8c60d3b30ea7438, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 03e10a0fad010a84d8c60d3b30ea7438, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 03e10a0fad010a84d8c60d3b30ea7438, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 03e10a0fad010a84d8c60d3b30ea7438, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 16
+      m_Right: 16
+      m_Top: 8
+      m_Bottom: 8
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_horizontalScrollbarLeftButton:
+    m_Name: horizontalscrollbarleftbutton
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 1e50db1ff1fcc1f4185266d871212709, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 41b0010cabbf61b4fbc22c50d62db6fa, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 252ddbabd4fd86842afac69c280d75dd, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_horizontalScrollbarRightButton:
+    m_Name: horizontalscrollbarrightbutton
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 1a1d0f89c49b15e4c87e60f01a351c4b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 6970ca41e1723de4ab0a94576038e6cf, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 8bba14d0fe276214cbdd6e3c46aa0937, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_verticalScrollbar:
+    m_Name: verticalscrollbar
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: d254ee14add281049884b9a1a2c3ea90, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: c00568bc76682e84abe377fc208f5f63, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 5b72532991b9bb84dbeb40d01ab3f53d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 1
+  m_verticalScrollbarThumb:
+    m_Name: verticalscrollbarthumb
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: fef4cd734711e7540acba8e349073448, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: cff3ec1e78ca55441af175264235b60a, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: af6f67d1931ea82468192e8841e60764, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 16
+      m_Bottom: 16
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 2
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_verticalScrollbarUpButton:
+    m_Name: verticalscrollbarupbutton
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 285f46a3cb4b1ed46bf061be205f741c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: e5624ed447c59c4459085693428bbc8a, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: ecff37d814f46484ea38b75631736fc1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_verticalScrollbarDownButton:
+    m_Name: verticalscrollbardownbutton
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 10a6be0a7ccce674b8fab8f0ff5f28ea, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: ea2fa18c3d883d84f93fe3e74c3ff1f2, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 9925f3e6deb3e384baa9418fc126b24a, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_ScrollView:
+    m_Name: scrollview
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 1
+  m_CustomStyles:
+  - m_Name: toggle_stretched
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: dc1dcc65a232f714c98d3293a66b6854, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 0f2f32026627fe641b1b67fdc5b890d2, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 0f2f32026627fe641b1b67fdc5b890d2, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 0f2f32026627fe641b1b67fdc5b890d2, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 2f912adef8b568a4b9d57cb56dae73f8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: bd4087056efd74f49b2f185c96efc8b0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: bd4087056efd74f49b2f185c96efc8b0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: bd4087056efd74f49b2f185c96efc8b0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 24
+      m_Right: 8
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: toggle_compact
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: dc1dcc65a232f714c98d3293a66b6854, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 0f2f32026627fe641b1b67fdc5b890d2, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 0f2f32026627fe641b1b67fdc5b890d2, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 0f2f32026627fe641b1b67fdc5b890d2, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 2f912adef8b568a4b9d57cb56dae73f8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: bd4087056efd74f49b2f185c96efc8b0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: bd4087056efd74f49b2f185c96efc8b0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: bd4087056efd74f49b2f185c96efc8b0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 32
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: toggle_supercompact
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: cc96e2c69b49926498a7fd91892290c4, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 8f4b0248e48e6c3448a6a021fc0840be, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 8f4b0248e48e6c3448a6a021fc0840be, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 8f4b0248e48e6c3448a6a021fc0840be, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: a3a4e64c777a1cd4f96326d1134340b6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: dcbd379d7d9d92f4daec57cfe38bd1f0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: dcbd379d7d9d92f4daec57cfe38bd1f0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: dcbd379d7d9d92f4daec57cfe38bd1f0, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 28
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: toggle_radio_stretched
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 95260c6a553547c408f2aa25433fe259, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: d180265313edefb40981429301b06c18, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: d180265313edefb40981429301b06c18, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: d180265313edefb40981429301b06c18, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: e498f4ae2a0a95f48b49a0f4ff8048dd, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 7ec094d4c6b069b40ba3ab9a5175a147, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 7ec094d4c6b069b40ba3ab9a5175a147, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 7ec094d4c6b069b40ba3ab9a5175a147, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 24
+      m_Right: 8
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: toggle_radio_compact
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 95260c6a553547c408f2aa25433fe259, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: d180265313edefb40981429301b06c18, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: d180265313edefb40981429301b06c18, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: d180265313edefb40981429301b06c18, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: e498f4ae2a0a95f48b49a0f4ff8048dd, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 7ec094d4c6b069b40ba3ab9a5175a147, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 7ec094d4c6b069b40ba3ab9a5175a147, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 7ec094d4c6b069b40ba3ab9a5175a147, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 32
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: toggle_radio_supercompact
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 42aacadb051b4754aa88d0fa595ff836, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 8d4ab11a9c65b02448071b6d0d685e5b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 8d4ab11a9c65b02448071b6d0d685e5b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 8d4ab11a9c65b02448071b6d0d685e5b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 19f77a41d4a38e24999b1e31a269c106, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 901ee443e3454754bb593386f7f99add, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 901ee443e3454754bb593386f7f99add, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 901ee443e3454754bb593386f7f99add, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 32
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: toggle_switch
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 28eedcc37b8f5484c855cf70b8a4a20c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 240c99947db718b40808a5ffd18cb723, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 240c99947db718b40808a5ffd18cb723, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 240c99947db718b40808a5ffd18cb723, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 8835b1e7a2713eb4ca82cbde6a78446a, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: c6ed9a56f55cfd746984117028062b71, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: c6ed9a56f55cfd746984117028062b71, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: c6ed9a56f55cfd746984117028062b71, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 32
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: toggle_boolean
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 2e0c4ea24497ca34bbe4509e2498ac51, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 8547dfef5c448994286137cee3db3738, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 8547dfef5c448994286137cee3db3738, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 8547dfef5c448994286137cee3db3738, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 2694264f437c3764f8948999ca073258, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: b032671af5d07ee44b3f645f127a32e1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: b032671af5d07ee44b3f645f127a32e1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: b032671af5d07ee44b3f645f127a32e1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 32
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: toggle_arrow
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 526aa5d6ebe3f60418b0df129193119b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 68fbd144bc34bec47a05f2a7c4828473, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 68fbd144bc34bec47a05f2a7c4828473, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 68fbd144bc34bec47a05f2a7c4828473, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 182c65ebedf952543897cfc1d4ee2192, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 2e190243ee0f6c54886ed7a8f854ea28, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 2e190243ee0f6c54886ed7a8f854ea28, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 2e190243ee0f6c54886ed7a8f854ea28, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 32
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 36, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: toggle_button
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 82370395036fc61438137ff43653914c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 073b364693e257f42b7d1ddab0fe5541, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 073b364693e257f42b7d1ddab0fe5541, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 073b364693e257f42b7d1ddab0fe5541, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 4a57a59ee54517047ace1075bdd4345d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 20429950051b6af4fb6a25012c34eed6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 20429950051b6af4fb6a25012c34eed6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 20429950051b6af4fb6a25012c34eed6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 6
+      m_Bottom: 6
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 10
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: textfield_left
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 9377e9171e55bec4f9ba6d09b34bf9ce, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: afe75721c4dd8a14bb7619b150f3816e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: afe75721c4dd8a14bb7619b150f3816e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 9c2c8b9b3be5b2f4e8f40790ec08f9ea, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 4a57a59ee54517047ace1075bdd4345d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 20429950051b6af4fb6a25012c34eed6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 20429950051b6af4fb6a25012c34eed6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 20429950051b6af4fb6a25012c34eed6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 6
+      m_Bottom: 6
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: textfield_right
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 4ac0690577453964eb1a36887d222753, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: bf33638fc33f24b4b962281437a63a54, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: bf33638fc33f24b4b962281437a63a54, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 7fbd99b733d3f1848b7649c2bdff402c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 4a57a59ee54517047ace1075bdd4345d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 20429950051b6af4fb6a25012c34eed6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 20429950051b6af4fb6a25012c34eed6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 20429950051b6af4fb6a25012c34eed6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 6
+      m_Bottom: 6
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: button_left
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: b3cfd3e6cb7d67046bcf69e247bedfcd, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 9289e79d22c883f48bb9ec3c8259cd6d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: de1268bc3d5bced4e8e59b68f065d5cc, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: de1268bc3d5bced4e8e59b68f065d5cc, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: de1268bc3d5bced4e8e59b68f065d5cc, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: de1268bc3d5bced4e8e59b68f065d5cc, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: de1268bc3d5bced4e8e59b68f065d5cc, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: de1268bc3d5bced4e8e59b68f065d5cc, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 6
+      m_Bottom: 6
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: button_right
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 3cfe2e0d787797d48977843b8c63ebd7, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: b2c607109da52124fa291bbfafed41de, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: f0d0afd563f33d342a380d7ccd100ddb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: f0d0afd563f33d342a380d7ccd100ddb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: f0d0afd563f33d342a380d7ccd100ddb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: f0d0afd563f33d342a380d7ccd100ddb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: f0d0afd563f33d342a380d7ccd100ddb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: f0d0afd563f33d342a380d7ccd100ddb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 6
+      m_Bottom: 6
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: button_top
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 8d716520128924a46bf2cfa3822005b1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 83a0e06c05581114ba836a49ae768c12, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 8353eb6d9f00cc246b58a82ff75956f6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 8353eb6d9f00cc246b58a82ff75956f6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 8353eb6d9f00cc246b58a82ff75956f6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 8353eb6d9f00cc246b58a82ff75956f6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 8353eb6d9f00cc246b58a82ff75956f6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 8353eb6d9f00cc246b58a82ff75956f6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 16
+      m_Bottom: 16
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: button_bottom
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: ab89cfc2c36f8e5429cead6e345c369d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: d5918b8fe125fb24c9c61e115ce5072b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: edb2db3d4d9edd3488058074d19868f1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: edb2db3d4d9edd3488058074d19868f1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: edb2db3d4d9edd3488058074d19868f1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: edb2db3d4d9edd3488058074d19868f1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: edb2db3d4d9edd3488058074d19868f1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: edb2db3d4d9edd3488058074d19868f1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 16
+      m_Bottom: 16
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: button_middle
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 387b1e2713da3e942afeb76fc62f5993, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 955a355aa30a93a49b61bec903ca8393, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: bcf668a44b789034caa9ad40344ba64b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: bcf668a44b789034caa9ad40344ba64b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: bcf668a44b789034caa9ad40344ba64b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: bcf668a44b789034caa9ad40344ba64b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: bcf668a44b789034caa9ad40344ba64b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: bcf668a44b789034caa9ad40344ba64b, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: box_invisible
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 91dcd657cf355324f89defbfd747bc00, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 018d2c809fc458b41bffd0f12c6c97d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 018d2c809fc458b41bffd0f12c6c97d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 018d2c809fc458b41bffd0f12c6c97d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 018d2c809fc458b41bffd0f12c6c97d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 018d2c809fc458b41bffd0f12c6c97d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 018d2c809fc458b41bffd0f12c6c97d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 018d2c809fc458b41bffd0f12c6c97d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: a5b42d9e675b29d48adb8c05f504ed3f, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: a5b42d9e675b29d48adb8c05f504ed3f, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: a5b42d9e675b29d48adb8c05f504ed3f, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: a5b42d9e675b29d48adb8c05f504ed3f, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: a5b42d9e675b29d48adb8c05f504ed3f, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: a5b42d9e675b29d48adb8c05f504ed3f, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: a5b42d9e675b29d48adb8c05f504ed3f, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: a5b42d9e675b29d48adb8c05f504ed3f, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: a5b42d9e675b29d48adb8c05f504ed3f, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 453ff72810730da44a2072ae09dcd269, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 453ff72810730da44a2072ae09dcd269, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 453ff72810730da44a2072ae09dcd269, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 453ff72810730da44a2072ae09dcd269, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 453ff72810730da44a2072ae09dcd269, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 453ff72810730da44a2072ae09dcd269, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_left
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: a55b5d4310e4cac43aac4fdde6b3e7cb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: a55b5d4310e4cac43aac4fdde6b3e7cb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: a55b5d4310e4cac43aac4fdde6b3e7cb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: a55b5d4310e4cac43aac4fdde6b3e7cb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: a55b5d4310e4cac43aac4fdde6b3e7cb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: a55b5d4310e4cac43aac4fdde6b3e7cb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: a55b5d4310e4cac43aac4fdde6b3e7cb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: a55b5d4310e4cac43aac4fdde6b3e7cb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_left_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: a55b5d4310e4cac43aac4fdde6b3e7cb, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 16938616af2021a4abb86aa05339b9fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 16938616af2021a4abb86aa05339b9fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 16938616af2021a4abb86aa05339b9fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 16938616af2021a4abb86aa05339b9fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 16938616af2021a4abb86aa05339b9fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 16938616af2021a4abb86aa05339b9fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 16938616af2021a4abb86aa05339b9fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_left
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_left_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: a6394c96835b2b542883bf40a3efe5ae, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: cc0b91b35a951904b832ac13e8829c81, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: cc0b91b35a951904b832ac13e8829c81, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: cc0b91b35a951904b832ac13e8829c81, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: cc0b91b35a951904b832ac13e8829c81, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: cc0b91b35a951904b832ac13e8829c81, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: cc0b91b35a951904b832ac13e8829c81, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: cc0b91b35a951904b832ac13e8829c81, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_right
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 7850d4fcb4032fb40be84335fc7700ca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 7850d4fcb4032fb40be84335fc7700ca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 7850d4fcb4032fb40be84335fc7700ca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 7850d4fcb4032fb40be84335fc7700ca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 7850d4fcb4032fb40be84335fc7700ca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 7850d4fcb4032fb40be84335fc7700ca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 7850d4fcb4032fb40be84335fc7700ca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 7850d4fcb4032fb40be84335fc7700ca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_right_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 7850d4fcb4032fb40be84335fc7700ca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 3f4ebc15ff32a5c40a9cb0ab8f2eb0d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 3f4ebc15ff32a5c40a9cb0ab8f2eb0d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 3f4ebc15ff32a5c40a9cb0ab8f2eb0d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 3f4ebc15ff32a5c40a9cb0ab8f2eb0d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 3f4ebc15ff32a5c40a9cb0ab8f2eb0d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 3f4ebc15ff32a5c40a9cb0ab8f2eb0d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 3f4ebc15ff32a5c40a9cb0ab8f2eb0d6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_right
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 3464decfa9ffc5d46b6a11b3667c24fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 3464decfa9ffc5d46b6a11b3667c24fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 3464decfa9ffc5d46b6a11b3667c24fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 3464decfa9ffc5d46b6a11b3667c24fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 3464decfa9ffc5d46b6a11b3667c24fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 3464decfa9ffc5d46b6a11b3667c24fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 3464decfa9ffc5d46b6a11b3667c24fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 3464decfa9ffc5d46b6a11b3667c24fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_right_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 3464decfa9ffc5d46b6a11b3667c24fe, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 0ce59ae35e567d145bc19b914577e784, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 0ce59ae35e567d145bc19b914577e784, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 0ce59ae35e567d145bc19b914577e784, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 0ce59ae35e567d145bc19b914577e784, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 0ce59ae35e567d145bc19b914577e784, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 0ce59ae35e567d145bc19b914577e784, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 0ce59ae35e567d145bc19b914577e784, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_middle_horizontal
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: cc744faa35c679547b86be3b7a1e1e33, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: cc744faa35c679547b86be3b7a1e1e33, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: cc744faa35c679547b86be3b7a1e1e33, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: cc744faa35c679547b86be3b7a1e1e33, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: cc744faa35c679547b86be3b7a1e1e33, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: cc744faa35c679547b86be3b7a1e1e33, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: cc744faa35c679547b86be3b7a1e1e33, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: cc744faa35c679547b86be3b7a1e1e33, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_middle_horizontal_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: cc744faa35c679547b86be3b7a1e1e33, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 758a4ec6398f5b948acbaad501d485b5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 758a4ec6398f5b948acbaad501d485b5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 758a4ec6398f5b948acbaad501d485b5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 758a4ec6398f5b948acbaad501d485b5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 758a4ec6398f5b948acbaad501d485b5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 758a4ec6398f5b948acbaad501d485b5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 758a4ec6398f5b948acbaad501d485b5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_middle_horizontal
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: b5ee571ac48dc1c458a81bdea114d0e9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: b5ee571ac48dc1c458a81bdea114d0e9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: b5ee571ac48dc1c458a81bdea114d0e9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: b5ee571ac48dc1c458a81bdea114d0e9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: b5ee571ac48dc1c458a81bdea114d0e9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: b5ee571ac48dc1c458a81bdea114d0e9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: b5ee571ac48dc1c458a81bdea114d0e9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: b5ee571ac48dc1c458a81bdea114d0e9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_middle_horizontal_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: b5ee571ac48dc1c458a81bdea114d0e9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 354ef4c1ea0893d44a0b7c55101d161c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 354ef4c1ea0893d44a0b7c55101d161c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 354ef4c1ea0893d44a0b7c55101d161c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 354ef4c1ea0893d44a0b7c55101d161c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 354ef4c1ea0893d44a0b7c55101d161c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 354ef4c1ea0893d44a0b7c55101d161c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 354ef4c1ea0893d44a0b7c55101d161c, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_top
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 4d54935536097f042ae3ee2a9ff7c03d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 4d54935536097f042ae3ee2a9ff7c03d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 4d54935536097f042ae3ee2a9ff7c03d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 4d54935536097f042ae3ee2a9ff7c03d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 4d54935536097f042ae3ee2a9ff7c03d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 4d54935536097f042ae3ee2a9ff7c03d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 4d54935536097f042ae3ee2a9ff7c03d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 4d54935536097f042ae3ee2a9ff7c03d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_top_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 4d54935536097f042ae3ee2a9ff7c03d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: fdc4728b313e2304da2dc9c3525000e5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: fdc4728b313e2304da2dc9c3525000e5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: fdc4728b313e2304da2dc9c3525000e5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: fdc4728b313e2304da2dc9c3525000e5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: fdc4728b313e2304da2dc9c3525000e5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: fdc4728b313e2304da2dc9c3525000e5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: fdc4728b313e2304da2dc9c3525000e5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_top
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 60367c7994f969c45b56185adcf37ae8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 60367c7994f969c45b56185adcf37ae8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 60367c7994f969c45b56185adcf37ae8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 60367c7994f969c45b56185adcf37ae8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 60367c7994f969c45b56185adcf37ae8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 60367c7994f969c45b56185adcf37ae8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 60367c7994f969c45b56185adcf37ae8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 60367c7994f969c45b56185adcf37ae8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_top_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 60367c7994f969c45b56185adcf37ae8, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 23ca7f57248ebaa45995f940846df180, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 23ca7f57248ebaa45995f940846df180, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 23ca7f57248ebaa45995f940846df180, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 23ca7f57248ebaa45995f940846df180, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 23ca7f57248ebaa45995f940846df180, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 23ca7f57248ebaa45995f940846df180, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 23ca7f57248ebaa45995f940846df180, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_bottom
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 4cc64a993579cd1429aa36dc37a0e94d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 4cc64a993579cd1429aa36dc37a0e94d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 4cc64a993579cd1429aa36dc37a0e94d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 4cc64a993579cd1429aa36dc37a0e94d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 4cc64a993579cd1429aa36dc37a0e94d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 4cc64a993579cd1429aa36dc37a0e94d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 4cc64a993579cd1429aa36dc37a0e94d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 4cc64a993579cd1429aa36dc37a0e94d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_bottom_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 4cc64a993579cd1429aa36dc37a0e94d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: f346b2d32408eb147b385a494bf0974e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: f346b2d32408eb147b385a494bf0974e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: f346b2d32408eb147b385a494bf0974e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: f346b2d32408eb147b385a494bf0974e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: f346b2d32408eb147b385a494bf0974e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: f346b2d32408eb147b385a494bf0974e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: f346b2d32408eb147b385a494bf0974e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_bottom
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: c14454fa64d2ad846b5920f9bc878b01, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: c14454fa64d2ad846b5920f9bc878b01, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: c14454fa64d2ad846b5920f9bc878b01, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: c14454fa64d2ad846b5920f9bc878b01, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: c14454fa64d2ad846b5920f9bc878b01, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: c14454fa64d2ad846b5920f9bc878b01, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: c14454fa64d2ad846b5920f9bc878b01, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: c14454fa64d2ad846b5920f9bc878b01, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_bottom_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: c14454fa64d2ad846b5920f9bc878b01, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: ebcc1ae788e76784eb83c8de7019a8a5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: ebcc1ae788e76784eb83c8de7019a8a5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: ebcc1ae788e76784eb83c8de7019a8a5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: ebcc1ae788e76784eb83c8de7019a8a5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: ebcc1ae788e76784eb83c8de7019a8a5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: ebcc1ae788e76784eb83c8de7019a8a5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: ebcc1ae788e76784eb83c8de7019a8a5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_middle_vertical
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 2fdceab6744fb0547960c9992d0d965e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 2fdceab6744fb0547960c9992d0d965e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 2fdceab6744fb0547960c9992d0d965e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 2fdceab6744fb0547960c9992d0d965e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 2fdceab6744fb0547960c9992d0d965e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 2fdceab6744fb0547960c9992d0d965e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 2fdceab6744fb0547960c9992d0d965e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 2fdceab6744fb0547960c9992d0d965e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_middle_vertical_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 2fdceab6744fb0547960c9992d0d965e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 236aa9c816f7cbb4f835b0ec1ce83397, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 236aa9c816f7cbb4f835b0ec1ce83397, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 236aa9c816f7cbb4f835b0ec1ce83397, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: 236aa9c816f7cbb4f835b0ec1ce83397, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 236aa9c816f7cbb4f835b0ec1ce83397, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 236aa9c816f7cbb4f835b0ec1ce83397, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 236aa9c816f7cbb4f835b0ec1ce83397, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_middle_vertical
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: c58055d0a5d976a49abf9cdd7184c67e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: c58055d0a5d976a49abf9cdd7184c67e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: c58055d0a5d976a49abf9cdd7184c67e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: c58055d0a5d976a49abf9cdd7184c67e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: c58055d0a5d976a49abf9cdd7184c67e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: c58055d0a5d976a49abf9cdd7184c67e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: c58055d0a5d976a49abf9cdd7184c67e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: c58055d0a5d976a49abf9cdd7184c67e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: box_dark_middle_vertical_interactive
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: c58055d0a5d976a49abf9cdd7184c67e, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: a10521a301faa374f812a117af5ed9c1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: a10521a301faa374f812a117af5ed9c1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: a10521a301faa374f812a117af5ed9c1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: a10521a301faa374f812a117af5ed9c1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: a10521a301faa374f812a117af5ed9c1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: a10521a301faa374f812a117af5ed9c1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: a10521a301faa374f812a117af5ed9c1, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: separator_horizontal
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: bb0887bebab74d345990f8ba55de4684, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 16
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: separator_vertical
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: e3723a3375dc2d74197d30fe0fce5838, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 16
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 1
+  - m_Name: separator_vertical_fitinbox
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: e3723a3375dc2d74197d30fe0fce5838, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 16
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 1
+  - m_Name: box_decorated
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: d4708b714b42e2546be7cb303bc4ffca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: d4708b714b42e2546be7cb303bc4ffca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: d4708b714b42e2546be7cb303bc4ffca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: d4708b714b42e2546be7cb303bc4ffca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: d4708b714b42e2546be7cb303bc4ffca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: d4708b714b42e2546be7cb303bc4ffca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: d4708b714b42e2546be7cb303bc4ffca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: d4708b714b42e2546be7cb303bc4ffca, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 14
+      m_Right: 14
+      m_Top: 14
+      m_Bottom: 14
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 8
+      m_Bottom: 8
+    m_Padding:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: label_fitintobox
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 3
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: minimap
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 90ff14956bea1b146846cad6c05d76e2, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 1
+  - m_Name: minimap_button
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.4980392, g: 0.4980392, b: 0.4980392, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.4941176, g: 0.4941176, b: 0.4941176, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.4901961, g: 0.4901961, b: 0.4901961, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.4862745, g: 0.4862745, b: 0.4862745, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.4823529, g: 0.4823529, b: 0.4823529, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.4784314, g: 0.4784314, b: 0.4784314, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.4745098, g: 0.4745098, b: 0.4745098, a: 1}
+    m_Border:
+      m_Left: 4
+      m_Right: 4
+      m_Top: 4
+      m_Bottom: 4
+    m_Margin:
+      m_Left: 1
+      m_Right: 1
+      m_Top: 1
+      m_Bottom: 1
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 1
+  - m_Name: mouse_cursor
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 9316258057e4099478d31432c9bfe7e6, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9058824, g: 0.6745098, b: 0.2745098, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 32
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: label_multiline
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 8
+      m_Bottom: 8
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 1
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 3
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  - m_Name: label_title
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 8
+      m_Right: 8
+      m_Top: 6
+      m_Bottom: 6
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 3
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 32
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  m_Settings:
+    m_DoubleClickSelectsWord: 1
+    m_TripleClickSelectsLine: 1
+    m_CursorColor: {r: 1, g: 1, b: 1, a: 1}
+    m_CursorFlashSpeed: 1
+    m_SelectionColor: {r: 0, g: 0.0545779, b: 0.3656716, a: 1}

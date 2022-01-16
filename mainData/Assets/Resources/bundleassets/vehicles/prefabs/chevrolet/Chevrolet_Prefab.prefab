@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1215313858661023}
+  m_IsPrefabParent: 1
+--- !u!1 &1215313858661023
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4664275107136015}
+  - component: {fileID: 33082219750074773}
+  - component: {fileID: 23043447324210109}
+  - component: {fileID: 64759536034508893}
+  m_Layer: 0
+  m_Name: Chevrolet_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4664275107136015
+Transform:
+  m_GameObject: {fileID: 1215313858661023}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 5.284716}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4449134484741463}
+  - {fileID: 4241064680531518}
+  - {fileID: 4375363551032316}
+  - {fileID: 4918800263034741}
+  - {fileID: 4440714319627099}
+  - {fileID: 4908241811277278}
+  - {fileID: 4582047003333198}
+  - {fileID: 4287130511147625}
+  - {fileID: 4277612562463620}
+  - {fileID: 4325456389857113}
+  - {fileID: 4327548173967625}
+  - {fileID: 4245700290570750}
+  - {fileID: 4962473829651037}
+  - {fileID: 4918219799822053}
+  - {fileID: 4661929675104708}
+  - {fileID: 4299418823179328}
+  - {fileID: 4854525460405213}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33082219750074773
+MeshFilter:
+  m_GameObject: {fileID: 1215313858661023}
+  m_Mesh: {fileID: 4300000, guid: 5020db338d0f6114986755fdd58c5335, type: 2}
+--- !u!23 &23043447324210109
+MeshRenderer:
+  m_GameObject: {fileID: 1215313858661023}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b4fbff6b1833bb645b23fbd87d7b2ac3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64759536034508893
+MeshCollider:
+  m_GameObject: {fileID: 1215313858661023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 07cba68f7c734c549ab22e67a8b212c2, type: 2}
+--- !u!1 &1781012029519912
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4449134484741463}
+  m_Layer: 0
+  m_Name: ChevroletExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449134484741463
+Transform:
+  m_GameObject: {fileID: 1781012029519912}
+  m_LocalRotation: {x: -0.7071069, y: 5.805444E-16, z: -5.604841E-15, w: 0.7071068}
+  m_LocalPosition: {x: -0.5102692, y: 0.2432474, z: -2.652745}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 4.071111E-13, z: 5.011922E-13}
+--- !u!1 &1053093318186745
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4241064680531518}
+  m_Layer: 0
+  m_Name: ChevroletExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4241064680531518
+Transform:
+  m_GameObject: {fileID: 1053093318186745}
+  m_LocalRotation: {x: -0.7071069, y: 5.805444E-16, z: -5.604841E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0.4831328, y: 0.2432474, z: -2.653512}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 4.071111E-13, z: 5.011922E-13}
+--- !u!1 &1628636016309423
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4375363551032316}
+  m_Layer: 0
+  m_Name: ChevroletFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4375363551032316
+Transform:
+  m_GameObject: {fileID: 1628636016309423}
+  m_LocalRotation: {x: 0.7071068, y: -2.241427E-15, z: -0.7071068, w: -2.241427E-15}
+  m_LocalPosition: {x: -0.01299597, y: 1.271634, z: 1.868057}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999998}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1709759273881858
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4918800263034741}
+  - component: {fileID: 33007872276199171}
+  - component: {fileID: 23929659523938444}
+  m_Layer: 0
+  m_Name: ChevroletGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4918800263034741
+Transform:
+  m_GameObject: {fileID: 1709759273881858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0003595352, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33007872276199171
+MeshFilter:
+  m_GameObject: {fileID: 1709759273881858}
+  m_Mesh: {fileID: 4300000, guid: a82ebc5f76b9218418f2ab6dcebd71a3, type: 2}
+--- !u!23 &23929659523938444
+MeshRenderer:
+  m_GameObject: {fileID: 1709759273881858}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b4fbff6b1833bb645b23fbd87d7b2ac3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1718538989533444
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4440714319627099}
+  m_Layer: 0
+  m_Name: ChevroletLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4440714319627099
+Transform:
+  m_GameObject: {fileID: 1718538989533444}
+  m_LocalRotation: {x: 0.7064338, y: 0.03084361, z: -0.7064338, w: 0.03084361}
+  m_LocalPosition: {x: -0.6539836, y: 1.376708, z: 2.058012}
+  m_LocalScale: {x: 0.9999998, y: 0.9999997, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 175, y: -90, z: 0}
+--- !u!1 &1201142782540469
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4908241811277278}
+  m_Layer: 0
+  m_Name: ChevroletLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4908241811277278
+Transform:
+  m_GameObject: {fileID: 1201142782540469}
+  m_LocalRotation: {x: -0.7071069, y: 5.805444E-16, z: -5.604841E-15, w: 0.7071068}
+  m_LocalPosition: {x: -0.891681, y: 0.7724462, z: -2.473698}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 4.071111E-13, z: 5.011922E-13}
+--- !u!1 &1959668980703458
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4582047003333198}
+  m_Layer: 0
+  m_Name: ChevroletLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4582047003333198
+Transform:
+  m_GameObject: {fileID: 1959668980703458}
+  m_LocalRotation: {x: -0.7071069, y: 5.805444E-16, z: -5.604841E-15, w: 0.7071068}
+  m_LocalPosition: {x: -0.6089388, y: 0.8979405, z: 2.639066}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 4.071111E-13, z: 5.011922E-13}
+--- !u!1 &1004774013041255
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4287130511147625}
+  m_Layer: 0
+  m_Name: ChevroletLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4287130511147625
+Transform:
+  m_GameObject: {fileID: 1004774013041255}
+  m_LocalRotation: {x: -0.7071069, y: 5.805444E-16, z: -5.604841E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0.8534092, y: 0.7723809, z: -2.473699}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 4.071111E-13, z: 5.011922E-13}
+--- !u!1 &1045146675086531
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4277612562463620}
+  m_Layer: 0
+  m_Name: ChevroletLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4277612562463620
+Transform:
+  m_GameObject: {fileID: 1045146675086531}
+  m_LocalRotation: {x: -0.7071069, y: 5.805444E-16, z: -5.604841E-15, w: 0.7071068}
+  m_LocalPosition: {x: 0.5881218, y: 0.8973567, z: 2.639067}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 4.071111E-13, z: 5.011922E-13}
+--- !u!1 &1568519859466338
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4325456389857113}
+  m_Layer: 0
+  m_Name: ChevroletRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4325456389857113
+Transform:
+  m_GameObject: {fileID: 1568519859466338}
+  m_LocalRotation: {x: 0.5, y: 0.5000001, z: 0.5, w: 0.5000001}
+  m_LocalPosition: {x: -0.01344746, y: 0.7935451, z: -2.502488}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 90, y: -1.024528E-05, z: -90}
+--- !u!1 &1198903249818295
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4327548173967625}
+  m_Layer: 0
+  m_Name: ChevroletRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4327548173967625
+Transform:
+  m_GameObject: {fileID: 1198903249818295}
+  m_LocalRotation: {x: 0.7071068, y: 7.375699E-08, z: -0.7071068, w: 7.375699E-08}
+  m_LocalPosition: {x: 0.6175634, y: 1.376708, z: 2.057868}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
+--- !u!1 &1953025714287542
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4245700290570750}
+  m_Layer: 0
+  m_Name: ChevroletSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4245700290570750
+Transform:
+  m_GameObject: {fileID: 1953025714287542}
+  m_LocalRotation: {x: -0.7071069, y: 5.805444E-16, z: -5.604841E-15, w: 0.7071068}
+  m_LocalPosition: {x: -0.01490194, y: 1.261191, z: 1.606106}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 4.071111E-13, z: 5.011922E-13}
+--- !u!1 &1543879773167766
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4962473829651037}
+  m_Layer: 0
+  m_Name: ChevroletSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4962473829651037
+Transform:
+  m_GameObject: {fileID: 1543879773167766}
+  m_LocalRotation: {x: 0.7071068, y: -2.241427E-15, z: -0.7071068, w: -2.241427E-15}
+  m_LocalPosition: {x: -0.01383086, y: 1.951125, z: 0.4361097}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999998}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1422489212562607
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4918219799822053}
+  - component: {fileID: 33164274233864121}
+  - component: {fileID: 23888752940435657}
+  m_Layer: 0
+  m_Name: ChevroletWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4918219799822053
+Transform:
+  m_GameObject: {fileID: 1422489212562607}
+  m_LocalRotation: {x: 8.42937E-08, y: 0.7071068, z: 0.7071068, w: -2.247646E-08}
+  m_LocalPosition: {x: -0.8768921, y: 0.3983533, z: -1.215446}
+  m_LocalScale: {x: 0.5220442, y: 0.5220442, z: 0.5220442}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 90, y: 8.651422E-06, z: -180}
+--- !u!33 &33164274233864121
+MeshFilter:
+  m_GameObject: {fileID: 1422489212562607}
+  m_Mesh: {fileID: 4300000, guid: ceb94c8bec2357144aa6d3bd7c0a1db2, type: 2}
+--- !u!23 &23888752940435657
+MeshRenderer:
+  m_GameObject: {fileID: 1422489212562607}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b4fbff6b1833bb645b23fbd87d7b2ac3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1815652929581178
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4661929675104708}
+  - component: {fileID: 33064353426172318}
+  - component: {fileID: 23360606411670936}
+  m_Layer: 0
+  m_Name: ChevroletWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4661929675104708
+Transform:
+  m_GameObject: {fileID: 1815652929581178}
+  m_LocalRotation: {x: 8.42937E-08, y: 0.7071068, z: 0.7071068, w: -2.247646E-08}
+  m_LocalPosition: {x: -0.8768911, y: 0.3938367, z: 1.829981}
+  m_LocalScale: {x: 0.5220442, y: 0.5220442, z: 0.5220442}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 90, y: 8.651422E-06, z: -180}
+--- !u!33 &33064353426172318
+MeshFilter:
+  m_GameObject: {fileID: 1815652929581178}
+  m_Mesh: {fileID: 4300000, guid: 59bb9239d5b0dc64c803d8625874d6c8, type: 2}
+--- !u!23 &23360606411670936
+MeshRenderer:
+  m_GameObject: {fileID: 1815652929581178}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b4fbff6b1833bb645b23fbd87d7b2ac3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1689238897755392
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4299418823179328}
+  - component: {fileID: 33150862379376077}
+  - component: {fileID: 23887900402976889}
+  m_Layer: 0
+  m_Name: ChevroletWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4299418823179328
+Transform:
+  m_GameObject: {fileID: 1689238897755392}
+  m_LocalRotation: {x: 8.42937E-08, y: 0.7071068, z: 0.7071068, w: -2.247646E-08}
+  m_LocalPosition: {x: 0.8514132, y: 0.3938367, z: -1.215446}
+  m_LocalScale: {x: 0.5220442, y: 0.5220442, z: 0.5220442}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 90, y: 8.651422E-06, z: -180}
+--- !u!33 &33150862379376077
+MeshFilter:
+  m_GameObject: {fileID: 1689238897755392}
+  m_Mesh: {fileID: 4300000, guid: 99c9829a86447f74ba7e28935c300376, type: 2}
+--- !u!23 &23887900402976889
+MeshRenderer:
+  m_GameObject: {fileID: 1689238897755392}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b4fbff6b1833bb645b23fbd87d7b2ac3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1836000654327656
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4854525460405213}
+  - component: {fileID: 33328722486843454}
+  - component: {fileID: 23511660927004347}
+  m_Layer: 0
+  m_Name: ChevroletWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4854525460405213
+Transform:
+  m_GameObject: {fileID: 1836000654327656}
+  m_LocalRotation: {x: 8.42937E-08, y: 0.7071068, z: 0.7071068, w: -2.247646E-08}
+  m_LocalPosition: {x: 0.8514137, y: 0.3938367, z: 1.829981}
+  m_LocalScale: {x: 0.5220442, y: 0.5220442, z: 0.5220442}
+  m_Children: []
+  m_Father: {fileID: 4664275107136015}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 90, y: 8.651422E-06, z: -180}
+--- !u!33 &33328722486843454
+MeshFilter:
+  m_GameObject: {fileID: 1836000654327656}
+  m_Mesh: {fileID: 4300000, guid: 64d0eae0a286a414fb3e0d99c2121693, type: 2}
+--- !u!23 &23511660927004347
+MeshRenderer:
+  m_GameObject: {fileID: 1836000654327656}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b4fbff6b1833bb645b23fbd87d7b2ac3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

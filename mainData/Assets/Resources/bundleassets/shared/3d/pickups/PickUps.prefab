@@ -1,0 +1,466 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1569892559026607}
+  m_IsPrefabParent: 1
+--- !u!1 &1569892559026607
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4557793814286272}
+  - component: {fileID: 111944035264698847}
+  m_Layer: 0
+  m_Name: PickUps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4557793814286272
+Transform:
+  m_GameObject: {fileID: 1569892559026607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4819908685753527}
+  - {fileID: 4746066970499620}
+  - {fileID: 4696606509192060}
+  - {fileID: 4564760179150305}
+  - {fileID: 4155299475176912}
+  - {fileID: 4838289415776764}
+  - {fileID: 4984959194653313}
+  - {fileID: 4985817483764028}
+  - {fileID: 4478094586448619}
+  - {fileID: 4192392890915635}
+  - {fileID: 4176745941751481}
+  - {fileID: 4894456397843543}
+  - {fileID: 4995781316133647}
+  - {fileID: 4139822982016232}
+  - {fileID: 4418987666549314}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111944035264698847
+Animation:
+  m_GameObject: {fileID: 1569892559026607}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1824932520457378
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4819908685753527}
+  - component: {fileID: 33174529726288854}
+  m_Layer: 0
+  m_Name: PickUp_Cash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4819908685753527
+Transform:
+  m_GameObject: {fileID: 1824932520457378}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 4.527427, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33174529726288854
+MeshFilter:
+  m_GameObject: {fileID: 1824932520457378}
+  m_Mesh: {fileID: 4300000, guid: 32377bdf924011a45b184f82a024588c, type: 2}
+--- !u!1 &1874383030655801
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4746066970499620}
+  - component: {fileID: 33138884722193586}
+  m_Layer: 0
+  m_Name: PickUp_CashBig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4746066970499620
+Transform:
+  m_GameObject: {fileID: 1874383030655801}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 16.82184, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33138884722193586
+MeshFilter:
+  m_GameObject: {fileID: 1874383030655801}
+  m_Mesh: {fileID: 4300000, guid: 675270aaa59fdcc4bbda1d1972d767f6, type: 2}
+--- !u!1 &1973206668647917
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4696606509192060}
+  - component: {fileID: 33291102062220837}
+  m_Layer: 0
+  m_Name: PickUp_CashStash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4696606509192060
+Transform:
+  m_GameObject: {fileID: 1973206668647917}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -4.168387, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33291102062220837
+MeshFilter:
+  m_GameObject: {fileID: 1973206668647917}
+  m_Mesh: {fileID: 4300000, guid: 389cce2dba525c3409f97fa7b6678f87, type: 2}
+--- !u!1 &1975534648905758
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4564760179150305}
+  - component: {fileID: 33969556935053096}
+  m_Layer: 0
+  m_Name: PickUp_Detonator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4564760179150305
+Transform:
+  m_GameObject: {fileID: 1975534648905758}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 14.15563, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33969556935053096
+MeshFilter:
+  m_GameObject: {fileID: 1975534648905758}
+  m_Mesh: {fileID: 4300000, guid: 52def08443078b044b7f6b9a11c99b1e, type: 2}
+--- !u!1 &1766853619995265
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4155299475176912}
+  - component: {fileID: 33780069084832896}
+  m_Layer: 0
+  m_Name: PickUp_FlameBurst
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4155299475176912
+Transform:
+  m_GameObject: {fileID: 1766853619995265}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 6.988787, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33780069084832896
+MeshFilter:
+  m_GameObject: {fileID: 1766853619995265}
+  m_Mesh: {fileID: 4300000, guid: 258dfbce5bb2b854a8397b3ca222473a, type: 2}
+--- !u!1 &1642536213293695
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4838289415776764}
+  - component: {fileID: 33302785127979085}
+  m_Layer: 0
+  m_Name: PickUp_HiddenPackage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4838289415776764
+Transform:
+  m_GameObject: {fileID: 1642536213293695}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 11.65195, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33302785127979085
+MeshFilter:
+  m_GameObject: {fileID: 1642536213293695}
+  m_Mesh: {fileID: 4300000, guid: b76ca57023a45f54b80b5c89d4310c01, type: 2}
+--- !u!1 &1541773632914099
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4984959194653313}
+  - component: {fileID: 33150894497814139}
+  m_Layer: 0
+  m_Name: PickUp_Nitro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4984959194653313
+Transform:
+  m_GameObject: {fileID: 1541773632914099}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2.001415, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33150894497814139
+MeshFilter:
+  m_GameObject: {fileID: 1541773632914099}
+  m_Mesh: {fileID: 4300000, guid: 6d8e8fa99f38fd740954f7006118b1a0, type: 2}
+--- !u!1 &1212965711180275
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4985817483764028}
+  - component: {fileID: 33758535165373708}
+  m_Layer: 0
+  m_Name: PickUp_NuclearDetonator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4985817483764028
+Transform:
+  m_GameObject: {fileID: 1212965711180275}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.391835, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33758535165373708
+MeshFilter:
+  m_GameObject: {fileID: 1212965711180275}
+  m_Mesh: {fileID: 4300000, guid: 01f566930fd8fdc48bacbe70c48b9756, type: 2}
+--- !u!1 &1172330726964551
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4478094586448619}
+  - component: {fileID: 33424227881663530}
+  m_Layer: 0
+  m_Name: PickUp_Repair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4478094586448619
+Transform:
+  m_GameObject: {fileID: 1172330726964551}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 9.37896, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33424227881663530
+MeshFilter:
+  m_GameObject: {fileID: 1172330726964551}
+  m_Mesh: {fileID: 4300000, guid: b22eb0e2fe2852d4386cc3afeb48517a, type: 2}
+--- !u!1 &1476531694749725
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4192392890915635}
+  - component: {fileID: 33891760437475493}
+  m_Layer: 0
+  m_Name: PickUp_StyleDemon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4192392890915635
+Transform:
+  m_GameObject: {fileID: 1476531694749725}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -18.40159, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33891760437475493
+MeshFilter:
+  m_GameObject: {fileID: 1476531694749725}
+  m_Mesh: {fileID: 4300000, guid: 18e5478c262084f40ad6c6d1c246c70f, type: 2}
+--- !u!1 &1404639971591455
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4176745941751481}
+  - component: {fileID: 33348659315289481}
+  m_Layer: 0
+  m_Name: PickUp_StyleGold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4176745941751481
+Transform:
+  m_GameObject: {fileID: 1404639971591455}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -20.90693, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33348659315289481
+MeshFilter:
+  m_GameObject: {fileID: 1404639971591455}
+  m_Mesh: {fileID: 4300000, guid: 41840501f39cab24eac5769ef107b16e, type: 2}
+--- !u!1 &1518684512651442
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4894456397843543}
+  - component: {fileID: 33545165512998651}
+  m_Layer: 0
+  m_Name: PickUp_StyleQuadDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4894456397843543
+Transform:
+  m_GameObject: {fileID: 1518684512651442}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -23.42924, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33545165512998651
+MeshFilter:
+  m_GameObject: {fileID: 1518684512651442}
+  m_Mesh: {fileID: 4300000, guid: dd2c4596ff4decb4abf3ca15733be72c, type: 2}
+--- !u!1 &1643264608183684
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4995781316133647}
+  - component: {fileID: 33209488541772580}
+  m_Layer: 0
+  m_Name: PickUp_StyleStuntMan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4995781316133647
+Transform:
+  m_GameObject: {fileID: 1643264608183684}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -15.98562, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33209488541772580
+MeshFilter:
+  m_GameObject: {fileID: 1643264608183684}
+  m_Mesh: {fileID: 4300000, guid: c9e03ac76b730e04e9014360b033e4ac, type: 2}
+--- !u!1 &1929045999667412
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4139822982016232}
+  - component: {fileID: 33973386059502669}
+  m_Layer: 0
+  m_Name: PickUp_StyleToxic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4139822982016232
+Transform:
+  m_GameObject: {fileID: 1929045999667412}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -25.94129, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33973386059502669
+MeshFilter:
+  m_GameObject: {fileID: 1929045999667412}
+  m_Mesh: {fileID: 4300000, guid: b332df8ab8036a94a9fa1039b31ac041, type: 2}
+--- !u!1 &1846938516893700
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4418987666549314}
+  - component: {fileID: 33552816152028536}
+  m_Layer: 0
+  m_Name: PickUp_Trophy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4418987666549314
+Transform:
+  m_GameObject: {fileID: 1846938516893700}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -7.358962, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4557793814286272}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33552816152028536
+MeshFilter:
+  m_GameObject: {fileID: 1846938516893700}
+  m_Mesh: {fileID: 4300000, guid: f17da6959f60eeb4282521844967f958, type: 2}

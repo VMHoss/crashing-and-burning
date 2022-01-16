@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!90 &9000000
+Avatar:
+  m_Name: AstonMartinAvatar
+  m_AvatarSize: 1408
+  m_Avatar:
+    serializedVersion: 3
+    m_AvatarSkeleton:
+      data:
+        m_Node:
+        - m_ParentId: -1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        m_ID: 4b2d5d854b2d5d8550296c5fcd33846ecda468110d5fe186f27a2b0c4c90dd915fb4926555b3ecf84697a30cb55f9d3909e951c783bfd41bd4e7ecf64fe2f64a56269b4d90ddb79e8919da99ec2958ed0d0aee88
+        m_AxesArray: []
+    m_AvatarSkeletonPose:
+      data:
+        m_X:
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: -8.940697E-08, y: 6.394649E-15, z: -1.509958E-07, w: 1}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.5096543, y: 0.1925573, z: -1.765752}
+          q: {x: -0.4999998, y: -0.5000003, z: 0.4999999, w: 0.5}
+          s: {x: 0.9999999, y: 0.9999998, z: 1}
+        - t: {x: 0.5208772, y: 0.1924682, z: -1.765753}
+          q: {x: -0.4999998, y: -0.5000003, z: 0.4999999, w: 0.5}
+          s: {x: 0.9999999, y: 0.9999998, z: 1}
+        - t: {x: 0.005894787, y: 1.00682, z: 1.811139}
+          q: {x: 0.7071068, y: 8.569672E-08, z: -0.7071068, w: 8.569672E-08}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.004210378, y: 0.5499997, z: 0.2596618}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: -1.032542, y: 0.5195813, z: 0.3085741}
+          q: {x: 0.4999999, y: 0.5000001, z: -0.4999999, w: 0.5000001}
+          s: {x: 0.9999999, y: 1, z: 0.9999998}
+        - t: {x: -0.6588176, y: 0.7070617, z: -1.816912}
+          q: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.6407056, y: 0.6131731, z: 2.419134}
+          q: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.6705158, y: 0.7070622, z: -1.816912}
+          q: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.6524944, y: 0.6131737, z: 2.419134}
+          q: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.005895325, y: 0.672372, z: -1.828043}
+          q: {x: 0.5000001, y: 0.4999999, z: 0.5000002, w: 0.4999999}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.9798812, y: 0.5195814, z: 0.3085746}
+          q: {x: 0.5000001, y: -0.4999999, z: -0.5000001, w: -0.4999999}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.005894533, y: 0.8585524, z: 1.794475}
+          q: {x: 1.098799E-07, y: -0.7071068, z: 1.098799E-07, w: 0.7071068}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.00589504, y: 1.316636, z: 0.1726217}
+          q: {x: 0.7071068, y: 8.569672E-08, z: -0.7071068, w: 8.569672E-08}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.8326684, y: 0.3462904, z: -0.9067672}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.8326689, y: 0.3462892, z: 1.646268}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.8172223, y: 0.3453496, z: -0.9067709}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.8172218, y: 0.3453484, z: 1.646265}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: -2.185569E-08, y: -7.54979E-08, z: -7.54979E-08, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0.004210211, y: 0, z: 0.2596617}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: 5.338508E-08}
+          s: {x: 1, y: 1, z: 1}
+    m_DefaultPose:
+      data:
+        m_X:
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: -8.940697E-08, y: 6.394649E-15, z: -1.509958E-07, w: 1}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.5096543, y: 0.1925573, z: -1.765752}
+          q: {x: -0.4999998, y: -0.5000003, z: 0.4999999, w: 0.5}
+          s: {x: 0.9999999, y: 0.9999998, z: 1}
+        - t: {x: 0.5208772, y: 0.1924682, z: -1.765753}
+          q: {x: -0.4999998, y: -0.5000003, z: 0.4999999, w: 0.5}
+          s: {x: 0.9999999, y: 0.9999998, z: 1}
+        - t: {x: 0.005894787, y: 1.00682, z: 1.811139}
+          q: {x: 0.7071068, y: 8.569672E-08, z: -0.7071068, w: 8.569672E-08}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.004210378, y: 0.5499997, z: 0.2596618}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: -1.032542, y: 0.5195813, z: 0.3085741}
+          q: {x: 0.4999999, y: 0.5000001, z: -0.4999999, w: 0.5000001}
+          s: {x: 0.9999999, y: 1, z: 0.9999998}
+        - t: {x: -0.6588176, y: 0.7070617, z: -1.816912}
+          q: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.6407056, y: 0.6131731, z: 2.419134}
+          q: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.6705158, y: 0.7070622, z: -1.816912}
+          q: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.6524944, y: 0.6131737, z: 2.419134}
+          q: {x: -1.807228E-07, y: 0.7071066, z: 0.707107, w: -1.736319E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.005895325, y: 0.672372, z: -1.828043}
+          q: {x: 0.5000001, y: 0.4999999, z: 0.5000002, w: 0.4999999}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.9798812, y: 0.5195814, z: 0.3085746}
+          q: {x: 0.5000001, y: -0.4999999, z: -0.5000001, w: -0.4999999}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.005894533, y: 0.8585524, z: 1.794475}
+          q: {x: 1.098799E-07, y: -0.7071068, z: 1.098799E-07, w: 0.7071068}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.00589504, y: 1.316636, z: 0.1726217}
+          q: {x: 0.7071068, y: 8.569672E-08, z: -0.7071068, w: 8.569672E-08}
+          s: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.8326684, y: 0.3462904, z: -0.9067672}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: -0.8326689, y: 0.3462892, z: 1.646268}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.8172223, y: 0.3453496, z: -0.9067709}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0.8172218, y: 0.3453484, z: 1.646265}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+          s: {x: 1, y: 0.9999999, z: 0.9999999}
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: -2.185569E-08, y: -7.54979E-08, z: -7.54979E-08, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0.004210211, y: 0, z: 0.2596617}
+          q: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: 5.338508E-08}
+          s: {x: 1, y: 1, z: 1}
+    m_SkeletonNameIDArray: 4b2d5d854b2d5d8550296c5fcd33846ecda468110d5fe186f27a2b0c4c90dd915fb4926555b3ecf84697a30cb55f9d3909e951c783bfd41bd4e7ecf64fe2f64a56269b4d90ddb79e8919da99ec2958ed0d0aee88
+    m_Human:
+      data:
+        serializedVersion: 2
+        m_RootX:
+          t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        m_Skeleton:
+          data:
+            m_Node: []
+            m_ID:
+            m_AxesArray: []
+        m_SkeletonPose:
+          data:
+            m_X: []
+        m_LeftHand:
+          data:
+            m_HandBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_RightHand:
+          data:
+            m_HandBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_Handles: []
+        m_ColliderArray: []
+        m_HumanBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_HumanBoneMass:
+        - 0.1454546
+        - 0.1212121
+        - 0.1212121
+        - 0.04848485
+        - 0.04848485
+        - 0.009696971
+        - 0.009696971
+        - 0.03030303
+        - 0.2909091
+        - 0
+        - 0.01212121
+        - 0.04848485
+        - 0.006060607
+        - 0.006060607
+        - 0.02424243
+        - 0.02424243
+        - 0.01818182
+        - 0.01818182
+        - 0.006060607
+        - 0.006060607
+        - 0.002424243
+        - 0.002424243
+        - 0
+        - 0
+        - 0
+        m_ColliderIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_Scale: 1
+        m_ArmTwist: 0.5
+        m_ForeArmTwist: 0.5
+        m_UpperLegTwist: 0.5
+        m_LegTwist: 0.5
+        m_ArmStretch: 0.05
+        m_LegStretch: 0.05
+        m_FeetSpacing: 0
+        m_HasLeftHand: 0
+        m_HasRightHand: 0
+        m_HasTDoF: 0
+    m_HumanSkeletonIndexArray:
+    m_HumanSkeletonReverseIndexArray: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    m_RootMotionBoneIndex: -1
+    m_RootMotionBoneX:
+      t: {x: 0, y: 0, z: 0}
+      q: {x: 0, y: 0, z: 0, w: 1}
+      s: {x: 1, y: 1, z: 1}
+    m_RootMotionSkeleton:
+      data:
+        m_Node: []
+        m_ID: []
+        m_AxesArray: []
+    m_RootMotionSkeletonPose:
+      data:
+        m_X: []
+    m_RootMotionSkeletonIndexArray:
+  m_TOS:
+    204176114: AstonMartinLeftWeapon1_Dummy
+    212047686: AstonMartinLight_RF_Dummy
+    292070605: AstonMartinFrontWeapon1_Dummy
+    466927491: AstonMartinSmoke_Dummy
+    966614965: AstonMartinRearWeapon1_Dummy
+    1257693775: AstonMartinWheel_LB
+    1302013526: AstonMartinWheel_LF
+    1600923984: AstonMartinExhaust1_Dummy
+    1704113247: AstonMartinLight_LF_Dummy
+    1854157773: AstonMartinExhaust2_Dummy
+    2237476171: AstonMartin
+    2262916877: AstonMartinGlass
+    2297301517: Particle View 01
+    2447216716: AstonMartinLight_LB_Dummy
+    2581207433: AstonMartinWheel_RF
+    2662849936: AstonMartinWheel_RB
+    3344034057: AstonMartinRightWeapon1_Dummy
+    3981978092: AstonMartinProxy
+    4142720980: AstonMartinSpecialWeapon1_Dummy
+    4176261973: AstonMartinLight_RB_Dummy

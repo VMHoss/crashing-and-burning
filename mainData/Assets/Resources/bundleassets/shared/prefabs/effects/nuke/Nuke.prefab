@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1077743831509488}
+  m_IsPrefabParent: 1
+--- !u!1 &1077743831509488
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4828916032227357}
+  - component: {fileID: 111935873287420432}
+  m_Layer: 0
+  m_Name: Nuke
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4828916032227357
+Transform:
+  m_GameObject: {fileID: 1077743831509488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4221443141438817}
+  - {fileID: 4559765110791648}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111935873287420432
+Animation:
+  m_GameObject: {fileID: 1077743831509488}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1955464205646982
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4221443141438817}
+  - component: {fileID: 33731438028582478}
+  - component: {fileID: 23555814304384877}
+  - component: {fileID: 114534549291330254}
+  m_Layer: 0
+  m_Name: NukeFire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4221443141438817
+Transform:
+  m_GameObject: {fileID: 1955464205646982}
+  m_LocalRotation: {x: 1.817235E-08, y: 0.5555703, z: -1.214237E-08, w: 0.8314696}
+  m_LocalPosition: {x: 0, y: 0, z: 1.693281E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4828916032227357}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.504479E-06, y: -67.50001, z: -1.470044E-13}
+--- !u!33 &33731438028582478
+MeshFilter:
+  m_GameObject: {fileID: 1955464205646982}
+  m_Mesh: {fileID: 4300000, guid: 7ea356fb9d8429b49a22b12a53a2e8bf, type: 2}
+--- !u!23 &23555814304384877
+MeshRenderer:
+  m_GameObject: {fileID: 1955464205646982}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 623bf7455698b4e49a887e44ad642c0c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114534549291330254
+MonoBehaviour:
+  m_GameObject: {fileID: 1955464205646982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461670b7e4ffc924a93bb7c2f2a633f9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ScrollVector: {x: 0, y: -0.5}
+--- !u!1 &1758148368768100
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4559765110791648}
+  - component: {fileID: 33797570716243291}
+  - component: {fileID: 23148250170387607}
+  - component: {fileID: 114224235447376429}
+  m_Layer: 0
+  m_Name: NukeSmoke
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4559765110791648
+Transform:
+  m_GameObject: {fileID: 1758148368768100}
+  m_LocalRotation: {x: 1.545431E-08, y: 0.7071068, z: -1.545431E-08, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 6.638467E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4828916032227357}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: -90, z: 0}
+--- !u!33 &33797570716243291
+MeshFilter:
+  m_GameObject: {fileID: 1758148368768100}
+  m_Mesh: {fileID: 4300000, guid: 0494ceb690784fc4aa7965bd392785f1, type: 2}
+--- !u!23 &23148250170387607
+MeshRenderer:
+  m_GameObject: {fileID: 1758148368768100}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 193a20833955f524791ae8f465ed051f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114224235447376429
+MonoBehaviour:
+  m_GameObject: {fileID: 1758148368768100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461670b7e4ffc924a93bb7c2f2a633f9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ScrollVector: {x: 0, y: -1}

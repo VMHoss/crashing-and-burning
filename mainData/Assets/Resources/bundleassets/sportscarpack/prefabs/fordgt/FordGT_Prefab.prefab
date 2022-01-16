@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1534721572501621}
+  m_IsPrefabParent: 1
+--- !u!1 &1534721572501621
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4868398316023136}
+  - component: {fileID: 33573007816074338}
+  - component: {fileID: 23008697243034181}
+  - component: {fileID: 64220598825563729}
+  m_Layer: 0
+  m_Name: FordGT_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4868398316023136
+Transform:
+  m_GameObject: {fileID: 1534721572501621}
+  m_LocalRotation: {x: -2.18557E-08, y: 7.54979E-08, z: -7.54979E-08, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4045293378140201}
+  - {fileID: 4671417629297370}
+  - {fileID: 4010085722009708}
+  - {fileID: 4808916947545528}
+  - {fileID: 4132065741660625}
+  - {fileID: 4863291172680597}
+  - {fileID: 4344617871729174}
+  - {fileID: 4129835890831335}
+  - {fileID: 4688345454036459}
+  - {fileID: 4732846173076847}
+  - {fileID: 4876343889805164}
+  - {fileID: 4107480362568031}
+  - {fileID: 4263441987065438}
+  - {fileID: 4703197367227395}
+  - {fileID: 4948191330502640}
+  - {fileID: 4995515247716924}
+  - {fileID: 4554248434358666}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.504479E-06, y: -8.651422E-06, z: 8.651423E-06}
+--- !u!33 &33573007816074338
+MeshFilter:
+  m_GameObject: {fileID: 1534721572501621}
+  m_Mesh: {fileID: 4300000, guid: 1166ca3532f962644a4fc78781c580a4, type: 2}
+--- !u!23 &23008697243034181
+MeshRenderer:
+  m_GameObject: {fileID: 1534721572501621}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ca42b00f01f0c3748898687b1dbf74c0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64220598825563729
+MeshCollider:
+  m_GameObject: {fileID: 1534721572501621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: b219f5fb98ef49b4abf7d4870612a0ef, type: 2}
+--- !u!1 &1418643998580990
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4045293378140201}
+  m_Layer: 0
+  m_Name: FordGTExhaust1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4045293378140201
+Transform:
+  m_GameObject: {fileID: 1418643998580990}
+  m_LocalRotation: {x: -0.7071068, y: -1.067702E-07, z: -1.685874E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.1006315, y: 0.2974683, z: -1.610976}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 2.23118E-05, z: 5.008959E-06}
+--- !u!1 &1635168719982927
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4671417629297370}
+  m_Layer: 0
+  m_Name: FordGTExhaust2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4671417629297370
+Transform:
+  m_GameObject: {fileID: 1635168719982927}
+  m_LocalRotation: {x: -0.7071068, y: -1.067702E-07, z: -1.685874E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0.1144723, y: 0.2939738, z: -1.610976}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 2.23118E-05, z: 5.008959E-06}
+--- !u!1 &1718286369412613
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4010085722009708}
+  m_Layer: 0
+  m_Name: FordGTFrontWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4010085722009708
+Transform:
+  m_GameObject: {fileID: 1718286369412613}
+  m_LocalRotation: {x: 0.7071068, y: -8.359221E-08, z: -0.7071068, w: -8.359221E-08}
+  m_LocalPosition: {x: 0.01543333, y: 0.6302621, z: 2.189323}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1483300263063767
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4808916947545528}
+  - component: {fileID: 33760987989326233}
+  - component: {fileID: 23705912353326956}
+  m_Layer: 0
+  m_Name: FordGTGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4808916947545528
+Transform:
+  m_GameObject: {fileID: 1483300263063767}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: 0.001386924, y: 0.6222307, z: 0.3849863}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: -2.878709E-13, z: 180}
+--- !u!33 &33760987989326233
+MeshFilter:
+  m_GameObject: {fileID: 1483300263063767}
+  m_Mesh: {fileID: 4300000, guid: d9bb9e6d65d69c54892d62addb31bda5, type: 2}
+--- !u!23 &23705912353326956
+MeshRenderer:
+  m_GameObject: {fileID: 1483300263063767}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ca42b00f01f0c3748898687b1dbf74c0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1390329616752822
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4132065741660625}
+  m_Layer: 0
+  m_Name: FordGTLeftWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4132065741660625
+Transform:
+  m_GameObject: {fileID: 1390329616752822}
+  m_LocalRotation: {x: 0.5, y: 0.5000001, z: -0.5, w: 0.5000001}
+  m_LocalPosition: {x: -1.023003, y: 0.5291895, z: 0.6539661}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 89.99999, y: -90, z: 0}
+--- !u!1 &1829371077370110
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4863291172680597}
+  m_Layer: 0
+  m_Name: FordGTLight_LB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4863291172680597
+Transform:
+  m_GameObject: {fileID: 1829371077370110}
+  m_LocalRotation: {x: -0.7071068, y: -1.067702E-07, z: -1.685874E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.8141984, y: 0.7018129, z: -1.607479}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 2.23118E-05, z: 5.008959E-06}
+--- !u!1 &1196762357359902
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4344617871729174}
+  m_Layer: 0
+  m_Name: FordGTLight_LF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4344617871729174
+Transform:
+  m_GameObject: {fileID: 1196762357359902}
+  m_LocalRotation: {x: -0.7071068, y: -1.067702E-07, z: -1.685874E-07, w: 0.7071069}
+  m_LocalPosition: {x: -0.6933468, y: 0.5821687, z: 2.477204}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 2.23118E-05, z: 5.008959E-06}
+--- !u!1 &1891918795870891
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4129835890831335}
+  m_Layer: 0
+  m_Name: FordGTLight_RB_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4129835890831335
+Transform:
+  m_GameObject: {fileID: 1891918795870891}
+  m_LocalRotation: {x: -0.7071068, y: -1.067702E-07, z: -1.685874E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0.8110245, y: 0.7018126, z: -1.607479}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 2.23118E-05, z: 5.008959E-06}
+--- !u!1 &1727973788259074
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4688345454036459}
+  m_Layer: 0
+  m_Name: FordGTLight_RF_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4688345454036459
+Transform:
+  m_GameObject: {fileID: 1727973788259074}
+  m_LocalRotation: {x: -0.7071068, y: -1.067702E-07, z: -1.685874E-07, w: 0.7071069}
+  m_LocalPosition: {x: 0.6727329, y: 0.5769645, z: 2.477205}
+  m_LocalScale: {x: 1.187488, y: 1.187488, z: 1.187488}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 2.23118E-05, z: 5.008959E-06}
+--- !u!1 &1772894674722931
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4732846173076847}
+  m_Layer: 0
+  m_Name: FordGTRearWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4732846173076847
+Transform:
+  m_GameObject: {fileID: 1772894674722931}
+  m_LocalRotation: {x: 0.4999999, y: 0.4999999, z: 0.5000001, w: 0.5000001}
+  m_LocalPosition: {x: 0.01543494, y: 0.6397027, z: -1.531702}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 89.99998, y: 1.707548E-06, z: -90}
+--- !u!1 &1238407894524329
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4876343889805164}
+  m_Layer: 0
+  m_Name: FordGTRightWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4876343889805164
+Transform:
+  m_GameObject: {fileID: 1238407894524329}
+  m_LocalRotation: {x: 0.5000001, y: -0.5, z: -0.5000001, w: -0.5}
+  m_LocalPosition: {x: 0.9894202, y: 0.529189, z: 0.6539671}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90.00001, y: -90, z: 0}
+--- !u!1 &1520506939523282
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4107480362568031}
+  m_Layer: 0
+  m_Name: FordGTSmoke_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4107480362568031
+Transform:
+  m_GameObject: {fileID: 1520506939523282}
+  m_LocalRotation: {x: 0.7071068, y: -8.359221E-08, z: -0.7071068, w: -8.359221E-08}
+  m_LocalPosition: {x: 0.01543376, y: 0.7938308, z: -0.8409166}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1845675046753085
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4263441987065438}
+  m_Layer: 0
+  m_Name: FordGTSpecialWeapon1_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4263441987065438
+Transform:
+  m_GameObject: {fileID: 1845675046753085}
+  m_LocalRotation: {x: 0.7071068, y: -8.359221E-08, z: -0.7071068, w: -8.359221E-08}
+  m_LocalPosition: {x: 0.01543424, y: 1.104105, z: 0.2520735}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+--- !u!1 &1300857253857646
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4703197367227395}
+  - component: {fileID: 33779752917174724}
+  - component: {fileID: 23151926213976893}
+  m_Layer: 0
+  m_Name: FordGTWheel_LB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4703197367227395
+Transform:
+  m_GameObject: {fileID: 1300857253857646}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: -0.9326075, y: 0.3681661, z: -0.9702847}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 90, y: -2.878709E-13, z: 180}
+--- !u!33 &33779752917174724
+MeshFilter:
+  m_GameObject: {fileID: 1300857253857646}
+  m_Mesh: {fileID: 4300000, guid: 0a3085cc90a529240b10fff1c28722a3, type: 2}
+--- !u!23 &23151926213976893
+MeshRenderer:
+  m_GameObject: {fileID: 1300857253857646}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b048f0a255ea4794db4b4fb3fe580c45, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1819395718050056
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4948191330502640}
+  - component: {fileID: 33617801122085631}
+  - component: {fileID: 23779427228308457}
+  m_Layer: 0
+  m_Name: FordGTWheel_LF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4948191330502640
+Transform:
+  m_GameObject: {fileID: 1819395718050056}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: -0.8953382, y: 0.3609919, z: 1.727272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 90, y: -2.878709E-13, z: 180}
+--- !u!33 &33617801122085631
+MeshFilter:
+  m_GameObject: {fileID: 1819395718050056}
+  m_Mesh: {fileID: 4300000, guid: 11ac21d49c0ec30498ff90875511d8f1, type: 2}
+--- !u!23 &23779427228308457
+MeshRenderer:
+  m_GameObject: {fileID: 1819395718050056}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b048f0a255ea4794db4b4fb3fe580c45, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1372493531152829
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4995515247716924}
+  - component: {fileID: 33168267719780350}
+  - component: {fileID: 23843749866904966}
+  m_Layer: 0
+  m_Name: FordGTWheel_RB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4995515247716924
+Transform:
+  m_GameObject: {fileID: 1372493531152829}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: 0.9353818, y: 0.368166, z: -0.9702839}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 90, y: -2.878709E-13, z: 180}
+--- !u!33 &33168267719780350
+MeshFilter:
+  m_GameObject: {fileID: 1372493531152829}
+  m_Mesh: {fileID: 4300000, guid: a55b6fd3447c34444a538dd99402e330, type: 2}
+--- !u!23 &23843749866904966
+MeshRenderer:
+  m_GameObject: {fileID: 1372493531152829}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b048f0a255ea4794db4b4fb3fe580c45, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1179914406238223
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4554248434358666}
+  - component: {fileID: 33356747836242952}
+  - component: {fileID: 23825334705036764}
+  m_Layer: 0
+  m_Name: FordGTWheel_RF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4554248434358666
+Transform:
+  m_GameObject: {fileID: 1179914406238223}
+  m_LocalRotation: {x: -5.338508E-08, y: 0.7071068, z: 0.7071068, w: -5.338508E-08}
+  m_LocalPosition: {x: 0.8981108, y: 0.3609917, z: 1.727273}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4868398316023136}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 90, y: -2.878709E-13, z: 180}
+--- !u!33 &33356747836242952
+MeshFilter:
+  m_GameObject: {fileID: 1179914406238223}
+  m_Mesh: {fileID: 4300000, guid: 4018c4809d26c744f94cd71c2776d70c, type: 2}
+--- !u!23 &23825334705036764
+MeshRenderer:
+  m_GameObject: {fileID: 1179914406238223}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b048f0a255ea4794db4b4fb3fe580c45, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

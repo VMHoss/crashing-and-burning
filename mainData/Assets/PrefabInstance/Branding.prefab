@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1408137389129937}
+  m_IsPrefabParent: 1
+--- !u!1 &1408137389129937
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4676343576050346}
+  - component: {fileID: 114720415015689240}
+  m_Layer: 0
+  m_Name: Branding
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4676343576050346
+Transform:
+  m_GameObject: {fileID: 1408137389129937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114720415015689240
+MonoBehaviour:
+  m_GameObject: {fileID: 1408137389129937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a90afe1b07b3334b849abe1427fcd10, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 0817487fd20897343b9f83362627a7ba, type: 2}
+  sprites:
+  - name: BrandingXform
+    outer:
+      serializedVersion: 2
+      x: 502
+      y: 411
+      width: 256
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 502
+      y: 411
+      width: 256
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingMiniclip
+    outer:
+      serializedVersion: 2
+      x: 502
+      y: 345
+      width: 256
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 502
+      y: 345
+      width: 256
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MiniclipAward
+    outer:
+      serializedVersion: 2
+      x: 628
+      y: 477
+      width: 144
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 628
+      y: 477
+      width: 144
+      height: 144
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingA10
+    outer:
+      serializedVersion: 2
+      x: 502
+      y: 279
+      width: 256
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 502
+      y: 279
+      width: 256
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingClickJogos
+    outer:
+      serializedVersion: 2
+      x: 628
+      y: 213
+      width: 256
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 628
+      y: 213
+      width: 256
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingClickJogosSplashBackground
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 58
+      width: 240
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 58
+      width: 240
+      height: 160
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingClickJogosSplash
+    outer:
+      serializedVersion: 2
+      x: 242
+      y: 122
+      width: 384
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 242
+      y: 122
+      width: 384
+      height: 96
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingKralOyunSplash
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 623
+      width: 500
+      height: 401
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 623
+      width: 500
+      height: 401
+    rotated: 0
+    paddingLeft: 0.012
+    paddingRight: 0.012
+    paddingTop: 0.1371571
+    paddingBottom: 0.1396509
+  - name: BrandingKibaGamesSplash
+    outer:
+      serializedVersion: 2
+      x: 502
+      y: 623
+      width: 500
+      height: 401
+    inner:
+      serializedVersion: 2
+      x: 502
+      y: 623
+      width: 500
+      height: 401
+    rotated: 0
+    paddingLeft: 0.012
+    paddingRight: 0.012
+    paddingTop: 0.1371571
+    paddingBottom: 0.1396509
+  - name: BrandingKaiserGamesSplashBackground
+    outer:
+      serializedVersion: 2
+      x: 760
+      y: 288
+      width: 120
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 760
+      y: 288
+      width: 120
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingSpielAffeSplash
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 220
+      width: 500
+      height: 401
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 220
+      width: 500
+      height: 401
+    rotated: 0
+    paddingLeft: 0.012
+    paddingRight: 0.012
+    paddingTop: 0.1371571
+    paddingBottom: 0.1396509
+  - name: BrandingKibaGames
+    outer:
+      serializedVersion: 2
+      x: 760
+      y: 370
+      width: 128
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 760
+      y: 370
+      width: 128
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingKralOyun
+    outer:
+      serializedVersion: 2
+      x: 774
+      y: 516
+      width: 128
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 774
+      y: 516
+      width: 128
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingSpielAffe
+    outer:
+      serializedVersion: 2
+      x: 886
+      y: 263
+      width: 128
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 886
+      y: 263
+      width: 128
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingMiniJuegosSplash
+    outer:
+      serializedVersion: 2
+      x: 242
+      y: 59
+      width: 440
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 242
+      y: 59
+      width: 440
+      height: 61
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingMiniJuegos
+    outer:
+      serializedVersion: 2
+      x: 628
+      y: 137
+      width: 144
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 628
+      y: 137
+      width: 144
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BrandingMiniJuegosSplashBackground
+    outer:
+      serializedVersion: 2
+      x: 502
+      y: 245
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 249
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
